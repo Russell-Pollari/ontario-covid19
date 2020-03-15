@@ -57,7 +57,7 @@ def save_latest_html():
 
 
 def get_case_summary_from_html(html):
-    soup = BeautifulSoup(html, features='lxml')
+    soup = BeautifulSoup(html, features='html.parser')
 
     summary_soup = soup.find('table')
     summary_data = {}
@@ -74,7 +74,7 @@ def get_case_summary_from_html(html):
 
 
 def get_cases_from_html(html):
-    soup = BeautifulSoup(html, features='lxml')
+    soup = BeautifulSoup(html, features='html.parser')
 
     try:
         table_soup = soup.find_all('table')

@@ -42,6 +42,13 @@
     "date": "2020-03-14T17:30:00"
   },
   {
+    "negative": 5606,
+    "pending": 939,
+    "positive": 98,
+    "resolved": 5,
+    "date": "2020-03-14T17:30:00"
+  },
+  {
     "negative": 2888,
     "pending": 465,
     "positive": 36,
@@ -70,6 +77,13 @@
     "date": "2020-03-14T17:30:00"
   },
   {
+    "negative": 7004,
+    "pending": 1316,
+    "positive": 137,
+    "resolved": 5,
+    "date": "2020-03-15T10:30:00"
+  },
+  {
     "negative": 1665,
     "pending": 72,
     "positive": 22,
@@ -82,13 +96,6 @@
     "positive": 31,
     "resolved": 4,
     "date": "2020-03-09T10:30:00"
-  },
-  {
-    "negative": 5606,
-    "pending": 939,
-    "positive": 98,
-    "resolved": 5,
-    "date": "2020-03-14T17:30:00"
   },
   {
     "negative": 5606,
@@ -145,13 +152,6 @@
     "positive": 24,
     "resolved": 4,
     "date": "2020-03-07T10:30:00"
-  },
-  {
-    "negative": 7004,
-    "pending": 1316,
-    "positive": 137,
-    "resolved": 5,
-    "date": "2020-03-15T10:30:00"
   },
   {
     "negative": 5606,
