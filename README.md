@@ -15,7 +15,7 @@ Will fetch latest version of Ontario's corona page ans store in `data/raw`
 then scrape html documents in `data/raw` and ouput json files to
 `data/processed`
 ```
-$ python get_ontario_corona_html.py
+$ python get_ontario_corona_summary.py
 ```
 
 ## Sync json data with mongodb
