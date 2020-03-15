@@ -1,0 +1,3449 @@
+[
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "32",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Peel Public Health",
+    "hospital": "Brampton Civic Hospital",
+    "transmission": "travel (Germany)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "33",
+    "age_and_gender": "80s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General Hospital",
+    "transmission": "travel (Iran)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "34",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General Hospital",
+    "transmission": "travel (Iran)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "37",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Sudbury and District Health Unit",
+    "hospital": "Health Sciences North",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "38",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "York Public Health",
+    "hospital": "Mackenzie Health",
+    "transmission": "travel (Egypt)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "39",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Toronto Western",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "40",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Ottawa Public Health",
+    "hospital": "Ottawa Hospital",
+    "transmission": "travel (Austria)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "41",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Halton Public Health",
+    "hospital": "Hamilton Health Sciences",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "43",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Hamilton Public Health",
+    "hospital": "pending",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "44",
+    "age_and_gender": "<18 Female",
+    "public_health_unit": "Peel Public Health",
+    "hospital": "N/A",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "45",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Sunnybrook",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "46",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Mississauga Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "47",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "St Michael\u2019s Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "48",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Region\u00a0of Waterloo Public Health",
+    "hospital": "Grand River Hospital",
+    "transmission": "travel (Puerto Rico)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "49",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Ottawa Public Health",
+    "hospital": "Queensway Carlton Hospital",
+    "transmission": "travel (Italy)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "50",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Trillium Health Partners",
+    "transmission": "travel (Europe)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "51",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Halton Public Health",
+    "hospital": "Joseph Brant Hospital",
+    "transmission": "travel (USA, Costa Rica)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "52",
+    "age_and_gender": "<18 Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "53",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "54",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "55",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "56",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "57",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Peel Public Health",
+    "hospital": "pending",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "58",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Region\u00a0of Waterloo Public Health",
+    "hospital": "Grand River Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "59",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Simcoe Muskoka District Health Unit",
+    "hospital": "Royal Victoria Hospital",
+    "transmission": "travel (Spain)",
+    "status": "self-isolating",
+    "date": "2020-03-12T10:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "32",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Peel Public Health",
+    "hospital": "Brampton Civic Hospital",
+    "transmission": "travel (Germany)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "33",
+    "age_and_gender": "80s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General Hospital",
+    "transmission": "travel (Iran)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "34",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "North York General Hospital",
+    "transmission": "travel (Iran)",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "35",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Peel Public Health",
+    "hospital": "Brampton Civic Hospital",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-09T10:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "36",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "St. Joseph's Health Centre",
+    "transmission": "travel (Switzerland)",
+    "status": "self-isolating",
+    "date": "2020-03-10T10:30:00"
+  },
+  {
+    "number": "60",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "61",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "62",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "travel (pending), close contact",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "63",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (Egypt)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "64",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (Egypt)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "65",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "Mt. Sinai",
+    "transmission": "travel (USA), close contact",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "66",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "travel (England)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "67",
+    "age_and_gender": "80s Male",
+    "public_health_unit": "Niagara",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "\nhospitalized\n",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "68",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "69",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "70",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "71",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "Sunnybrook",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "72",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "73",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "travel (pending), close contact",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "74",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "75",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "76",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "77",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "78",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "79",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-13T10:30:00"
+  },
+  {
+    "number": "37",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Sudbury and District Health Unit",
+    "hospital": "Health Sciences North",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "38",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "York Public Health",
+    "hospital": "Mackenzie Health",
+    "transmission": "travel (Egypt)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "39",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "Toronto Western",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "40",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Ottawa Public Health",
+    "hospital": "Ottawa Hospital",
+    "transmission": "travel (Austria)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "41",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Halton Public Health",
+    "hospital": "Hamilton Health Sciences",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "42",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Toronto Public Health",
+    "hospital": "St Joseph\u2019s Health Centre",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-11T10:30:00"
+  },
+  {
+    "number": "104",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "105",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "106",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "107",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "108",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "109",
+    "age_and_gender": "pending",
+    "public_health_unit": "Durham",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "110",
+    "age_and_gender": "pending",
+    "public_health_unit": "Durham",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "111",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "112",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "113",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "114",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "115",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "116",
+    "age_and_gender": "pending",
+    "public_health_unit": "Haliburton Kawartha Pineridge",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "117",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "118",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Niagara",
+    "hospital": "St. Catharines",
+    "transmission": "travel (Egypt)",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "119",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "120",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "121",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "122",
+    "age_and_gender": "pending",
+    "public_health_unit": "Simcoe Muskoka",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "123",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "124",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "125",
+    "age_and_gender": "pending",
+    "public_health_unit": "Simcoe Muskoka",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "hospitalized",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "126",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "127",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "128",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "129",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "130",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "131",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "132",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "133",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "134",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "135",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "136",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "137",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "138",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "139",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "140",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "141",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "142",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-15T10:30:00"
+  },
+  {
+    "number": "80",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "81",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "82",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "83",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "84",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "85",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Waterloo",
+    "hospital": "St. Mary's General Hospital",
+    "transmission": "travel (USA), Caribbean Cruise",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "86",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "87",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health Oshawa",
+    "transmission": "travel (multiple locations including Egypt)",
+    "status": "\nself-isolating\n",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "88",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "89",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "90",
+    "age_and_gender": "pending",
+    "public_health_unit": "Waterloo",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "91",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "92",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "93",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "hospital": "Northumberland Hills Hospital",
+    "transmission": "travel (Spain and Portugal)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "94",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "95",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "96",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "97",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Durham",
+    "hospital": "Lakeridge Health (Oshawa)",
+    "transmission": "travel (Asia)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "98",
+    "age_and_gender": "pending",
+    "public_health_unit": "Huron Perth",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "99",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "100",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "101",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "102",
+    "age_and_gender": "pending",
+    "public_health_unit": "Northwestern",
+    "hospital": "Victoria Hospital (Winnipeg)",
+    "transmission": "travel (pending)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  },
+  {
+    "number": "103",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Eastern Ontario",
+    "hospital": "Glengarry Memorial Hospital",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "date": "2020-03-14T17:30:00"
+  }
+]
