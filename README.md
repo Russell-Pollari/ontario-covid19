@@ -6,7 +6,7 @@ See Metabase dashboard with latest numbers here: https://ontario-covid-dash-meta
 
 ## Install requirements
 ```
-# pip install -r requirements.text
+$ pip install -r requirements.text
 ```
 
 
