@@ -2,6 +2,8 @@ import os
 import json
 import pymongo
 
+from datetime import datetime
+
 
 def sync_with_db(mongo_uri):
     client = pymongo.MongoClient(mongo_uri)
@@ -10,8 +12,9 @@ def sync_with_db(mongo_uri):
     cases = json.load(open('data/processed/all_cases.json'))
     for case in cases:
         case['patient'] = int(case['number'])
+        case['reportedAt'] = datetime.strptime(case['date'], '%Y-%m-%dT%H:%M:%S') # noqa
         db.cases.update_one({
-            'number': case['number']
+            'number': case['number'],
         }, {
             '$set': case,
         }, upsert=True)
@@ -22,8 +25,9 @@ def sync_with_db(mongo_uri):
             if 'date' not in key:
                 update[key] = int(update[key])
 
+        update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
         db.updates.update_one({
-            'date': update['date']
+            'date': update['date'],
         }, {
             '$set': update,
         }, upsert=True)

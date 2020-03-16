@@ -1,5 +1,222 @@
 [
   {
+    "number": "1",
+    "age_and_gender": " Male",
+    "public_health_unit": "Sunnybrook Health Sciences Centre",
+    "city": "Toronto",
+    "date": "2020-01-23T00:00:00"
+  },
+  {
+    "number": "2",
+    "age_and_gender": " Female",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-01-27T00:00:00"
+  },
+  {
+    "number": "3",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "London Health Sciences Centre",
+    "city": "London",
+    "date": "2020-01-24T00:00:00"
+  },
+  {
+    "number": "4",
+    "age_and_gender": " Female",
+    "public_health_unit": "North York General Hospital",
+    "city": "Toronto",
+    "date": "2020-02-21T00:00:00"
+  },
+  {
+    "number": "5",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Sunnybrook Health Sciences Centre",
+    "city": "Toronto",
+    "date": "2020-02-24T00:00:00"
+  },
+  {
+    "number": "6",
+    "age_and_gender": " Male",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-02-27T00:00:00"
+  },
+  {
+    "number": "7",
+    "age_and_gender": "50 Male",
+    "public_health_unit": "Sunnybrook Health Sciences Centre",
+    "city": "Toronto",
+    "date": "2020-02-25T00:00:00"
+  },
+  {
+    "number": "8",
+    "age_and_gender": "80 Male",
+    "public_health_unit": "Scarborough Health Network ",
+    "city": "Scarborough",
+    "date": "2020-02-27T00:00:00"
+  },
+  {
+    "number": "9",
+    "age_and_gender": "34 Female",
+    "public_health_unit": "Mackezie Health",
+    "city": "Richmond Hill",
+    "date": "2020-02-27T00:00:00"
+  },
+  {
+    "number": "10",
+    "age_and_gender": "51 Female",
+    "public_health_unit": "Lakeridge Health Ajax Pickering",
+    "city": "Ajax",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "11",
+    "age_and_gender": "69 Male",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "12",
+    "age_and_gender": "50 Male",
+    "public_health_unit": "Mackezie Health",
+    "city": "Richmond Hill",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "13",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Mackezie Health",
+    "city": "Richmond Hill",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "14",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "North York general Hospital",
+    "city": "Toronto",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "15",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Southlake Regional Health Centre",
+    "city": "Newmarket",
+    "date": "2020-02-29T00:00:00"
+  },
+  {
+    "number": "16",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-02-29T00:00:00"
+  },
+  {
+    "number": "17",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-02-29T00:00:00"
+  },
+  {
+    "number": "18",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-02-23T00:00:00"
+  },
+  {
+    "number": "19",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Mackezie Health",
+    "city": "Richmond Hill",
+    "date": "2020-03-01T00:00:00"
+  },
+  {
+    "number": "20",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "York general hospital",
+    "city": "York",
+    "date": "2020-02-29T00:00:00"
+  },
+  {
+    "number": "21",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Grand River Hospital",
+    "city": "Kitchener",
+    "date": "2020-03-03T00:00:00"
+  },
+  {
+    "number": "22",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Sunnybrook Health Sciences Centre",
+    "city": "Toronto",
+    "date": "2020-03-03T00:00:00"
+  },
+  {
+    "number": "23",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Mississauga Hospital",
+    "city": "Mississauga",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "24",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Mississauga Hospital",
+    "city": "Mississauga",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "25",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "North York General Hospital",
+    "city": "Toronto",
+    "date": "2020-03-03T00:00:00"
+  },
+  {
+    "number": "26",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Toronto Western Hospital",
+    "city": "Toronto",
+    "date": "2020-02-28T00:00:00"
+  },
+  {
+    "number": "27",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Mount Sinai Hospital",
+    "city": "Toronto",
+    "date": "2020-03-03T00:00:00"
+  },
+  {
+    "number": "28",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Unspecified",
+    "city": "Unspecified",
+    "date": "2020-03-02T00:00:00"
+  },
+  {
+    "number": "29",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Sunnybrook Health Sciences Centre",
+    "city": "Toronto",
+    "date": "2020-03-02T00:00:00"
+  },
+  {
+    "number": "30",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Scarborough Health Network ",
+    "city": "Scarborough",
+    "date": "2020-03-07T00:00:00"
+  },
+  {
+    "number": "31",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "North York General Hospital",
+    "city": "Toronto",
+    "date": "2020-03-07T00:00:00"
+  },
+  {
     "number": "80",
     "age_and_gender": "pending",
     "public_health_unit": "Ottawa",

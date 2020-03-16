@@ -2,8 +2,13 @@ import os
 import requests
 import re
 import json
+import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
+
+from get_city_from_public_health_unit import get_city_from_public_health_unit
+
+HTML_DIR = 'data/raw/html'
 
 SUMMARY_LABEL_MAP = {
     'Negative1': 'negative',
@@ -24,42 +29,6 @@ NEW_CASES_COLUMNS = [
     'transmission',
     'status'
 ]
-
-
-def get_city(public_health_unit):
-    # http://www.health.gov.on.ca/en/common/system/services/phu/locations.aspx
-    if 'Toronto' in public_health_unit:
-        return 'Toronto'
-    if 'Hamilton' in public_health_unit:
-        return 'Hamilton'
-    if 'Peel' in public_health_unit:
-        return 'Peel'
-    if 'Ottawa' in public_health_unit:
-        return 'Ottawa'
-    if 'Halton' in public_health_unit:
-        return 'Halton'
-    if 'Waterloo' in public_health_unit:
-        return 'Waterloo'
-    if 'Haliburton' in public_health_unit:
-        return 'Haliburton'
-    if 'Simcoe' in public_health_unit:
-        return 'Simcoe'
-    if 'York' in public_health_unit:
-        return 'York'
-    if 'London' in public_health_unit:
-        return 'London'
-    if 'Sudbury' in public_health_unit:
-        return 'Sudbury'
-    if 'Northwestern' in public_health_unit:
-        return 'Kenora'
-    if 'Eastern Ontario' in public_health_unit:
-        return 'Cornwall'
-    if 'Niagra' in public_health_unit:
-        return 'Niagra'
-    if 'Huron Perth' in public_health_unit:
-        return 'Stratford'
-
-    return public_health_unit
 
 
 def get_date_from_html(html):
@@ -88,7 +57,7 @@ def get_ontario_corona_html():
 def save_latest_html():
     html = get_ontario_corona_html()
     date = get_date_from_html(html)
-    with open('data/raw/{}.html'.format(date), 'w') as f:
+    with open('{}/{}.html'.format(HTML_DIR, date), 'w') as f:
         f.write(html)
 
 
@@ -126,7 +95,7 @@ def get_cases_from_html(html):
                 new_case[label] = item.text
 
             if len(new_case.keys()) > 0:
-                new_case['city'] = get_city(new_case['public_health_unit'])
+                new_case['city'] = get_city_from_public_health_unit(new_case['public_health_unit']) # noqa
                 new_cases.append(new_case)
 
     return new_cases
@@ -134,8 +103,8 @@ def get_cases_from_html(html):
 
 def get_all_cases():
     cases = []
-    for filename in os.listdir('data/raw'):
-        with open('data/raw/' + filename) as f:
+    for filename in os.listdir(HTML_DIR):
+        with open(HTML_DIR + '/' + filename) as f:
             html = f.read()
             date = get_date_from_html(html)
             new_cases = get_cases_from_html(html)
@@ -148,8 +117,8 @@ def get_all_cases():
 
 def get_all_updates():
     updates = []
-    for filename in os.listdir('data/raw'):
-        with open('data/raw/' + filename) as f:
+    for filename in os.listdir(HTML_DIR):
+        with open(HTML_DIR + '/' + filename) as f:
             html = f.read()
             date = get_date_from_html(html)
             summary = get_case_summary_from_html(html)
@@ -160,9 +129,30 @@ def get_all_updates():
     return updates
 
 
+def get_legacy_cases():
+    cases = []
+    with open('data/raw/first_31_cases.csv', 'r') as f:
+        reader = csv.reader(f)
+        for number, row in enumerate(reader):
+            if number > 0:
+                case = {}
+                case['number'] = str(number)
+                case['age_and_gender'] = row[3] + ' ' + row[4]
+                case['public_health_unit'] = row[6]
+                case['city'] = get_city_from_public_health_unit(row[6])
+                try:
+                    case['date'] = datetime.strptime('2020'+row[10], '%Y%b %d').isoformat() # noqa
+                except:
+                    case['date'] = datetime.strptime('2020'+row[10], '%Y%B %d').isoformat() # noqa
+
+                cases.append(case)
+    return cases
+
+
 if __name__ == '__main__':
     save_latest_html()
-    cases = get_all_cases()
+    cases = get_legacy_cases()
+    cases.extend(get_all_cases())
     updates = get_all_updates()
 
     with open('data/processed/all_cases.json', 'w') as f:
