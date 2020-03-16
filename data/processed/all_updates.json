@@ -84,6 +84,13 @@
     "date": "2020-03-14T17:30:00"
   },
   {
+    "negative": 8464,
+    "pending": 1537,
+    "positive": 172,
+    "resolved": 5,
+    "date": "2020-03-16T17:30:00"
+  },
+  {
     "negative": 5606,
     "pending": 939,
     "positive": 98,

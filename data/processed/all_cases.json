@@ -2647,6 +2647,326 @@
     "date": "2020-03-14T17:30:00"
   },
   {
+    "number": "146",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "147",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "148",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "149",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Wellington Dufferin Guelph",
+    "hospital": "Headwaters Health Centre",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "city": "Wellington Dufferin Guelph",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "150",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Sudbury",
+    "hospital": "Health Sciences North",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Sudbury",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "151",
+    "age_and_gender": "pending",
+    "public_health_unit": "Durham",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Durham",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "152",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "153",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "\nself-isolating\n",
+    "city": "Peel",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "154",
+    "age_and_gender": "pending",
+    "public_health_unit": "Niagara",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Niagara",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "155",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "156",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "157",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Halton",
+    "hospital": "Joseph Brant",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "city": "Halton",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "158",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "159",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "160",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "161",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "162",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "163",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "164",
+    "age_and_gender": "pending",
+    "public_health_unit": "Peel",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "165",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "166",
+    "age_and_gender": "pending",
+    "public_health_unit": "York",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "167",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "168",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "169",
+    "age_and_gender": "pending",
+    "public_health_unit": "Ottawa",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "170",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "171",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "172",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "173",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "174",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "175",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "176",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
+    "number": "177",
+    "age_and_gender": "pending",
+    "public_health_unit": "Toronto",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-16T17:30:00"
+  },
+  {
     "number": "80",
     "age_and_gender": "pending",
     "public_health_unit": "Ottawa",
