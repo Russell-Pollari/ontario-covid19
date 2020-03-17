@@ -38,6 +38,7 @@ def sync_ontario_updates(db):
 
 def sync_WHO_data(db):
     print('Syncing WHO data')
+    db.countries.drop()
     updates = json.load(open('data/processed/WHO_country_data.json'))
     for update in updates:
         for key in update.keys():
@@ -48,9 +49,7 @@ def sync_WHO_data(db):
                     update[key] = 0
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
-        db.countries.update_one({'date': update['date']}, {
-            '$set': update
-        }, upsert=True)
+    db.countries.insert_many(updates)
 
 
 if __name__ == '__main__':
