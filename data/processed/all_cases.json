@@ -2237,6 +2237,126 @@
     "date": "2020-03-11T10:30:00"
   },
   {
+    "number": "178",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "179",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "180",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "181",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "182",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "183",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences Centre",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "city": "London",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "184",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "London Health Sciences Centre",
+    "transmission": "travel (St. Maarten)",
+    "status": "self-isolating",
+    "city": "London",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "185",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "York",
+    "hospital": "Southlake",
+    "transmission": "travel (Costa Rica)",
+    "status": "\nself-isolating\n",
+    "city": "York",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "186",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Simcoe Muskoka",
+    "hospital": "Royal Victoria",
+    "transmission": "close contact",
+    "status": "deceased",
+    "city": "Simcoe",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "187",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Kingston, Frontenac and Lennox & Addington",
+    "hospital": "Hotel Dieu Hospital",
+    "transmission": "travel (Spain)",
+    "status": "self-isolating",
+    "city": "Kingston, Frontenac and Lennox & Addington",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "188",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Kingston, Frontenac and Lennox & Addington",
+    "hospital": "Hotel Dieu Hospital",
+    "transmission": "travel (Barbados)",
+    "status": "self-isolating",
+    "city": "Kingston, Frontenac and Lennox & Addington",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
+    "number": "189",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Kingston, Frontenac and Lennox & Addington",
+    "hospital": "pending",
+    "transmission": "travel (UK)",
+    "status": "self-isolating",
+    "city": "Kingston, Frontenac and Lennox & Addington",
+    "date": "2020-03-17T17:30:00"
+  },
+  {
     "number": "43",
     "age_and_gender": "50s Male",
     "public_health_unit": "Hamilton Public Health",
