@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 from get_city_from_public_health_unit import get_city_from_public_health_unit
 
-HTML_DIR = 'data/raw/html'
+HTML_DIR = 'data/raw/ontario'
 
 SUMMARY_LABEL_MAP = {
     'Negative1': 'negative',

@@ -48,5 +48,7 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Kitchener'
     if 'Mississauga' in public_health_unit:
         return 'Mississauga'
+    if 'Kingston' in public_health_unit:
+        return 'Kingston'
 
     return public_health_unit
