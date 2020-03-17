@@ -4867,6 +4867,86 @@
     "date": "2020-03-11T10:30:00"
   },
   {
+    "number": "178",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "179",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "180",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "181",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "182",
+    "age_and_gender": "pending",
+    "public_health_unit": "Hamilton",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "183",
+    "age_and_gender": "pending",
+    "public_health_unit": "Middlesex London",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "London",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "184",
+    "age_and_gender": "pending",
+    "public_health_unit": "Middlesex London",
+    "hospital": "pending",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "London",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
+    "number": "185",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "York",
+    "hospital": "Southlake",
+    "transmission": "travel (Costa Rica)",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-17T10:30:00"
+  },
+  {
     "number": "80",
     "age_and_gender": "pending",
     "public_health_unit": "Ottawa",
