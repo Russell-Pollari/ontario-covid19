@@ -2,7 +2,7 @@
 
 Scripts to scrape Covid-19 data from https://www.ontario.ca/page/2019-novel-coronavirus and store in mongodb database.
 
-See Metabase dashboard with latest numbers here: https://ontario-covid-dash-metabaase.herokuapp.com/public/dashboard/79ada541-f780-4ced-96e4-fe2ba8429941
+See Metabase dashboard with latest numbers here: https://russell-pollari.github.io/ontario-covid19/
 
 ## Install requirements
 ```
