@@ -168,6 +168,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Afghanistan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "5",
+    "new_deaths": "",
+    "total_cases": "21",
+    "total_deaths": ""
+  },
+  {
     "country": "Albania",
     "date": "2020-03-09T00:00:00",
     "new_cases": "",
@@ -229,6 +237,14 @@
     "new_cases": "4",
     "new_deaths": "0",
     "total_cases": "42",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Albania",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "9",
+    "new_deaths": "0",
+    "total_cases": "51",
     "total_deaths": "1"
   },
   {
@@ -392,6 +408,14 @@
     "total_deaths": "3"
   },
   {
+    "country": "Algeria",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11",
+    "new_deaths": "1",
+    "total_cases": "60",
+    "total_deaths": "4"
+  },
+  {
     "country": "Andorra",
     "date": "2020-03-03T00:00:00",
     "new_cases": "",
@@ -504,6 +528,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Andorra",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "12",
+    "new_deaths": "",
+    "total_cases": "14",
+    "total_deaths": ""
+  },
+  {
     "country": "Antigua and Barbuda",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -522,6 +554,14 @@
   {
     "country": "Antigua and Barbuda",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -629,6 +669,14 @@
     "new_cases": "11",
     "new_deaths": "0",
     "total_cases": "56",
+    "total_deaths": "2"
+  },
+  {
+    "country": "Argentina",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "9",
+    "new_deaths": "0",
+    "total_cases": "65",
     "total_deaths": "2"
   },
   {
@@ -749,6 +797,22 @@
     "new_cases": "18",
     "new_deaths": "",
     "total_cases": "26",
+    "total_deaths": ""
+  },
+  {
+    "country": "Armenia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "26",
+    "new_deaths": "",
+    "total_cases": "52",
+    "total_deaths": ""
+  },
+  {
+    "country": "Aruba",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "2",
     "total_deaths": ""
   },
   {
@@ -1168,6 +1232,14 @@
     "total_deaths": "5"
   },
   {
+    "country": "Australia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "77",
+    "new_deaths": "0",
+    "total_cases": "375",
+    "total_deaths": "5"
+  },
+  {
     "country": "Austria",
     "date": "2020-02-26T00:00:00",
     "new_cases": "",
@@ -1328,6 +1400,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Austria",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "173",
+    "new_deaths": "2",
+    "total_cases": "1132",
+    "total_deaths": "3"
+  },
+  {
     "country": "Azerbaijan",
     "date": "2020-03-01T00:00:00",
     "new_cases": "",
@@ -1453,6 +1533,22 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "19",
+    "total_deaths": ""
+  },
+  {
+    "country": "Azerbaijan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "19",
+    "total_deaths": ""
+  },
+  {
+    "country": "Bahamas",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
     "total_deaths": ""
   },
   {
@@ -1624,6 +1720,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Bahrain",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "8",
+    "new_deaths": "0",
+    "total_cases": "229",
+    "total_deaths": "1"
+  },
+  {
     "country": "Bangladesh",
     "date": "2020-03-09T00:00:00",
     "new_cases": "",
@@ -1685,6 +1789,14 @@
     "new_cases": "2",
     "new_deaths": "",
     "total_cases": "5",
+    "total_deaths": ""
+  },
+  {
+    "country": "Bangladesh",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "8",
     "total_deaths": ""
   },
   {
@@ -1827,6 +1939,14 @@
     "country": "Belarus",
     "date": "2020-03-16T00:00:00",
     "new_cases": "15",
+    "new_deaths": "",
+    "total_cases": "36",
+    "total_deaths": ""
+  },
+  {
+    "country": "Belarus",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "36",
     "total_deaths": ""
@@ -2160,6 +2280,22 @@
     "total_deaths": "5"
   },
   {
+    "country": "Belgium",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "1085",
+    "total_deaths": "5"
+  },
+  {
+    "country": "Benin",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Bhutan",
     "date": "2020-03-06T00:00:00",
     "new_cases": "",
@@ -2248,6 +2384,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Bhutan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Bolivia",
     "date": "2020-03-11T00:00:00",
     "new_cases": "",
@@ -2291,6 +2435,14 @@
     "country": "Bolivia",
     "date": "2020-03-16T00:00:00",
     "new_cases": "8",
+    "new_deaths": "",
+    "total_cases": "11",
+    "total_deaths": ""
+  },
+  {
+    "country": "Bolivia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "11",
     "total_deaths": ""
@@ -2389,6 +2541,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "18",
+    "total_deaths": ""
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "19",
     "total_deaths": ""
   },
   {
@@ -2544,6 +2704,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Brazil",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "34",
+    "new_deaths": "",
+    "total_cases": "234",
+    "total_deaths": ""
+  },
+  {
     "country": "Brunei",
     "date": "2020-03-10T00:00:00",
     "new_cases": "",
@@ -2595,6 +2763,14 @@
     "country": "Brunei",
     "date": "2020-03-16T00:00:00",
     "new_cases": "10",
+    "new_deaths": "",
+    "total_cases": "50",
+    "total_deaths": ""
+  },
+  {
+    "country": "Brunei",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "50",
     "total_deaths": ""
@@ -2672,6 +2848,14 @@
     "total_deaths": "2"
   },
   {
+    "country": "Bulgaria",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "16",
+    "new_deaths": "0",
+    "total_cases": "67",
+    "total_deaths": "2"
+  },
+  {
     "country": "Burkina Faso",
     "date": "2020-03-11T00:00:00",
     "new_cases": "",
@@ -2717,6 +2901,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
+    "country": "Burkina Faso",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "12",
+    "new_deaths": "",
+    "total_cases": "15",
     "total_deaths": ""
   },
   {
@@ -3112,6 +3304,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Cambodia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "12",
+    "new_deaths": "",
+    "total_cases": "24",
+    "total_deaths": ""
+  },
+  {
     "country": "Cameroon",
     "date": "2020-03-06T00:00:00",
     "new_cases": "",
@@ -3197,6 +3397,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
+    "country": "Cameroon",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "5",
     "total_deaths": ""
   },
   {
@@ -3600,6 +3808,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Canada",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "120",
+    "new_deaths": "0",
+    "total_cases": "424",
+    "total_deaths": "1"
+  },
+  {
     "country": "Cayman Islands",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -3624,6 +3840,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Cayman Islands",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "1",
+    "total_deaths": "1"
+  },
+  {
     "country": "Central African Republic",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -3634,6 +3858,14 @@
   {
     "country": "Central African Republic",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Central African Republic",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -3741,6 +3973,14 @@
     "new_cases": "14",
     "new_deaths": "",
     "total_cases": "75",
+    "total_deaths": ""
+  },
+  {
+    "country": "Chile",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "81",
+    "new_deaths": "",
+    "total_cases": "156",
     "total_deaths": ""
   },
   {
@@ -4192,6 +4432,14 @@
     "total_deaths": "3218"
   },
   {
+    "country": "China",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "39",
+    "new_deaths": "13",
+    "total_cases": "81116",
+    "total_deaths": "3231"
+  },
+  {
     "country": "Colombia",
     "date": "2020-03-07T00:00:00",
     "new_cases": "",
@@ -4272,6 +4520,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Colombia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "21",
+    "new_deaths": "",
+    "total_cases": "45",
+    "total_deaths": ""
+  },
+  {
     "country": "Congo",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -4282,6 +4538,14 @@
   {
     "country": "Congo",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Congo",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -4357,6 +4621,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "23",
+    "total_deaths": ""
+  },
+  {
+    "country": "Costa Rica",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "18",
+    "new_deaths": "",
+    "total_cases": "41",
     "total_deaths": ""
   },
   {
@@ -4520,6 +4792,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Croatia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "7",
+    "new_deaths": "",
+    "total_cases": "56",
+    "total_deaths": ""
+  },
+  {
     "country": "Cuba",
     "date": "2020-03-13T00:00:00",
     "new_cases": "",
@@ -4552,6 +4832,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Cuba",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "5",
+    "total_deaths": ""
+  },
+  {
     "country": "Curacao",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -4565,6 +4853,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Curacao",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "3",
     "total_deaths": ""
   },
   {
@@ -4619,6 +4915,14 @@
     "country": "Cyprus",
     "date": "2020-03-16T00:00:00",
     "new_cases": "12",
+    "new_deaths": "",
+    "total_cases": "33",
+    "total_deaths": ""
+  },
+  {
+    "country": "Cyprus",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "33",
     "total_deaths": ""
@@ -4744,6 +5048,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Czech Republic",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "85",
+    "new_deaths": "",
+    "total_cases": "383",
+    "total_deaths": ""
+  },
+  {
     "country": "Cote d'Ivoire",
     "date": "2020-03-12T00:00:00",
     "new_cases": "",
@@ -4781,6 +5093,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "6",
     "total_deaths": ""
   },
   {
@@ -4829,6 +5149,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Democratic Republic of Congo",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "3",
     "total_deaths": ""
   },
   {
@@ -4984,6 +5312,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Denmark",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "62",
+    "new_deaths": "3",
+    "total_cases": "960",
+    "total_deaths": "4"
+  },
+  {
     "country": "Dominican Republic",
     "date": "2020-03-02T00:00:00",
     "new_cases": "",
@@ -5102,6 +5438,14 @@
     "new_deaths": "",
     "total_cases": "5",
     "total_deaths": ""
+  },
+  {
+    "country": "Dominican Republic",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "16",
+    "new_deaths": "",
+    "total_cases": "21",
+    "total_deaths": "1"
   },
   {
     "country": "Ecuador",
@@ -5229,6 +5573,14 @@
     "new_cases": "14",
     "new_deaths": "",
     "total_cases": "37",
+    "total_deaths": "2"
+  },
+  {
+    "country": "Ecuador",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "21",
+    "new_deaths": "0",
+    "total_cases": "58",
     "total_deaths": "2"
   },
   {
@@ -5480,6 +5832,14 @@
     "total_deaths": "2"
   },
   {
+    "country": "Egypt",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "40",
+    "new_deaths": "2",
+    "total_cases": "166",
+    "total_deaths": "4"
+  },
+  {
     "country": "Equatorial Guinea",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -5490,6 +5850,14 @@
   {
     "country": "Equatorial Guinea",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Equatorial Guinea",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -5648,6 +6016,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Estonia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "205",
+    "total_deaths": ""
+  },
+  {
     "country": "Swaziland",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -5658,6 +6034,14 @@
   {
     "country": "Swaziland",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Swaziland",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -5685,6 +6069,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Ethiopia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "4",
+    "new_deaths": "",
+    "total_cases": "5",
     "total_deaths": ""
   },
   {
@@ -5757,6 +6149,14 @@
     "new_cases": "2",
     "new_deaths": "",
     "total_cases": "11",
+    "total_deaths": ""
+  },
+  {
+    "country": "Faeroe Islands",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "36",
+    "new_deaths": "",
+    "total_cases": "47",
     "total_deaths": ""
   },
   {
@@ -6133,6 +6533,14 @@
     "new_cases": "57",
     "new_deaths": "",
     "total_cases": "267",
+    "total_deaths": ""
+  },
+  {
+    "country": "Finland",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "5",
+    "new_deaths": "",
+    "total_cases": "272",
     "total_deaths": ""
   },
   {
@@ -6552,6 +6960,14 @@
     "total_deaths": "127"
   },
   {
+    "country": "France",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1193",
+    "new_deaths": "21",
+    "total_cases": "6573",
+    "total_deaths": "148"
+  },
+  {
     "country": "French Guiana",
     "date": "2020-03-08T00:00:00",
     "new_cases": "",
@@ -6624,6 +7040,14 @@
     "total_deaths": ""
   },
   {
+    "country": "French Guiana",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "7",
+    "total_deaths": ""
+  },
+  {
     "country": "French Polynesia",
     "date": "2020-03-12T00:00:00",
     "new_cases": "",
@@ -6664,6 +7088,14 @@
     "total_deaths": ""
   },
   {
+    "country": "French Polynesia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
     "country": "Gabon",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -6682,6 +7114,14 @@
   {
     "country": "Gabon",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Gabon",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -6835,6 +7275,14 @@
     "country": "Georgia",
     "date": "2020-03-16T00:00:00",
     "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "33",
+    "total_deaths": ""
+  },
+  {
+    "country": "Georgia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "33",
     "total_deaths": ""
@@ -7232,6 +7680,14 @@
     "total_deaths": "12"
   },
   {
+    "country": "Germany",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1174",
+    "new_deaths": "1",
+    "total_cases": "6012",
+    "total_deaths": "13"
+  },
+  {
     "country": "Ghana",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -7253,6 +7709,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Ghana",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "4",
+    "new_deaths": "",
+    "total_cases": "6",
     "total_deaths": ""
   },
   {
@@ -7349,6 +7813,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Gibraltar",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "3",
     "total_deaths": ""
   },
   {
@@ -7504,6 +7976,14 @@
     "total_deaths": "4"
   },
   {
+    "country": "Greece",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "331",
+    "total_deaths": "4"
+  },
+  {
     "country": "Guadeloupe",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -7528,10 +8008,34 @@
     "total_deaths": ""
   },
   {
+    "country": "Guadeloupe",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "12",
+    "new_deaths": "",
+    "total_cases": "18",
+    "total_deaths": ""
+  },
+  {
+    "country": "Guam",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
     "country": "Guatemala",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
     "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Guatemala",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
     "total_cases": "1",
     "total_deaths": "1"
   },
@@ -7592,6 +8096,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Guernsey",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Guinea",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -7610,6 +8122,14 @@
   {
     "country": "Guinea",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Guinea",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -7626,25 +8146,33 @@
   {
     "country": "Guyana",
     "date": "2020-03-14T00:00:00",
-    "new_cases": "5",
+    "new_cases": "0",
     "new_deaths": "0",
-    "total_cases": "6",
+    "total_cases": "1",
     "total_deaths": "1"
   },
   {
     "country": "Guyana",
     "date": "2020-03-15T00:00:00",
-    "new_cases": "1",
+    "new_cases": "0",
     "new_deaths": "0",
-    "total_cases": "7",
+    "total_cases": "1",
     "total_deaths": "1"
   },
   {
     "country": "Guyana",
     "date": "2020-03-16T00:00:00",
-    "new_cases": "",
+    "new_cases": "3",
     "new_deaths": "0",
-    "total_cases": "",
+    "total_cases": "4",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Guyana",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "4",
     "total_deaths": "1"
   },
   {
@@ -7728,6 +8256,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Vatican",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Honduras",
     "date": "2020-03-12T00:00:00",
     "new_cases": "",
@@ -7765,6 +8301,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Honduras",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "6",
+    "new_deaths": "",
+    "total_cases": "8",
     "total_deaths": ""
   },
   {
@@ -7861,6 +8405,14 @@
     "new_cases": "7",
     "new_deaths": "",
     "total_cases": "39",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Hungary",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11",
+    "new_deaths": "0",
+    "total_cases": "50",
     "total_deaths": "1"
   },
   {
@@ -7981,6 +8533,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "138",
+    "total_deaths": ""
+  },
+  {
+    "country": "Iceland",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "61",
+    "new_deaths": "",
+    "total_cases": "199",
     "total_deaths": ""
   },
   {
@@ -8360,6 +8920,14 @@
     "total_deaths": "2"
   },
   {
+    "country": "India",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "23",
+    "new_deaths": "1",
+    "total_cases": "137",
+    "total_deaths": "3"
+  },
+  {
     "country": "Indonesia",
     "date": "2020-03-02T00:00:00",
     "new_cases": "",
@@ -8478,6 +9046,14 @@
     "new_deaths": "0",
     "total_cases": "117",
     "total_deaths": "4"
+  },
+  {
+    "country": "Indonesia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "55",
+    "new_deaths": "1",
+    "total_cases": "172",
+    "total_deaths": "5"
   },
   {
     "country": "International",
@@ -8800,6 +9376,14 @@
     "total_deaths": "7"
   },
   {
+    "country": "International",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "712",
+    "total_deaths": "7"
+  },
+  {
     "country": "Iran",
     "date": "2020-02-20T00:00:00",
     "new_cases": "",
@@ -9008,6 +9592,14 @@
     "total_deaths": "853"
   },
   {
+    "country": "Iran",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "14991",
+    "total_deaths": "853"
+  },
+  {
     "country": "Iraq",
     "date": "2020-02-25T00:00:00",
     "new_cases": "",
@@ -9176,6 +9768,14 @@
     "total_deaths": "9"
   },
   {
+    "country": "Iraq",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "0",
+    "total_cases": "124",
+    "total_deaths": "9"
+  },
+  {
     "country": "Ireland",
     "date": "2020-03-01T00:00:00",
     "new_cases": "",
@@ -9301,6 +9901,14 @@
     "new_cases": "40",
     "new_deaths": "0",
     "total_cases": "169",
+    "total_deaths": "2"
+  },
+  {
+    "country": "Ireland",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "54",
+    "new_deaths": "0",
+    "total_cases": "223",
     "total_deaths": "2"
   },
   {
@@ -9493,6 +10101,14 @@
     "new_cases": "22",
     "new_deaths": "",
     "total_cases": "200",
+    "total_deaths": ""
+  },
+  {
+    "country": "Israel",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "50",
+    "new_deaths": "",
+    "total_cases": "250",
     "total_deaths": ""
   },
   {
@@ -9864,6 +10480,14 @@
     "total_deaths": "1809"
   },
   {
+    "country": "Italy",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3233",
+    "new_deaths": "694",
+    "total_cases": "27980",
+    "total_deaths": "2503"
+  },
+  {
     "country": "Jamaica",
     "date": "2020-03-11T00:00:00",
     "new_cases": "",
@@ -9907,6 +10531,14 @@
     "country": "Jamaica",
     "date": "2020-03-16T00:00:00",
     "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "10",
+    "total_deaths": ""
+  },
+  {
+    "country": "Jamaica",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "10",
     "total_deaths": ""
@@ -10360,6 +10992,14 @@
     "total_deaths": "24"
   },
   {
+    "country": "Japan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "15",
+    "new_deaths": "4",
+    "total_cases": "829",
+    "total_deaths": "28"
+  },
+  {
     "country": "Jersey",
     "date": "2020-03-13T00:00:00",
     "new_cases": "",
@@ -10386,6 +11026,14 @@
   {
     "country": "Jersey",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Jersey",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
@@ -10504,6 +11152,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Jordan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "29",
+    "new_deaths": "",
+    "total_cases": "35",
+    "total_deaths": ""
+  },
+  {
     "country": "Kazakhstan",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -10514,6 +11170,14 @@
   {
     "country": "Kazakhstan",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "6",
+    "total_deaths": ""
+  },
+  {
+    "country": "Kazakhstan",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "6",
@@ -10541,6 +11205,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Kenya",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "3",
     "total_deaths": ""
   },
   {
@@ -10720,6 +11392,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Kuwait",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "18",
+    "new_deaths": "",
+    "total_cases": "130",
+    "total_deaths": ""
+  },
+  {
     "country": "Latvia",
     "date": "2020-03-03T00:00:00",
     "new_cases": "",
@@ -10829,6 +11509,14 @@
     "new_cases": "1",
     "new_deaths": "",
     "total_cases": "31",
+    "total_deaths": ""
+  },
+  {
+    "country": "Latvia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "5",
+    "new_deaths": "",
+    "total_cases": "36",
     "total_deaths": ""
   },
   {
@@ -11003,9 +11691,9 @@
     "country": "Lebanon",
     "date": "2020-03-14T00:00:00",
     "new_cases": "11",
-    "new_deaths": "1",
+    "new_deaths": "0",
     "total_cases": "77",
-    "total_deaths": "4"
+    "total_deaths": "3"
   },
   {
     "country": "Lebanon",
@@ -11013,14 +11701,30 @@
     "new_cases": "16",
     "new_deaths": "0",
     "total_cases": "93",
-    "total_deaths": "4"
+    "total_deaths": "3"
   },
   {
     "country": "Lebanon",
     "date": "2020-03-16T00:00:00",
     "new_cases": "6",
-    "new_deaths": "",
+    "new_deaths": "0",
     "total_cases": "99",
+    "total_deaths": "3"
+  },
+  {
+    "country": "Lebanon",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "10",
+    "new_deaths": "0",
+    "total_cases": "109",
+    "total_deaths": "3"
+  },
+  {
+    "country": "Liberia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
     "total_deaths": ""
   },
   {
@@ -11115,6 +11819,14 @@
     "country": "Liechtenstein",
     "date": "2020-03-16T00:00:00",
     "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "7",
+    "total_deaths": ""
+  },
+  {
+    "country": "Liechtenstein",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "7",
     "total_deaths": ""
@@ -11264,6 +11976,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Lithuania",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "17",
+    "total_deaths": ""
+  },
+  {
     "country": "Luxembourg",
     "date": "2020-03-02T00:00:00",
     "new_cases": "",
@@ -11381,6 +12101,14 @@
     "new_cases": "0",
     "new_deaths": "0",
     "total_cases": "38",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Luxembourg",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "43",
+    "new_deaths": "0",
+    "total_cases": "81",
     "total_deaths": "1"
   },
   {
@@ -11792,6 +12520,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Malaysia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "553",
+    "total_deaths": ""
+  },
+  {
     "country": "Maldives",
     "date": "2020-03-08T00:00:00",
     "new_cases": "",
@@ -11859,6 +12595,14 @@
     "country": "Maldives",
     "date": "2020-03-16T00:00:00",
     "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "13",
+    "total_deaths": ""
+  },
+  {
+    "country": "Maldives",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "13",
     "total_deaths": ""
@@ -11936,6 +12680,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Malta",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "9",
+    "new_deaths": "",
+    "total_cases": "30",
+    "total_deaths": ""
+  },
+  {
     "country": "Martinique",
     "date": "2020-03-08T00:00:00",
     "new_cases": "",
@@ -12008,6 +12760,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Martinique",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "16",
+    "total_deaths": ""
+  },
+  {
     "country": "Mauritania",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -12024,6 +12784,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Mauritania",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Mayotte",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -12034,6 +12802,14 @@
   {
     "country": "Mayotte",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Mayotte",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -12176,6 +12952,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Mexico",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "53",
+    "total_deaths": ""
+  },
+  {
     "country": "Monaco",
     "date": "2020-03-01T00:00:00",
     "new_cases": "",
@@ -12304,6 +13088,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Monaco",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "9",
+    "total_deaths": ""
+  },
+  {
     "country": "Mongolia",
     "date": "2020-03-10T00:00:00",
     "new_cases": "",
@@ -12357,6 +13149,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Mongolia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "4",
     "total_deaths": ""
   },
   {
@@ -12472,6 +13272,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Morocco",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "10",
+    "new_deaths": "1",
+    "total_cases": "38",
+    "total_deaths": "2"
+  },
+  {
     "country": "Namibia",
     "date": "2020-03-15T00:00:00",
     "new_cases": "",
@@ -12482,6 +13290,14 @@
   {
     "country": "Namibia",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Namibia",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
@@ -12904,6 +13720,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Nepal",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Netherlands",
     "date": "2020-02-28T00:00:00",
     "new_cases": "",
@@ -13046,6 +13870,14 @@
     "new_deaths": "8",
     "total_cases": "1135",
     "total_deaths": "20"
+  },
+  {
+    "country": "Netherlands",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "278",
+    "new_deaths": "4",
+    "total_cases": "1413",
+    "total_deaths": "24"
   },
   {
     "country": "New Zealand",
@@ -13192,6 +14024,14 @@
     "total_deaths": ""
   },
   {
+    "country": "New Zealand",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "5",
+    "new_deaths": "",
+    "total_cases": "11",
+    "total_deaths": ""
+  },
+  {
     "country": "Nigeria",
     "date": "2020-02-28T00:00:00",
     "new_cases": "",
@@ -13330,6 +14170,14 @@
   {
     "country": "Nigeria",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Nigeria",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
@@ -13488,6 +14336,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Macedonia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "6",
+    "new_deaths": "",
+    "total_cases": "19",
+    "total_deaths": ""
+  },
+  {
     "country": "Norway",
     "date": "2020-02-27T00:00:00",
     "new_cases": "",
@@ -13640,6 +14496,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Norway",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "92",
+    "new_deaths": "2",
+    "total_cases": "1169",
+    "total_deaths": "3"
+  },
+  {
     "country": "Palestine",
     "date": "2020-03-05T00:00:00",
     "new_cases": "",
@@ -13733,6 +14597,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "38",
+    "total_deaths": ""
+  },
+  {
+    "country": "Palestine",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "39",
     "total_deaths": ""
   },
   {
@@ -13904,6 +14776,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Oman",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "24",
+    "total_deaths": ""
+  },
+  {
     "country": "Pakistan",
     "date": "2020-02-27T00:00:00",
     "new_cases": "",
@@ -14056,6 +14936,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Pakistan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "135",
+    "new_deaths": "",
+    "total_cases": "187",
+    "total_deaths": ""
+  },
+  {
     "country": "Panama",
     "date": "2020-03-10T00:00:00",
     "new_cases": "",
@@ -14109,6 +14997,14 @@
     "new_cases": "16",
     "new_deaths": "0",
     "total_cases": "43",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Panama",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "26",
+    "new_deaths": "0",
+    "total_cases": "69",
     "total_deaths": "1"
   },
   {
@@ -14173,6 +15069,14 @@
     "new_cases": "2",
     "new_deaths": "",
     "total_cases": "8",
+    "total_deaths": ""
+  },
+  {
+    "country": "Paraguay",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "9",
     "total_deaths": ""
   },
   {
@@ -14253,6 +15157,14 @@
     "new_cases": "28",
     "new_deaths": "",
     "total_cases": "71",
+    "total_deaths": ""
+  },
+  {
+    "country": "Peru",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "15",
+    "new_deaths": "",
+    "total_cases": "86",
     "total_deaths": ""
   },
   {
@@ -14632,6 +15544,14 @@
     "total_deaths": "12"
   },
   {
+    "country": "Philippines",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "47",
+    "new_deaths": "0",
+    "total_cases": "187",
+    "total_deaths": "12"
+  },
+  {
     "country": "Poland",
     "date": "2020-03-04T00:00:00",
     "new_cases": "",
@@ -14731,6 +15651,14 @@
     "country": "Poland",
     "date": "2020-03-16T00:00:00",
     "new_cases": "39",
+    "new_deaths": "0",
+    "total_cases": "150",
+    "total_deaths": "3"
+  },
+  {
+    "country": "Poland",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "0",
     "total_cases": "150",
     "total_deaths": "3"
@@ -14848,6 +15776,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Portugal",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "86",
+    "new_deaths": "",
+    "total_cases": "331",
+    "total_deaths": ""
+  },
+  {
     "country": "Puerto Rico",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -14866,6 +15802,14 @@
   {
     "country": "Puerto Rico",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
+    "country": "Puerto Rico",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "3",
@@ -14997,6 +15941,14 @@
     "new_cases": "64",
     "new_deaths": "",
     "total_cases": "401",
+    "total_deaths": ""
+  },
+  {
+    "country": "Qatar",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "38",
+    "new_deaths": "",
+    "total_cases": "439",
     "total_deaths": ""
   },
   {
@@ -15448,6 +16400,14 @@
     "total_deaths": "75"
   },
   {
+    "country": "South Korea",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "84",
+    "new_deaths": "6",
+    "total_cases": "8320",
+    "total_deaths": "81"
+  },
+  {
     "country": "Moldova",
     "date": "2020-03-08T00:00:00",
     "new_cases": "",
@@ -15517,6 +16477,14 @@
     "new_cases": "11",
     "new_deaths": "",
     "total_cases": "23",
+    "total_deaths": ""
+  },
+  {
+    "country": "Moldova",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "6",
+    "new_deaths": "",
+    "total_cases": "29",
     "total_deaths": ""
   },
   {
@@ -15667,6 +16635,14 @@
     "country": "Romania",
     "date": "2020-03-16T00:00:00",
     "new_cases": "35",
+    "new_deaths": "",
+    "total_cases": "158",
+    "total_deaths": ""
+  },
+  {
+    "country": "Romania",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "158",
     "total_deaths": ""
@@ -16032,11 +17008,27 @@
     "total_deaths": ""
   },
   {
+    "country": "Russia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "30",
+    "new_deaths": "",
+    "total_cases": "93",
+    "total_deaths": ""
+  },
+  {
     "country": "Rwanda",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
     "new_deaths": "",
     "total_cases": "5",
+    "total_deaths": ""
+  },
+  {
+    "country": "Rwanda",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "7",
     "total_deaths": ""
   },
   {
@@ -16067,6 +17059,14 @@
     "country": "Reunion",
     "date": "2020-03-16T00:00:00",
     "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "9",
+    "total_deaths": ""
+  },
+  {
+    "country": "Reunion",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "9",
     "total_deaths": ""
@@ -16168,11 +17168,27 @@
     "total_deaths": ""
   },
   {
+    "country": "Saint Barthlemy",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "3",
+    "total_deaths": ""
+  },
+  {
     "country": "Saint Lucia",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
     "new_deaths": "",
     "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Saint Lucia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "2",
     "total_deaths": ""
   },
   {
@@ -16272,6 +17288,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Saint Martin (French part)",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
     "country": "Saint Vincent and the Grenadines",
     "date": "2020-03-13T00:00:00",
     "new_cases": "",
@@ -16298,6 +17322,14 @@
   {
     "country": "Saint Vincent and the Grenadines",
     "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "date": "2020-03-17T00:00:00",
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
@@ -16440,6 +17472,14 @@
     "total_deaths": "5"
   },
   {
+    "country": "San Marino",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "10",
+    "new_deaths": "4",
+    "total_cases": "102",
+    "total_deaths": "9"
+  },
+  {
     "country": "Saudi Arabia",
     "date": "2020-03-03T00:00:00",
     "new_cases": "",
@@ -16549,6 +17589,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "103",
+    "total_deaths": ""
+  },
+  {
+    "country": "Saudi Arabia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "30",
+    "new_deaths": "",
+    "total_cases": "133",
     "total_deaths": ""
   },
   {
@@ -16664,6 +17712,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Senegal",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "",
+    "total_cases": "27",
+    "total_deaths": ""
+  },
+  {
     "country": "Serbia",
     "date": "2020-03-06T00:00:00",
     "new_cases": "",
@@ -16752,11 +17808,27 @@
     "total_deaths": ""
   },
   {
+    "country": "Serbia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "29",
+    "new_deaths": "",
+    "total_cases": "70",
+    "total_deaths": ""
+  },
+  {
     "country": "Seychelles",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Seychelles",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "4",
     "total_deaths": ""
   },
   {
@@ -17184,6 +18256,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Singapore",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "243",
+    "total_deaths": ""
+  },
+  {
     "country": "Slovakia",
     "date": "2020-03-07T00:00:00",
     "new_cases": "",
@@ -17261,6 +18341,14 @@
     "new_cases": "17",
     "new_deaths": "",
     "total_cases": "61",
+    "total_deaths": ""
+  },
+  {
+    "country": "Slovakia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11",
+    "new_deaths": "",
+    "total_cases": "72",
     "total_deaths": ""
   },
   {
@@ -17360,6 +18448,22 @@
     "total_deaths": ""
   },
   {
+    "country": "Slovenia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "34",
+    "new_deaths": "",
+    "total_cases": "253",
+    "total_deaths": ""
+  },
+  {
+    "country": "Somalia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "South Africa",
     "date": "2020-03-06T00:00:00",
     "new_cases": "",
@@ -17445,6 +18549,14 @@
     "new_cases": "13",
     "new_deaths": "",
     "total_cases": "51",
+    "total_deaths": ""
+  },
+  {
+    "country": "South Africa",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11",
+    "new_deaths": "",
+    "total_cases": "62",
     "total_deaths": ""
   },
   {
@@ -17806,6 +18918,14 @@
     "new_deaths": "152",
     "total_cases": "7753",
     "total_deaths": "288"
+  },
+  {
+    "country": "Spain",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1438",
+    "new_deaths": "21",
+    "total_cases": "9191",
+    "total_deaths": "309"
   },
   {
     "country": "Sri Lanka",
@@ -18200,6 +19320,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Sri Lanka",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "10",
+    "new_deaths": "",
+    "total_cases": "29",
+    "total_deaths": ""
+  },
+  {
     "country": "Sudan",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -18224,9 +19352,25 @@
     "total_deaths": "1"
   },
   {
+    "country": "Sudan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "new_deaths": "0",
+    "total_cases": "2",
+    "total_deaths": "1"
+  },
+  {
     "country": "Suriname",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "Suriname",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "1",
     "total_deaths": ""
@@ -18592,6 +19736,14 @@
     "total_deaths": "3"
   },
   {
+    "country": "Sweden",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "67",
+    "new_deaths": "0",
+    "total_cases": "1059",
+    "total_deaths": "3"
+  },
+  {
     "country": "Switzerland",
     "date": "2020-02-26T00:00:00",
     "new_cases": "",
@@ -18750,6 +19902,14 @@
     "new_deaths": "2",
     "total_cases": "2200",
     "total_deaths": "13"
+  },
+  {
+    "country": "Switzerland",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "1",
+    "total_cases": "2200",
+    "total_deaths": "14"
   },
   {
     "country": "Thailand",
@@ -19200,6 +20360,14 @@
     "total_deaths": "1"
   },
   {
+    "country": "Thailand",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "33",
+    "new_deaths": "0",
+    "total_cases": "147",
+    "total_deaths": "1"
+  },
+  {
     "country": "United Kingdom",
     "date": "2020-02-01T00:00:00",
     "new_cases": "",
@@ -19560,6 +20728,14 @@
     "total_deaths": "35"
   },
   {
+    "country": "United Kingdom",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "152",
+    "new_deaths": "20",
+    "total_cases": "1547",
+    "total_deaths": "55"
+  },
+  {
     "country": "Togo",
     "date": "2020-03-07T00:00:00",
     "new_cases": "",
@@ -19640,6 +20816,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Togo",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
     "country": "Trinidad and Tobago",
     "date": "2020-03-14T00:00:00",
     "new_cases": "",
@@ -19661,6 +20845,14 @@
     "new_cases": "1",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "3",
+    "new_deaths": "",
+    "total_cases": "5",
     "total_deaths": ""
   },
   {
@@ -19776,6 +20968,14 @@
     "total_deaths": ""
   },
   {
+    "country": "Tunisia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "20",
+    "total_deaths": ""
+  },
+  {
     "country": "Turkey",
     "date": "2020-03-12T00:00:00",
     "new_cases": "",
@@ -19813,6 +21013,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "5",
+    "total_deaths": ""
+  },
+  {
+    "country": "Turkey",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "42",
+    "new_deaths": "",
+    "total_cases": "47",
     "total_deaths": ""
   },
   {
@@ -19917,6 +21125,14 @@
     "new_cases": "0",
     "new_deaths": "0",
     "total_cases": "3",
+    "total_deaths": "1"
+  },
+  {
+    "country": "Ukraine",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "4",
+    "new_deaths": "0",
+    "total_cases": "7",
     "total_deaths": "1"
   },
   {
@@ -20301,6 +21517,30 @@
     "new_cases": "13",
     "new_deaths": "",
     "total_cases": "98",
+    "total_deaths": ""
+  },
+  {
+    "country": "United Arab Emirates",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "new_deaths": "",
+    "total_cases": "98",
+    "total_deaths": ""
+  },
+  {
+    "country": "Tanzania",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "1",
+    "total_deaths": ""
+  },
+  {
+    "country": "United States Virgin Islands",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "2",
     "total_deaths": ""
   },
   {
@@ -20736,6 +21976,14 @@
     "total_deaths": "41"
   },
   {
+    "country": "United States",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1825",
+    "new_deaths": "17",
+    "total_cases": "3503",
+    "total_deaths": "58"
+  },
+  {
     "country": "Uruguay",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
@@ -20744,9 +21992,25 @@
     "total_deaths": ""
   },
   {
+    "country": "Uruguay",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "new_deaths": "",
+    "total_cases": "6",
+    "total_deaths": ""
+  },
+  {
     "country": "Uzbekistan",
     "date": "2020-03-16T00:00:00",
     "new_cases": "",
+    "new_deaths": "",
+    "total_cases": "4",
+    "total_deaths": ""
+  },
+  {
+    "country": "Uzbekistan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
     "new_deaths": "",
     "total_cases": "4",
     "total_deaths": ""
@@ -20773,6 +22037,14 @@
     "new_cases": "0",
     "new_deaths": "",
     "total_cases": "2",
+    "total_deaths": ""
+  },
+  {
+    "country": "Venezuela",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "31",
+    "new_deaths": "",
+    "total_cases": "33",
     "total_deaths": ""
   },
   {
@@ -21197,6 +22469,14 @@
     "new_cases": "4",
     "new_deaths": "",
     "total_cases": "57",
+    "total_deaths": ""
+  },
+  {
+    "country": "Vietnam",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "4",
+    "new_deaths": "",
+    "total_cases": "61",
     "total_deaths": ""
   },
   {
@@ -21626,25 +22906,33 @@
   {
     "country": "World",
     "date": "2020-03-14T00:00:00",
-    "new_cases": "9766",
-    "new_deaths": "434",
-    "total_cases": "142539",
-    "total_deaths": "5393"
+    "new_cases": "9761",
+    "new_deaths": "433",
+    "total_cases": "142534",
+    "total_deaths": "5392"
   },
   {
     "country": "World",
     "date": "2020-03-15T00:00:00",
-    "new_cases": "10968",
+    "new_cases": "10967",
     "new_deaths": "343",
-    "total_cases": "153523",
-    "total_deaths": "5736"
+    "total_cases": "153517",
+    "total_deaths": "5735"
   },
   {
     "country": "World",
     "date": "2020-03-16T00:00:00",
-    "new_cases": "13968",
+    "new_cases": "13971",
     "new_deaths": "855",
-    "total_cases": "167502",
-    "total_deaths": "6603"
+    "total_cases": "167506",
+    "total_deaths": "6606"
+  },
+  {
+    "country": "World",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11594",
+    "new_deaths": "819",
+    "total_cases": "179112",
+    "total_deaths": "7426"
   }
 ]

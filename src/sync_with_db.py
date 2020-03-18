@@ -1,8 +1,9 @@
 import os
 import json
-import pymongo
-
 from datetime import datetime
+
+from dotenv import load_dotenv
+import pymongo
 
 
 def sync_ontario_cases(db):
@@ -52,11 +53,29 @@ def sync_WHO_data(db):
     db.countries.insert_many(updates)
 
 
+def sync_province_updates(db):
+    print('Syncing province updates')
+    updates = json.load(open('data/processed/province_updates.json'))
+    for update in updates:
+        for key in update.keys():
+            if 'date' not in key and 'province' not in key:
+                update[key] = int(update[key])
+        update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
+
+        db.provinces.update_one({
+            'date': update['date'],
+        }, {
+            '$set': update,
+        }, upsert=True)
+
+
 if __name__ == '__main__':
+    load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', None)
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
 
     sync_ontario_cases(db)
     sync_ontario_updates(db)
+    sync_province_updates(db)
     sync_WHO_data(db)
