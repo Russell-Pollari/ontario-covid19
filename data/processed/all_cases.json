@@ -2357,6 +2357,213 @@
     "date": "2020-03-17T17:30:00"
   },
   {
+    "number": "190",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "travel (Caribbean)",
+    "transmission": "self-isolating",
+    "city": "Halton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "191",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "York",
+    "hospital": "close contact",
+    "transmission": "self-isolating",
+    "city": "York",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "192",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Peel",
+    "hospital": "travel (Europe), close contact",
+    "transmission": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "193",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Toronto",
+    "hospital": "travel (USA), close contact",
+    "transmission": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "194",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "travel (Brazil)",
+    "transmission": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "195",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "travel (USA, Carribean)",
+    "transmission": "self-isolating",
+    "city": "Halton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "196",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Halton",
+    "hospital": "travel (USA), close contact",
+    "transmission": "self-isolating",
+    "city": "Halton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "197",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Peel",
+    "hospital": "close contact",
+    "transmission": "\nself-isolating\n",
+    "city": "Peel",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "198",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Toronto",
+    "hospital": "Travel (Japan, UK, Germany)",
+    "transmission": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "199",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Halton",
+    "hospital": "pending",
+    "transmission": "self-isolating",
+    "city": "Halton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "200",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Waterloo",
+    "hospital": "travel (Pakistan, Turkey)",
+    "transmission": "self-isolating",
+    "city": "Waterloo",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "201",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Hamilton",
+    "hospital": "travel (Mexico)",
+    "transmission": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "202",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Ottawa",
+    "hospital": "travel (USA)",
+    "transmission": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "203",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Middlesex London",
+    "hospital": "pending",
+    "transmission": "self-isolating",
+    "city": "London",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "204",
+    "age_and_gender": "30s Female",
+    "public_health_unit": "Hamilton",
+    "hospital": "travel (Carribean)",
+    "transmission": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "205",
+    "age_and_gender": "50s Male",
+    "public_health_unit": "Chatham Kent",
+    "hospital": "travel (Carribean)",
+    "transmission": "self-isolating",
+    "city": "Chatham Kent",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "206",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Grey Bruce",
+    "hospital": "travel (India)",
+    "transmission": "self-isolating",
+    "city": "Grey Bruce",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "207",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Simcoe Muskoka",
+    "hospital": "travel (Austria)",
+    "transmission": "self-isolating",
+    "city": "Simcoe",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "208",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Brant",
+    "hospital": "travel (Mexico)",
+    "transmission": "self-isolating",
+    "city": "Brant",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "209",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Algoma",
+    "hospital": "travel (USA)",
+    "transmission": "self-isolating",
+    "city": "Algoma",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "210",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "hospital": "pending\u00a0",
+    "transmission": "self-isolating",
+    "city": "pending",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "211",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "hospital": "pending",
+    "transmission": "self-isolating",
+    "city": "pending",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
+    "number": "212",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "hospital": "pending\u00a0",
+    "transmission": "self-isolating",
+    "city": "pending",
+    "date": "2020-03-18T10:30:00"
+  },
+  {
     "number": "43",
     "age_and_gender": "50s Male",
     "public_health_unit": "Hamilton Public Health",
