@@ -59,12 +59,17 @@ def get_updates_from_html(html):
     except:
         return []
 
-    for row in table_soup.find_all('tr')[1:]:
+    rows = table_soup.find_all('tr')
+    header = rows[0]
+    confirmed_index = 1
+    for index, item in enumerate(header.find_all('th')):
+        if 'confirmed' in item.text:
+            confirmed_index = index
+
+    for row in rows[1:]:
         items = row.find_all('td')
-        try:
-            total_cases = items[2].text
-        except:
-            total_cases = items[1].text
+
+        total_cases = items[confirmed_index].text
 
         update = {
             'date': date.isoformat(),

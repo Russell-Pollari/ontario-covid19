@@ -64,6 +64,7 @@ def sync_province_updates(db):
 
         db.provinces.update_one({
             'date': update['date'],
+            'province': update['province'],
         }, {
             '$set': update,
         }, upsert=True)
