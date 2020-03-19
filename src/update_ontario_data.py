@@ -58,6 +58,7 @@ def get_ontario_corona_html():
 
 
 def save_latest_html():
+    print('Fetching latest Onatrio data')
     html = get_ontario_corona_html()
     date = get_date_from_html(html)
     with open('{}/{}.html'.format(HTML_DIR, date), 'w') as f:
