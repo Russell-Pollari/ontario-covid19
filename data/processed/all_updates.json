@@ -270,6 +270,15 @@
     "date": "2020-03-17T10:30:00"
   },
   {
+    "deceased": 2,
+    "negative": 12421,
+    "pending": 3971,
+    "positive": 251,
+    "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 16650,
+    "date": "2020-03-19T17:30:00"
+  },
+  {
     "deceased": 0,
     "negative": 5606,
     "pending": 939,
