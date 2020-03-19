@@ -19,16 +19,19 @@ SUMMARY_LABEL_MAP = {
     'Confirmed positive5': 'positive',
     'Resolved4': 'resolved',
     'Resolved5': 'resolved',
+    'Deceased': 'deceased',
 }
 
-NEW_CASES_COLUMNS = [
-    'number',
-    'age_and_gender',
-    'public_health_unit',
-    'hospital',
-    'transmission',
-    'status'
-]
+NEW_CASES_LABEL_MAP = {
+    'Case number': 'number',
+    'Patient(age and gender)': 'age_and_gender',
+    'Public Health Unit': 'public_health_unit',
+    'Hospital(if applicable)': 'hospital',
+    'Transmission(community,travel or close contact)': 'transmission',
+    'Transmission(community,travel or home)': 'transmission',
+    'Status': 'status',
+    'Status(self-isolating or hospitalized)': 'status'
+}
 
 
 def get_date_from_html(html):
@@ -47,7 +50,7 @@ def get_ontario_corona_html():
     request_url = 'https://www.ontario.ca/page/2019-novel-coronavirus'
     response = requests.get(request_url,
         headers={ # noqa
-        'User-Agent': 'googlebot',
+            'User-Agent': 'googlebot',
         }
     )
 
@@ -66,13 +69,14 @@ def get_case_summary_from_html(html):
 
     summary_soup = soup.find('table')
     summary_data = {}
+    summary_data['deceased'] = 0
     for row in summary_soup.find_all('tr'):
         items = [item.text for item in row.find_all('td')]
         try:
             label = SUMMARY_LABEL_MAP[items[0]]
         except:
             label = items[0]
-            continue
+
         summary_data[label] = int(items[1])
 
     return summary_data
@@ -87,11 +91,13 @@ def get_cases_from_html(html):
         return []
 
     new_cases = []
+
     for table in table_soup[1:]:
+        columns = [NEW_CASES_LABEL_MAP[item.text.replace('\n', '').replace('\t', '').replace('\xa0','')] for item in table.find_all('th')]  # noqa
         for row in table.find_all('tr'):
             new_case = {}
             for index, item in enumerate(row.find_all('td')):
-                label = NEW_CASES_COLUMNS[index]
+                label = columns[index]
                 new_case[label] = item.text
 
             if len(new_case.keys()) > 0:

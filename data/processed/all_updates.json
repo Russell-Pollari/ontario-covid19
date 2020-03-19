@@ -1,205 +1,272 @@
 [
   {
+    "deceased": 0,
     "negative": 1466,
     "pending": 78,
     "positive": 18,
     "resolved": 4,
+    "Total number of patients approved for COVID-19 testing to date": 1566,
     "date": "2020-03-05T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 8464,
     "pending": 1537,
     "positive": 172,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 10178,
     "date": "2020-03-16T10:30:00"
   },
   {
+    "deceased": 1,
+    "negative": 10305,
+    "pending": 3378,
+    "positive": 208,
+    "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 13897,
+    "date": "2020-03-18T17:30:00"
+  },
+  {
+    "deceased": 0,
     "negative": 2347,
     "pending": 22,
     "positive": 30,
     "resolved": 4,
+    "Total number of patients approved for COVID-19 testing to date": 2403,
     "date": "2020-03-09T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 7004,
     "pending": 1316,
     "positive": 140,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 8465,
     "date": "2020-03-15T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 2888,
     "pending": 465,
     "positive": 36,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 3394,
     "date": "2020-03-11T10:30:00"
   },
   {
+    "deceased": 1,
     "negative": 9415,
     "pending": 1567,
     "positive": 183,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 11171,
     "date": "2020-03-17T17:30:00"
   },
   {
+    "deceased": 1,
     "negative": 10305,
     "pending": 3379,
-    "positive": 205,
+    "positive": 206,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 13897,
     "date": "2020-03-18T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 3590,
     "pending": 536,
     "positive": 54,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 4185,
     "date": "2020-03-12T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 8464,
     "pending": 1537,
     "positive": 172,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 10178,
     "date": "2020-03-16T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 7004,
     "pending": 1316,
     "positive": 137,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 8462,
     "date": "2020-03-15T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 1665,
     "pending": 72,
     "positive": 22,
     "resolved": 4,
+    "Total number of patients approved for COVID-19 testing to date": 1763,
     "date": "2020-03-06T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 2347,
     "pending": 22,
     "positive": 31,
     "resolved": 4,
+    "Total number of patients approved for COVID-19 testing to date": 2404,
     "date": "2020-03-09T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
+    "deceased": 0,
     "negative": 2599,
     "pending": 112,
     "positive": 31,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 2747,
     "date": "2020-03-10T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 4470,
     "pending": 580,
     "positive": 74,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 5129,
     "date": "2020-03-13T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 2888,
     "pending": 465,
     "positive": 37,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 3395,
     "date": "2020-03-11T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 1918,
     "pending": 36,
     "positive": 24,
     "resolved": 4,
+    "Total number of patients approved for COVID-19 testing to date": 1982,
     "date": "2020-03-07T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 9415,
     "pending": 1567,
     "positive": 180,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 11167,
     "date": "2020-03-17T10:30:00"
   },
   {
+    "deceased": 0,
     "negative": 5606,
     "pending": 939,
     "positive": 98,
     "resolved": 5,
+    "Total number of patients approved for COVID-19 testing to date": 6648,
     "date": "2020-03-14T17:30:00"
   }
 ]
