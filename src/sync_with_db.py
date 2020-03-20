@@ -37,10 +37,10 @@ def sync_ontario_updates(db):
         }, upsert=True)
 
 
-def sync_WHO_data(db):
-    print('Syncing WHO data')
+def sync_country_data(db):
+    print('Syncing country data')
     db.countries.drop()
-    updates = json.load(open('data/processed/WHO_country_data.json'))
+    updates = json.load(open('data/processed/all_countries_data.json'))
     for update in updates:
         for key in update.keys():
             if 'date' not in key and 'country' not in key:
@@ -79,4 +79,4 @@ if __name__ == '__main__':
     sync_ontario_cases(db)
     sync_ontario_updates(db)
     sync_province_updates(db)
-    sync_WHO_data(db)
+    sync_country_data(db)

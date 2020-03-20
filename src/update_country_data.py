@@ -5,11 +5,11 @@ import csv
 import json
 from datetime import datetime
 
-DATA_URL = 'https://covid.ourworldindata.org/data/full_data.csv'
-FILEPATH = 'data/raw/who_full_data.csv'
+DATA_URL = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
+FILEPATH = 'data/raw/all_countries_data.csv'
 
 
-def update_WHO_country_data():
+def update_country_data():
     file = wget.download(DATA_URL, FILEPATH)
     if os.path.exists(FILEPATH):
         shutil.move(file, FILEPATH)
@@ -32,7 +32,7 @@ def update_WHO_country_data():
 
 
 if __name__ == '__main__':
-    updates = update_WHO_country_data()
+    updates = update_country_data()
 
-    with open('data/processed/WHO_country_data.json', 'w') as f:
+    with open('data/processed/all_countries_data.json', 'w') as f:
         json.dump(updates, f, indent=2)

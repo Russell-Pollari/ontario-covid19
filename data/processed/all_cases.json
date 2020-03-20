@@ -5806,6 +5806,456 @@
     "date": "2020-03-11T10:30:00"
   },
   {
+    "number": "259",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Hamilton",
+    "transmission": "travel (USA)",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "260",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "Peterborough",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Peterborough",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "261",
+    "age_and_gender": "60s Female",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "transmission": "travel (cruise)",
+    "status": "self-isolating",
+    "city": "Haliburton",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "262",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Haliburton, Kawartha, Pine Ridge District",
+    "transmission": "travel (cruise)",
+    "status": "self-isolating",
+    "city": "Haliburton",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "263",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Durham",
+    "transmission": "travel (Caribbean cruise)",
+    "status": "self-isolating",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "264",
+    "age_and_gender": "80s Male",
+    "public_health_unit": "Hastings Prince Edward",
+    "transmission": "travel (Bahamas)",
+    "status": "self-isolating",
+    "city": "Hastings Prince Edward",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "265",
+    "age_and_gender": "60s Male",
+    "public_health_unit": "Durham",
+    "transmission": "pending",
+    "status": "LTCH",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "266",
+    "age_and_gender": "90s Female",
+    "public_health_unit": "Durham",
+    "transmission": "pending",
+    "status": "LTCH",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "267",
+    "age_and_gender": "80s Female",
+    "public_health_unit": "Durham",
+    "transmission": "pending",
+    "status": "LTCH",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "268",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Durham",
+    "transmission": "pending",
+    "status": "LTCH",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "269",
+    "age_and_gender": "80s Male",
+    "public_health_unit": "Ottawa",
+    "transmission": "travel (Portugal)",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "270",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Ottawa",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "271",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Ottawa",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Ottawa",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "272",
+    "age_and_gender": "70s Female",
+    "public_health_unit": "Hamilton",
+    "transmission": "travel (Caribbean cruise)",
+    "status": "self-isolating",
+    "city": "Hamilton",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "273",
+    "age_and_gender": "70s Male",
+    "public_health_unit": "Waterloo",
+    "transmission": "pending",
+    "status": "hospitalized",
+    "city": "Waterloo",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "274",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Peel",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "275",
+    "age_and_gender": "40s Female",
+    "public_health_unit": "Toronto",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "276",
+    "age_and_gender": "40s Male",
+    "public_health_unit": "Peel",
+    "transmission": "pending",
+    "status": "self-isolating",
+    "city": "Peel",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "277",
+    "age_and_gender": "20s Female",
+    "public_health_unit": "Waterloo",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Waterloo",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "278",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Waterloo",
+    "transmission": "travel (Caribbean cruise)",
+    "status": "self-isolating",
+    "city": "Waterloo",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "279",
+    "age_and_gender": "20s Male",
+    "public_health_unit": "Waterloo",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Waterloo",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "280",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Toronto",
+    "transmission": "close contact",
+    "status": "self-isolating",
+    "city": "Toronto",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "281",
+    "age_and_gender": "50s Female",
+    "public_health_unit": "Durham",
+    "transmission": "close contact",
+    "status": "hospitalized",
+    "city": "Durham",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "282",
+    "age_and_gender": "30s Male",
+    "public_health_unit": "York",
+    "transmission": "travel (Caribbean)",
+    "status": "self-isolating",
+    "city": "York",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "283",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "284",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "285",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "286",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "287",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "288",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "289",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "290",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "291",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "292",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "293",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "294",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "295",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "296",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "297",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "298",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "299",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "300",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "301",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "302",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "303",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "304",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "305",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "306",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "307",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
+    "number": "308",
+    "age_and_gender": "pending",
+    "public_health_unit": "pending",
+    "transmission": "pending\u00a0",
+    "status": "pending",
+    "city": "pending",
+    "date": "2020-03-20T10:30:00"
+  },
+  {
     "number": "178",
     "age_and_gender": "pending",
     "public_health_unit": "Hamilton",

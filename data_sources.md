@@ -17,4 +17,4 @@ Total cases for other provinces obatained from scraping [Canada's offical
 coronavirus page](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html): (updated daily)  
 
 ### Data for Canada and other countries
-CSV of world data from WHO and compiled by [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
+CSV of world data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
