@@ -23,7 +23,7 @@ def get_city_from_public_health_unit(public_health_unit):
     if 'Hamilton' in public_health_unit:
         return 'Hamilton'
     if 'Hastings' in public_health_unit:
-        return 'Hastings'
+        return 'Belleville'
     if 'Huron Perth' in public_health_unit:
         return 'Stratford'
     if 'Kingston' in public_health_unit:
