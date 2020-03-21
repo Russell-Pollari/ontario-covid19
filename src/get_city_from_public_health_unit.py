@@ -7,7 +7,7 @@ def get_city_from_public_health_unit(public_health_unit):
     if 'Brant' in public_health_unit:
         return 'Brantford'
     if 'Chatham Kent' in public_health_unit:
-        return 'Chatham Kent'
+        return 'Chatham'
     if 'Durham' in public_health_unit:
         return 'Durham'
     if 'Eastern Ontario' in public_health_unit:
