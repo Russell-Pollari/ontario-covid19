@@ -3,7 +3,7 @@ def get_city_from_public_health_unit(public_health_unit):
     if 'Ajax' in public_health_unit:
         return 'Ajax'
     if 'Algoma' in public_health_unit:
-        return 'Algoma'
+        return 'Sault Ste. Marie'
     if 'Brant' in public_health_unit:
         return 'Brant'
     if 'Chatham Kent' in public_health_unit:
