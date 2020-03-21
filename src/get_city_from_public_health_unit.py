@@ -19,7 +19,7 @@ def get_city_from_public_health_unit(public_health_unit):
     if 'Haliburton' in public_health_unit:
         return 'Port Hope'
     if 'Halton' in public_health_unit:
-        return 'Halton'
+        return 'Oakville'
     if 'Hamilton' in public_health_unit:
         return 'Hamilton'
     if 'Hastings' in public_health_unit:
