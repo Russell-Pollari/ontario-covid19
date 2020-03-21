@@ -49,7 +49,7 @@ def get_city_from_public_health_unit(public_health_unit):
     if 'Peterborough' in public_health_unit:
         return 'Peterborough'
     if 'Porcupine' in public_health_unit:
-        return 'Porcupine'
+        return 'Timmins'
     if 'Simcoe' in public_health_unit:
         return 'Simcoe'
     if 'Scarborough' in public_health_unit:
