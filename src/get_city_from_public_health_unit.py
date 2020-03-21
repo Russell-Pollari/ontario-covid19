@@ -12,6 +12,8 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Cornwall'
     if 'Grand River Hospital' in public_health_unit:
         return 'Kitchener'
+    if 'Grey Bruce' in public_health_unit:
+        return 'Grey Bruce'
     if 'Haliburton' in public_health_unit:
         return 'Haliburton'
     if 'Halton' in public_health_unit:
