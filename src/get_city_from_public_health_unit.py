@@ -14,6 +14,8 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Halton'
     if 'Hamilton' in public_health_unit:
         return 'Hamilton'
+    if 'Hastings Prince Edward' in public_health_unit:
+        return 'Hastings Prince Edward'
     if 'Huron Perth' in public_health_unit:
         return 'Stratford'
     if 'Kingston' in public_health_unit:
