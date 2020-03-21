@@ -38,8 +38,8 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Kenora'
     if 'Eastern Ontario' in public_health_unit:
         return 'Cornwall'
-    if 'Niagra' in public_health_unit:
-        return 'Niagra'
+    if 'Niagara' in public_health_unit:
+        return 'Niagara'
     if 'Huron Perth' in public_health_unit:
         return 'Stratford'
     if 'Southlake' in public_health_unit:
