@@ -2,6 +2,8 @@ def get_city_from_public_health_unit(public_health_unit):
     # http://www.health.gov.on.ca/en/common/system/services/phu/locations.aspx
     if 'Ajax' in public_health_unit:
         return 'Ajax'
+    if 'Algoma' in public_health_unit:
+        return 'Algoma'
     if 'Brant' in public_health_unit:
         return 'Brant'
     if 'Chatham Kent' in public_health_unit:
