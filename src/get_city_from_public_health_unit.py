@@ -64,6 +64,8 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Toronto'
     if 'Waterloo' in public_health_unit:
         return 'Waterloo'
+    if 'Wellington Dufferin Guelph' in public_health_unit:
+        return 'Wellington Dufferin Guelph'
     if 'York' in public_health_unit:
         return 'York'
 
