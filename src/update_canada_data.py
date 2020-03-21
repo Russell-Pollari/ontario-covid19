@@ -19,7 +19,7 @@ def get_date_from_html(html):
         hour = date_match[4]
         minute = date_match[5]
         is_pm = date_match[6] == 'pm'
-        if is_pm and hour is not '12':
+        if is_pm and '12' not in hour:
             hour = int(hour) + 12
         return datetime.strptime(month + day + year + str(hour)+':'+minute, '%B%d%Y%H:%M') # noqa
     except:
@@ -45,6 +45,7 @@ def get_canada_html():
 def save_latest_html():
     html = get_canada_html()
     date = get_date_from_html(html)
+    print(date)
     with open('{}/{}.html'.format(HTML_DIR, date), 'w') as f:  # noqa
         f.write(html)
 
