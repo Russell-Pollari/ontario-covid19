@@ -38,6 +38,8 @@ def get_city_from_public_health_unit(public_health_unit):
         return 'Ottawa'
     if 'Peel' in public_health_unit:
         return 'Peel'
+    if 'Peterborough' in public_health_unit:
+        return 'Peterborough'
     if 'Porcupine' in public_health_unit:
         return 'Porcupine'
     if 'Simcoe' in public_health_unit:
