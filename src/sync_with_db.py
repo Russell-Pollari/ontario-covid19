@@ -27,7 +27,13 @@ def sync_ontario_updates(db):
     for update in updates:
         for key in update.keys():
             if 'date' not in key:
-                update[key] = int(update[key])
+                value = update[key]
+                try:
+                    value = value.replace(',', '')
+                except:
+                    value = value
+
+                update[key] = int(value)
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
         db.updates.update_one({
@@ -59,7 +65,12 @@ def sync_province_updates(db):
     for update in updates:
         for key in update.keys():
             if 'date' not in key and 'province' not in key:
-                update[key] = int(update[key])
+                value = update[key]
+                try:
+                    value = value.replace(',', '')
+                except:
+                    value = value
+                update[key] = int(value)
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
         db.provinces.update_one({
