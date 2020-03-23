@@ -24,7 +24,7 @@ def get_latest_news():
       
 
     news_dict.pop()
-    return news
+    return news_dict
 
 
 if __name__ == '__main__':
