@@ -11,7 +11,7 @@ $ pip install -r requirements.text
 
 ## Compile Ontario's data
 Will fetch html from https://www.ontario.ca/page/2019-novel-coronavirus and store in `data/raw/ontario`
-then scrape html documents in `data/raw/onatrio` and ouput json files to `data/processed/`
+then scrape html documents in `data/raw/ontario` and ouput json files to `data/processed/`
 ```
 $ python src/update_ontario_data.py
 ```
