@@ -17,7 +17,7 @@ $ python src/update_ontario_data.py
 ```
 
 ## Download Canada data and save as json
-Fetch https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html and store in `data/raw/canda`.
+Fetch https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html and store in `data/raw/canada`.
 Scrape all html cosuments and saves in json format in `data/processed/province_updates.json`
 ```
 $ python src/update_canada_data.py
