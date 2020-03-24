@@ -34,6 +34,17 @@ NEW_CASES_LABEL_MAP = {
 }
 
 
+def add_age_and_gender(case):
+    age_and_gender = case['age_and_gender'].split(' ')
+    try:
+        case['age'] = age_and_gender[0]
+        case['gender'] = age_and_gender[1]
+    except:
+        case['age'] = 'pending'
+        case['gender'] = 'pending'
+    return case
+
+
 def get_date_from_html(html):
     date_regex = re.compile('Last updated: (.+) at (\d\d?):(\d\d) ([a|p].m.)')
     date_match = re.search(date_regex, html)
@@ -103,6 +114,13 @@ def get_cases_from_html(html):
 
             if len(new_case.keys()) > 0:
                 new_case['city'] = get_city_from_public_health_unit(new_case['public_health_unit']) # noqa
+                age_and_gender = new_case['age_and_gender'].split(' ')
+                try:
+                    new_case['age'] = age_and_gender[0]
+                    new_case['gender'] = age_and_gender[1]
+                except:
+                    new_case['age'] = 'pending'
+                    new_case['gender'] = 'pending'
                 new_cases.append(new_case)
 
     return new_cases
@@ -117,6 +135,7 @@ def get_all_cases():
             new_cases = get_cases_from_html(html)
             for case in new_cases:
                 case.update({'date': date.isoformat()})
+                case = add_age_and_gender(case)
                 cases.append(case)
 
     return cases
@@ -147,6 +166,7 @@ def get_legacy_cases():
                 case['age_and_gender'] = row[3] + ' ' + row[4]
                 case['public_health_unit'] = row[6]
                 case['city'] = get_city_from_public_health_unit(row[6])
+                case = add_age_and_gender(case)
                 try:
                     case['date'] = datetime.strptime('2020'+row[10], '%Y%b %d').isoformat() # noqa
                 except:

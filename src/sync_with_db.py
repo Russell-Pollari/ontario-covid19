@@ -27,7 +27,13 @@ def sync_ontario_updates(db):
     for update in updates:
         for key in update.keys():
             if 'date' not in key:
-                update[key] = int(update[key])
+                value = update[key]
+                try:
+                    value = value.replace(',', '')
+                except:
+                    value = value
+
+                update[key] = int(value)
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
         db.updates.update_one({
@@ -55,19 +61,20 @@ def sync_country_data(db):
 
 def sync_province_updates(db):
     print('Syncing province updates')
+    db.provinces.drop()
     updates = json.load(open('data/processed/province_updates.json'))
     for update in updates:
         for key in update.keys():
             if 'date' not in key and 'province' not in key:
-                update[key] = int(update[key])
+                value = update[key]
+                try:
+                    value = value.replace(',', '')
+                except:
+                    value = value
+                update[key] = int(value)
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
-        db.provinces.update_one({
-            'date': update['date'],
-            'province': update['province'],
-        }, {
-            '$set': update,
-        }, upsert=True)
+    db.provinces.insert_many(updates)
 
 
 if __name__ == '__main__':

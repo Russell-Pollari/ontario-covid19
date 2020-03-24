@@ -74,7 +74,7 @@ def get_updates_from_html(html):
 
         update = {
             'date': date.isoformat(),
-            'province': items[0].text,
+            'province': items[0].text.strip(),
             'total_cases': total_cases,
         }
         updates.append(update)
