@@ -160,6 +160,81 @@
     "total_cases": "424"
   },
   {
+    "date": "2020-03-23T11:00:00",
+    "province": "British Columbia",
+    "total_cases": "424"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Alberta",
+    "total_cases": "259"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Saskatchewan",
+    "total_cases": "33"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Manitoba",
+    "total_cases": "11"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Ontario",
+    "total_cases": "425"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Quebec",
+    "total_cases": "221"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "New Brunswick",
+    "total_cases": "9"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Nova Scotia",
+    "total_cases": "28"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Prince Edward Island",
+    "total_cases": "3"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Newfoundland and Labrador",
+    "total_cases": "3"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Yukon",
+    "total_cases": "2"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Northwest Territories",
+    "total_cases": "1"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Nunavut",
+    "total_cases": "0"
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Repatriated travellers",
+    "total_cases": "13 "
+  },
+  {
+    "date": "2020-03-23T11:00:00",
+    "province": "Total",
+    "total_cases": "1,432"
+  },
+  {
     "date": "2020-03-13T09:00:00",
     "province": "British Columbia",
     "total_cases": "53"
@@ -668,6 +743,81 @@
     "date": "2020-02-25T00:00:00",
     "province": "Quebec",
     "total_cases": "1"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "British Columbia",
+    "total_cases": "424"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Alberta",
+    "total_cases": "259"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Saskatchewan",
+    "total_cases": "33"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Manitoba",
+    "total_cases": "11"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Ontario",
+    "total_cases": "425"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Quebec",
+    "total_cases": "221"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Newfoundland and Labrador",
+    "total_cases": "3"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "New Brunswick",
+    "total_cases": "9"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Nova Scotia",
+    "total_cases": "28"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Prince Edward Island",
+    "total_cases": "3"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Yukon",
+    "total_cases": "0"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Northwest Territories",
+    "total_cases": "1"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Nunavut",
+    "total_cases": "0"
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Repatriated travellers",
+    "total_cases": "13 "
+  },
+  {
+    "date": "2020-03-22T18:00:00",
+    "province": "Total",
+    "total_cases": "1430"
   },
   {
     "date": "2020-03-21T09:00:00",
