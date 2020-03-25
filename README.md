@@ -11,13 +11,13 @@ $ pip install -r requirements.text
 
 ## Compile Ontario's data
 Will fetch html from https://www.ontario.ca/page/2019-novel-coronavirus and store in `data/raw/ontario`
-then scrape html documents in `data/raw/onatrio` and ouput json files to `data/processed/`
+then scrape html documents in `data/raw/ontario` and ouput json files to `data/processed/`
 ```
 $ python src/update_ontario_data.py
 ```
 
 ## Download Canada data and save as json
-Fetch https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html and store in `data/raw/canda`.
+Fetch https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html and store in `data/raw/canada`.
 Scrape all html cosuments and saves in json format in `data/processed/province_updates.json`
 ```
 $ python src/update_canada_data.py
