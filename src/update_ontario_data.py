@@ -89,7 +89,7 @@ def get_case_summary_from_html(html):
         except:
             label = items[0]
 
-        summary_data[label] = int(items[1].replace(',',''))
+        summary_data[label] = int(items[1].replace(',', ''))
 
     return summary_data
 
@@ -115,6 +115,8 @@ def get_cases_from_html(html):
             if len(new_case.keys()) > 0:
                 new_case['city'] = get_city_from_public_health_unit(new_case['public_health_unit']) # noqa
                 age_and_gender = new_case['age_and_gender'].split(' ')
+                if new_case['status'] == 'instution':
+                    new_case['status'] = 'institution'
                 try:
                     new_case['age'] = age_and_gender[0]
                     new_case['gender'] = age_and_gender[1]
