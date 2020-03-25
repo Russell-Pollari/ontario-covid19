@@ -5,7 +5,7 @@
     "public_health_unit": "Sunnybrook Health Sciences Centre",
     "city": "Toronto",
     "age": "pending",
-    "gender": "pending",
+    "gender": "Male",
     "date": "2020-01-23T00:00:00"
   },
   {
@@ -14,7 +14,7 @@
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
     "age": "pending",
-    "gender": "pending",
+    "gender": "Female",
     "date": "2020-01-27T00:00:00"
   },
   {
@@ -22,6 +22,7 @@
     "age_and_gender": "20s Female",
     "public_health_unit": "London Health Sciences Centre",
     "city": "London",
+    "age": 20,
     "gender": "Female",
     "date": "2020-01-24T00:00:00"
   },
@@ -31,7 +32,7 @@
     "public_health_unit": "North York General Hospital",
     "city": "Toronto",
     "age": "pending",
-    "gender": "pending",
+    "gender": "Female",
     "date": "2020-02-21T00:00:00"
   },
   {
@@ -39,6 +40,7 @@
     "age_and_gender": "60s Female",
     "public_health_unit": "Sunnybrook Health Sciences Centre",
     "city": "Toronto",
+    "age": 60,
     "gender": "Female",
     "date": "2020-02-24T00:00:00"
   },
@@ -48,7 +50,7 @@
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
     "age": "pending",
-    "gender": "pending",
+    "gender": "Male",
     "date": "2020-02-27T00:00:00"
   },
   {
@@ -56,6 +58,7 @@
     "age_and_gender": "50 Male",
     "public_health_unit": "Sunnybrook Health Sciences Centre",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-02-25T00:00:00"
   },
@@ -64,6 +67,7 @@
     "age_and_gender": "80 Male",
     "public_health_unit": "Scarborough Health Network ",
     "city": "Scarborough",
+    "age": 80,
     "gender": "Male",
     "date": "2020-02-27T00:00:00"
   },
@@ -72,6 +76,7 @@
     "age_and_gender": "34 Female",
     "public_health_unit": "Mackezie Health",
     "city": "Richmond Hill",
+    "age": 30,
     "gender": "Female",
     "date": "2020-02-27T00:00:00"
   },
@@ -80,6 +85,7 @@
     "age_and_gender": "51 Female",
     "public_health_unit": "Lakeridge Health Ajax Pickering",
     "city": "Ajax",
+    "age": 50,
     "gender": "Female",
     "date": "2020-02-28T00:00:00"
   },
@@ -88,6 +94,7 @@
     "age_and_gender": "69 Male",
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
+    "age": 60,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -96,6 +103,7 @@
     "age_and_gender": "50 Male",
     "public_health_unit": "Mackezie Health",
     "city": "Richmond Hill",
+    "age": 50,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -104,6 +112,7 @@
     "age_and_gender": "40s Male",
     "public_health_unit": "Mackezie Health",
     "city": "Richmond Hill",
+    "age": 40,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -112,6 +121,7 @@
     "age_and_gender": "60s Male",
     "public_health_unit": "North York general Hospital",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -120,6 +130,7 @@
     "age_and_gender": "70s Female",
     "public_health_unit": "Southlake Regional Health Centre",
     "city": "Newmarket",
+    "age": 70,
     "gender": "Female",
     "date": "2020-02-29T00:00:00"
   },
@@ -128,6 +139,7 @@
     "age_and_gender": "60s Female",
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
+    "age": 60,
     "gender": "Female",
     "date": "2020-02-29T00:00:00"
   },
@@ -136,6 +148,7 @@
     "age_and_gender": "70s Female",
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
+    "age": 70,
     "gender": "Female",
     "date": "2020-02-29T00:00:00"
   },
@@ -144,6 +157,7 @@
     "age_and_gender": "60s Male",
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
+    "age": 60,
     "gender": "Male",
     "date": "2020-02-23T00:00:00"
   },
@@ -152,6 +166,7 @@
     "age_and_gender": "70s Female",
     "public_health_unit": "Mackezie Health",
     "city": "Richmond Hill",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-01T00:00:00"
   },
@@ -160,6 +175,7 @@
     "age_and_gender": "50s Male",
     "public_health_unit": "York general hospital",
     "city": "York",
+    "age": 50,
     "gender": "Male",
     "date": "2020-02-29T00:00:00"
   },
@@ -168,6 +184,7 @@
     "age_and_gender": "50s Female",
     "public_health_unit": "Grand River Hospital",
     "city": "Kitchener",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-03T00:00:00"
   },
@@ -176,6 +193,7 @@
     "age_and_gender": "60s Male",
     "public_health_unit": "Sunnybrook Health Sciences Centre",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-03T00:00:00"
   },
@@ -184,6 +202,7 @@
     "age_and_gender": "60s Male",
     "public_health_unit": "Mississauga Hospital",
     "city": "Mississauga",
+    "age": 60,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -192,6 +211,7 @@
     "age_and_gender": "60s Female",
     "public_health_unit": "Mississauga Hospital",
     "city": "Mississauga",
+    "age": 60,
     "gender": "Female",
     "date": "2020-02-28T00:00:00"
   },
@@ -200,6 +220,7 @@
     "age_and_gender": "50s Male",
     "public_health_unit": "North York General Hospital",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-03T00:00:00"
   },
@@ -208,6 +229,7 @@
     "age_and_gender": "40s Male",
     "public_health_unit": "Toronto Western Hospital",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-02-28T00:00:00"
   },
@@ -216,6 +238,7 @@
     "age_and_gender": "20s Male",
     "public_health_unit": "Mount Sinai Hospital",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-03T00:00:00"
   },
@@ -224,6 +247,7 @@
     "age_and_gender": "60s Female",
     "public_health_unit": "Unspecified",
     "city": "Unspecified",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-02T00:00:00"
   },
@@ -232,6 +256,7 @@
     "age_and_gender": "40s Female",
     "public_health_unit": "Sunnybrook Health Sciences Centre",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-02T00:00:00"
   },
@@ -240,6 +265,7 @@
     "age_and_gender": "60s Female",
     "public_health_unit": "Scarborough Health Network ",
     "city": "Scarborough",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-07T00:00:00"
   },
@@ -248,6 +274,7 @@
     "age_and_gender": "60s Male",
     "public_health_unit": "North York General Hospital",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-07T00:00:00"
   },
@@ -295,6 +322,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -318,6 +346,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -341,6 +370,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -400,6 +430,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -411,6 +442,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -446,6 +478,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -457,6 +490,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -480,6 +514,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -527,6 +562,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -574,6 +610,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -597,6 +634,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -620,6 +658,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -679,6 +718,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -690,6 +730,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -725,6 +766,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -736,6 +778,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -759,6 +802,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -806,6 +850,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -853,6 +898,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Guelph",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-16T10:30:00"
   },
@@ -864,6 +910,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-16T10:30:00"
   },
@@ -947,6 +994,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-16T10:30:00"
   },
@@ -1197,6 +1245,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1207,6 +1256,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1217,6 +1267,7 @@
     "transmission": "travel (Europe), close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1227,6 +1278,7 @@
     "transmission": "travel (USA), close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1237,6 +1289,7 @@
     "transmission": "travel (Brazil)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1247,6 +1300,7 @@
     "transmission": "travel (USA, Carribean)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1257,6 +1311,7 @@
     "transmission": "travel (USA), close contact",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1267,6 +1322,7 @@
     "transmission": "close contact",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1277,6 +1333,7 @@
     "transmission": "Travel (Japan, UK, Germany)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1287,6 +1344,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1297,6 +1355,7 @@
     "transmission": "travel (Pakistan, Turkey)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1307,6 +1366,7 @@
     "transmission": "travel (Mexico)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1317,6 +1377,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1327,6 +1388,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1337,6 +1399,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1347,6 +1410,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Chatham",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1357,6 +1421,7 @@
     "transmission": "travel (India)",
     "status": "self-isolating",
     "city": "Owen Sound",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1367,6 +1432,7 @@
     "transmission": "travel (Austria)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1377,6 +1443,7 @@
     "transmission": "travel (Mexico)",
     "status": "self-isolating",
     "city": "Brantford",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1387,6 +1454,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Sault Ste. Marie",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1430,6 +1498,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Niagara",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-18T17:30:00"
   },
@@ -1440,6 +1509,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Chatham",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-18T17:30:00"
   },
@@ -1451,6 +1521,7 @@
     "transmission": "travel (Germany)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-09T10:30:00"
   },
@@ -1462,6 +1533,7 @@
     "transmission": "travel (Iran)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-09T10:30:00"
   },
@@ -1473,6 +1545,7 @@
     "transmission": "travel (Iran)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-09T10:30:00"
   },
@@ -1520,6 +1593,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1543,6 +1617,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1566,6 +1641,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1625,6 +1701,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1636,6 +1713,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1671,6 +1749,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1682,6 +1761,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1705,6 +1785,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1752,6 +1833,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1799,6 +1881,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1822,6 +1905,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1845,6 +1929,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1904,6 +1989,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1915,6 +2001,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1950,6 +2037,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -1961,6 +2049,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -1984,6 +2073,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2031,6 +2121,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2078,6 +2169,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -2101,6 +2193,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -2124,6 +2217,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2183,6 +2277,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2194,6 +2289,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2229,6 +2325,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -2240,6 +2337,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2263,6 +2361,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2310,6 +2409,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -2489,6 +2589,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "Niagara",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-15T17:30:00"
   },
@@ -2536,6 +2637,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-15T17:30:00"
   },
@@ -2571,6 +2673,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Simcoe",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-15T17:30:00"
   },
@@ -2786,6 +2889,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Owen Sound",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-15T17:30:00"
   },
@@ -2797,6 +2901,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Owen Sound",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-15T17:30:00"
   },
@@ -2808,6 +2913,7 @@
     "transmission": "travel (Spain, Portugal)",
     "status": "self-isolating",
     "city": "Peterborough",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-15T17:30:00"
   },
@@ -2819,6 +2925,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -2830,6 +2937,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-11T10:30:00"
   },
@@ -2841,6 +2949,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -2852,6 +2961,7 @@
     "transmission": "travel (Austria)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -2863,6 +2973,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-11T10:30:00"
   },
@@ -2934,6 +3045,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "London",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-17T17:30:00"
   },
@@ -2945,6 +3057,7 @@
     "transmission": "travel (St. Maarten)",
     "status": "self-isolating",
     "city": "London",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-17T17:30:00"
   },
@@ -2956,6 +3069,7 @@
     "transmission": "travel (Costa Rica)",
     "status": "\nself-isolating\n",
     "city": "York",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-17T17:30:00"
   },
@@ -2967,6 +3081,7 @@
     "transmission": "close contact",
     "status": "deceased",
     "city": "Simcoe",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-17T17:30:00"
   },
@@ -2978,6 +3093,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Kingston",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-17T17:30:00"
   },
@@ -2989,6 +3105,7 @@
     "transmission": "travel (Barbados)",
     "status": "self-isolating",
     "city": "Kingston",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-17T17:30:00"
   },
@@ -3000,6 +3117,7 @@
     "transmission": "travel (UK)",
     "status": "self-isolating",
     "city": "Kingston",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-17T17:30:00"
   },
@@ -3010,6 +3128,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3020,6 +3139,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3030,6 +3150,7 @@
     "transmission": "travel (Europe), close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3040,6 +3161,7 @@
     "transmission": "travel (USA), close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3050,6 +3172,7 @@
     "transmission": "travel (Brazil)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3060,6 +3183,7 @@
     "transmission": "travel (USA, Carribean)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3070,6 +3194,7 @@
     "transmission": "travel (USA), close contact",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3080,6 +3205,7 @@
     "transmission": "close contact",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3090,6 +3216,7 @@
     "transmission": "Travel (Japan, UK, Germany)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3100,6 +3227,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3110,6 +3238,7 @@
     "transmission": "travel (Pakistan, Turkey)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3120,6 +3249,7 @@
     "transmission": "travel (Mexico)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3130,6 +3260,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3140,6 +3271,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3150,6 +3282,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3160,6 +3293,7 @@
     "transmission": "travel (Carribean)",
     "status": "self-isolating",
     "city": "Chatham",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3170,6 +3304,7 @@
     "transmission": "travel (India)",
     "status": "self-isolating",
     "city": "Owen Sound",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3180,6 +3315,7 @@
     "transmission": "travel (Austria)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-18T10:30:00"
   },
@@ -3190,6 +3326,7 @@
     "transmission": "travel (Mexico)",
     "status": "self-isolating",
     "city": "Brantford",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3200,6 +3337,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Sault Ste. Marie",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-18T10:30:00"
   },
@@ -3243,6 +3381,7 @@
     "transmission": "\ntravel (UK)\n\u00a0\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3253,6 +3392,7 @@
     "transmission": "\ntravel (Singapore)\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 70,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3263,6 +3403,7 @@
     "transmission": "\ntravel (Singapore)\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3273,6 +3414,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3283,6 +3425,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3293,6 +3436,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Brantford",
+    "age": 40,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3303,6 +3447,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 20,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3313,6 +3458,7 @@
     "transmission": "\nUK\n",
     "status": "\nself-isolating\n",
     "city": "Oakville",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3323,6 +3469,7 @@
     "transmission": "\npending\n",
     "status": "\nhospitalized\n",
     "city": "Guelph",
+    "age": 80,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3333,6 +3480,7 @@
     "transmission": "\ntravel (Italy)\n",
     "status": "\nself-isolating\n",
     "city": "Owen Sound",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3343,6 +3491,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Windsor",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3353,6 +3502,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3363,6 +3513,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Hamilton",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3373,6 +3524,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3383,6 +3535,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Niagara",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3393,6 +3546,7 @@
     "transmission": "\npending\n",
     "status": "\nhospitalized\n",
     "city": "Waterloo",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3403,6 +3557,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3413,6 +3568,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3423,6 +3579,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3433,6 +3590,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "York",
+    "age": 80,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3443,6 +3601,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "York",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3453,6 +3612,7 @@
     "transmission": "\nclose contact\n",
     "status": "\npending\n",
     "city": "York",
+    "age": 60,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3463,6 +3623,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3473,6 +3634,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3483,6 +3645,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Sudbury",
+    "age": 70,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3493,6 +3656,7 @@
     "transmission": "\ntravel (Dubai)\n",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3503,6 +3667,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3513,6 +3678,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3523,6 +3689,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3533,6 +3700,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3543,6 +3711,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3553,6 +3722,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3563,6 +3733,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3573,6 +3744,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Whitby",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3583,6 +3755,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "York",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3593,6 +3766,7 @@
     "transmission": "\ntravel\n",
     "status": "\nself-isolation\n",
     "city": "Whitby",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3603,6 +3777,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3613,6 +3788,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3623,6 +3799,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3633,6 +3810,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolation\n",
     "city": "York",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3643,6 +3821,7 @@
     "transmission": "\ntravel (Dubai)\n",
     "status": "\nself-isolation\n",
     "city": "Peel",
+    "age": 60,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3653,6 +3832,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3663,6 +3843,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3673,6 +3854,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3683,6 +3865,7 @@
     "transmission": "\ntravel (Brazil)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T10:30:00"
   },
@@ -3693,6 +3876,7 @@
     "transmission": "pending",
     "status": "deceased",
     "city": "Whitby",
+    "age": 90,
     "gender": "Male",
     "date": "2020-03-24T10:30:00"
   },
@@ -4132,6 +4316,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4142,6 +4327,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4152,6 +4338,7 @@
     "transmission": "travel (Germany)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4162,6 +4349,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4172,6 +4360,7 @@
     "transmission": "travel (Ecuador)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4182,8 +4371,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
   {
@@ -4193,6 +4382,7 @@
     "transmission": "travel (Germany, Austria)",
     "status": "self-isolating",
     "city": "York",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4203,6 +4393,7 @@
     "transmission": "travel (London)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4213,6 +4404,7 @@
     "transmission": "travel (Philippines)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4223,6 +4415,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4233,6 +4426,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4243,6 +4437,7 @@
     "transmission": "travel (England)",
     "status": "hospitalized",
     "city": "Simcoe",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4253,6 +4448,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "York",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4263,6 +4459,7 @@
     "transmission": "travel (Europe)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4273,6 +4470,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "York",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4283,6 +4481,7 @@
     "transmission": "close contact",
     "status": "pending",
     "city": "York",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-21T10:30:00"
   },
@@ -4293,6 +4492,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-21T10:30:00"
   },
@@ -4766,6 +4966,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4777,8 +4978,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
   {
@@ -4789,6 +4990,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4800,6 +5002,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4811,6 +5014,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4822,6 +5026,7 @@
     "transmission": "travel (Puerto Rico)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4833,6 +5038,7 @@
     "transmission": "travel (Italy)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4844,6 +5050,7 @@
     "transmission": "travel (Europe)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4855,6 +5062,7 @@
     "transmission": "travel (USA, Costa Rica)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4866,8 +5074,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
   {
@@ -4878,6 +5086,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4889,6 +5098,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4900,6 +5110,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4911,6 +5122,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4922,6 +5134,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-12T10:30:00"
   },
@@ -4933,6 +5146,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4944,6 +5158,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-12T10:30:00"
   },
@@ -4954,6 +5169,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -4964,6 +5180,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peterborough",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -4974,6 +5191,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -4984,6 +5202,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -4994,6 +5213,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5004,6 +5224,7 @@
     "transmission": "travel (Bahamas)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5014,6 +5235,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5024,6 +5246,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5034,6 +5257,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5044,6 +5268,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5054,6 +5279,7 @@
     "transmission": "travel (Portugal)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5064,6 +5290,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5074,6 +5301,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5084,6 +5312,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5094,6 +5323,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Waterloo",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5104,6 +5334,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5114,6 +5345,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5124,6 +5356,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5134,6 +5367,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5144,6 +5378,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5154,6 +5389,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5164,6 +5400,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5174,6 +5411,7 @@
     "transmission": "close contact",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5184,6 +5422,7 @@
     "transmission": "travel (Caribbean)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5546,6 +5785,7 @@
     "transmission": "pending",
     "status": "isolation in nursing home",
     "city": "Port Hope",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5556,6 +5796,7 @@
     "transmission": "pending",
     "status": "isolation in nursing home",
     "city": "Port Hope",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-20T17:30:00"
   },
@@ -5566,6 +5807,7 @@
     "transmission": "pending",
     "status": "isolation in nursing home",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5576,6 +5818,7 @@
     "transmission": "travel",
     "status": "self-isolating",
     "city": "Timmins",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-20T17:30:00"
   },
@@ -5586,6 +5829,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5596,6 +5840,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5606,6 +5851,7 @@
     "transmission": "travel (Germany)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5616,6 +5862,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5626,6 +5873,7 @@
     "transmission": "travel (Ecuador)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5636,8 +5884,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
   {
@@ -5647,6 +5895,7 @@
     "transmission": "travel (Germany, Austria)",
     "status": "self-isolating",
     "city": "York",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5657,6 +5906,7 @@
     "transmission": "travel (London)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5667,6 +5917,7 @@
     "transmission": "travel (Philippines)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5677,6 +5928,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5687,6 +5939,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5697,6 +5950,7 @@
     "transmission": "travel (England)",
     "status": "hospitalized",
     "city": "Simcoe",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5707,6 +5961,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "York",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5717,6 +5972,7 @@
     "transmission": "travel (Europe)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -5727,6 +5983,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "York",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5737,6 +5994,7 @@
     "transmission": "close contact",
     "status": "pending",
     "city": "York",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-21T17:30:00"
   },
@@ -5747,6 +6005,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-21T17:30:00"
   },
@@ -6256,6 +6515,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -6279,6 +6539,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -6302,6 +6563,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6361,6 +6623,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6372,6 +6635,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6407,6 +6671,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -6418,6 +6683,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6441,6 +6707,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6488,6 +6755,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -6498,6 +6766,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-22T10:30:00"
   },
@@ -6508,6 +6777,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-22T10:30:00"
   },
@@ -6518,6 +6788,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Peel",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-22T10:30:00"
   },
@@ -6528,6 +6799,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-22T10:30:00"
   },
@@ -6538,6 +6810,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-22T10:30:00"
   },
@@ -6548,6 +6821,7 @@
     "transmission": "travel (Caribbean)",
     "status": "self-isolating",
     "city": "Windsor",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-22T10:30:00"
   },
@@ -6558,6 +6832,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-22T10:30:00"
   },
@@ -7045,6 +7320,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Guelph",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-16T17:30:00"
   },
@@ -7056,6 +7332,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-16T17:30:00"
   },
@@ -7139,6 +7416,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-16T17:30:00"
   },
@@ -7426,6 +7704,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -7449,6 +7728,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -7472,6 +7752,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7531,6 +7812,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7542,6 +7824,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7577,6 +7860,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -7588,6 +7872,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7611,6 +7896,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7658,6 +7944,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -7668,6 +7955,7 @@
     "transmission": "travel (Spain, Belgium, Canary Islands), close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7678,6 +7966,7 @@
     "transmission": "travel (Germany, Malta)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7688,6 +7977,7 @@
     "transmission": "travel (UK)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7698,6 +7988,7 @@
     "transmission": "travel (Spain, Finland)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7708,6 +7999,7 @@
     "transmission": "travel (USA, San Juan)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7718,6 +8010,7 @@
     "transmission": "travel (cruise), close contact",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7728,6 +8021,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7738,6 +8032,7 @@
     "transmission": "travel (England)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7748,6 +8043,7 @@
     "transmission": "Travel (USA), close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7758,6 +8054,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7768,6 +8065,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7778,6 +8076,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7788,6 +8087,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7798,6 +8098,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7808,6 +8109,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7818,6 +8120,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7828,6 +8131,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -7838,6 +8142,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7848,6 +8153,7 @@
     "transmission": "travel (Manila)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7858,6 +8164,7 @@
     "transmission": "travel (cruise)",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T10:30:00"
   },
@@ -7868,6 +8175,7 @@
     "transmission": "travel (Europe)",
     "status": "pending",
     "city": "Port Hope",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-19T10:30:00"
   },
@@ -8289,6 +8597,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "Niagara",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-15T10:30:00"
   },
@@ -8587,6 +8896,7 @@
     "transmission": "pending",
     "status": "deceased",
     "city": "Port Hope",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8597,6 +8907,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8607,6 +8918,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8617,6 +8929,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8627,6 +8940,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8637,6 +8951,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8647,6 +8962,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8668,6 +8984,7 @@
     "transmission": "travel (Switzerland)",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8678,8 +8995,8 @@
     "transmission": "travel",
     "status": "self-isolating",
     "city": "Ottawa",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
   {
@@ -8689,6 +9006,7 @@
     "transmission": "travel (Puerto Rico, St Thomas, Barbados)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8699,6 +9017,7 @@
     "transmission": "travel (Egypt, Israel, London)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8720,6 +9039,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8730,6 +9050,7 @@
     "transmission": "pending",
     "status": "institution",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8740,6 +9061,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8750,6 +9072,7 @@
     "transmission": "travel (Jamaica)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8760,6 +9083,7 @@
     "transmission": "pending",
     "status": "institution",
     "city": "Toronto",
+    "age": 90,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8770,6 +9094,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Guelph",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8780,6 +9105,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8790,6 +9116,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8800,6 +9127,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8810,6 +9138,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8820,6 +9149,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8830,6 +9160,7 @@
     "transmission": "travel (USA)",
     "status": "hospitalized",
     "city": "York",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8840,6 +9171,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8850,6 +9182,7 @@
     "transmission": "pending",
     "status": "institution",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8860,6 +9193,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8870,6 +9204,7 @@
     "transmission": "travel (London, Dubai)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8880,6 +9215,7 @@
     "transmission": "pending",
     "status": "institution",
     "city": "Toronto",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8901,6 +9237,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8911,6 +9248,7 @@
     "transmission": "travel (Italy)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8921,6 +9259,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8931,6 +9270,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Kingston",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8941,6 +9281,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8951,6 +9292,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8972,6 +9314,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -8982,6 +9325,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -8992,6 +9336,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male\u00a0",
     "date": "2020-03-23T17:30:00"
   },
@@ -9002,6 +9347,7 @@
     "transmission": "close contact\u00a0",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -9012,6 +9358,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -9022,6 +9369,7 @@
     "transmission": "travel (Costa Rica)",
     "status": "self-isolating",
     "city": "York",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -9032,6 +9380,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -9042,6 +9391,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -9052,6 +9402,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T17:30:00"
   },
@@ -9062,6 +9413,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -9072,6 +9424,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T17:30:00"
   },
@@ -9402,6 +9755,7 @@
     "transmission": "travel (Germany)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-09T10:30:00"
   },
@@ -9413,6 +9767,7 @@
     "transmission": "travel (Iran)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-09T10:30:00"
   },
@@ -9424,6 +9779,7 @@
     "transmission": "travel (Iran)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-09T10:30:00"
   },
@@ -9435,6 +9791,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-09T10:30:00"
   },
@@ -9482,6 +9839,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9505,6 +9863,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9528,6 +9887,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9587,6 +9947,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9598,6 +9959,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9633,6 +9995,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9644,6 +10007,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9667,6 +10031,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9714,6 +10079,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9761,6 +10127,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9784,6 +10151,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9807,6 +10175,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9866,6 +10235,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9877,6 +10247,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9912,6 +10283,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -9923,6 +10295,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9946,6 +10319,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -9993,6 +10367,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10040,6 +10415,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10063,6 +10439,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10086,6 +10463,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10145,6 +10523,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10156,6 +10535,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10191,6 +10571,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10202,6 +10583,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10225,6 +10607,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10272,6 +10655,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10319,6 +10703,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10342,6 +10727,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10365,6 +10751,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10424,6 +10811,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10435,6 +10823,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10470,6 +10859,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -10481,6 +10871,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10504,6 +10895,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10551,6 +10943,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -10562,6 +10955,7 @@
     "transmission": "travel (Switzerland)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-10T10:30:00"
   },
@@ -10573,6 +10967,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "York",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10584,6 +10979,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10595,6 +10991,7 @@
     "transmission": "travel (pending), close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10606,6 +11003,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10617,6 +11015,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10628,6 +11027,7 @@
     "transmission": "travel (USA), close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10639,6 +11039,7 @@
     "transmission": "travel (England)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10650,6 +11051,7 @@
     "transmission": "pending",
     "status": "\nhospitalized\n",
     "city": "Niagara",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10661,6 +11063,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10672,6 +11075,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10683,6 +11087,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10694,6 +11099,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10705,6 +11111,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-13T10:30:00"
   },
@@ -10716,6 +11123,7 @@
     "transmission": "travel (pending), close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10727,6 +11135,7 @@
     "transmission": "travel (pending)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-13T10:30:00"
   },
@@ -10798,6 +11207,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -10809,6 +11219,7 @@
     "transmission": "travel (Egypt)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-11T10:30:00"
   },
@@ -10820,6 +11231,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -10831,6 +11243,7 @@
     "transmission": "travel (Austria)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-11T10:30:00"
   },
@@ -10842,6 +11255,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-11T10:30:00"
   },
@@ -10853,6 +11267,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-11T10:30:00"
   },
@@ -10863,6 +11278,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10873,6 +11289,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peterborough",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10883,6 +11300,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -10893,6 +11311,7 @@
     "transmission": "travel (cruise)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10903,6 +11322,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -10913,6 +11333,7 @@
     "transmission": "travel (Bahamas)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10923,6 +11344,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10933,6 +11355,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -10943,6 +11366,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -10953,6 +11377,7 @@
     "transmission": "pending",
     "status": "LTCH",
     "city": "Whitby",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10963,6 +11388,7 @@
     "transmission": "travel (Portugal)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10973,6 +11399,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10983,6 +11410,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -10993,6 +11421,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11003,6 +11432,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Waterloo",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -11013,6 +11443,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11023,6 +11454,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11033,6 +11465,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -11043,6 +11476,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11053,6 +11487,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11063,6 +11498,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -11073,6 +11509,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11083,6 +11520,7 @@
     "transmission": "close contact",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-20T10:30:00"
   },
@@ -11093,6 +11531,7 @@
     "transmission": "travel (Caribbean)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-20T10:30:00"
   },
@@ -11389,6 +11828,7 @@
     "transmission": "travel (Spain, France)",
     "status": "self-isolating",
     "city": "Guelph",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11399,6 +11839,7 @@
     "transmission": "travel (Dominican)",
     "status": "self-isolating",
     "city": "York",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11409,6 +11850,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11419,6 +11861,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11429,6 +11872,7 @@
     "transmission": "travel (UK)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11439,6 +11883,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11449,6 +11894,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11459,6 +11905,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Timmins",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11469,6 +11916,7 @@
     "transmission": "close contact",
     "status": "hospitalized",
     "city": "Timmins",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11479,6 +11927,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11489,6 +11938,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11499,6 +11949,7 @@
     "transmission": "close contact",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11509,6 +11960,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11519,6 +11971,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Timmins",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11529,6 +11982,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Windsor",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11539,6 +11993,7 @@
     "transmission": "close contact",
     "status": "hospitalized",
     "city": "London",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11549,6 +12004,7 @@
     "transmission": "travel (Philippines)",
     "status": "self-isolating",
     "city": "London",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11559,6 +12015,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11569,6 +12026,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Oakville",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11579,6 +12037,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11589,6 +12048,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11599,6 +12059,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11609,6 +12070,7 @@
     "transmission": "travel (Spain)",
     "status": "hospitalized",
     "city": "Oakville",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11619,6 +12081,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11629,6 +12092,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Windsor",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11639,6 +12103,7 @@
     "transmission": "travel (Mexico)",
     "status": "self-isolating",
     "city": "Kingston",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11649,6 +12114,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11659,6 +12125,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11669,8 +12136,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Kingston",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -11680,8 +12147,8 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Kingston",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -11691,6 +12158,7 @@
     "transmission": "close contact",
     "status": "pending",
     "city": "Kingston",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11701,6 +12169,7 @@
     "transmission": "travel (Bahamas)",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11711,6 +12180,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11721,6 +12191,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11731,6 +12202,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11741,6 +12213,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11751,6 +12224,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11761,6 +12235,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11771,6 +12246,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Niagara",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11781,6 +12257,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11791,6 +12268,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11801,6 +12279,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "York",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11811,6 +12290,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11821,6 +12301,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11831,6 +12312,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11841,6 +12323,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Peterborough",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11851,6 +12334,7 @@
     "transmission": "travel (Peru)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11861,6 +12345,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11871,6 +12356,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11881,6 +12367,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11891,6 +12378,7 @@
     "transmission": "travel (UK)",
     "status": "pending",
     "city": "York",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11901,6 +12389,7 @@
     "transmission": "close contact",
     "status": "pending",
     "city": "York",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11911,6 +12400,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11922,7 +12412,7 @@
     "status": "self-isolating",
     "city": "Toronto",
     "age": "pending",
-    "gender": "pending",
+    "gender": "20",
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -11932,6 +12422,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11942,6 +12433,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11952,6 +12444,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Kingston",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -11963,7 +12456,7 @@
     "status": "self-isolating",
     "city": "Peel",
     "age": "pending",
-    "gender": "pending",
+    "gender": "20",
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -11973,6 +12466,7 @@
     "transmission": "travel (Egypt)",
     "status": "pending",
     "city": "Peel",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -11984,7 +12478,7 @@
     "status": "self-isolating",
     "city": "Peel",
     "age": "pending",
-    "gender": "pending",
+    "gender": "20",
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -11994,6 +12488,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -12004,6 +12499,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Timiskaming",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -12014,6 +12510,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -12024,6 +12521,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peterborough",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -12034,6 +12532,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -12044,6 +12543,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -12054,6 +12554,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-25T10:30:00"
   },
@@ -12064,6 +12565,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Peel",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -12074,6 +12576,7 @@
     "transmission": "travel (UK, USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-25T10:30:00"
   },
@@ -12510,6 +13013,7 @@
     "transmission": "travel (Costa Rica)",
     "status": "self-isolating",
     "city": "York",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-17T10:30:00"
   },
@@ -12520,6 +13024,7 @@
     "transmission": "\ntravel (UK)\n\u00a0\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12530,6 +13035,7 @@
     "transmission": "\ntravel (Singapore)\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 70,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12540,6 +13046,7 @@
     "transmission": "\ntravel (Singapore)\n",
     "status": "\nself-isolating\n",
     "city": "Kingston",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12550,6 +13057,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12560,6 +13068,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12570,6 +13079,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Brantford",
+    "age": 40,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12580,6 +13090,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 20,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12590,6 +13101,7 @@
     "transmission": "\ntravel (UK)\n",
     "status": "\nself-isolating\n",
     "city": "Oakville",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12600,6 +13112,7 @@
     "transmission": "\npending\n",
     "status": "\nhospitalized\n",
     "city": "Guelph",
+    "age": 80,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12610,6 +13123,7 @@
     "transmission": "\ntravel (Italy)\n",
     "status": "\nself-isolating\n",
     "city": "Owen Sound",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12620,6 +13134,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Windsor",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12630,6 +13145,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12640,6 +13156,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Hamilton",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12650,6 +13167,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12660,6 +13178,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Niagara",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12670,6 +13189,7 @@
     "transmission": "\npending\n",
     "status": "\nhospitalized\n",
     "city": "Waterloo",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12680,6 +13200,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12690,6 +13211,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12700,6 +13222,7 @@
     "transmission": "\nclose contact\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12710,6 +13233,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "York",
+    "age": 80,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12720,6 +13244,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "York",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12730,6 +13255,7 @@
     "transmission": "\nclose contact\n",
     "status": "\npending\n",
     "city": "York",
+    "age": 60,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12740,6 +13266,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12750,6 +13277,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolating\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12760,6 +13288,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Sudbury",
+    "age": 70,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12770,6 +13299,7 @@
     "transmission": "\ntravel (Dubai)\n",
     "status": "\nself-isolating\n",
     "city": "Peel",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12780,6 +13310,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolating\n",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12790,6 +13321,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12800,6 +13332,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12810,6 +13343,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12820,6 +13354,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12830,6 +13365,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12840,6 +13376,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12850,6 +13387,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Whitby",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12860,6 +13398,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "York",
+    "age": 70,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12870,6 +13409,7 @@
     "transmission": "\ntravel\n",
     "status": "\nself-isolation\n",
     "city": "Whitby",
+    "age": 40,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12880,6 +13420,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12890,6 +13431,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12900,6 +13442,7 @@
     "transmission": "\ntravel (USA)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12910,6 +13453,7 @@
     "transmission": "\npending\n",
     "status": "\nself-isolation\n",
     "city": "York",
+    "age": 60,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12920,6 +13464,7 @@
     "transmission": "\ntravel (Dubai)\n",
     "status": "\nself-isolation\n",
     "city": "Peel",
+    "age": 60,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12930,6 +13475,7 @@
     "transmission": "\npending\n",
     "status": "\npending\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12940,6 +13486,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12950,6 +13497,7 @@
     "transmission": "\ntravel (Austria)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 50,
     "gender": "Female\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12960,6 +13508,7 @@
     "transmission": "\ntravel (Brazil)\n",
     "status": "\nself-isolation\n",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male\n",
     "date": "2020-03-24T17:30:00"
   },
@@ -12970,6 +13519,7 @@
     "transmission": "pending",
     "status": "deceased",
     "city": "Whitby",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-24T17:30:00"
   },
@@ -13409,6 +13959,7 @@
     "transmission": "travel (Spain, Belgium, Canary Islands)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13419,6 +13970,7 @@
     "transmission": "travel (Germany, Malta)",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13429,6 +13981,7 @@
     "transmission": "travel (UK)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13439,6 +13992,7 @@
     "transmission": "travel (Spain, Finland)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13449,6 +14003,7 @@
     "transmission": "travel (USA, San Juan)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13459,6 +14014,7 @@
     "transmission": "travel (cruise), close contact",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13469,6 +14025,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13479,6 +14036,7 @@
     "transmission": "travel (England)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13489,6 +14047,7 @@
     "transmission": "Travel (USA), close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13499,6 +14058,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13509,6 +14069,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13519,6 +14080,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13529,6 +14091,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13539,6 +14102,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13549,6 +14113,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13559,6 +14124,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13569,6 +14135,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13579,6 +14146,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13589,6 +14157,7 @@
     "transmission": "travel (Manila)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13599,6 +14168,7 @@
     "transmission": "travel (cruise)",
     "status": "pending",
     "city": "Peel",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-19T17:30:00"
   },
@@ -13609,6 +14179,7 @@
     "transmission": "travel (Europe)",
     "status": "pending",
     "city": "Port Hope",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13861,6 +14432,7 @@
     "transmission": "pending",
     "status": "deceased",
     "city": "Oakville",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-19T17:30:00"
   },
@@ -13908,6 +14480,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -13931,6 +14504,7 @@
     "transmission": "travel (USA), Caribbean Cruise",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -13954,6 +14528,7 @@
     "transmission": "travel (multiple locations including Egypt)",
     "status": "\nself-isolating\n",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14013,6 +14588,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "London",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14024,6 +14600,7 @@
     "transmission": "travel (Spain and Portugal)",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14059,6 +14636,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-14T17:30:00"
   },
@@ -14070,6 +14648,7 @@
     "transmission": "travel (Asia)",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14093,6 +14672,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14140,6 +14720,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-14T17:30:00"
   },
@@ -14150,6 +14731,7 @@
     "transmission": "pending",
     "status": "deceased",
     "city": "Port Hope",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14160,6 +14742,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14170,6 +14753,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14180,6 +14764,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Belleville",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14190,6 +14775,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14200,6 +14786,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14210,6 +14797,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14231,6 +14819,7 @@
     "transmission": "travel (Switzerland)",
     "status": "self-isolating",
     "city": "Sudbury",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14241,8 +14830,8 @@
     "transmission": "travel",
     "status": "self-isolating",
     "city": "Ottawa",
-    "age": "pending",
-    "gender": "pending",
+    "age": 10,
+    "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
   {
@@ -14252,6 +14841,7 @@
     "transmission": "travel (Puerto Rico, St Thomas, Barbados)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14262,6 +14852,7 @@
     "transmission": "travel (Egypt, Israel, London)",
     "status": "self-isolating",
     "city": "Simcoe",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14283,6 +14874,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14293,6 +14885,7 @@
     "transmission": "pending",
     "status": "instution",
     "city": "Toronto",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14303,6 +14896,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14313,6 +14907,7 @@
     "transmission": "travel (Jamaica)",
     "status": "self-isolating",
     "city": "Oakville",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14323,6 +14918,7 @@
     "transmission": "pending",
     "status": "instution",
     "city": "Toronto",
+    "age": 90,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14333,6 +14929,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Guelph",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14343,6 +14940,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Hamilton",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14353,6 +14951,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14363,6 +14962,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14373,6 +14973,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 80,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14383,6 +14984,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14393,6 +14995,7 @@
     "transmission": "travel (USA)",
     "status": "hospitalized",
     "city": "York",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14403,6 +15006,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Port Hope",
+    "age": 80,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14413,6 +15017,7 @@
     "transmission": "pending",
     "status": "instution",
     "city": "Waterloo",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14423,6 +15028,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14433,6 +15039,7 @@
     "transmission": "travel (London, Dubai)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14443,6 +15050,7 @@
     "transmission": "pending",
     "status": "instution",
     "city": "Toronto",
+    "age": 90,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14464,6 +15072,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14474,6 +15083,7 @@
     "transmission": "travel (Italy)",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14484,6 +15094,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14494,6 +15105,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Kingston",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14504,6 +15116,7 @@
     "transmission": "travel (USA)",
     "status": "self-isolating",
     "city": "York",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14514,6 +15127,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Ottawa",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14535,6 +15149,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Whitby",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14545,6 +15160,7 @@
     "transmission": "pending",
     "status": "hospitalized",
     "city": "Toronto",
+    "age": 30,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14555,6 +15171,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Peel",
+    "age": 40,
     "gender": "Male\u00a0",
     "date": "2020-03-23T10:30:00"
   },
@@ -14565,6 +15182,7 @@
     "transmission": "close contact\u00a0",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14575,6 +15193,7 @@
     "transmission": "travel (Spain)",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14585,6 +15204,7 @@
     "transmission": "travel (Costa Rica)",
     "status": "self-isolating",
     "city": "York",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14595,6 +15215,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "York",
+    "age": 60,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14605,6 +15226,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14615,6 +15237,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-23T10:30:00"
   },
@@ -14625,6 +15248,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Whitby",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14635,6 +15259,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Toronto",
+    "age": 40,
     "gender": "Male",
     "date": "2020-03-23T10:30:00"
   },
@@ -14964,6 +15589,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Ottawa",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-22T17:30:00"
   },
@@ -14974,6 +15600,7 @@
     "transmission": "pending",
     "status": "self-isolating",
     "city": "Cornwall",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-22T17:30:00"
   },
@@ -14984,6 +15611,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Peel",
+    "age": 70,
     "gender": "Male",
     "date": "2020-03-22T17:30:00"
   },
@@ -14994,6 +15622,7 @@
     "transmission": "close contact",
     "status": "self-isolating",
     "city": "Waterloo",
+    "age": 20,
     "gender": "Female",
     "date": "2020-03-22T17:30:00"
   },
@@ -15004,6 +15633,7 @@
     "transmission": "travel (Caribbean cruise)",
     "status": "self-isolating",
     "city": "Hamilton",
+    "age": 50,
     "gender": "Male",
     "date": "2020-03-22T17:30:00"
   },
@@ -15014,6 +15644,7 @@
     "transmission": "travel (Caribbean)",
     "status": "self-isolating",
     "city": "Windsor",
+    "age": 60,
     "gender": "Male",
     "date": "2020-03-22T17:30:00"
   },
@@ -15024,6 +15655,7 @@
     "transmission": "pending",
     "status": "pending",
     "city": "Toronto",
+    "age": 30,
     "gender": "Male",
     "date": "2020-03-22T17:30:00"
   },
@@ -15474,6 +16106,7 @@
     "transmission": "travel",
     "status": "deceased",
     "city": "York",
+    "age": 70,
     "gender": "Female",
     "date": "2020-03-22T17:30:00"
   }

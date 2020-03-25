@@ -36,18 +36,24 @@ NEW_CASES_LABEL_MAP = {
 
 
 def add_age_and_gender(case):
-    if 'pending' in case['age_and_gender']:
+    if '< 18' in case['age_and_gender'] or '<18' in case['age_and_gender']:
+        case['age'] = 10
+        case['gender'] = case['age_and_gender'].split(' ')[-1]
+        return case
+
+    if 'pending' in case['age_and_gender'] or case['age_and_gender'] == '':
         case['age'] = 'pending'
         case['gender'] = 'pending'
         return case
 
+    age_and_gender = case['age_and_gender'].split(' ')
     try:
-        age_and_gender = case['age_and_gender'].split(' ')
-        age = math.floor(int(age_and_gender[0].replace('s', '')))
-        case['gender'] = age_and_gender[1]
+        age = int(age_and_gender[0].replace('s', ''))
+        case['age'] = age - (age % 10)
     except:
         case['age'] = 'pending'
-        case['gender'] = 'pending'
+    case['gender'] = age_and_gender[1]
+
     return case
 
 
