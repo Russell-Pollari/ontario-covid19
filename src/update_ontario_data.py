@@ -1,4 +1,5 @@
 import os
+import math
 import requests
 import re
 import json
@@ -35,9 +36,14 @@ NEW_CASES_LABEL_MAP = {
 
 
 def add_age_and_gender(case):
-    age_and_gender = case['age_and_gender'].split(' ')
+    if 'pending' in case['age_and_gender']:
+        case['age'] = 'pending'
+        case['gender'] = 'pending'
+        return case
+
     try:
-        case['age'] = age_and_gender[0]
+        age_and_gender = case['age_and_gender'].split(' ')
+        age = math.floor(int(age_and_gender[0].replace('s', '')))
         case['gender'] = age_and_gender[1]
     except:
         case['age'] = 'pending'
@@ -114,15 +120,7 @@ def get_cases_from_html(html):
 
             if len(new_case.keys()) > 0:
                 new_case['city'] = get_city_from_public_health_unit(new_case['public_health_unit']) # noqa
-                age_and_gender = new_case['age_and_gender'].split(' ')
-                if new_case['status'] == 'instution':
-                    new_case['status'] = 'institution'
-                try:
-                    new_case['age'] = age_and_gender[0]
-                    new_case['gender'] = age_and_gender[1]
-                except:
-                    new_case['age'] = 'pending'
-                    new_case['gender'] = 'pending'
+                new_case = add_age_and_gender(new_case)
                 new_cases.append(new_case)
 
     return new_cases
@@ -137,7 +135,6 @@ def get_all_cases():
             new_cases = get_cases_from_html(html)
             for case in new_cases:
                 case.update({'date': date.isoformat()})
-                case = add_age_and_gender(case)
                 cases.append(case)
 
     return cases
