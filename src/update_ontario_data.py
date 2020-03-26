@@ -122,7 +122,7 @@ def get_cases_from_html(html):
             new_case = {}
             for index, item in enumerate(row.find_all('td')):
                 label = columns[index]
-                new_case[label] = item.text
+                new_case[label] = item.text.strip()
 
             if len(new_case.keys()) > 0:
                 new_case['city'] = get_city_from_public_health_unit(new_case['public_health_unit']) # noqa
@@ -170,6 +170,7 @@ def get_legacy_cases():
                 case['number'] = str(number)
                 case['age_and_gender'] = row[3] + ' ' + row[4]
                 case['public_health_unit'] = row[6]
+                case['status'] = row[9].strip()
                 case['city'] = get_city_from_public_health_unit(row[6])
                 case = add_age_and_gender(case)
                 try:
