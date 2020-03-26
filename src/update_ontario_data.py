@@ -181,7 +181,7 @@ def get_legacy_cases():
     return cases
 
 
-if __name__ == '__main__':
+def update_ontario_data():
     save_latest_html()
     cases = get_legacy_cases()
     cases.extend(get_all_cases())
@@ -192,3 +192,7 @@ if __name__ == '__main__':
 
     with open('data/processed/all_updates.json', 'w') as f:
         json.dump(updates, f, indent=2)
+
+
+if __name__ == '__main__':
+    update_ontario_data()

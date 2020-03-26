@@ -77,7 +77,7 @@ def sync_province_updates(db):
     db.provinces.insert_many(updates)
 
 
-if __name__ == '__main__':
+def sync_with_db():
     load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', None)
     client = pymongo.MongoClient(mongo_uri)
@@ -87,3 +87,7 @@ if __name__ == '__main__':
     sync_ontario_updates(db)
     sync_province_updates(db)
     sync_country_data(db)
+
+
+if __name__ == '__main__':
+    sync_with_db()

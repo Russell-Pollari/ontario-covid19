@@ -91,9 +91,13 @@ def get_all_updates():
     return updates
 
 
-if __name__ == '__main__':
+def update_canada_data():
     save_latest_html()
     updates = get_all_updates()
 
     with open('data/processed/province_updates.json', 'w') as f:
         json.dump(updates, f, indent=2)
+
+
+if __name__ == '__main__':
+    update_canada_data()
