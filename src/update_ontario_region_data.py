@@ -73,7 +73,7 @@ def save_to_csv(data, filename):
                 writer.writerow([str_date] + row)
 
 
-def update_ontario_data():
+def update_ontario_region_data():
     save_latest()
     all_data = get_all_cases(HTML_DIR)
     save_to_csv(all_data, OUT_DIR + "/ontario_regions.csv")
@@ -81,4 +81,4 @@ def update_ontario_data():
 
 
 if __name__ == '__main__':
-    update_ontario_data()
+    update_ontario_region_data()

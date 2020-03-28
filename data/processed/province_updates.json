@@ -820,6 +820,11 @@
     "total_cases": "1"
   },
   {
+    "date": "2020-03-28T00:00:00",
+    "province": "184,201",
+    "total_cases": "5,153"
+  },
+  {
     "date": "2020-03-27T00:00:00",
     "province": "British Columbia",
     "total_cases": "725"

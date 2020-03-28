@@ -4,6 +4,8 @@ import schedule
 
 from update_canada_data import update_canada_data
 from update_ontario_data import update_ontario_data
+from update_country_data import update_country_data
+from update_ontario_region_data import update_ontario_region_data
 from sync_with_db import sync_with_db
 
 
@@ -14,7 +16,10 @@ def check_for_updates():
     update_ontario_data()
     update_canada_data()
 
-    if len(os.listdir('data/raw/ontario')) > ontario_updates or len(os.listdir('data/raw/canada')) > canada_updates:
+    if len(os.listdir('data/raw/ontario')) > ontario_updates or \
+            len(os.listdir('data/raw/canada')) > canada_updates:
+        update_country_data()
+        update_ontario_region_data()
         sync_with_db()
 
 
