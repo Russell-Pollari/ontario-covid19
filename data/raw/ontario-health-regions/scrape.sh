@@ -7,7 +7,8 @@ echo Grey-Bruce NA
 echo Haldimand-Norfolk NA && wget -q https://web.archive.org/save/https://hnhu.org/news-events/
 echo Halton $(curl -s https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/New-Coronavirus | grep '<td>.*td' | head -1 | sed -E -e 's/^.*>([^<]+)<.*/\1/')
 echo Hamilton $(wget -q -O - https://www.hamilton.ca/coronavirus | grep positive | sed -E -e 's/^.*positive cases - ([^<]+)<.*/\1/')
-echo Hastings-Prince-Edward $(wget -q -O - https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/ | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
+echo Hastings-Prince-Edward $(wget --tries=2  --timeout=1 -q -O - https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/ | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
+wget -q https://web.archive.org/save/https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/
 echo HKPR $(wget -q -O - https://www.hkpr.on.ca/featured_posts/novel-coronavirus/ | grep 'Case #'  | sed -E -e 's/^.*>Case #([^<]+)<.*/\1/')
 echo Huron-Perth $(wget -q -O - https://www.hpph.ca/en/news/coronavirus-covid19-update.aspx | grep 'td.*td' | head -n 3 | tail -n 1 | sed -E -e  's/.*td.*>([^>]+)<.*$/\1/')
 echo KFLA $(wget -q -O - https://www.kflaph.ca/en/healthy-living/novel-coronavirus.aspx | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([^<]+)<.*/\1/')
@@ -24,7 +25,7 @@ echo Porcupine $(wget -q -O - http://www.porcupinehu.on.ca/en/your-health/infect
 echo Renfrew NA && wget -q https://web.archive.org/save/https://www.rcdhu.com/novel-coronavirus-covid-19-2/
 echo Simcoe-Muskoka $(curl -s http://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19 | grep 'Simcoe Muskoka District Health Unit'  | grep confirm | head -n 1 | sed -E -e 's/^.*>([^ ]+) confirmed.*/\1/')
 echo SouthWestern $(wget -q -O - https://www.swpublichealth.ca/content/community-update-novel-coronavirus-covid-19 | grep '<td.*>[0-9].*td' | wc -l)
-echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | grep updated | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
+echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | head -n 3 | tail -n 1 | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo Thunderbay $(wget -q -O - https://www.tbdhu.com/coronavirus | grep td  | head -n 4 | tail -n 1 | sed -E -e  's/.*td>([^>]+)<.*$/\1/' )
 echo Timiskaming $(wget -q -O - https://www.timiskaminghu.com/90484/covid-19 | grep 'td.*<span.*>.*span'  | head -n 4 | tail -n 1 | sed -E -e  's/.*span.*>([^>]+)<.*$/\1/' )
 echo Toronto $(curl -s https://www.toronto.ca/home/covid-19/ | grep cases | sed -E -e 's/^.*has had ([^ ]+) cases.*/\1/')
