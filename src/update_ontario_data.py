@@ -100,7 +100,7 @@ def get_case_summary_from_html(html):
         except:
             label = items[0]
 
-        summary_data[label] = int(items[1].replace(',', ''))
+        summary_data[label] = int(items[1].replace(',', '').replace('*', ''))
 
     return summary_data
 
