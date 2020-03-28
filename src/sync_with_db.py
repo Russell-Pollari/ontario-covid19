@@ -88,8 +88,7 @@ def sync_health_region_updates(db):
         update['total_cases'] = value
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
-    r = db.ontario_health_regions.insert_many(updates)
-    print(r)
+    db.ontario_health_regions.insert_many(updates)
 
 
 def sync_with_db():

@@ -17,8 +17,9 @@ echo Middlesex-London $(curl -s https://www.healthunit.com/novel-coronavirus | g
 echo Niagara $(wget -q -O - https://niagararegion.ca/health/covid-19/default.aspx?topic=1 | grep "strCaseNumbers" |  sed -E -e 's/^.*strCaseNumbers">([^<]+)<.*/\1/')
 echo North-Bay-Parry-Sound NA
 echo Northwestern NA
+echo Ottawa $(curl -s https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'confirmed' | grep OPH | head -n 1 | sed -E -e 's/^.*([0-9]{2,}).+confirmed cases.*/\1/')
 # echo Ottawa $(curl -s https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'confirmed' | grep OPH | head -n 1 | sed -E -e 's/^.*> ([^ ]+) confirmed.*/\1/')
-echo Ottawa $(curl -s https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'confirmed' | grep OPH | head -n 1 | sed -E -e 's/^.*investigating ([^ ]+) confirmed.*/\1/' )
+# echo Ottawa $(curl -s https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'confirmed' | grep OPH | head -n 1 | sed -E -e 's/^.*investigating ([^ ]+) confirmed.*/\1/' )
 # echo Ottawa $(curl -s https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'indeterm' | grep OPH | head -n 1 | sed -E -e 's/^.* ([^ ]+) indeterminate.*/\1/')
 echo Peel $(curl -s https://peelregion.ca/coronavirus/ | grep strong | grep -v '<p>' | tail -n 1 | sed -E -e 's/^.*strong>([^<]+)<.*/\1/')
 echo Peterborough $(wget -q -O - https://www.peterboroughpublichealth.ca/for-professionals/health-professionals/novel-coronavirus-2019-ncov-health-professionals/situation-report-for-health-care-providers/ | grep 'Confirmed positive' | head -n 1 | sed -E -e 's/^.*positive: ([^<]+)<.*/\1/')

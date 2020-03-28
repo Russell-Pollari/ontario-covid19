@@ -1,0 +1,34 @@
+Algoma NA
+Brant 7
+Chatham-Kent 4
+Durham 67
+Eastern-Ontario 4
+Grey-Bruce NA
+Haldimand-Norfolk NA
+Halton 19
+Hamilton 51
+Hastings-Prince-Edward 6
+HKPR 9
+Huron-Perth NA
+KFLA 17
+Lambton 8
+Leeds NA
+Middlesex-London 23
+Niagara 12
+North-Bay-Parry-Sound NA
+Northwestern NA
+Ottawa 75
+Peel 154
+Peterborough 13
+Porcupine 6
+Renfrew NA
+Simcoe-Muskoka 33
+SouthWestern 5
+Sudbury
+Thunderbay NA
+Timiskaming NA
+Toronto 457
+Waterloo 69
+Wellington-Dufferin-Guelph 7
+Windsor-Essex 15
+York
