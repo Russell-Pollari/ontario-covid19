@@ -27,7 +27,8 @@ echo Porcupine $(wget -q -O - http://www.porcupinehu.on.ca/en/your-health/infect
 echo Renfrew NA
 echo Simcoe-Muskoka $(curl -s http://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19 | grep 'Simcoe Muskoka District Health Unit'  | grep confirm | head -n 1 | sed -E -e 's/^.*>([^ ]+) confirmed.*/\1/')
 echo SouthWestern $(wget -q -O - https://www.swpublichealth.ca/content/community-update-novel-coronavirus-covid-19 | grep '<td.*>[0-9].*td' | wc -l)
-echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | grep updated | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
+# echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | grep updated | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
+echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td' | grep 'last confirmation' | sed -E -e 's/^.*column-2">(.+)<.*/\1/')
 echo Thunderbay NA
 echo Timiskaming NA
 echo Toronto $(curl -s https://www.toronto.ca/home/covid-19/ | grep cases | sed -E -e 's/^.*has had ([^ ]+) cases.*/\1/')
