@@ -23,6 +23,7 @@ def sync_ontario_cases(db):
 
 def sync_ontario_updates(db):
     print('Syncing ontario updates')
+    db.ontario.drop()  # this is just faster..
     updates = json.load(open('data/processed/all_updates.json'))
     for update in updates:
         for key in update.keys():
@@ -36,11 +37,7 @@ def sync_ontario_updates(db):
                 update[key] = int(value)
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
-        db.updates.update_one({
-            'date': update['date'],
-        }, {
-            '$set': update,
-        }, upsert=True)
+    db.updates.insert_many(updates)
 
 
 def sync_country_data(db):
@@ -77,6 +74,24 @@ def sync_province_updates(db):
     db.provinces.insert_many(updates)
 
 
+def sync_health_region_updates(db):
+    print('Syncing health region updates')
+    db.ontario_health_regions.drop()
+    updates = json.load(open('data/processed/ontario_regions.json'))
+    for update in updates:
+        total_cases = update['total_cases']
+        try:
+            value = int(total_cases.replace(',', ''))
+        except:
+            value = None
+
+        update['total_cases'] = value
+        update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
+
+    r = db.ontario_health_regions.insert_many(updates)
+    print(r)
+
+
 def sync_with_db():
     load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', None)
@@ -87,6 +102,7 @@ def sync_with_db():
     sync_ontario_updates(db)
     sync_province_updates(db)
     sync_country_data(db)
+    sync_health_region_updates(db)
 
 
 if __name__ == '__main__':
