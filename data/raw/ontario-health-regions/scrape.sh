@@ -6,6 +6,7 @@ echo Eastern-Ontario $(wget -q -O - https://eohu.ca/en/my-health/covid-19-status
 echo Grey-Bruce NA
 echo Haldimand-Norfolk NA
 echo Halton $(curl -s https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/New-Coronavirus | grep '<td>.*td' | head -1 | sed -E -e 's/^.*>([^<]+)<.*/\1/')
+echo Hamilton $(wget -q -O - https://www.hamilton.ca/coronavirus | grep positive | sed -E -e 's/^.*positive cases - ([^<]+)<.*/\1/')
 echo Hastings-Prince-Edward $(wget -q -O - https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/ | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo HKPR $(wget -q -O - https://www.hkpr.on.ca/featured_posts/novel-coronavirus/ | grep 'Case #'  | sed -E -e 's/^.*>Case #([^<]+)<.*/\1/')
 echo Huron-Perth NA
