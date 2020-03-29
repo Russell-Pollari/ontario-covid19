@@ -1,6 +1,7 @@
 echo Algoma NA
 echo Brant $(wget -q -O - 'https://www.bchu.org/ServicesWeProvide/InfectiousDiseases/Pages/coronavirus.aspx#accordionBody_1585251202796' | grep '<td.*>.*td'  | head -n 1 |  sed -E -e 's/.*">([^>]+)<\/td.*$/\1/' | sed -E -e 's/\xe2\x80\x8b//g' )
-echo Chatham-Kent $(wget -q -O - https://ckphu.com/covid-19/ | grep -i confirmed | head -n 1 | sed -E -e 's/.*strong>([^ ]+) confirmed.*$/\1/')
+# echo Chatham-Kent $(wget -q -O - https://ckphu.com/covid-19/ | grep -i confirmed | head -n 1 | sed -E -e 's/.*strong>([^ ]+) confirmed.*$/\1/')
+echo Chatham-Kent $(wget -q -O - https://ckphu.com/covid-19/ | grep -i confirmed | head -n 1 | sed -E -e 's/.*([0-9]+)<\/strong><strong>.*confirmed.*/\1/')
 echo Durham $(curl -s https://www.durham.ca/en/health-and-wellness/novel-coronavirus-update.aspx | grep 'is currently monitoring' | sed -E -e 's/^.*is currently monitoring ([^ ]+) .*/\1/')
 echo Eastern-Ontario $(wget -q -O - https://eohu.ca/en/my-health/covid-19-status-update-for-eohu-region | grep '<td>.*td'  | tail -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo Grey-Bruce NA
