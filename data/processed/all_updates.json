@@ -147,6 +147,7 @@
     "total_cases": 1706,
     "resolved": 431,
     "total_tests_reported": 48461,
+    "pending": 5651,
     "date": "2020-03-29T16:00:00"
   },
   {

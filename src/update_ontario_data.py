@@ -12,6 +12,7 @@ SUMMARY_LABEL_MAP = {
     'Negative1': 'negative',
     'Currently under investigation2': 'pending',
     'Currently under investigation3': 'pending',
+    'Currently Under Investigation5': 'pending',
     'Confirmed positive3': 'positive',
     'Confirmed positive4': 'positive',
     'Confirmed positive5': 'positive',
