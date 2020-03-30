@@ -20,9 +20,9 @@ SUMMARY_LABEL_MAP = {
     'Resolved2': 'resolved',
     'Deceased': 'deceased',
     'Deceased3': 'deceased',
-    'Number of cases1': 'positive',
-    'Total Tested4': 'total_tests',
-    'Total number of patients approved for COVID-19 testing to date': 'total_tests',  # noqa
+    'Number of cases1': 'total_cases',
+    'Total Tested4': 'total_tests_reported',
+    'Total number of patients approved for COVID-19 testing to date': 'total_tests_conducted',  # noqa
 }
 
 
@@ -38,7 +38,7 @@ def get_date_from_html(html):
             hour = int(hour) + 12
         return datetime.strptime(date+str(hour)+':'+minute, '%B %d, %Y%H:%M')  # noqa
     except:
-        time = '10:30'  # updated daily at 10:30am
+        time = '16:00'  # updated daily at 10:30am
         date_regex = re.compile('Summary of.* to (.+) (\d+), (\d{4})')
         date_match = re.search(date_regex, html)
         month = date_match[1]
@@ -88,6 +88,10 @@ def get_case_summary_from_html(html):
         except:
             continue
 
+    if 'total_tests_reported' not in summary_data.keys():
+        summary_data['total_tests_reported'] = summary_data['positive'] + summary_data['negative'] # noqa
+    if 'total_cases' not in summary_data.keys():
+        summary_data['total_cases'] = summary_data['positive'] + summary_data['resolved'] + summary_data['deceased'] # noqa
     return summary_data
 
 

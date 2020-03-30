@@ -23,7 +23,7 @@ def sync_ontario_cases(db):
 
 def sync_ontario_updates(db):
     print('Syncing ontario updates')
-    db.ontario.drop()  # this is just faster..
+    db.updates.drop()  # this is just faster..
     updates = json.load(open('data/processed/all_updates.json'))
     for update in updates:
         for key in update.keys():
