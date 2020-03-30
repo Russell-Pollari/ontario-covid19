@@ -5,7 +5,7 @@
     "pending": 78,
     "positive": 18,
     "resolved": 4,
-    "Total number of patients approved for COVID-19 testing to date": 1566,
+    "total_tests": 1566,
     "date": "2020-03-05T10:30:00"
   },
   {
@@ -14,7 +14,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -23,7 +23,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -32,7 +32,7 @@
     "pending": 1537,
     "positive": 172,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 10178,
+    "total_tests": 10178,
     "date": "2020-03-16T10:30:00"
   },
   {
@@ -41,7 +41,7 @@
     "pending": 3378,
     "positive": 208,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 13897,
+    "total_tests": 13897,
     "date": "2020-03-18T17:30:00"
   },
   {
@@ -50,7 +50,7 @@
     "pending": 22,
     "positive": 30,
     "resolved": 4,
-    "Total number of patients approved for COVID-19 testing to date": 2403,
+    "total_tests": 2403,
     "date": "2020-03-09T10:30:00"
   },
   {
@@ -59,7 +59,7 @@
     "pending": 10074,
     "positive": 967,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 41032,
+    "total_tests": 41032,
     "date": "2020-03-27T10:30:00"
   },
   {
@@ -68,7 +68,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -77,7 +77,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -86,7 +86,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -95,7 +95,7 @@
     "pending": 1316,
     "positive": 140,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 8465,
+    "total_tests": 8465,
     "date": "2020-03-15T17:30:00"
   },
   {
@@ -104,7 +104,7 @@
     "pending": 465,
     "positive": 36,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 3394,
+    "total_tests": 3394,
     "date": "2020-03-11T10:30:00"
   },
   {
@@ -113,7 +113,7 @@
     "pending": 1567,
     "positive": 183,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 11171,
+    "total_tests": 11171,
     "date": "2020-03-17T17:30:00"
   },
   {
@@ -122,7 +122,7 @@
     "pending": 3379,
     "positive": 206,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 13897,
+    "total_tests": 13897,
     "date": "2020-03-18T10:30:00"
   },
   {
@@ -131,7 +131,7 @@
     "pending": 10074,
     "positive": 573,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 32457,
+    "total_tests": 32457,
     "date": "2020-03-24T10:30:00"
   },
   {
@@ -140,7 +140,7 @@
     "pending": 7239,
     "positive": 369,
     "resolved": 6,
-    "Total number of patients approved for COVID-19 testing to date": 23384,
+    "total_tests": 23384,
     "date": "2020-03-21T10:30:00"
   },
   {
@@ -149,7 +149,7 @@
     "pending": 536,
     "positive": 54,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 4185,
+    "total_tests": 4185,
     "date": "2020-03-12T10:30:00"
   },
   {
@@ -158,7 +158,7 @@
     "pending": 5475,
     "positive": 311,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 19511,
+    "total_tests": 19511,
     "date": "2020-03-20T17:30:00"
   },
   {
@@ -167,7 +167,7 @@
     "pending": 7239,
     "positive": 368,
     "resolved": 6,
-    "Total number of patients approved for COVID-19 testing to date": 23384,
+    "total_tests": 23384,
     "date": "2020-03-21T17:30:00"
   },
   {
@@ -176,7 +176,7 @@
     "pending": 7203,
     "positive": 1324,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 49186,
+    "total_tests": 49186,
     "date": "2020-03-29T17:30:00"
   },
   {
@@ -185,7 +185,7 @@
     "pending": 8690,
     "positive": 1118,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 43072,
+    "total_tests": 43072,
     "date": "2020-03-28T10:30:00"
   },
   {
@@ -194,7 +194,7 @@
     "pending": 10074,
     "positive": 967,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 41032,
+    "total_tests": 41032,
     "date": "2020-03-27T17:30:00"
   },
   {
@@ -203,7 +203,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -212,7 +212,7 @@
     "pending": 8361,
     "positive": 413,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 26419,
+    "total_tests": 26419,
     "date": "2020-03-22T10:30:00"
   },
   {
@@ -221,7 +221,7 @@
     "pending": 1537,
     "positive": 172,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 10178,
+    "total_tests": 10178,
     "date": "2020-03-16T17:30:00"
   },
   {
@@ -230,7 +230,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -239,7 +239,7 @@
     "pending": 8690,
     "positive": 1117,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 43072,
+    "total_tests": 43072,
     "date": "2020-03-28T17:30:00"
   },
   {
@@ -248,7 +248,7 @@
     "pending": 3972,
     "positive": 251,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 16650,
+    "total_tests": 16650,
     "date": "2020-03-19T10:30:00"
   },
   {
@@ -257,7 +257,7 @@
     "pending": 1316,
     "positive": 137,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 8462,
+    "total_tests": 8462,
     "date": "2020-03-15T10:30:00"
   },
   {
@@ -266,7 +266,7 @@
     "pending": 10489,
     "positive": 667,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 35635,
+    "total_tests": 35635,
     "date": "2020-03-25T17:30:00"
   },
   {
@@ -275,7 +275,7 @@
     "pending": 72,
     "positive": 22,
     "resolved": 4,
-    "Total number of patients approved for COVID-19 testing to date": 1763,
+    "total_tests": 1763,
     "date": "2020-03-06T10:30:00"
   },
   {
@@ -284,7 +284,7 @@
     "pending": 8417,
     "positive": 489,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 28506,
+    "total_tests": 28506,
     "date": "2020-03-23T17:30:00"
   },
   {
@@ -293,7 +293,7 @@
     "pending": 22,
     "positive": 31,
     "resolved": 4,
-    "Total number of patients approved for COVID-19 testing to date": 2404,
+    "total_tests": 2404,
     "date": "2020-03-09T10:30:00"
   },
   {
@@ -302,7 +302,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -311,7 +311,7 @@
     "pending": 10965,
     "positive": 837,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 38550,
+    "total_tests": 38550,
     "date": "2020-03-26T10:30:00"
   },
   {
@@ -320,7 +320,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -329,7 +329,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -338,7 +338,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -347,7 +347,7 @@
     "pending": 112,
     "positive": 31,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 2747,
+    "total_tests": 2747,
     "date": "2020-03-10T10:30:00"
   },
   {
@@ -356,7 +356,7 @@
     "pending": 580,
     "positive": 74,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 5129,
+    "total_tests": 5129,
     "date": "2020-03-13T10:30:00"
   },
   {
@@ -365,7 +365,7 @@
     "pending": 465,
     "positive": 37,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 3395,
+    "total_tests": 3395,
     "date": "2020-03-11T10:30:00"
   },
   {
@@ -374,16 +374,14 @@
     "pending": 36,
     "positive": 24,
     "resolved": 4,
-    "Total number of patients approved for COVID-19 testing to date": 1982,
+    "total_tests": 1982,
     "date": "2020-03-07T10:30:00"
   },
   {
-    "deceased": 21,
-    "negative": 40630,
-    "pending": 7203,
-    "positive": 1326,
-    "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 49186,
+    "deceased": 23,
+    "positive": 1706,
+    "resolved": 431,
+    "total_tests": 48461,
     "date": "2020-03-29T10:30:00"
   },
   {
@@ -392,7 +390,7 @@
     "pending": 5485,
     "positive": 301,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 19511,
+    "total_tests": 19511,
     "date": "2020-03-20T10:30:00"
   },
   {
@@ -401,7 +399,7 @@
     "pending": 10965,
     "positive": 835,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 38550,
+    "total_tests": 38550,
     "date": "2020-03-26T17:30:00"
   },
   {
@@ -410,7 +408,7 @@
     "pending": 10489,
     "positive": 671,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 35635,
+    "total_tests": 35635,
     "date": "2020-03-25T10:30:00"
   },
   {
@@ -419,7 +417,7 @@
     "pending": 1567,
     "positive": 180,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 11167,
+    "total_tests": 11167,
     "date": "2020-03-17T10:30:00"
   },
   {
@@ -428,7 +426,7 @@
     "pending": 10074,
     "positive": 572,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 32457,
+    "total_tests": 32457,
     "date": "2020-03-24T17:30:00"
   },
   {
@@ -437,7 +435,7 @@
     "pending": 3971,
     "positive": 251,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 16650,
+    "total_tests": 16650,
     "date": "2020-03-19T17:30:00"
   },
   {
@@ -446,7 +444,7 @@
     "pending": 939,
     "positive": 98,
     "resolved": 5,
-    "Total number of patients approved for COVID-19 testing to date": 6648,
+    "total_tests": 6648,
     "date": "2020-03-14T17:30:00"
   },
   {
@@ -455,7 +453,7 @@
     "pending": 8417,
     "positive": 489,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 28506,
+    "total_tests": 28506,
     "date": "2020-03-23T10:30:00"
   },
   {
@@ -464,7 +462,7 @@
     "pending": 8361,
     "positive": 412,
     "resolved": 8,
-    "Total number of patients approved for COVID-19 testing to date": 26420,
+    "total_tests": 26420,
     "date": "2020-03-22T17:30:00"
   }
 ]

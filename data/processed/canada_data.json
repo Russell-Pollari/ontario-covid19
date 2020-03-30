@@ -1,0 +1,2116 @@
+[
+  {
+    "province": "Ontario",
+    "date": "2020-01-31T00:00:00",
+    "new_cases": "3",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-01-31T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-01-31T00:00:00",
+    "new_cases": "4",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-08T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-08T00:00:00",
+    "new_cases": "3",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-08T00:00:00",
+    "new_cases": "3",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-16T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-16T00:00:00",
+    "new_cases": "1",
+    "total_cases": "5",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-16T00:00:00",
+    "new_cases": "1",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-21T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-21T00:00:00",
+    "new_cases": "1",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-21T00:00:00",
+    "new_cases": "1",
+    "total_cases": "9",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-24T00:00:00",
+    "new_cases": "1",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-24T00:00:00",
+    "new_cases": "1",
+    "total_cases": "10",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-25T00:00:00",
+    "new_cases": "0",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-25T00:00:00",
+    "new_cases": "1",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-25T00:00:00",
+    "new_cases": "1",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-26T00:00:00",
+    "new_cases": "1",
+    "total_cases": "5",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-26T00:00:00",
+    "new_cases": "0",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-26T00:00:00",
+    "new_cases": "1",
+    "total_cases": "12",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-27T00:00:00",
+    "new_cases": "1",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-27T00:00:00",
+    "new_cases": "1",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-02-29T00:00:00",
+    "new_cases": "2",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-02-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-02-29T00:00:00",
+    "new_cases": "2",
+    "total_cases": "15",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-01T00:00:00",
+    "new_cases": "7",
+    "total_cases": "15",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-01T00:00:00",
+    "new_cases": "1",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-01T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-01T00:00:00",
+    "new_cases": "9",
+    "total_cases": "24",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-03T00:00:00",
+    "new_cases": "5",
+    "total_cases": "20",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-03T00:00:00",
+    "new_cases": "4",
+    "total_cases": "12",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-03T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-03T00:00:00",
+    "new_cases": "9",
+    "total_cases": "33",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-05T00:00:00",
+    "new_cases": "2",
+    "total_cases": "22",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-05T00:00:00",
+    "new_cases": "9",
+    "total_cases": "21",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-05T00:00:00",
+    "new_cases": "1",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-05T00:00:00",
+    "new_cases": "12",
+    "total_cases": "45",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-06T00:00:00",
+    "new_cases": "6",
+    "total_cases": "28",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-06T00:00:00",
+    "new_cases": "0",
+    "total_cases": "21",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-06T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-06T00:00:00",
+    "new_cases": "6",
+    "total_cases": "51",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-07T00:00:00",
+    "new_cases": "0",
+    "total_cases": "28",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-07T00:00:00",
+    "new_cases": "6",
+    "total_cases": "27",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-07T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-07T00:00:00",
+    "new_cases": "6",
+    "total_cases": "57",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-08T00:00:00",
+    "new_cases": "3",
+    "total_cases": "31",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-08T00:00:00",
+    "new_cases": "0",
+    "total_cases": "27",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-08T00:00:00",
+    "new_cases": "1",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-08T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-08T00:00:00",
+    "new_cases": "5",
+    "total_cases": "62",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-09T00:00:00",
+    "new_cases": "3",
+    "total_cases": "34",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-09T00:00:00",
+    "new_cases": "5",
+    "total_cases": "32",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-09T00:00:00",
+    "new_cases": "1",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-09T00:00:00",
+    "new_cases": "6",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-09T00:00:00",
+    "new_cases": "15",
+    "total_cases": "77",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "8",
+    "total_cases": "42",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "7",
+    "total_cases": "39",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "3",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "7",
+    "total_cases": "14",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-11T00:00:00",
+    "new_cases": "26",
+    "total_cases": "103",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "7",
+    "total_cases": "46",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "5",
+    "total_cases": "19",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "17",
+    "total_cases": "59",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "6",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-12T00:00:00",
+    "new_cases": "38",
+    "total_cases": "141",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "7",
+    "total_cases": "53",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "4",
+    "total_cases": "23",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "2",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "20",
+    "total_cases": "79",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "4",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "1",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-13T00:00:00",
+    "new_cases": "38",
+    "total_cases": "179",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "11",
+    "total_cases": "64",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "6",
+    "total_cases": "29",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "1",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "1",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "0",
+    "total_cases": "79",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "0",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "1",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-14T00:00:00",
+    "new_cases": "20",
+    "total_cases": "199",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "9",
+    "total_cases": "73",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "10",
+    "total_cases": "39",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "0",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "24",
+    "total_cases": "103",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "7",
+    "total_cases": "24",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "2",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-15T00:00:00",
+    "new_cases": "54",
+    "total_cases": "253",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "total_cases": "73",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "17",
+    "total_cases": "56",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "4",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "3",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "42",
+    "total_cases": "145",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "15",
+    "total_cases": "39",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "4",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "3",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "0",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-16T00:00:00",
+    "new_cases": "88",
+    "total_cases": "341",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "30",
+    "total_cases": "103",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "18",
+    "total_cases": "74",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "32",
+    "total_cases": "177",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "11",
+    "total_cases": "50",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "1",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "2",
+    "total_cases": "5",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "4",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-17T00:00:00",
+    "new_cases": "99",
+    "total_cases": "440",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "83",
+    "total_cases": "186",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "23",
+    "total_cases": "97",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "1",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "8",
+    "total_cases": "15",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "12",
+    "total_cases": "189",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "24",
+    "total_cases": "74",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "2",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "1",
+    "total_cases": "8",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "2",
+    "total_cases": "7",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "1",
+    "total_cases": "9",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-18T00:00:00",
+    "new_cases": "157",
+    "total_cases": "597",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "85",
+    "total_cases": "271",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "49",
+    "total_cases": "146",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "12",
+    "total_cases": "20",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "2",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "69",
+    "total_cases": "258",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "47",
+    "total_cases": "121",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "3",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "7",
+    "total_cases": "14",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "1",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "1",
+    "total_cases": "10",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-19T00:00:00",
+    "new_cases": "276",
+    "total_cases": "873",
+    "total_deaths": "0"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "271",
+    "total_deaths": "8"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "49",
+    "total_cases": "195",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "6",
+    "total_cases": "26",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "53",
+    "total_cases": "311",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "18",
+    "total_cases": "139",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "1",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "1",
+    "total_cases": "15",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "3",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-20T00:00:00",
+    "new_cases": "131",
+    "total_cases": "1004",
+    "total_deaths": "12"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "153",
+    "total_cases": "424",
+    "total_deaths": "10"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "31",
+    "total_cases": "226",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "18",
+    "total_cases": "44",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "2",
+    "total_cases": "19",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "66",
+    "total_cases": "377",
+    "total_deaths": "3"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "82",
+    "total_cases": "221",
+    "total_deaths": "4"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "2",
+    "total_cases": "6",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "6",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "6",
+    "total_cases": "21",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "1",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-21T00:00:00",
+    "new_cases": "367",
+    "total_cases": "1371",
+    "total_deaths": "18"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "424",
+    "total_deaths": "10"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "33",
+    "total_cases": "259",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "8",
+    "total_cases": "52",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "19",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "48",
+    "total_cases": "425",
+    "total_deaths": "5"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "221",
+    "total_deaths": "4"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "3",
+    "total_cases": "9",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "7",
+    "total_cases": "28",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "1",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-22T00:00:00",
+    "new_cases": "100",
+    "total_cases": "1471",
+    "total_deaths": "20"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "48",
+    "total_cases": "472",
+    "total_deaths": "13"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "42",
+    "total_cases": "301",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "14",
+    "total_cases": "66",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "1",
+    "total_cases": "20",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "78",
+    "total_cases": "503",
+    "total_deaths": "6"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "407",
+    "total_cases": "628",
+    "total_deaths": "4"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "15",
+    "total_cases": "24",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "0",
+    "total_cases": "17",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "13",
+    "total_cases": "41",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "2",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-23T00:00:00",
+    "new_cases": "620",
+    "total_cases": "2091",
+    "total_deaths": "24"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "145",
+    "total_cases": "617",
+    "total_deaths": "13"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "57",
+    "total_cases": "358",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "6",
+    "total_cases": "72",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "1",
+    "total_cases": "21",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "85",
+    "total_cases": "588",
+    "total_deaths": "8"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "385",
+    "total_cases": "1013",
+    "total_deaths": "4"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "11",
+    "total_cases": "35",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "1",
+    "total_cases": "18",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "10",
+    "total_cases": "51",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "2",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated Travellers",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-24T00:00:00",
+    "new_cases": "701",
+    "total_cases": "2792",
+    "total_deaths": "27"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "42",
+    "total_cases": "659",
+    "total_deaths": "14"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "61",
+    "total_cases": "419",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "14",
+    "total_cases": "86",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "14",
+    "total_cases": "35",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "100",
+    "total_cases": "688",
+    "total_deaths": "13"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "326",
+    "total_cases": "1339",
+    "total_deaths": "6"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "32",
+    "total_cases": "67",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "8",
+    "total_cases": "26",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "17",
+    "total_cases": "68",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "2",
+    "total_cases": "5",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "1",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated travellers",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-25T00:00:00",
+    "new_cases": "617",
+    "total_cases": "3409",
+    "total_deaths": "35"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "66",
+    "total_cases": "725",
+    "total_deaths": "14"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "67",
+    "total_cases": "486",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "9",
+    "total_cases": "95",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "1",
+    "total_cases": "36",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "170",
+    "total_cases": "858",
+    "total_deaths": "15"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "290",
+    "total_cases": "1629",
+    "total_deaths": "8"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "15",
+    "total_cases": "82",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "7",
+    "total_cases": "33",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "5",
+    "total_cases": "73",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "4",
+    "total_cases": "9",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated travellers",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-26T00:00:00",
+    "new_cases": "634",
+    "total_cases": "4043",
+    "total_deaths": "39"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "725",
+    "total_deaths": "14"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "56",
+    "total_cases": "542",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "9",
+    "total_cases": "104",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "3",
+    "total_cases": "39",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "135",
+    "total_cases": "993",
+    "total_deaths": "18"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "392",
+    "total_cases": "2021",
+    "total_deaths": "18"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "20",
+    "total_cases": "102",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "12",
+    "total_cases": "45",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "17",
+    "total_cases": "90",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "2",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "3",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated travellers",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-27T00:00:00",
+    "new_cases": "646",
+    "total_cases": "4689",
+    "total_deaths": "53"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "159",
+    "total_cases": "884",
+    "total_deaths": "16"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "542",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "30",
+    "total_cases": "134",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "25",
+    "total_cases": "64",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "993",
+    "total_deaths": "18"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "477",
+    "total_cases": "2498",
+    "total_deaths": "22"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "18",
+    "total_cases": "120",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "6",
+    "total_cases": "51",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "20",
+    "total_cases": "110",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "1",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated travellers",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-28T00:00:00",
+    "new_cases": "736",
+    "total_cases": "5425",
+    "total_deaths": "59"
+  },
+  {
+    "province": "British Columbia",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "884",
+    "total_deaths": "17"
+  },
+  {
+    "province": "Alberta",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "79",
+    "total_cases": "621",
+    "total_deaths": "2"
+  },
+  {
+    "province": "Saskatchewan",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "134",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Manitoba",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "8",
+    "total_cases": "72",
+    "total_deaths": "1"
+  },
+  {
+    "province": "Ontario",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "362",
+    "total_cases": "1355",
+    "total_deaths": "19"
+  },
+  {
+    "province": "Quebec",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "342",
+    "total_cases": "2840",
+    "total_deaths": "22"
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "15",
+    "total_cases": "135",
+    "total_deaths": "0"
+  },
+  {
+    "province": "New Brunswick",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "15",
+    "total_cases": "66",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nova Scotia",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "12",
+    "total_cases": "122",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Prince Edward Island",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "11",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Northwest Territories",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "1",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Nunavut",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "0",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Yukon",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "4",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Repatriated travellers",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "0",
+    "total_cases": "13",
+    "total_deaths": "0"
+  },
+  {
+    "province": "Canada",
+    "date": "2020-03-29T00:00:00",
+    "new_cases": "833",
+    "total_cases": "6258",
+    "total_deaths": "61"
+  }
+]

@@ -59,7 +59,7 @@ def sync_country_data(db):
 def sync_province_updates(db):
     print('Syncing province updates')
     db.provinces.drop()
-    updates = json.load(open('data/processed/province_updates.json'))
+    updates = json.load(open('data/processed/canada_data.json'))
     for update in updates:
         for key in update.keys():
             if 'date' not in key and 'province' not in key:
