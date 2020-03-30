@@ -1,29 +1,29 @@
 Algoma 4
 Brant 8
-Chatham-Kent </div><a class="x-btn x-btn-global" href="https://www.ontario.ca/page/2019-novel-coronavirus-covid-19-self-assessment" title="Self Assessment" target="_blank" rel="" data-options="thumbnail: ''">TAKE THE SELF ASSESSMENT</a></div></div></div><div id="x-section-3" class="x-section" style="margin: 0px;padding: 25px 0px 35px; background-color: hsl(0, 0%, 94%);" ><div class="x-container max width" style="margin: 0px auto;padding: 0px;max-width: 750px;" ><div class="x-column x-sm cs-ta-center man x-1-1" style="padding: 0px;" ><div class="x-text cs-ta-left" ><h6 style="text-align: center;"><strong>As of March 28, there are 6</strong><strong> confirmed cases of COVID-19 in Chatham-Kent.</strong></h6>
-Durham
+Chatham-Kent 6
+Durham 91
 Eastern-Ontario 9
-Grey-Bruce NA
-Haldimand-Norfolk NA
+Grey-Bruce 7
+Haldimand-Norfolk 23
 Halton 27
-Hamilton 70*
-Hastings-Prince-Edward
+Hamilton 70
+Hastings-Prince-Edward 6
 HKPR 33
 Huron-Perth 5
 KFLA 17
 Lambton 21
-Leeds NA
+Leeds 2
 Middlesex-London 31
 Niagara 21
-North-Bay-Parry-Sound Count
-Northwestern NA
+North-Bay-Parry-Sound 5
+Northwestern 2
 Ottawa 122
 Peel 187
 Peterborough 13
 Porcupine 10
-Renfrew NA
+Renfrew 1
 Simcoe-Muskoka 33
-SouthWestern 0
+SouthWestern 8
 Sudbury 10
 Thunderbay 2
 Timiskaming 1
@@ -31,4 +31,4 @@ Toronto 540
 Waterloo 69
 Wellington-Dufferin-Guelph 7
 Windsor-Essex 25
-York
+York 197
