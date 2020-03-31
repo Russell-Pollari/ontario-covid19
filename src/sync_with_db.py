@@ -23,7 +23,7 @@ def sync_ontario_cases(db):
 
 def sync_ontario_updates(db):
     print('Syncing ontario updates')
-    db.ontario.drop()  # this is just faster..
+    db.updates.drop()  # this is just faster..
     updates = json.load(open('data/processed/all_updates.json'))
     for update in updates:
         for key in update.keys():
@@ -59,7 +59,7 @@ def sync_country_data(db):
 def sync_province_updates(db):
     print('Syncing province updates')
     db.provinces.drop()
-    updates = json.load(open('data/processed/province_updates.json'))
+    updates = json.load(open('data/processed/canada_data.json'))
     for update in updates:
         for key in update.keys():
             if 'date' not in key and 'province' not in key:
@@ -88,8 +88,7 @@ def sync_health_region_updates(db):
         update['total_cases'] = value
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
-    r = db.ontario_health_regions.insert_many(updates)
-    print(r)
+    db.ontario_health_regions.insert_many(updates)
 
 
 def sync_with_db():

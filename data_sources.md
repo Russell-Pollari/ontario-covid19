@@ -6,10 +6,8 @@ The code, and raw and processed data can be found in my [GitHub repo](https://gi
 
 
 ### Ontario data
-Testing results and case-by-case data obtained by scraping [Ontario's official
-coronavirus page](https://www.ontario.ca/page/2019-novel-coronavirus) (which is updated ~10:30am and ~5:30pm)  
-
-First 31 cases were never reported on Onatrio's website, but were in various news reports. Compiled with the help of [Mahmoud Aziameed](https://twitter.com/azimaee) who is maintaining his own [dashboard](https://sites.google.com/view/covid19on/home).
+Testing results obtained by scraping [Ontario's official
+coronavirus page](https://www.ontario.ca/page/2019-novel-coronavirus) (which is updated daily)  
 
 
 ### Data for other provinces

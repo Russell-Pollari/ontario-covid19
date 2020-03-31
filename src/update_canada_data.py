@@ -1,103 +1,37 @@
 import os
-import requests
-import re
+import shutil
+import wget
+import csv
 import json
 from datetime import datetime
-from bs4 import BeautifulSoup
 
-
-HTML_DIR = 'data/raw/canada'
-
-
-def get_date_from_html(html):
-    try:
-        date_regex = re.compile('as of (.+) (\d?\d), (\d\d\d\d), (\d?\d):(\d\d) ([p|a]m)') # noqa
-        date_match = re.search(date_regex, html)
-        month = date_match[1]
-        day = date_match[2]
-        year = date_match[3]
-        hour = date_match[4]
-        minute = date_match[5]
-        is_pm = date_match[6] == 'pm'
-        if is_pm and '12' not in hour:
-            hour = int(hour) + 12
-        return datetime.strptime(month + day + year + str(hour)+':'+minute, '%B%d%Y%H:%M') # noqa
-    except:
-        date_regex = re.compile('(A|a)s of (.+) (\d?\d), (\d\d\d\d)') # noqa
-        date_match = re.search(date_regex, html)
-        month = date_match[2]
-        day = date_match[3]
-        year = date_match[4]
-        return datetime.strptime(month + day + year, '%B%d%Y') # noqa
-
-
-def get_canada_html():
-    request_url = 'https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html'  # noqa
-    response = requests.get(request_url,
-        headers={ # noqa
-        'User-Agent': 'googlebot',
-        }
-    )
-
-    return response.text
-
-
-def save_latest_html():
-    html = get_canada_html()
-    date = get_date_from_html(html)
-    print(date)
-    with open('{}/{}.html'.format(HTML_DIR, date), 'w') as f:  # noqa
-        f.write(html)
-
-
-def get_updates_from_html(html):
-    updates = []
-    soup = BeautifulSoup(html, features='html.parser')
-    date = get_date_from_html(html)
-
-    try:
-        table_soup = soup.find('table')
-    except:
-        return []
-
-    rows = table_soup.find_all('tr')
-    header = rows[0]
-    confirmed_index = 1
-    for index, item in enumerate(header.find_all('th')):
-        if 'confirmed' in item.text:
-            confirmed_index = index
-
-    for row in rows[1:]:
-        items = row.find_all('td')
-
-        total_cases = items[confirmed_index].text
-
-        update = {
-            'date': date.isoformat(),
-            'province': items[0].text.strip(),
-            'total_cases': total_cases,
-        }
-        updates.append(update)
-    return updates
-
-
-def get_all_updates():
-    updates = []
-    for filename in os.listdir(HTML_DIR):
-        with open(HTML_DIR + '/' + filename) as f:
-            html = f.read()
-            updates.extend(get_updates_from_html(html))
-
-    return updates
+DATA_URL = 'https://health-infobase.canada.ca/src/data/covidLive/covid19.csv'
+FILEPATH = 'data/raw/canada_data.csv'
 
 
 def update_canada_data():
-    save_latest_html()
-    updates = get_all_updates()
+    file = wget.download(DATA_URL, FILEPATH)
+    if os.path.exists(FILEPATH):
+        shutil.move(file, FILEPATH)
 
-    with open('data/processed/province_updates.json', 'w') as f:
-        json.dump(updates, f, indent=2)
+    updates = []
+    with open(FILEPATH) as f:
+        reader = csv.reader(f)
+        next(reader)  # skip header
+        for row in reader:
+            updates.append({
+                'province': row[1],
+                'date': datetime.strptime(row[3], '%d-%m-%Y').isoformat(), # noqa
+                'new_cases': row[8],
+                'total_cases': row[7],
+                'total_deaths': row[6]
+            })
+
+    return updates
 
 
 if __name__ == '__main__':
-    update_canada_data()
+    updates = update_canada_data()
+
+    with open('data/processed/canada_data.json', 'w') as f:
+        json.dump(updates, f, indent=2)

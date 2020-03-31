@@ -52,8 +52,11 @@ def save_to_json(data, filename):
             tmp = {
                 'date': date.isoformat(),
                 'ontario_health_region': row[0],
-                'total_cases': row[1]
             }
+            if len(row) > 1:
+                tmp['total_cases'] = row[1]
+            else:
+                tmp['total_cases'] = 'NA'
             json_cases.append(tmp)
     with open(filename, 'w') as f:
         json.dump(json_cases, f, indent=2)
@@ -70,12 +73,12 @@ def save_to_csv(data, filename):
                 writer.writerow([str_date] + row)
 
 
-def update_ontario_data():
-    # save_latest()
+def update_ontario_region_data():
+    save_latest()
     all_data = get_all_cases(HTML_DIR)
     save_to_csv(all_data, OUT_DIR + "/ontario_regions.csv")
     save_to_json(all_data, OUT_DIR + "/ontario_regions.json")
 
 
 if __name__ == '__main__':
-    update_ontario_data()
+    update_ontario_region_data()

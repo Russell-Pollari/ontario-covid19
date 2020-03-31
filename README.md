@@ -1,24 +1,24 @@
 # Ontario Covid-19 tracker
 
-Scripts to scrape Covid-19 data from https://www.ontario.ca/page/2019-novel-coronavirus and store in MongoDB database.
+Scripts to scrape Covid-19 data from Onntario and Canadian Government websites
 
-Metabase dashboard plotting data: https://russell-pollari.github.io/ontario-covid19/
+https://www.ontario.ca/page/2019-novel-coronavirus and store in MongoDB database.
+
+Dashboard to view data and plots: https://russell-pollari.github.io/ontario-covid19/
 
 ## Install requirements
-```
-$ pip install -r requirements.text
-```
+`$ pip install -r requirements.text`
 
 ## Compile Ontario's data
-Fetch html from https://www.ontario.ca/page/2019-novel-coronavirus and store in `data/raw/ontario`
-then scrape html documents in `data/raw/ontario` and ouput json files to `data/processed/`
-```
-$ python src/update_ontario_data.py
-```
+`$ python src/update_ontario_data.py`  
+Saves html from [Ontario Ministry of Health](https://www.ontario.ca/page/2019-novel-coronavirus) in `data/raw/ontario`
+Then compile json from all html documents in `data/raw/ontario` and saves in
+`data/processed/all_updates`
+
+
 
 ## Download Canada data and save as json
-Fetch html from https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html and store in `data/raw/canada`.
-Scrape all html cosuments and saves in json format in `data/processed/province_updates.json`
+Fetch csv of updates by rovince and `data/processed/canada_data.json`
 ```
 $ python src/update_canada_data.py
 ```
