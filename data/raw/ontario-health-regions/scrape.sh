@@ -4,7 +4,7 @@ echo Chatham-Kent $(wget -q -O - https://ckphu.com/covid-19/ | grep -i confirmed
 echo Durham $(curl -s https://www.durham.ca/en/health-and-wellness/novel-coronavirus-update.aspx | grep 'reported since' | sed -E -e 's/^.*strong.([0-9]+).*cases of COVID-19 reported.*/\1/')
 echo Eastern-Ontario $(wget -q -O - https://eohu.ca/en/my-health/covid-19-status-update-for-eohu-region | grep '<td>.*td'  | tail -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo Grey-Bruce NA
-echo Haldimand-Norfolk $(wget -q -O - https://hnhu.org/health-topic/coronavirus-covid-19/ | grep positive | head -n 1 | sed -E 's/.*: ([0-9]+).*/\1/')
+echo Haldimand-Norfolk $(wget -q -O - https://hnhu.org/health-topic/coronavirus-covid-19/ | grep positive | head -n 1 | sed -E 's/.*:[^0-9]*([0-9]+).*/\1/')
 echo Halton $(curl -s https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/New-Coronavirus | grep '<td>.*td' | sed -n '/Total/,$p' | sed '2q;d' | sed -E -e 's/.*td.[^0-9]*([0-9]+)..str.*/\1/')
 echo Hamilton $(wget -q -O - https://www.hamilton.ca/coronavirus | grep positive | sed -E -e 's/^.*positive cases - ([^<]+)<.*/\1/')
 echo Hastings-Prince-Edward $(wget --tries=2  --timeout=1 -q -O - https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/ | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
