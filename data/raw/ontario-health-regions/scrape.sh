@@ -28,7 +28,7 @@ echo SouthWestern $(wget -q -O - https://www.swpublichealth.ca/content/community
 echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | head -n 3 | tail -n 1 | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo Thunderbay $(wget -q -O - https://www.tbdhu.com/coronavirus | grep td  | head -n 4 | tail -n 1 | sed -E -e  's/.*td>([^>]+)<.*$/\1/' )
 echo Timiskaming $(wget -q -O - https://www.timiskaminghu.com/90484/covid-19 | grep 'td.*td' | sed -n '/Positiv/,$p' | sed '2q;d' | sed -E -e  's/.*td.*>([^>]+)<.*$/\1/')
-echo Toronto $(curl -s https://www.toronto.ca/home/covid-19/ | grep cases | sed -E -e 's/^.*has had ([^ ]+) cases.*/\1/')
+echo Toronto $(wget -q -O - https://www.toronto.ca/home/covid-19/media-room/covid-19-status-of-cases-in-toronto/  | grep td |  sed '2q;d'  |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 echo Waterloo $(curl -s https://www.regionofwaterloo.ca/en/health-and-wellness/positive-cases-in-waterloo-region.aspx | sed -n '/.*td.*Confirmed/,$p' | sed '2q;d' | sed  -E -e 's/<td>([0-9]+).*/\1/')
 echo Wellington-Dufferin-Guelph $(wget -q -O - https://wdgpublichealth.ca/your-health/covid-19-information-public/assessment-centre-and-case-data | grep '<td.*>[0-9].*td'  | head -n -4 | grep -v Male | grep -v Female | tail -n 1 | sed -E -e 's/.*td>([^>]+)<\/td.*$/\1/'  )
 echo Windsor-Essex $(wget -q -O - https://www.wechu.org/cv/local-updates | grep '<b>.*b' | head -n 1 | sed -E -e 's/.*b>([^>]+)<\/b.*$/\1/' )
