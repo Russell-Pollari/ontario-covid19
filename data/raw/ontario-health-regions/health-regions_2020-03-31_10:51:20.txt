@@ -1,0 +1,34 @@
+Algoma NA
+Brant 11
+Chatham-Kent 6
+Durham
+Eastern-Ontario 10
+Grey-Bruce NA
+Haldimand-Norfolk NA
+Halton 0-19
+Hamilton 91*
+Hastings-Prince-Edward 7
+HKPR
+Huron-Perth NA
+KFLA 34
+Lambton 39
+Leeds NA
+Middlesex-London 37
+Niagara 34
+North-Bay-Parry-Sound NA
+Northwestern NA
+Ottawa 30
+Peel Region of Peel Council
+Peterborough 28
+Porcupine 60s, Female
+Renfrew NA
+Simcoe-Muskoka 44
+SouthWestern 22
+Sudbury 11
+Thunderbay NA
+Timiskaming NA
+Toronto 591
+Waterloo
+Wellington-Dufferin-Guelph
+Windsor-Essex 65
+York
