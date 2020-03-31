@@ -66,6 +66,14 @@
     "date": "2020-03-09T10:30:00"
   },
   {
+    "deceased": 33,
+    "total_cases": 1966,
+    "resolved": 534,
+    "total_tests_reported": 51629,
+    "pending": 4280,
+    "date": "2020-03-30T16:00:00"
+  },
+  {
     "deceased": 18,
     "negative": 29967,
     "pending": 10074,

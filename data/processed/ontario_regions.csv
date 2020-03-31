@@ -41,7 +41,7 @@ Date	Health_Region	Cases
 2020-03-30 10:27:57	Grey-Bruce	NA
 2020-03-30 10:27:57	Haldimand-Norfolk	NA
 2020-03-30 10:27:57	Halton	27
-2020-03-30 10:27:57	Hamilton	70*
+2020-03-30 10:27:57	Hamilton	70
 2020-03-30 10:27:57	Hastings-Prince-Edward	6
 2020-03-30 10:27:57	HKPR	9
 2020-03-30 10:27:57	Huron-Perth	NA
@@ -134,7 +134,7 @@ Date	Health_Region	Cases
 2020-03-28 11:04:13	Waterloo	69
 2020-03-28 11:04:13	Wellington-Dufferin-Guelph	7
 2020-03-28 11:04:13	Windsor-Essex	15
-2020-03-28 11:04:13	York
+2020-03-28 11:04:13	York	241
 2020-03-29 17:50:19	Algoma	NA
 2020-03-29 17:50:19	Brant	8
 2020-03-29 17:50:19	Chatham-Kent	6
@@ -169,6 +169,40 @@ Date	Health_Region	Cases
 2020-03-29 17:50:19	Wellington-Dufferin-Guelph	7
 2020-03-29 17:50:19	Windsor-Essex	25
 2020-03-29 17:50:19	York
+2020-03-31 10:43:40	Algoma	NA
+2020-03-31 10:43:40	Brant	11
+2020-03-31 10:43:40	Chatham-Kent	6
+2020-03-31 10:43:40	Durham
+2020-03-31 10:43:40	Eastern-Ontario	10
+2020-03-31 10:43:40	Grey-Bruce	NA
+2020-03-31 10:43:40	Haldimand-Norfolk	NA
+2020-03-31 10:43:40	Halton	0-19
+2020-03-31 10:43:40	Hamilton	91*
+2020-03-31 10:43:40	Hastings-Prince-Edward	7
+2020-03-31 10:43:40	HKPR
+2020-03-31 10:43:40	Huron-Perth	NA
+2020-03-31 10:43:40	KFLA	34
+2020-03-31 10:43:40	Lambton	<table	"class=""wp-block-table"	has-fixed-layout	"is-style-stripes""><tbody><tr><td>Confirmed"	COVID-19	cases</td><td>39</td></tr><tr><td>Deaths	among	COVID-19	cases</td><td>4</td></tr><tr><td>COVID-19	outbreaks	in	institutions</td><td>1</td></tr></tbody></table>
+2020-03-31 10:43:40	Leeds	NA
+2020-03-31 10:43:40	Middlesex-London	37
+2020-03-31 10:43:40	Niagara	34
+2020-03-31 10:43:40	North-Bay-Parry-Sound	NA
+2020-03-31 10:43:40	Northwestern	NA
+2020-03-31 10:43:40	Ottawa	30
+2020-03-31 10:43:40	Peel	Region	of	Peel	Council
+2020-03-31 10:43:40	Peterborough	28
+2020-03-31 10:43:40	Porcupine	60s,	Female
+2020-03-31 10:43:40	Renfrew	NA
+2020-03-31 10:43:40	Simcoe-Muskoka	44
+2020-03-31 10:43:40	SouthWestern	22
+2020-03-31 10:43:40	Sudbury	11
+2020-03-31 10:43:40	Thunderbay	NA
+2020-03-31 10:43:40	Timiskaming	NA
+2020-03-31 10:43:40	Toronto	591
+2020-03-31 10:43:40	Waterloo
+2020-03-31 10:43:40	Wellington-Dufferin-Guelph
+2020-03-31 10:43:40	Windsor-Essex	65
+2020-03-31 10:43:40	York
 2020-03-29 12:16:46	Algoma	NA
 2020-03-29 12:16:46	Brant	8
 2020-03-29 12:16:46	Chatham-Kent	</div><a	"class=""x-btn"	"x-btn-global"""	"href=""https://www.ontario.ca/page/2019-novel-coronavirus-covid-19-self-assessment"""	"title=""Self"	"Assessment"""	"target=""_blank"""	"rel="""""	"data-options=""thumbnail:"	"''"">TAKE"	THE	SELF	ASSESSMENT</a></div></div></div><div	"id=""x-section-3"""	"class=""x-section"""	"style=""margin:"	0px;padding:	25px	0px	35px;	background-color:	hsl(0,	0%,	"94%);"""	><div	"class=""x-container"	max	"width"""	"style=""margin:"	0px	auto;padding:	0px;max-width:	"750px;"""	><div	"class=""x-column"	x-sm	cs-ta-center	man	"x-1-1"""	"style=""padding:"	"0px;"""	><div	"class=""x-text"	"cs-ta-left"""	><h6	"style=""text-align:"	"center;""><strong>As"	of	March	28,	there	are	6</strong><strong>	confirmed	cases	of	COVID-19	in	Chatham-Kent.</strong></h6>

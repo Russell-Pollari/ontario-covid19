@@ -31,4 +31,4 @@ Toronto 457
 Waterloo 69
 Wellington-Dufferin-Guelph 7
 Windsor-Essex 15
-York
+York 241
