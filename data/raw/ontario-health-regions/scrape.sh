@@ -12,7 +12,8 @@ echo Hastings-Prince-Edward $(wget -q -O - https://hpepublichealth.ca/the-novel-
 echo HKPR $(wget -q -O - https://www.hkpr.on.ca/featured_posts/novel-coronavirus/ | grep 'Case #'  | sed -E -e 's/^.*>Case #([^<]+)<.*/\1/')
 echo Huron-Perth NA
 echo KFLA $(wget -q -O - https://www.kflaph.ca/en/healthy-living/novel-coronavirus.aspx | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([^<]+)<.*/\1/')
-echo Lambton $(wget -q -O - https://lambtonpublichealth.ca/2019-novel-coronavirus/ | grep '<td.*>.*td'  | head -n 1 |  sed -E -e 's/.*Lambton[^0-9]*td>([^>]+)<\/td.*$/\1/')
+# echo Lambton $(wget -q -O - https://lambtonpublichealth.ca/2019-novel-coronavirus/ | grep '<td.*>.*td'  | head -n 1 |  sed -E -e 's/.*Lambton[^0-9]*td>([^>]+)<\/td.*$/\1/')
+echo Lambton $(wget -q -O - https://lambtonpublichealth.ca/2019-novel-coronavirus/ | grep 'Confirmed COVID-19 cases' | sed -E -e 's/^.*Confirmed COVID-19 cases<\/td><td>([0-9]+)<\/td>.*/\1/')
 echo Leeds NA
 echo Middlesex-London $(curl -s https://www.healthunit.com/novel-coronavirus | grep '<td>.*td' | head -1 | sed -E -e 's/^.*>([^<]+).*/\1/')
 echo Niagara $(wget -q -O - https://niagararegion.ca/health/covid-19/default.aspx?topic=1 | grep "strCaseNumbers" |  sed -E -e 's/^.*strCaseNumbers">([^<]+)<.*/\1/')
