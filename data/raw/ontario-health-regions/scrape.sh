@@ -9,7 +9,7 @@ echo Halton $(curl -s https://www.halton.ca/For-Residents/Immunizations-Preventa
 echo Hamilton $(wget -q -O - https://www.hamilton.ca/coronavirus | grep positive | sed -E -e 's/^.*positive cases - ([^<]+)<.*/\1/')
 echo Hastings-Prince-Edward $(wget --tries=2  --timeout=1 -q -O - https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/ | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([0-9]+)<.*/\1/')
 wget -q https://web.archive.org/save/https://hpepublichealth.ca/the-novel-coronavirus-2019ncov/
-echo HKPR $(wget -q -O - https://www.hkpr.on.ca/covid-19-2/covid-19/  | grep HKPRDHU | head -n 3 | tail -n 1 | sed -E -e 's/^.*Confirmed Cases<.......[^>]*>[0-9]*........[^>]*>[0-9]*........[^>]*>[0-9]*........[^>]*>([^<]+)<.*/\1/')
+echo HKPR $(wget -q -O - https://www.hkpr.on.ca/  | grep '<td.*>.*td' | tidy -q --show-warnings no  | sed -n '/Confirm/,$p' | sed '14q;d'   | sed -E -e 's/[^0-9]*([0-9]+).*/\1/')
 echo Huron-Perth $(wget -q -O - https://www.hpph.ca/en/news/coronavirus-covid19-update.aspx | grep 'td.*td' | head -n 3 | tail -n 1 | sed -E -e  's/.*td.*>([^>]+)<.*$/\1/')
 echo KFLA $(wget -q -O - https://www.kflaph.ca/en/healthy-living/novel-coronavirus.aspx | grep '<td>.*td'  | head -n 1 |  sed -E -e 's/^.*>([^<]+)<.*/\1/')
 echo Lambton $(wget -q -O - https://lambtonpublichealth.ca/2019-novel-coronavirus/ | grep '<td.*>.*td'  | tidy -q --show-warnings no | sed '13q;d'  | sed -E 's/<td>([0-9]+).*/\1/')
