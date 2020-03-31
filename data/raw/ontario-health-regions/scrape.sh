@@ -21,8 +21,8 @@ echo Northwestern NA && wget -q https://web.archive.org/save/https://www.nwhu.on
 echo Ottawa $(wget -q -O - https://www.ottawapublichealth.ca/en/public-health-topics/novel-coronavirus.aspx | grep 'confirmed' | grep -i "as of" | head -n 1 | sed -E -e 's/^[^0-9]*([0-9]+).*confirmed.*/\1/')
 echo Peel $(wget -q -O - https://peelregion.ca/coronavirus/testing | grep td | grep strong | tail -n 1| sed -E 's/.*<strong>([0-9]+).*/\1/')
 echo Peterborough $(wget -q -O - https://www.peterboroughpublichealth.ca/for-professionals/health-professionals/novel-coronavirus-2019-ncov-health-professionals/situation-report-for-health-care-providers/ | grep 'Confirmed positive' | head -n 1 | sed -E -e 's/^.*positive: ([^<]+)<.*/\1/')
-echo Porcupine $(wget -q -O - http://www.porcupinehu.on.ca/en/your-health/infectious-diseases/novel-coronavirus/  | grep '<td.*>[0-9].*td' | head -n 2 | tail -n 1 |  sed -E -e 's/.*">([^>]+)<\/td.*$/\1/')
-echo Renfrew NA && wget -q https://web.archive.org/save/https://www.rcdhu.com/novel-coronavirus-covid-19-2/
+echo Porcupine $(wget -q -O - http://www.porcupinehu.on.ca/en/your-health/infectious-diseases/novel-coronavirus/  | grep '<t[dh].*>.*t[dh]'  | sed -n '/Positive/,$p'  | sed '2q;d' |  sed -E -e 's/.*">([^>]+)<\/td.*$/\1/')
+echo Renfrew $(wget -q -O - https://www.rcdhu.com/novel-coronavirus-covid-19-2/  | grep confirmed | head -n 1 | sed -E -e 's/.*there are.*([0-9]+).*confirmed.*/\1/') && wget -q https://web.archive.org/save/https://www.rcdhu.com/novel-coronavirus-covid-19-2/
 echo Simcoe-Muskoka $(curl -s http://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19 | grep 'Simcoe Muskoka District Health Unit'  | grep confirm | head -n 1 | sed -E -e 's/^.*>([^ ]+) confirmed.*/\1/')
 echo SouthWestern $(wget -q -O - https://www.swpublichealth.ca/content/community-update-novel-coronavirus-covid-19 | grep '<td.*>[0-9].*td' | head -n 1  | sed -E 's/.*td>([0-9]+)<.td.*/\1/')
 echo Sudbury $(wget -q -O - https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19 | grep '<td.*2.>.*td'  | head -n 3 | tail -n 1 | sed -E -e 's/^.*>([0-9]+)<.*/\1/')
