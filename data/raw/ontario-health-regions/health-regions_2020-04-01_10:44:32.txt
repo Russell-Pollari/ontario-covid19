@@ -17,7 +17,7 @@ Middlesex-London 52
 Niagara 47
 North-Bay-Parry-Sound 4
 Northwestern NA
-Ottawa 4
+Ottawa 
 Peel 309
 Peterborough 28
 Porcupine 18

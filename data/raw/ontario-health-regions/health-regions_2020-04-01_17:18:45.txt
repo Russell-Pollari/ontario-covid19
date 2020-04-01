@@ -1,0 +1,34 @@
+Algoma
+Brant 17
+Chatham-Kent 8
+Durham 150
+Eastern-Ontario 19
+Grey-Bruce NA
+Haldimand-Norfolk 27
+Halton 74
+Hamilton 112
+Hastings-Prince-Edward
+HKPR 63
+Huron-Perth Perth County
+KFLA 46
+Lambton 56
+Leeds 35
+Middlesex-London 14
+Niagara 61
+North-Bay-Parry-Sound 4
+Northwestern NA
+Ottawa 194
+Peel 309
+Peterborough 28
+Porcupine 18
+Renfrew 
+Simcoe-Muskoka 57
+SouthWestern 15
+Sudbury 13
+Thunderbay 4
+Timiskaming 2
+Toronto 818
+Waterloo
+Wellington-Dufferin-Guelph 4
+Windsor-Essex 92
+York
