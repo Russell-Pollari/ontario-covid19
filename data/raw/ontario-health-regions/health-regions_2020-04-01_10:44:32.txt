@@ -1,0 +1,34 @@
+Algoma
+Brant 14
+Chatham-Kent 8
+Durham 111
+Eastern-Ontario 13
+Grey-Bruce NA
+Haldimand-Norfolk 27
+Halton 59
+Hamilton 101
+Hastings-Prince-Edward
+HKPR 52
+Huron-Perth 10
+KFLA 43
+Lambton 47
+Leeds 29
+Middlesex-London 52
+Niagara 47
+North-Bay-Parry-Sound 4
+Northwestern NA
+Ottawa 4
+Peel 309
+Peterborough 28
+Porcupine 18
+Renfrew <p>March 31, 2020 &#8211; Today, Renfrew County and District Health Unit (RCDHU) confirms five more positive laboratory confirmed cases of novel coronavirus 2019 (COVID-19) throughout Renfrew County and District (RCD). That brings the total of confirmed cases in RCD to seven.For full details, visit:<a href="https://www.rcdhu.com/news/" target="_blank" rel="noopener"> https://www.rcdhu.com/news/</a></p>
+Simcoe-Muskoka <div class='sfContentBlock'><p><a href="#Tables">Tables of Case Counts by Age, Status &amp; Transmission</a><br /> <a href="#List">List of Confirmed COVID-19 Cases in Simcoe Muskoka</a><br /> <a href="#Curve">Epidemic Curve by Date of Symptom Onset</a></p> <p>The Simcoe Muskoka District Health Unit currently has <strong>52confirmed cases</strong> of COVID-19 including <strong>9</strong><strong> recovered, 8 hospitalizations and 4 deaths</strong>.</p> <p>We have evidence of community transmission of COVID-19 in our region which means the virus is spreading in the community and is not linked to travel or a previously known case. Community transmission means that we expect the number of cases will start to rise over the next days and weeks. Due to this, public health in unable to monitor how the virus is spreading from person to person and this makes it more difficult to slow its spread. This is not just a disease affecting the elderly, most of our cases are among adults between 35 and 64 years of age. This makes it even more important that people protect themselves and others by staying home and assuming that you and everyone around you may be carrying the virus. If we all do this, as well as continue to maintain physical distance of 2 metres from others and wash our hands frequently, we will be putting less people at risk and can flatten the curve. </p> <p><strong>Anyone who has new cold-like/respiratory symptoms (regardless of travel history), and has not been tested for COVID-19, is to self-isolate at home for 14 days.</strong></p> <p> Details on all confirmed cases within Simcoe County and the District of Muskoka are <a href="#Confirmed">listed </a>below. There are also <a href="#Tables">tables </a>of the number of confirmed cases in Simcoe Muskoka, broken down by: age group, status and source of infection. Finally, there is a graph that displays the number of confirmed cases in Simcoe Muskoka by date of symptom onset. </p> <p> <h3>Protect yourself and others </h3> </p> <ol> <li>Stay home
+SouthWestern 15
+Sudbury 12
+Thunderbay 4
+Timiskaming 2
+Toronto 793
+Waterloo
+Wellington-Dufferin-Guelph 3
+Windsor-Essex 92
+York
