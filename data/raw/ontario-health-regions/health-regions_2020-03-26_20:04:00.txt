@@ -6,6 +6,7 @@ Eastern-Ontario 4
 Grey-Bruce NA
 Haldimand-Norfolk NA
 Halton 18
+Hamilton 43
 Hastings-Prince-Edward 5
 HKPR 9
 Huron-Perth NA
