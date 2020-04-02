@@ -507,6 +507,14 @@
     "date": "2020-03-25T10:30:00"
   },
   {
+    "deceased": 53,
+    "total_cases": 2793,
+    "resolved": 831,
+    "total_tests_reported": 62733,
+    "pending": 2052,
+    "date": "2020-04-01T16:00:00"
+  },
+  {
     "deceased": 0,
     "negative": 9415,
     "pending": 1567,
@@ -568,6 +576,14 @@
     "total_tests_reported": 20075,
     "total_cases": 503,
     "date": "2020-03-23T10:30:00"
+  },
+  {
+    "deceased": 53,
+    "total_cases": 2793,
+    "resolved": 831,
+    "total_tests_reported": 62733,
+    "pending": 2052,
+    "date": "2020-04-01T16:00:00"
   },
   {
     "deceased": 5,

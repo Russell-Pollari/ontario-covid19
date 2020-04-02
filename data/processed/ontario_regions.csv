@@ -18,7 +18,7 @@ Date	Health_Region	Cases
 2020-04-01 10:38:57	Niagara	47
 2020-04-01 10:38:57	North-Bay-Parry-Sound	4
 2020-04-01 10:38:57	Northwestern	NA
-2020-04-01 10:38:57	Ottawa	4
+2020-04-01 10:38:57	Ottawa
 2020-04-01 10:38:57	Peel	277
 2020-04-01 10:38:57	Peterborough	28
 2020-04-01 10:38:57	Porcupine	18
@@ -52,7 +52,7 @@ Date	Health_Region	Cases
 2020-03-31 10:51:20	Niagara	34
 2020-03-31 10:51:20	North-Bay-Parry-Sound	NA
 2020-03-31 10:51:20	Northwestern	NA
-2020-03-31 10:51:20	Ottawa	30
+2020-03-31 10:51:20	Ottawa
 2020-03-31 10:51:20	Peel	Region	of	Peel	Council
 2020-03-31 10:51:20	Peterborough	28
 2020-03-31 10:51:20	Porcupine	60s,	Female
@@ -67,6 +67,74 @@ Date	Health_Region	Cases
 2020-03-31 10:51:20	Wellington-Dufferin-Guelph
 2020-03-31 10:51:20	Windsor-Essex	65
 2020-03-31 10:51:20	York
+2020-04-01 17:29:50	Algoma
+2020-04-01 17:29:50	Brant	17
+2020-04-01 17:29:50	Chatham-Kent	8
+2020-04-01 17:29:50	Durham	150
+2020-04-01 17:29:50	Eastern-Ontario	19
+2020-04-01 17:29:50	Grey-Bruce	NA
+2020-04-01 17:29:50	Haldimand-Norfolk	27
+2020-04-01 17:29:50	Halton	74
+2020-04-01 17:29:50	Hamilton	112
+2020-04-01 17:29:50	Hastings-Prince-Edward
+2020-04-01 17:29:50	HKPR	63
+2020-04-01 17:29:50	Huron-Perth	Perth	County
+2020-04-01 17:29:50	KFLA	46
+2020-04-01 17:29:50	Lambton	56
+2020-04-01 17:29:50	Leeds	35
+2020-04-01 17:29:50	Middlesex-London	14
+2020-04-01 17:29:50	Niagara	61
+2020-04-01 17:29:50	North-Bay-Parry-Sound	4
+2020-04-01 17:29:50	Northwestern	NA
+2020-04-01 17:29:50	Ottawa	4
+2020-04-01 17:29:50	Peel	309
+2020-04-01 17:29:50	Peterborough	28
+2020-04-01 17:29:50	Porcupine	18
+2020-04-01 17:29:50	Renfrew	<p>March	31,	2020	&#8211;	Today,	Renfrew	County	and	District	Health	Unit	(RCDHU)	confirms	five	more	positive	laboratory	confirmed	cases	of	novel	coronavirus	2019	(COVID-19)	throughout	Renfrew	County	and	District	(RCD).	That	brings	the	total	of	confirmed	cases	in	RCD	to	seven.For	full	details,	visit:<a	"href=""https://www.rcdhu.com/news/"""	"target=""_blank"""	"rel=""noopener"">"	https://www.rcdhu.com/news/</a></p>
+2020-04-01 17:29:50	Simcoe-Muskoka	57
+2020-04-01 17:29:50	SouthWestern	15
+2020-04-01 17:29:50	Sudbury	13
+2020-04-01 17:29:50	Thunderbay	4
+2020-04-01 17:29:50	Timiskaming	2
+2020-04-01 17:29:50	Toronto	818
+2020-04-01 17:29:50	Waterloo
+2020-04-01 17:29:50	Wellington-Dufferin-Guelph	4
+2020-04-01 17:29:50	Windsor-Essex	92
+2020-04-01 17:29:50	York
+2020-04-01 17:18:45	Algoma
+2020-04-01 17:18:45	Brant	17
+2020-04-01 17:18:45	Chatham-Kent	8
+2020-04-01 17:18:45	Durham	150
+2020-04-01 17:18:45	Eastern-Ontario	19
+2020-04-01 17:18:45	Grey-Bruce	NA
+2020-04-01 17:18:45	Haldimand-Norfolk	27
+2020-04-01 17:18:45	Halton	74
+2020-04-01 17:18:45	Hamilton	112
+2020-04-01 17:18:45	Hastings-Prince-Edward
+2020-04-01 17:18:45	HKPR	63
+2020-04-01 17:18:45	Huron-Perth	Perth	County
+2020-04-01 17:18:45	KFLA	46
+2020-04-01 17:18:45	Lambton	56
+2020-04-01 17:18:45	Leeds	35
+2020-04-01 17:18:45	Middlesex-London	14
+2020-04-01 17:18:45	Niagara	61
+2020-04-01 17:18:45	North-Bay-Parry-Sound	4
+2020-04-01 17:18:45	Northwestern	NA
+2020-04-01 17:18:45	Ottawa	194
+2020-04-01 17:18:45	Peel	309
+2020-04-01 17:18:45	Peterborough	28
+2020-04-01 17:18:45	Porcupine	18
+2020-04-01 17:18:45	Renfrew
+2020-04-01 17:18:45	Simcoe-Muskoka	57
+2020-04-01 17:18:45	SouthWestern	15
+2020-04-01 17:18:45	Sudbury	13
+2020-04-01 17:18:45	Thunderbay	4
+2020-04-01 17:18:45	Timiskaming	2
+2020-04-01 17:18:45	Toronto	818
+2020-04-01 17:18:45	Waterloo
+2020-04-01 17:18:45	Wellington-Dufferin-Guelph	4
+2020-04-01 17:18:45	Windsor-Essex	92
+2020-04-01 17:18:45	York
 2020-03-28 19:51:54	Algoma	NA
 2020-03-28 19:51:54	Brant	7
 2020-03-28 19:51:54	Chatham-Kent	</div><a	"class=""x-btn"	"x-btn-global"""	"href=""https://www.ontario.ca/page/2019-novel-coronavirus-covid-19-self-assessment"""	"title=""Self"	"Assessment"""	"target=""_blank"""	"rel="""""	"data-options=""thumbnail:"	"''"">TAKE"	THE	SELF	ASSESSMENT</a></div></div></div><div	"id=""x-section-3"""	"class=""x-section"""	"style=""margin:"	0px;padding:	25px	0px	35px;	background-color:	hsl(0,	0%,	"94%);"""	><div	"class=""x-container"	max	"width"""	"style=""margin:"	0px	auto;padding:	0px;max-width:	"750px;"""	><div	"class=""x-column"	x-sm	cs-ta-center	man	"x-1-1"""	"style=""padding:"	"0px;"""	><div	"class=""x-text"	"cs-ta-left"""	><h6	"style=""text-align:"	"center;""><strong>As"	of	March	28,	there	are	6</strong><strong>	confirmed	cases	of	COVID-19	in	Chatham-Kent.</strong></h6>
@@ -120,7 +188,7 @@ Date	Health_Region	Cases
 2020-03-30 10:27:57	Niagara	21
 2020-03-30 10:27:57	North-Bay-Parry-Sound	NA
 2020-03-30 10:27:57	Northwestern	NA
-2020-03-30 10:27:57	Ottawa	22
+2020-03-30 10:27:57	Ottawa
 2020-03-30 10:27:57	Peel	Region	of	Peel	Council
 2020-03-30 10:27:57	Peterborough	13
 2020-03-30 10:27:57	Porcupine	10
@@ -324,7 +392,7 @@ Date	Health_Region	Cases
 2020-03-31 10:43:40	Niagara	34
 2020-03-31 10:43:40	North-Bay-Parry-Sound	NA
 2020-03-31 10:43:40	Northwestern	NA
-2020-03-31 10:43:40	Ottawa	30
+2020-03-31 10:43:40	Ottawa
 2020-03-31 10:43:40	Peel	Region	of	Peel	Council
 2020-03-31 10:43:40	Peterborough	28
 2020-03-31 10:43:40	Porcupine	60s,	Female
@@ -508,6 +576,40 @@ Date	Health_Region	Cases
 2020-03-29 10:44:11	Wellington-Dufferin-Guelph	7
 2020-03-29 10:44:11	Windsor-Essex	25
 2020-03-29 10:44:11	York
+2020-04-02 10:33:22	Algoma
+2020-04-02 10:33:22	Brant	17
+2020-04-02 10:33:22	Chatham-Kent	9
+2020-04-02 10:33:22	Durham	150
+2020-04-02 10:33:22	Eastern-Ontario	19
+2020-04-02 10:33:22	Grey-Bruce	NA
+2020-04-02 10:33:22	Haldimand-Norfolk	34
+2020-04-02 10:33:22	Halton	74
+2020-04-02 10:33:22	Hamilton	112
+2020-04-02 10:33:22	Hastings-Prince-Edward
+2020-04-02 10:33:22	HKPR	63
+2020-04-02 10:33:22	Huron-Perth	Perth	County
+2020-04-02 10:33:22	KFLA	46
+2020-04-02 10:33:22	Lambton	59
+2020-04-02 10:33:22	Leeds	35
+2020-04-02 10:33:22	Middlesex-London	14
+2020-04-02 10:33:22	Niagara	61
+2020-04-02 10:33:22	North-Bay-Parry-Sound	4
+2020-04-02 10:33:22	Northwestern	NA
+2020-04-02 10:33:22	Ottawa	4
+2020-04-02 10:33:22	Peel	362
+2020-04-02 10:33:22	Peterborough	28
+2020-04-02 10:33:22	Porcupine	21
+2020-04-02 10:33:22	Renfrew	<p>March	31,	2020	&#8211;	Today,	Renfrew	County	and	District	Health	Unit	(RCDHU)	confirms	five	more	positive	laboratory	confirmed	cases	of	novel	coronavirus	2019	(COVID-19)	throughout	Renfrew	County	and	District	(RCD).	That	brings	the	total	of	confirmed	cases	in	RCD	to	seven.For	full	details,	visit:<a	"href=""https://www.rcdhu.com/news/"""	"target=""_blank"""	"rel=""noopener"">"	https://www.rcdhu.com/news/</a></p>
+2020-04-02 10:33:22	Simcoe-Muskoka	57
+2020-04-02 10:33:22	SouthWestern	18
+2020-04-02 10:33:22	Sudbury	13
+2020-04-02 10:33:22	Thunderbay	4
+2020-04-02 10:33:22	Timiskaming	2
+2020-04-02 10:33:22	Toronto	818
+2020-04-02 10:33:22	Waterloo
+2020-04-02 10:33:22	Wellington-Dufferin-Guelph	4
+2020-04-02 10:33:22	Windsor-Essex	128
+2020-04-02 10:33:22	York
 2020-03-25 21:15:00	Algoma	NA
 2020-03-25 21:15:00	Brant	3
 2020-03-25 21:15:00	Chatham-Kent	2
@@ -746,7 +848,7 @@ Date	Health_Region	Cases
 2020-03-23 21:34:00	Wellington-Dufferin-Guelph	NA
 2020-03-23 21:34:00	Windsor-Essex	2
 2020-03-23 21:34:00	York	53
-2020-04-01 10:44:32	Algoma
+2020-04-01 10:44:32	Algoma	5
 2020-04-01 10:44:32	Brant	14
 2020-04-01 10:44:32	Chatham-Kent	8
 2020-04-01 10:44:32	Durham	111
@@ -755,7 +857,7 @@ Date	Health_Region	Cases
 2020-04-01 10:44:32	Haldimand-Norfolk	27
 2020-04-01 10:44:32	Halton	59
 2020-04-01 10:44:32	Hamilton	101
-2020-04-01 10:44:32	Hastings-Prince-Edward
+2020-04-01 10:44:32	Hastings-Prince-Edward	11
 2020-04-01 10:44:32	HKPR	52
 2020-04-01 10:44:32	Huron-Perth	10
 2020-04-01 10:44:32	KFLA	43
@@ -765,21 +867,21 @@ Date	Health_Region	Cases
 2020-04-01 10:44:32	Niagara	47
 2020-04-01 10:44:32	North-Bay-Parry-Sound	4
 2020-04-01 10:44:32	Northwestern	NA
-2020-04-01 10:44:32	Ottawa	4
+2020-04-01 10:44:32	Ottawa
 2020-04-01 10:44:32	Peel	309
 2020-04-01 10:44:32	Peterborough	28
 2020-04-01 10:44:32	Porcupine	18
-2020-04-01 10:44:32	Renfrew	<p>March	31,	2020	&#8211;	Today,	Renfrew	County	and	District	Health	Unit	(RCDHU)	confirms	five	more	positive	laboratory	confirmed	cases	of	novel	coronavirus	2019	(COVID-19)	throughout	Renfrew	County	and	District	(RCD).	That	brings	the	total	of	confirmed	cases	in	RCD	to	seven.For	full	details,	visit:<a	"href=""https://www.rcdhu.com/news/"""	"target=""_blank"""	"rel=""noopener"">"	https://www.rcdhu.com/news/</a></p>
-2020-04-01 10:44:32	Simcoe-Muskoka	<div	class='sfContentBlock'><p><a	"href=""#Tables"">Tables"	of	Case	Counts	by	Age,	Status	&amp;	Transmission</a><br	/>	<a	"href=""#List"">List"	of	Confirmed	COVID-19	Cases	in	Simcoe	Muskoka</a><br	/>	<a	"href=""#Curve"">Epidemic"	Curve	by	Date	of	Symptom	Onset</a></p>	<p>The	Simcoe	Muskoka	District	Health	Unit	currently	has	<strong>52confirmed	cases</strong>	of	COVID-19	including	<strong>9</strong><strong>	recovered,	8	hospitalizations	and	4	deaths</strong>.</p>	<p>We	have	evidence	of	community	transmission	of	COVID-19	in	our	region	which	means	the	virus	is	spreading	in	the	community	and	is	not	linked	to	travel	or	a	previously	known	case.	Community	transmission	means	that	we	expect	the	number	of	cases	will	start	to	rise	over	the	next	days	and	weeks.	Due	to	this,	public	health	in	unable	to	monitor	how	the	virus	is	spreading	from	person	to	person	and	this	makes	it	more	difficult	to	slow	its	spread.	This	is	not	just	a	disease	affecting	the	elderly,	most	of	our	cases	are	among	adults	between	35	and	64	years	of	age.	This	makes	it	even	more	important	that	people	protect	themselves	and	others	by	staying	home	and	assuming	that	you	and	everyone	around	you	may	be	carrying	the	virus.	If	we	all	do	this,	as	well	as	continue	to	maintain	physical	distance	of	2	metres	from	others	and	wash	our	hands	frequently,	we	will	be	putting	less	people	at	risk	and	can	flatten	the	curve.	</p>	<p><strong>Anyone	who	has	new	cold-like/respiratory	symptoms	(regardless	of	travel	history),	and	has	not	been	tested	for	COVID-19,	is	to	self-isolate	at	home	for	14	days.</strong></p>	<p>	Details	on	all	confirmed	cases	within	Simcoe	County	and	the	District	of	Muskoka	are	<a	"href=""#Confirmed"">listed"	</a>below.	There	are	also	<a	"href=""#Tables"">tables"	</a>of	the	number	of	confirmed	cases	in	Simcoe	Muskoka,	broken	down	by:	age	group,	status	and	source	of	infection.	Finally,	there	is	a	graph	that	displays	the	number	of	confirmed	cases	in	Simcoe	Muskoka	by	date	of	symptom	onset.	</p>	<p>	<h3>Protect	yourself	and	others	</h3>	</p>	<ol>	<li>Stay	home
+2020-04-01 10:44:32	Renfrew	7
+2020-04-01 10:44:32	Simcoe-Muskoka	52
 2020-04-01 10:44:32	SouthWestern	15
 2020-04-01 10:44:32	Sudbury	12
 2020-04-01 10:44:32	Thunderbay	4
 2020-04-01 10:44:32	Timiskaming	2
 2020-04-01 10:44:32	Toronto	793
-2020-04-01 10:44:32	Waterloo
+2020-04-01 10:44:32	Waterloo	117
 2020-04-01 10:44:32	Wellington-Dufferin-Guelph	3
 2020-04-01 10:44:32	Windsor-Essex	92
-2020-04-01 10:44:32	York
+2020-04-01 10:44:32	York	290
 2020-03-21 23:07:00	Algoma	NA
 2020-03-21 23:07:00	Brant	NA
 2020-03-21 23:07:00	Chatham-Kent	NA

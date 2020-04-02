@@ -39,11 +39,12 @@ def get_date_from_html(html):
             hour = int(hour) + 12
         return datetime.strptime(date+str(hour)+':'+minute, '%B %d, %Y%H:%M')  # noqa
     except:
-        time = '16:00'  # updated daily at 10:30am
+        time = '16:00'
         date_regex = re.compile('Summary of.* to (.+) (\d+), (\d{4})')
         date_match = re.search(date_regex, html)
         month = date_match[1]
         date = date_match[2]
+        if int(date) < 10: date = '0' + date
         year = date_match[3]
         return datetime.strptime(month + date + year + time, '%B%d%Y%H:%M') # noqa
 
@@ -63,6 +64,7 @@ def save_latest_html():
     print('Fetching latest Ontario data')
     html = get_ontario_corona_html()
     date = get_date_from_html(html)
+    print(date);
     with open('{}/{}.html'.format(HTML_DIR, date), 'w') as f:
         f.write(html)
 

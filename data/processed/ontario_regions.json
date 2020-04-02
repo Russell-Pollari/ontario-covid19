@@ -97,7 +97,7 @@
   {
     "date": "2020-04-01T10:38:57",
     "ontario_health_region": "Ottawa",
-    "total_cases": "4"
+    "total_cases": "NA"
   },
   {
     "date": "2020-04-01T10:38:57",
@@ -267,7 +267,7 @@
   {
     "date": "2020-03-31T10:51:20",
     "ontario_health_region": "Ottawa",
-    "total_cases": "30"
+    "total_cases": "NA"
   },
   {
     "date": "2020-03-31T10:51:20",
@@ -336,6 +336,346 @@
   },
   {
     "date": "2020-03-31T10:51:20",
+    "ontario_health_region": "York",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Algoma",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Brant",
+    "total_cases": "17"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Chatham-Kent",
+    "total_cases": "8"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Durham",
+    "total_cases": "150"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Eastern-Ontario",
+    "total_cases": "19"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Grey-Bruce",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Haldimand-Norfolk",
+    "total_cases": "27"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Halton",
+    "total_cases": "74"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Hamilton",
+    "total_cases": "112"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Hastings-Prince-Edward",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "HKPR",
+    "total_cases": "63"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Huron-Perth",
+    "total_cases": "Perth"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "KFLA",
+    "total_cases": "46"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Lambton",
+    "total_cases": "56"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Leeds",
+    "total_cases": "35"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Middlesex-London",
+    "total_cases": "14"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Niagara",
+    "total_cases": "61"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "North-Bay-Parry-Sound",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Northwestern",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Ottawa",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Peel",
+    "total_cases": "309"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Peterborough",
+    "total_cases": "28"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Porcupine",
+    "total_cases": "18"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Renfrew",
+    "total_cases": "<p>March"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Simcoe-Muskoka",
+    "total_cases": "57"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "SouthWestern",
+    "total_cases": "15"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Sudbury",
+    "total_cases": "13"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Thunderbay",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Timiskaming",
+    "total_cases": "2"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Toronto",
+    "total_cases": "818"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Waterloo",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Wellington-Dufferin-Guelph",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "Windsor-Essex",
+    "total_cases": "92"
+  },
+  {
+    "date": "2020-04-01T17:29:50",
+    "ontario_health_region": "York",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Algoma",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Brant",
+    "total_cases": "17"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Chatham-Kent",
+    "total_cases": "8"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Durham",
+    "total_cases": "150"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Eastern-Ontario",
+    "total_cases": "19"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Grey-Bruce",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Haldimand-Norfolk",
+    "total_cases": "27"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Halton",
+    "total_cases": "74"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Hamilton",
+    "total_cases": "112"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Hastings-Prince-Edward",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "HKPR",
+    "total_cases": "63"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Huron-Perth",
+    "total_cases": "Perth"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "KFLA",
+    "total_cases": "46"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Lambton",
+    "total_cases": "56"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Leeds",
+    "total_cases": "35"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Middlesex-London",
+    "total_cases": "14"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Niagara",
+    "total_cases": "61"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "North-Bay-Parry-Sound",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Northwestern",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Ottawa",
+    "total_cases": "194"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Peel",
+    "total_cases": "309"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Peterborough",
+    "total_cases": "28"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Porcupine",
+    "total_cases": "18"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Renfrew",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Simcoe-Muskoka",
+    "total_cases": "57"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "SouthWestern",
+    "total_cases": "15"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Sudbury",
+    "total_cases": "13"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Thunderbay",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Timiskaming",
+    "total_cases": "2"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Toronto",
+    "total_cases": "818"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Waterloo",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Wellington-Dufferin-Guelph",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
+    "ontario_health_region": "Windsor-Essex",
+    "total_cases": "92"
+  },
+  {
+    "date": "2020-04-01T17:18:45",
     "ontario_health_region": "York",
     "total_cases": "NA"
   },
@@ -607,7 +947,7 @@
   {
     "date": "2020-03-30T10:27:57",
     "ontario_health_region": "Ottawa",
-    "total_cases": "22"
+    "total_cases": "NA"
   },
   {
     "date": "2020-03-30T10:27:57",
@@ -1627,7 +1967,7 @@
   {
     "date": "2020-03-31T10:43:40",
     "ontario_health_region": "Ottawa",
-    "total_cases": "30"
+    "total_cases": "NA"
   },
   {
     "date": "2020-03-31T10:43:40",
@@ -2541,6 +2881,176 @@
   },
   {
     "date": "2020-03-29T10:44:11",
+    "ontario_health_region": "York",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Algoma",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Brant",
+    "total_cases": "17"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Chatham-Kent",
+    "total_cases": "9"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Durham",
+    "total_cases": "150"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Eastern-Ontario",
+    "total_cases": "19"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Grey-Bruce",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Haldimand-Norfolk",
+    "total_cases": "34"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Halton",
+    "total_cases": "74"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Hamilton",
+    "total_cases": "112"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Hastings-Prince-Edward",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "HKPR",
+    "total_cases": "63"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Huron-Perth",
+    "total_cases": "Perth"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "KFLA",
+    "total_cases": "46"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Lambton",
+    "total_cases": "59"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Leeds",
+    "total_cases": "35"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Middlesex-London",
+    "total_cases": "14"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Niagara",
+    "total_cases": "61"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "North-Bay-Parry-Sound",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Northwestern",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Ottawa",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Peel",
+    "total_cases": "362"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Peterborough",
+    "total_cases": "28"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Porcupine",
+    "total_cases": "21"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Renfrew",
+    "total_cases": "<p>March"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Simcoe-Muskoka",
+    "total_cases": "57"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "SouthWestern",
+    "total_cases": "18"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Sudbury",
+    "total_cases": "13"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Thunderbay",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Timiskaming",
+    "total_cases": "2"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Toronto",
+    "total_cases": "818"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Waterloo",
+    "total_cases": "NA"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Wellington-Dufferin-Guelph",
+    "total_cases": "4"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
+    "ontario_health_region": "Windsor-Essex",
+    "total_cases": "128"
+  },
+  {
+    "date": "2020-04-02T10:33:22",
     "ontario_health_region": "York",
     "total_cases": "NA"
   },
@@ -3737,7 +4247,7 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Algoma",
-    "total_cases": "NA"
+    "total_cases": "5"
   },
   {
     "date": "2020-04-01T10:44:32",
@@ -3782,7 +4292,7 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Hastings-Prince-Edward",
-    "total_cases": "NA"
+    "total_cases": "11"
   },
   {
     "date": "2020-04-01T10:44:32",
@@ -3832,7 +4342,7 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Ottawa",
-    "total_cases": "4"
+    "total_cases": "NA"
   },
   {
     "date": "2020-04-01T10:44:32",
@@ -3852,12 +4362,12 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Renfrew",
-    "total_cases": "<p>March"
+    "total_cases": "7"
   },
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Simcoe-Muskoka",
-    "total_cases": "<div"
+    "total_cases": "52"
   },
   {
     "date": "2020-04-01T10:44:32",
@@ -3887,7 +4397,7 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "Waterloo",
-    "total_cases": "NA"
+    "total_cases": "117"
   },
   {
     "date": "2020-04-01T10:44:32",
@@ -3902,7 +4412,7 @@
   {
     "date": "2020-04-01T10:44:32",
     "ontario_health_region": "York",
-    "total_cases": "NA"
+    "total_cases": "290"
   },
   {
     "date": "2020-03-21T23:07:00",
