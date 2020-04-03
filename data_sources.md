@@ -6,13 +6,12 @@ The code, and raw and processed data can be found in my [GitHub repo](https://gi
 
 
 ### Ontario data
-Testing results obtained by scraping [Ontario's official
-coronavirus page](https://www.ontario.ca/page/2019-novel-coronavirus) (which is updated daily)  
+Status updates pulled daily from here https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
 
 
 ### Data for other provinces
-Total cases for other provinces obatained from scraping [Canada's offical
-coronavirus page](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html): (updated daily)  
+Total cases for Canada and other provinces obatained:
+https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html: (updated daily)  
 
 ### Data for Canada and other countries
 CSV of world data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data)

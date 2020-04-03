@@ -225,6 +225,14 @@
     "date": "2020-03-21T17:30:00"
   },
   {
+    "deceased": 67,
+    "total_cases": 3255,
+    "resolved": 1023,
+    "total_tests_reported": 66753,
+    "pending": 1245,
+    "date": "2020-04-02T16:00:00"
+  },
+  {
     "deceased": 18,
     "negative": 33240,
     "pending": 8690,
