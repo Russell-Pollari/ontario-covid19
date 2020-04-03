@@ -1,39 +1,65 @@
 # Ontario Covid-19 tracker
 
-Scripts to scrape Covid-19 data from Onntario and Canadian Government websites
+## Data sources
 
-https://www.ontario.ca/page/2019-novel-coronavirus and store in MongoDB database.
+See code in [GitHub repo](https://github.com/Russell-Pollari/ontario-covid19)
 
-Dashboard to view data and plots: https://russell-pollari.github.io/ontario-covid19/
+Visualizations of data [here](https://russell-pollari.github.io/ontario-covid19/) built with MongoDB and Metabase
 
-## Install requirements
+
+### Ontario
+Status updates pulled daily from here [https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario)
+
+Case daya pulled daily from here [https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario](https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario)
+
+### Canada
+Total cases for Canada and other provinces pulled daily from here:
+[https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html)
+
+
+### The world
+CSV of world data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
+
+
+## Development
+
+### Install requirements
 `$ pip install -r requirements.text`
 
-## Compile Ontario's data
-`$ python src/update_ontario_data.py`  
-Saves html from [Ontario Ministry of Health](https://www.ontario.ca/page/2019-novel-coronavirus) in `data/raw/ontario`
-Then compile json from all html documents in `data/raw/ontario` and saves in
-`data/processed/all_updates`
-
-
-
-## Download Canada data and save as json
-Fetch csv of updates by rovince and `data/processed/canada_data.json`
-```
-$ python src/update_canada_data.py
-```
-
-## Download country data and save as json
-Fetch csv of country data from Our World in Data and store as json in `data/processed/all_countries_data.json`
-```
-$ python src/update_country_data.py
-```
-
-## Sync json data with MongoDB database
-Create a file named `.env` and
+Create a text file named `.env` and
 add `MONGO_URI=<mongo_uri>`  
 or  
 `$ export MONGO_URI=<mongo_uri>`
 
-Store all json in mongodb database   
+
+### Sync Ontario's data with db
+##### Sync status updates  
+`$ python src/sync_ontario_statuses.py`  
+stores updates in `ontario_statuses` collection
+
+##### Sync case data  
+`$ python src/sync_ontario_cases.py`  
+stores updates in `ontario_cases` collection
+
+
+### Download Canada data
+Fetch csv of updates and store as json
+```
+$ python src/update_canada_data.py
+```
+
+### Download world data
+Fetch csv from Our World in Data and store as json
+```
+$ python src/update_country_data.py
+```
+
+### Download PHU data
+Scrape various Ontario PHUs and store as json and csv
+```
+$ python src/update_ontario_region_data.py
+```
+
+## Sync with db
+Store various jso files in db  
 `$ python src/sync_with_db.py`

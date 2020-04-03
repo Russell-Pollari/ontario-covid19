@@ -36,6 +36,8 @@ def get_field_name_from_column_name(column_name):
         return 'num_ventilator'
     if 'ICU' in column_name:
         return 'num_icu'
+    if 'Confirmed Negative' in column_name:
+        return 'negative'
 
     return None
 
@@ -50,19 +52,21 @@ def read_csv(filename):
     with open(filename) as csv_file:
         reader = csv.reader(csv_file)
         column_names = next(reader)
-        print(column_names)
         for row in reader:
             tmp = {
                 'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
             }
+
             for index, column in enumerate(row):
                 field_name = get_field_name_from_column_name(column_names[index])
                 if field_name:
                     tmp[field_name] = to_int(column)
 
+            ## Handle change in test reporting
+            tmp['total_tests_reported'] = tmp['total_tested']
+            if tmp['negative'] > 0:
+                tmp['total_tests_reported'] = tmp['negative'] + tmp['total_cases']
             statuses.append(tmp)
-
-            pprint(statuses)
 
     return statuses
 

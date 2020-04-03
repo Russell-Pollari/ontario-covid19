@@ -1,17 +1,19 @@
 # Data sources
 
-The code, and raw and processed data can be found in my [GitHub repo](https://github.com/Russell-Pollari/ontario-covid19)
+See code in [GitHub repo](https://github.com/Russell-Pollari/ontario-covid19)
 
-[Dashboard](https://russell-pollari.github.io/ontario-covid19/) built with MongoDB and Metabase:  
+Visualizations of data [here](https://russell-pollari.github.io/ontario-covid19/) built with MongoDB and Metabase
 
 
 ### Ontario data
-Status updates pulled daily from here https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
+Status updates pulled daily from here [https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario)
 
+Case daya pulled daily from here [https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario](https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario)
 
-### Data for other provinces
-Total cases for Canada and other provinces obatained:
-https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html: (updated daily)  
+### Data for Canada
+Total cases for Canada and other provinces pulled daily from here:
+[https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html)
+
 
 ### Data for Canada and other countries
 CSV of world data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
