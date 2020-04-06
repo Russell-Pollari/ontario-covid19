@@ -22,7 +22,8 @@ def update_canada_data():
             updates.append({
                 'province': row[1],
                 'date': datetime.strptime(row[3], '%d-%m-%Y').isoformat(), # noqa
-                'new_cases': row[8],
+                'new_cases': row[9],
+                'total_tests': row[8],
                 'total_cases': row[7],
                 'total_deaths': row[6]
             })

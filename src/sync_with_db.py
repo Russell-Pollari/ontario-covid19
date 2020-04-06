@@ -32,9 +32,9 @@ def sync_province_updates(db):
                 value = update[key]
                 try:
                     value = value.replace(',', '')
+                    update[key] = int(value)
                 except:
-                    value = value
-                update[key] = int(value)
+                    value = 0
         update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
 
     db.provinces.insert_many(updates)
