@@ -10,7 +10,7 @@ Visualizations of data [here](https://russell-pollari.github.io/ontario-covid19/
 ### Ontario
 Status updates pulled daily from here [https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario)
 
-Case daya pulled daily from here [https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario](https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario)
+Case data pulled daily from here [https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario](https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario)
 
 ### Canada
 Total cases for Canada and other provinces pulled daily from here:
@@ -26,6 +26,7 @@ CSV of world data from [Our World in Data](https://ourworldindata.org/coronaviru
 ### Install requirements
 `$ pip install -r requirements.text`
 
+### Setup environment
 Create a text file named `.env` and
 add `MONGO_URI=<mongo_uri>`  
 or  
