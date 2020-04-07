@@ -30,8 +30,6 @@ def read_csv(filename):
                 field_name = column_names[index].lower()
                 if 'latitude' in field_name or 'longitude' in field_name:
                     tmp[field_name] = float(column)
-                elif 'resolved' in field_name:
-                    tmp[field_name] = column == 'Yes'
                 else:
                     tmp[field_name] = column
 
