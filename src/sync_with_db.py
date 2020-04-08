@@ -22,24 +22,6 @@ def sync_country_data(db):
     db.countries.insert_many(updates)
 
 
-def sync_province_updates(db):
-    print('Syncing province updates')
-    db.provinces.drop()
-    updates = json.load(open('data/processed/canada_data.json'))
-    for update in updates:
-        for key in update.keys():
-            if 'date' not in key and 'province' not in key:
-                value = update[key]
-                try:
-                    value = value.replace(',', '')
-                    update[key] = int(value)
-                except:
-                    value = 0
-        update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
-
-    db.provinces.insert_many(updates)
-
-
 def sync_health_region_updates(db):
     print('Syncing health region updates')
     db.ontario_health_regions.drop()
@@ -63,7 +45,6 @@ def sync_with_db():
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
 
-    sync_province_updates(db)
     sync_country_data(db)
     sync_health_region_updates(db)
 

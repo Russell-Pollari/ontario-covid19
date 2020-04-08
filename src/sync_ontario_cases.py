@@ -2,7 +2,6 @@ import wget
 import pymongo
 from dotenv import load_dotenv
 
-from pprint import pprint
 import os
 import csv
 from datetime import datetime
