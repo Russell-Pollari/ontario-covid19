@@ -60,7 +60,6 @@ def read_csv(filename):
                         tmp[field_name] = to_int(value)
 
             updates.append(tmp)
-            print(tmp)
 
     return updates
 

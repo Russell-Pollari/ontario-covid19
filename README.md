@@ -43,11 +43,12 @@ stores updates in `ontario_statuses` collection
 stores updates in `ontario_cases` collection
 
 
-### Download Canada data
-Fetch csv of updates and store as json
+### Sync Canada's data wtih db
 ```
-$ python src/update_canada_data.py
+$ python src/sync_canada_statuses.py
 ```
+Stores update sin `canda_statuses` collection
+
 
 ### Download world data
 Fetch csv from Our World in Data and store as json
@@ -62,5 +63,5 @@ $ python src/update_ontario_region_data.py
 ```
 
 ## Sync with db
-Store various jso files in db  
+Store various json files in db  
 `$ python src/sync_with_db.py`
