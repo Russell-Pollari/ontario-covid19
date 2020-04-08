@@ -3700,32 +3700,32 @@
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
     "total_tests": "43257",
-    "total_cases": "1266",
-    "total_deaths": "39"
+    "total_cases": "1291",
+    "total_deaths": "43"
   },
   {
     "province": "Alberta",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "64183",
-    "total_cases": "1348",
-    "total_deaths": "24"
+    "total_tests": "65265",
+    "total_cases": "1373",
+    "total_deaths": "26"
   },
   {
     "province": "Saskatchewan",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
     "total_tests": "14203",
-    "total_cases": "253",
+    "total_cases": "260",
     "total_deaths": "3"
   },
   {
     "province": "Manitoba",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "13788",
-    "total_cases": "204",
-    "total_deaths": "2"
+    "total_tests": "13990",
+    "total_cases": "217",
+    "total_deaths": "3"
   },
   {
     "province": "Ontario",
@@ -3740,15 +3740,15 @@
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
     "total_tests": "104526",
-    "total_cases": "8580",
-    "total_deaths": "121"
+    "total_cases": "9340",
+    "total_deaths": "150"
   },
   {
     "province": "Newfoundland and Labrador",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "5913",
-    "total_cases": "226",
+    "total_tests": "6102",
+    "total_cases": "228",
     "total_deaths": "2"
   },
   {
@@ -3756,7 +3756,7 @@
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
     "total_tests": "3958",
-    "total_cases": "103",
+    "total_cases": "105",
     "total_deaths": "0"
   },
   {
@@ -3765,13 +3765,13 @@
     "new_cases": "",
     "total_tests": "11559",
     "total_cases": "310",
-    "total_deaths": "1"
+    "total_deaths": "0"
   },
   {
     "province": "Prince Edward Island",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "839",
+    "total_tests": "939",
     "total_cases": "22",
     "total_deaths": "0"
   },
@@ -3779,7 +3779,7 @@
     "province": "Yukon",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "775",
+    "total_tests": "787",
     "total_cases": "7",
     "total_deaths": "0"
   },
@@ -3787,7 +3787,7 @@
     "province": "Northwest Territories",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "1217",
+    "total_tests": "1230",
     "total_cases": "5",
     "total_deaths": "0"
   },
@@ -3811,8 +3811,8 @@
     "province": "Canada",
     "date": "2020-04-07T00:00:00",
     "new_cases": "",
-    "total_tests": "346507",
-    "total_cases": "17063",
-    "total_deaths": "345"
+    "total_tests": "348105",
+    "total_cases": "17897",
+    "total_deaths": "380"
   }
 ]
