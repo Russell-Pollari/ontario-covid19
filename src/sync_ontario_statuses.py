@@ -46,6 +46,11 @@ def read_csv(filename):
     with open(filename) as csv_file:
         reader = csv.reader(csv_file)
         column_names = next(reader)
+
+        prev_total_cases = 0
+        prev_total_deaths = 0
+        prev_total_tests = 0
+
         for row in reader:
             tmp = {
                 'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
@@ -62,6 +67,15 @@ def read_csv(filename):
             if tmp['negative'] > 0:
                 total_tests_reported = tmp['negative'] + tmp['total_cases']
                 tmp['total_tests_reported'] = total_tests_reported
+
+            tmp['new_cases'] = tmp['total_cases'] - prev_total_cases
+            prev_total_cases = tmp['total_cases']
+
+            tmp['new_deaths'] = tmp['total_deaths'] - prev_total_deaths
+            prev_total_deaths = tmp['total_deaths']
+
+            tmp['new_tests'] = tmp['total_tests_reported'] - prev_total_tests
+            prev_total_tests = tmp['total_tests_reported']
 
             statuses.append(tmp)
 
