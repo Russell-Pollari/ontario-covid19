@@ -6,22 +6,6 @@ from dotenv import load_dotenv
 import pymongo
 
 
-def sync_country_data(db):
-    print('Syncing country data')
-    db.countries.drop()
-    updates = json.load(open('data/processed/all_countries_data.json'))
-    for update in updates:
-        for key in update.keys():
-            if 'date' not in key and 'country' not in key:
-                try:
-                    update[key] = int(update[key])
-                except:
-                    update[key] = 0
-        update['reportedAt'] = datetime.strptime(update['date'], '%Y-%m-%dT%H:%M:%S') # noqa
-
-    db.countries.insert_many(updates)
-
-
 def sync_health_region_updates(db):
     print('Syncing health region updates')
     db.ontario_health_regions.drop()
@@ -45,7 +29,6 @@ def sync_with_db():
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
 
-    sync_country_data(db)
     sync_health_region_updates(db)
 
 
