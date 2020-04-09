@@ -6,16 +6,10 @@ import os
 import csv
 from datetime import datetime
 
+from utils import string_to_int
+
 
 DATA_URL = 'https://health-infobase.canada.ca/src/data/covidLive/covid19.csv'
-
-
-def to_int(string_value):
-    tmp = string_value.replace(',', '')
-    try:
-        return int(tmp)
-    except:
-        return 0
 
 
 def get_field_name_from_column_name(column_name):
@@ -57,7 +51,7 @@ def read_csv(filename):
                     if 'province' in field_name:
                         tmp[field_name] = value
                     else:
-                        tmp[field_name] = to_int(value)
+                        tmp[field_name] = string_to_int(value)
 
             updates.append(tmp)
 

@@ -1,0 +1,34 @@
+Algoma
+Brant <a href="#accordionBody_1585251202796" data-toggle="collapse" data-parent="#accordionTitle_1585251202796" aria-expanded="false" class="collapsed">How many cases are in Brant?<br><br></a></h4><div class="deleteAccordion" style="display&#58;block;">x</div></div><div class="panel-collapse collapse" id="accordionBody_1585251202796" aria-expanded="false" style="height&#58;0px;"><div class="panel-body"><table class="ms-rteTable-default" width="100%" cellspacing="0"><tbody><tr><td class="ms-rteTable-default" style="width&#58;50%;">Number of lab confirmed, positive COVID-19 cases in the Brant County Health Unit area, which includes both Brantford and the County of Brant<br></td><td class="ms-rteTable-default" style="width&#58;50%;">48<br></td></tr></tbody></table><p style="text-align&#58;right;">
+Chatham-Kent </div><a class="x-btn x-btn-global" href="https://www.ontario.ca/page/2019-novel-coronavirus-covid-19-self-assessment" title="Self Assessment" target="_blank" rel="" data-options="thumbnail: ''">TAKE THE SELF ASSESSMENT</a></div></div></div><div id="x-section-3" class="x-section" style="margin: 0px;padding: 25px 0px 35px; background-color: hsl(0, 0%, 94%);" ><div class="x-container max width" style="margin: 0px auto;padding: 0px;max-width: 750px;" ><div class="x-column x-sm cs-ta-center man x-1-1" style="padding: 0px;" ><div class="x-text cs-ta-left" ><h6 style="text-align: center;"><strong>As of April 8, there have been 17</strong><strong> confirmed cases of COVID-19 in Chatham-Kent.</strong></h6>
+Durham
+Eastern-Ontario
+Grey-Bruce NA
+Haldimand-Norfolk 402
+Halton 228
+Hamilton 198
+Hastings-Prince-Edward
+HKPR 99
+Huron-Perth &nbsp;Self-monitoring and self-isolation
+KFLA
+Lambton 98
+Leeds 123
+Middlesex-London 12
+Niagara 180
+North-Bay-Parry-Sound <td class="Center">Deaths</td>
+Northwestern NA
+Ottawa 4
+Peel 684
+Peterborough
+Porcupine 31
+Renfrew <p>March 31, 2020 &#8211; Today, Renfrew County and District Health Unit (RCDHU) confirms five more positive laboratory confirmed cases of novel coronavirus 2019 (COVID-19) throughout Renfrew County and District (RCD). That brings the total of confirmed cases in RCD to seven.For full details, visit:<a href="https://www.rcdhu.com/news/" target="_blank" rel="noopener"> https://www.rcdhu.com/news/</a></p>
+Simcoe-Muskoka 108
+SouthWestern
+Sudbury 26
+Thunderbay </tr><tr><td><strong>As of 4:30 p.m., April 8, 2020:</strong></td>
+Timiskaming 7&nbsp;
+Toronto 121
+Waterloo
+Wellington-Dufferin-Guelph
+Windsor-Essex 262
+York

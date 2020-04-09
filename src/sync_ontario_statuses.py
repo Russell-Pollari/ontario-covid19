@@ -7,16 +7,10 @@ import os
 import csv
 from datetime import datetime
 
+from utils import string_to_int
+
 
 DATA_URL = 'https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv'
-
-
-def to_int(string_value):
-    tmp = string_value.replace(',', '')
-    try:
-        return int(tmp)
-    except:
-        return 0
 
 
 def get_field_name_from_column_name(column_name):
@@ -60,7 +54,7 @@ def read_csv(filename):
             for index, column in enumerate(row):
                 field_name = get_field_name_from_column_name(column_names[index])
                 if field_name:
-                    tmp[field_name] = to_int(column)
+                    tmp[field_name] = string_to_int(column)
 
             ## Handle change in test reporting
             tmp['total_tests_reported'] = tmp['total_tested']

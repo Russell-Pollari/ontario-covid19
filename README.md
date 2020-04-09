@@ -44,24 +44,18 @@ stores updates in `ontario_cases` collection
 
 
 ### Sync Canada's data wtih db
-```
-$ python src/sync_canada_statuses.py
-```
-Stores update sin `canda_statuses` collection
+`$ python src/sync_canada_statuses.py`  
+stores updates in `canada_statuses` collection
 
 
 ### Download world data
-Fetch csv from Our World in Data and store as json
-```
-$ python src/update_country_data.py
-```
+`$ python src/sync_world_data.py`  
+stores updates in `world_statues` collection
+
 
 ### Download PHU data
 Scrape various Ontario PHUs and store as json and csv
 ```
 $ python src/update_ontario_region_data.py
+$ python src/sync_with_db.py
 ```
-
-## Sync with db
-Store various json files in db  
-`$ python src/sync_with_db.py`
