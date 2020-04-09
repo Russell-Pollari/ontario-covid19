@@ -14,7 +14,7 @@ def sync_health_region_updates(db):
         total_cases = update['total_cases']
         try:
             value = int(total_cases.replace(',', ''))
-        except:
+        except: # noqa
             value = None
 
         update['total_cases'] = value

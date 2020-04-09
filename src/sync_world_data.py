@@ -29,7 +29,7 @@ def read_csv(filename):
 
             for index, value in enumerate(row):
                 field_name = column_names[index]
-                if field_name is 'date' or field_name is 'location':
+                if field_name == 'date' or field_name == 'location':
                     tmp[field_name] = value
                 else:
                     tmp[field_name] = string_to_int(value)
