@@ -1,15 +1,12 @@
-import wget
 import pymongo
 from dotenv import load_dotenv
 
 import os
 import csv
+import tempfile
 from datetime import datetime
 
 from utils import string_to_int, download_data
-
-
-DATA_URL = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
 
 
 def read_csv(filename):
@@ -34,10 +31,10 @@ def read_csv(filename):
     return statuses
 
 
-def sync_with_db(statuses, mongo_uri):
+def sync_with_db(statuses):
+    mongo_uri = os.getenv('MONGO_URI', '')
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
-
 
     db_updates = [
         pymongo.UpdateOne({
@@ -49,16 +46,24 @@ def sync_with_db(statuses, mongo_uri):
     ]
     bulk_write_result = db.world_statuses.bulk_write(db_updates)
 
+    print('\n')
     print('Matched', bulk_write_result.matched_count)
     print('Inserted', bulk_write_result.inserted_count)
     print('Upserted', bulk_write_result.upserted_count)
     print('Modified', bulk_write_result.modified_count)
 
 
+def sync_world_statuses():
+    data_url = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        temp_file = '{}/{}'.format(tmp_dir, 'world.csv')
+        filename = download_data(data_url, temp_file)
+        statuses = read_csv(filename)
+
+    sync_with_db(statuses)
+
+
 if __name__ == '__main__':
     load_dotenv()
-    mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
-    save_as = 'data/raw/world/world_statuses_{}.csv'.format(datetime.now())
-    filename = download_data(DATA_URL, save_as)
-    statuses = read_csv(filename)
-    sync_with_db(statuses, mongo_uri)
+    sync_world_statuses()

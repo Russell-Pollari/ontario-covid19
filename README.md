@@ -33,21 +33,18 @@ or
 `$ export MONGO_URI=<mongo_uri>`
 
 
-### Sync Ontario's data with db
-##### Sync status updates  
+##### Sync Onatrio status updates  
 `$ python src/sync_ontario_statuses.py`  
 stores updates in `ontario_statuses` collection
 
-##### Sync case data  
+##### Sync Ontario case data  
 `$ python src/sync_ontario_cases.py`  
 stores updates in `ontario_cases` collection
-
 
 ### Sync Canada's data wtih db
 `$ python src/sync_canada_statuses.py`  
 stores updates in `canada_statuses` collection
 
-
-### Download world data
+### Sync world data
 `$ python src/sync_world_data.py`  
 stores updates in `world_stauses` collection

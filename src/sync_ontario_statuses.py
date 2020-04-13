@@ -1,16 +1,12 @@
-import wget
 import pymongo
 from dotenv import load_dotenv
 
 import os
 import csv
+import tempfile
 from datetime import datetime
 
 from utils import string_to_int, download_data
-
-
-DATA_URL = 'https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv' # noqa
-DATA_PATH = 'data/raw/ontario'
 
 
 def get_field_name_from_column_name(column_name):
@@ -77,7 +73,8 @@ def read_csv(filename):
     return statuses
 
 
-def sync_with_db(statuses, mongo_uri):
+def sync_with_db(statuses):
+    mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
 
@@ -90,16 +87,24 @@ def sync_with_db(statuses, mongo_uri):
     ]
     bulk_write_result = db.ontario_statuses.bulk_write(db_updates)
 
+    print('\n')
     print('Matched', bulk_write_result.matched_count)
     print('Inserted', bulk_write_result.inserted_count)
     print('Upserted', bulk_write_result.upserted_count)
     print('Modified', bulk_write_result.modified_count)
 
 
+def sync_ontario_statuses():
+    data_url = 'https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv' # noqa
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        temp_file = '{}/ontario_statuses.csv'.format(tmp_dir)
+        filename = download_data(data_url, temp_file)
+        statuses = read_csv(filename)
+
+    sync_with_db(statuses)
+
+
 if __name__ == '__main__':
     load_dotenv()
-    mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
-    save_as = '{}/ontario_statuses_{}.csv'.format(DATA_PATH, datetime.now())
-    filename = download_data(DATA_URL, save_as)
-    statuses = read_csv(filename)
-    sync_with_db(statuses, mongo_uri)
+    sync_ontario_statuses()
