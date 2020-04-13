@@ -50,12 +50,4 @@ stores updates in `canada_statuses` collection
 
 ### Download world data
 `$ python src/sync_world_data.py`  
-stores updates in `world_statues` collection
-
-
-### Download PHU data
-Scrape various Ontario PHUs and store as json and csv
-```
-$ python src/update_ontario_region_data.py
-$ python src/sync_with_db.py
-```
+stores updates in `world_stauses` collection
