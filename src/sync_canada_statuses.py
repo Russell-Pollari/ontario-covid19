@@ -1,4 +1,3 @@
-import wget
 import pymongo
 from dotenv import load_dotenv
 
@@ -6,7 +5,7 @@ import os
 import csv
 from datetime import datetime
 
-from utils import string_to_int
+from utils import string_to_int, download_data
 
 
 DATA_URL = 'https://health-infobase.canada.ca/src/data/covidLive/covid19.csv'
@@ -29,11 +28,6 @@ def get_field_name_from_column_name(column_name):
         return 'new_cases'
 
     return None
-
-
-def download_data(url):
-    filename = 'data/raw/canada/canada_statuses_{}.csv'.format(datetime.now())
-    return wget.download(url, filename)
 
 
 def read_csv(filename):
@@ -68,7 +62,7 @@ def sync_with_db(updates, mongo_uri):
 if __name__ == '__main__':
     load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
-
-    filename = download_data(DATA_URL)
+    save_as = 'data/raw/canada/canada_statuses_{}.csv'.format(datetime.now())
+    filename = download_data(DATA_URL, save_as)
     updates = read_csv(filename)
     sync_with_db(updates, mongo_uri)

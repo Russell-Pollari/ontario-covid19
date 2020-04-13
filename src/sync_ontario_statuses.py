@@ -6,7 +6,7 @@ import os
 import csv
 from datetime import datetime
 
-from utils import string_to_int
+from utils import string_to_int, download_data
 
 
 DATA_URL = 'https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv' # noqa
@@ -34,11 +34,6 @@ def get_field_name_from_column_name(column_name):
         return 'negative'
 
     return None
-
-
-def download_data(url):
-    filename = '{}/ontario_statuses_{}.csv'.format(DATA_PATH, datetime.now())
-    return wget.download(url, filename)
 
 
 def read_csv(filename):
@@ -92,7 +87,7 @@ def sync_with_db(statuses, mongo_uri):
 if __name__ == '__main__':
     load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
-
-    filename = download_data(DATA_URL)
+    save_as = '{}/ontario_statuses_{}.csv'.format(DATA_PATH, datetime.now())
+    filename = download_data(DATA_URL, save_as)
     statuses = read_csv(filename)
     sync_with_db(statuses, mongo_uri)

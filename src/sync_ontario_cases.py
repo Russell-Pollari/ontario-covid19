@@ -6,14 +6,11 @@ import os
 import csv
 from datetime import datetime
 
+from utils import download_data
+
 
 DATA_URL = 'https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv' # noqas
 DATA_PATH = 'data/raw/ontario'
-
-
-def download_data(url):
-    filename = '{}/ontario_cases_{}.csv'.format(DATA_PATH, datetime.now())
-    return wget.download(url, filename)
 
 
 def read_csv(filename):
@@ -49,7 +46,7 @@ def sync_with_db(cases, mongo_uri):
 if __name__ == '__main__':
     load_dotenv()
     mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
-
-    filename = download_data(DATA_URL)
+    save_as = '{}/ontario_cases_{}.csv'.format(DATA_PATH, datetime.now())
+    filename = download_data(DATA_URL, save_as)
     cases = read_csv(filename)
     sync_with_db(cases, mongo_uri)
