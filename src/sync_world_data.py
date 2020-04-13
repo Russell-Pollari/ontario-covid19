@@ -34,11 +34,25 @@ def read_csv(filename):
     return statuses
 
 
-def sync_with_db(updates, mongo_uri):
+def sync_with_db(statuses, mongo_uri):
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
-    db.world_statuses.drop()
-    db.world_statuses.insert_many(updates)
+
+
+    db_updates = [
+        pymongo.UpdateOne({
+            'location': status['location'],
+            'reported_date': status['reported_date'],
+        }, {
+            '$set': status
+        }, upsert=True) for status in statuses
+    ]
+    bulk_write_result = db.world_statuses.bulk_write(db_updates)
+
+    print('Matched', bulk_write_result.matched_count)
+    print('Inserted', bulk_write_result.inserted_count)
+    print('Upserted', bulk_write_result.upserted_count)
+    print('Modified', bulk_write_result.modified_count)
 
 
 if __name__ == '__main__':
@@ -46,5 +60,5 @@ if __name__ == '__main__':
     mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost.com:27071')
     save_as = 'data/raw/world/world_statuses_{}.csv'.format(datetime.now())
     filename = download_data(DATA_URL, save_as)
-    updates = read_csv(filename)
-    sync_with_db(updates, mongo_uri)
+    statuses = read_csv(filename)
+    sync_with_db(statuses, mongo_uri)

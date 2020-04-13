@@ -80,8 +80,20 @@ def read_csv(filename):
 def sync_with_db(statuses, mongo_uri):
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
-    db.ontario_statuses.drop()
-    db.ontario_statuses.insert_many(statuses)
+
+    db_updates = [
+        pymongo.UpdateOne({
+            'reported_date': status['reported_date'],
+        }, {
+            '$set': status
+        }, upsert=True) for status in statuses
+    ]
+    bulk_write_result = db.ontario_statuses.bulk_write(db_updates)
+
+    print('Matched', bulk_write_result.matched_count)
+    print('Inserted', bulk_write_result.inserted_count)
+    print('Upserted', bulk_write_result.upserted_count)
+    print('Modified', bulk_write_result.modified_count)
 
 
 if __name__ == '__main__':

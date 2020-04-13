@@ -39,8 +39,20 @@ def read_csv(filename):
 def sync_with_db(cases, mongo_uri):
     client = pymongo.MongoClient(mongo_uri)
     db = client.get_default_database()
-    db.ontario_cases.drop()
-    db.ontario_cases.insert_many(cases)
+
+    db_updates = [
+        pymongo.UpdateOne({
+            '_id': case['_id'],
+        }, {
+            '$set': case
+        }, upsert=True) for case in cases
+    ]
+    bulk_write_result = db.ontario_cases.bulk_write(db_updates)
+
+    print('Matched', bulk_write_result.matched_count)
+    print('Inserted', bulk_write_result.inserted_count)
+    print('Upserted', bulk_write_result.upserted_count)
+    print('Modified', bulk_write_result.modified_count)
 
 
 if __name__ == '__main__':
