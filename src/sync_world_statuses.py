@@ -7,6 +7,11 @@ import tempfile
 from datetime import datetime
 
 from utils import string_to_int, download_data
+from logger import log
+
+
+DATA_URL = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
+COLLECTION_NAME = 'world_statuses'
 
 
 def read_csv(filename):
@@ -44,21 +49,24 @@ def sync_with_db(statuses):
             '$set': status
         }, upsert=True) for status in statuses
     ]
-    bulk_write_result = db.world_statuses.bulk_write(db_updates)
+    result = db[COLLECTION_NAME].bulk_write(db_updates)
 
-    print('\n')
-    print('Matched', bulk_write_result.matched_count)
-    print('Inserted', bulk_write_result.inserted_count)
-    print('Upserted', bulk_write_result.upserted_count)
-    print('Modified', bulk_write_result.modified_count)
+    if result.upserted_count > 0 or result.modified_count > 0:
+        log(
+            'Updating data',
+            COLLECTION_NAME,
+            DATA_URL,
+            result.upserted_count,
+            result.modified_count
+        )
 
 
 def sync_world_statuses():
-    data_url = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
+    log('Checking for updates', COLLECTION_NAME, DATA_URL)
 
     with tempfile.TemporaryDirectory() as tmp_dir:
         temp_file = '{}/{}'.format(tmp_dir, 'world.csv')
-        filename = download_data(data_url, temp_file)
+        filename = download_data(DATA_URL, temp_file)
         statuses = read_csv(filename)
 
     sync_with_db(statuses)

@@ -10,5 +10,4 @@ def string_to_int(string_value):
 
 
 def download_data(from_url, save_as):
-    print('Downloading data from', from_url)
     return wget.download(from_url, save_as)

@@ -7,6 +7,11 @@ import tempfile
 from datetime import datetime
 
 from utils import download_data
+from logger import log
+
+
+DATA_URL = 'https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv' # noqas
+COLLECTION_NAME = 'ontario_cases'
 
 
 def read_csv(filename):
@@ -44,21 +49,24 @@ def sync_with_db(cases):
             '$set': case
         }, upsert=True) for case in cases
     ]
-    bulk_write_result = db.ontario_cases.bulk_write(db_updates)
+    result = db[COLLECTION_NAME].bulk_write(db_updates)
 
-    print('\n')
-    print('Matched', bulk_write_result.matched_count)
-    print('Inserted', bulk_write_result.inserted_count)
-    print('Upserted', bulk_write_result.upserted_count)
-    print('Modified', bulk_write_result.modified_count)
+    if result.upserted_count > 0 or result.modified_count > 0:
+        log(
+            'Updating data',
+            COLLECTION_NAME,
+            DATA_URL,
+            result.upserted_count,
+            result.modified_count
+        )
 
 
 def sync_ontario_cases():
-    data_url = 'https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv' # noqas
+    log('Checking for updates', COLLECTION_NAME, DATA_URL)
 
     with tempfile.TemporaryDirectory() as tmp_dir:
         temp_file = '{}/ontario_cases.csv'.format(tmp_dir)
-        filename = download_data(data_url, temp_file)
+        filename = download_data(DATA_URL, temp_file)
         cases = read_csv(filename)
 
     sync_with_db(cases)

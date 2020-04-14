@@ -7,6 +7,11 @@ import tempfile
 from datetime import datetime
 
 from utils import string_to_int, download_data
+from logger import log
+
+
+DATA_URL = 'https://health-infobase.canada.ca/src/data/covidLive/covid19.csv' # noqa
+COLLECTION_NAME = 'canada_statuses'
 
 
 def get_field_name_from_column_name(column_name):
@@ -65,21 +70,24 @@ def sync_with_db(statuses):
             '$set': status
         }, upsert=True) for status in statuses
     ]
-    bulk_write_result = db.canada_statuses.bulk_write(db_updates)
+    result = db[COLLECTION_NAME].bulk_write(db_updates)
 
-    print('\n')
-    print('Matched', bulk_write_result.matched_count)
-    print('Inserted', bulk_write_result.inserted_count)
-    print('Upserted', bulk_write_result.upserted_count)
-    print('Modified', bulk_write_result.modified_count)
+    if result.upserted_count > 0 or result.modified_count > 0:
+        log(
+            'Updating data',
+            COLLECTION_NAME,
+            DATA_URL,
+            result.upserted_count,
+            result.modified_count
+        )
 
 
 def sync_canada_statuses():
-    data_url = 'https://health-infobase.canada.ca/src/data/covidLive/covid19.csv' # noqa
+    log('Checking for updates', COLLECTION_NAME, DATA_URL)
 
     with tempfile.TemporaryDirectory() as tmp_dir:
         temp_file = '{}/canada.csv'.format(tmp_dir)
-        filename = download_data(data_url, temp_file)
+        filename = download_data(DATA_URL, temp_file)
         statuses = read_csv(filename)
 
     sync_with_db(statuses)
