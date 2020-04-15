@@ -1,9 +1,11 @@
 import pymongo
 from dotenv import load_dotenv
 
+import argparse
 import os
 import csv
 import tempfile
+import time
 from datetime import datetime
 
 from utils import string_to_int, download_data
@@ -100,6 +102,9 @@ def sync_with_db(statuses):
             result.upserted_count,
             result.modified_count
         )
+        return True
+
+    return False
 
 
 def sync_ontario_statuses():
@@ -110,9 +115,20 @@ def sync_ontario_statuses():
         filename = download_data(DATA_URL, temp_file)
         statuses = read_csv(filename)
 
-    sync_with_db(statuses)
+    return sync_with_db(statuses)
 
 
 if __name__ == '__main__':
     load_dotenv()
-    sync_ontario_statuses()
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--check-until-update', action='count', default=0)
+    args = parser.parse_args()
+
+    if args.check_until_update:
+        did_update = False
+        while not did_update:
+            did_update = sync_ontario_statuses()
+            time.sleep(120)
+    else:
+        sync_ontario_statuses()
