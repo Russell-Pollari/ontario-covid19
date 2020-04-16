@@ -75,6 +75,14 @@ def read_csv(filename):
             tmp['new_tests'] = tmp['total_tests_reported'] - prev_total_tests
             prev_total_tests = tmp['total_tests_reported']
 
+            # As of April 15, tests are samples not patients
+            tmp['total_patients_tested'] = tmp['total_tests_reported']
+            tmp['total_samples_tested'] = None
+
+            if tmp['reported_date'] > datetime(2020, 4, 14):
+                tmp['total_patients_tested'] = None
+                tmp['total_samples_tested'] = tmp['total_tests_reported']
+
             statuses.append(tmp)
 
     return statuses
