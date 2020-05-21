@@ -11,7 +11,7 @@ def log(message, collection, data_url, new_records=0, updated_records=0):
     db = client.get_default_database()
 
     log = {
-        'date': datetime.now(),
+        'date': datetime.utcnow(),
         'message': message,
         'collection': collection,
         'data_url': data_url,
