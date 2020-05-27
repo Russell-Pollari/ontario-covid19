@@ -20,10 +20,13 @@ def read_csv(filename):
         reader = csv.reader(csv_file)
         column_names = next(reader)
         for row in reader:
-            tmp = {
-                '_id': row[0],
-                'episode_date': datetime.strptime(row[1], '%Y-%m-%d'),
-            }
+            try:
+                tmp = {
+                    '_id': row[0],
+                    'episode_date': datetime.strptime(row[1], '%Y-%m-%d'),
+                }
+            except: # noqa
+                pass
 
             for index, column in enumerate(row):
                 field_name = column_names[index].lower()
