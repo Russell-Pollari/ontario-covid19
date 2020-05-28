@@ -23,6 +23,14 @@ def get_field_name_from_column_name(column_name):
         return 'total_pending_tests'
     if 'Deaths' == column_name:
         return 'total_deaths'
+    if 'LTC Resident Deaths' in column_name:
+        return 'total_LTC_resident_deaths'
+    if 'LTC HCW Deaths' in column_name:
+        return 'total_LTC_HCW_deaths'
+    if 'LTC Resident Cases' in column_name:
+        return 'total_LTC_resident_cases'
+    if 'LTC HCW Cases' in column_name:
+        return 'total_LTC_HCW_cases'
     if 'Total Cases' in column_name:
         return 'total_cases'
     if 'testing' in column_name:
