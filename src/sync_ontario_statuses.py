@@ -21,7 +21,7 @@ def get_field_name_from_column_name(column_name):
         return 'total_resolved'
     if 'Under Investigation' in column_name:
         return 'total_pending_tests'
-    if 'Deaths' in column_name:
+    if 'Deaths' == column_name:
         return 'total_deaths'
     if 'Total Cases' in column_name:
         return 'total_cases'
