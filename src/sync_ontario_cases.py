@@ -28,6 +28,9 @@ def read_csv(filename):
             except: # noqa
                 pass
 
+            if tmp['episode_date'].year > 2020 or tmp['episode_date'].year < 2019: # noqa
+                tmp['episode_date'] = datetime.now()
+
             for index, column in enumerate(row):
                 field_name = column_names[index].lower()
                 if 'latitude' in field_name or 'longitude' in field_name:
