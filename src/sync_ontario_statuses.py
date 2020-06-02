@@ -58,9 +58,12 @@ def read_csv(filename):
         prev_total_tests = 0
 
         for row in reader:
-            tmp = {
-                'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
-            }
+            try:
+                tmp = {
+                    'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
+                }
+            except: # noqa
+                continue
 
             for index, column in enumerate(row):
                 column_name = column_names[index]
