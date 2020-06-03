@@ -56,11 +56,10 @@ def read_csv(filename):
         prev_total_cases = 0
         prev_total_deaths = 0
         prev_total_tests = 0
-
         for row in reader:
             try:
                 tmp = {
-                    'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
+                    'reported_date': datetime.strptime(row[0], '%m/%d/%Y'),
                 }
             except: # noqa
                 continue
