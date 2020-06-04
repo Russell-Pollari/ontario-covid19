@@ -59,7 +59,7 @@ def read_csv(filename):
         for row in reader:
             try:
                 tmp = {
-                    'reported_date': datetime.strptime(row[0], '%m/%d/%Y'),
+                    'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
                 }
             except: # noqa
                 continue
