@@ -1,36 +1,26 @@
 # Ontario Covid-19 tracker
 
-[Dashboard built with Metabase](https://russell-pollari.github.io/ontario-covid19/)
+Scripts to fetch Covid-19 data for Ontario and store in MongoDB database,
+and source code for the website hosting the dashboard visualizing the data.
 
-## Data sources
+[See live demo](https://russell-pollari.github.io/ontario-covid19/)
 
-### Ontario
-Daily status updates [https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario)
-
-Case-by-case data [https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario](https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario)
-
-### Canada
-Total cases for Canada and other provinces:
-[https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html)
-
-### The world
-Compiled by [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
-
-#### The world
-CSV of world data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data)
-
+Demo built with Next.js and hosted with GituHub pages. Plots created with Metabase.
 
 ## Development and usage
 
-### Install requirements
+#### 1. Install requirements
 `$ pip install -r requirements.text`
 
-### Setup environment
+#### 2. Setup environment
 Create a text file named `.env` and
 add `MONGO_URI=<mongo_uri>`  
-or  
-`$ export MONGO_URI=<mongo_uri>`
+
+#### 3. Sync data
+`$ python src/sync_all`
 
 
-#### Sync data
-`python src/sync_all`
+## Bulding static site
+`$ npm install`
+
+`$ npm run build`
