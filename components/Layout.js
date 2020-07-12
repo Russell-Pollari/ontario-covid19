@@ -34,6 +34,7 @@ export default function Layout ({
 					<nav>
 						<NavLink path="/" currentPath={currentPath} label="Ontario" />
 						<NavLink path="/phu" currentPath={currentPath} label="PHUs" />
+						<NavLink path="/canada" currentPath={currentPath} label="Canada" />
 						<NavLink path="/logs" currentPath={currentPath} label="Logs" />
 						<NavLink path="/about" currentPath={currentPath} label="About" />
 					</nav>
