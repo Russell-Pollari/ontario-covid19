@@ -5,6 +5,7 @@ export const ontarioMetabseUrl = 'https://ontario-covid-dash-metabaase.herokuapp
 
 export const logsMetabaseUrl = 'https://ontario-covid-dash-metabaase.herokuapp.com/public/question/63aa2160-87fc-482b-80b6-bf76a6d058ed';
 
+export const canadaMetabaseUrl = 'https://ontario-covid-dash-metabaase.herokuapp.com/public/dashboard/c5c54eeb-da7c-48f0-801a-71d3b36ad90d';
 
 export const resources = [{
 	label: 'How\'s my flattening',
