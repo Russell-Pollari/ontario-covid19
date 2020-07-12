@@ -25,7 +25,7 @@ Fetch data from all sources and sync in MongoDB
 `$ npm install`
 
 `$ npm run build`
-Outputs put static html files to `/docs` to build github pages website
+Outputs static html files to `/docs` for GitHub pages
 
 #### Running locally
 `$ echo "NODE_ENV=development" >> .env`  
