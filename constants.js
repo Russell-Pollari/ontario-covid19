@@ -1,3 +1,11 @@
+
+export const phuMetabaseUrl = 'https://ontario-covid-dash-metabaase.herokuapp.com/public/dashboard/0ae903a6-a86d-4f9e-8166-a638d3fcaea0';
+
+export const ontarioMetabseUrl = 'https://ontario-covid-dash-metabaase.herokuapp.com/public/dashboard/10bf46a5-a37f-4686-9067-ab9f312c0767';
+
+export const logsMetabaseUrl = 'https://ontario-covid-dash-metabaase.herokuapp.com/public/question/63aa2160-87fc-482b-80b6-bf76a6d058ed';
+
+
 export const resources = [{
 	label: 'How\'s my flattening',
 	href: 'https://howsmyflattening.ca/#/home',
