@@ -3,7 +3,7 @@ import MetabaseIFrame from '../components/MetabaseIFrame';
 
 import { canadaMetabaseUrl } from '../constants';
 
-export default function PHU() {
+export default function Canada() {
 	return (
 		<Layout
 			title="Covid-19 in Ontario | Canada"
