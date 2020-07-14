@@ -1,13 +1,18 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
-const NavLink = ({ path, currentPath, label }) => (
-	<Link href={path}>
-		<a className={currentPath === path ? 'active-link mh8' : 'link mh8'}>
+import getConfig from 'next/config';
+
+const NavLink = ({ path, currentPath, label }) => {
+	const { publicRuntimeConfig } = getConfig();
+	return (
+		<Link href={publicRuntimeConfig.basePath + path}>
+			<a className={currentPath === path ? 'active-link mh8' : 'link mh8'}>
 			{label}
-		</a>
-	</Link>
-);
+			</a>
+		</Link>
+	);
+};
 
 export default function Layout ({
 	children,
