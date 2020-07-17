@@ -1,5 +1,6 @@
 body {
 	font-family: arial;
+	padding-bottom: 128px;
 }
 
 li {
@@ -38,8 +39,16 @@ li {
 	display: inline-block;
 }
 
+.miw-256 {
+	min-width: 256px;
+}
+
 .w-100 {
 	width: 100%;
+}
+
+.w-50 {
+	width: 50%;
 }
 
 .maw768 {
@@ -50,6 +59,14 @@ li {
 	text-align: center;
 }
 
+.tr {
+	text-align: right;
+}
+
 .tl {
 	text-align: left;
+}
+
+.pointer {
+	cursor: pointer;
 }

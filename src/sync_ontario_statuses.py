@@ -1,6 +1,7 @@
 import pymongo
 from dotenv import load_dotenv
 
+import json
 import argparse
 import os
 import csv
@@ -58,8 +59,9 @@ def read_csv(filename):
         prev_total_tests = 0
         for row in reader:
             try:
+                date = datetime.strptime(row[0], '%Y-%m-%d')
                 tmp = {
-                    'reported_date': datetime.strptime(row[0], '%Y-%m-%d'),
+                    'reported_date': date.isoformat(),
                 }
             except: # noqa
                 continue
@@ -87,9 +89,9 @@ def read_csv(filename):
 
             # As of April 15, tests are samples not patients
             tmp['total_patients_tested'] = tmp['total_tests_reported']
-            tmp['total_samples_tested'] = None
+            tmp['total_samples_tested'] = tmp['total_tests_reported']
 
-            if tmp['reported_date'] > datetime(2020, 4, 14):
+            if date > datetime(2020, 4, 14):
                 tmp['total_patients_tested'] = None
                 tmp['total_samples_tested'] = tmp['total_tests_reported']
 
@@ -126,14 +128,18 @@ def sync_with_db(statuses):
 
 
 def sync_ontario_statuses():
-    log('Checking for updates', COLLECTION_NAME, DATA_URL)
+    # log('Checking for updates', COLLECTION_NAME, DATA_URL)
 
     with tempfile.TemporaryDirectory() as tmp_dir:
         temp_file = '{}/ontario_statuses.csv'.format(tmp_dir)
         filename = download_data(DATA_URL, temp_file)
         statuses = read_csv(filename)
 
-    return sync_with_db(statuses)
+        with open('public/ontario_statuses.json', 'w') as f:
+            json.dump(statuses, f, indent=2)
+
+    # return sync_with_db(statuses)
+    return True
 
 
 if __name__ == '__main__':
