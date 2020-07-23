@@ -1,4 +1,5 @@
 body {
+	background-color: #f7f7f7;
 	font-family: arial;
 	padding-bottom: 128px;
 }
@@ -6,6 +7,16 @@ body {
 li {
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+.chart-container {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .13);
+	background-color: white;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+	padding: 16px;
+	margin: 8px;
+	box-sizing: border-box;
 }
 
 .active-link {
@@ -43,12 +54,20 @@ li {
 	min-width: 256px;
 }
 
+.maw-512 {
+	max-width: 512px;
+}
+
 .w-100 {
 	width: 100%;
 }
 
 .w-50 {
 	width: 50%;
+}
+
+.w-40 {
+	width: 40%;
 }
 
 .maw768 {
@@ -69,4 +88,12 @@ li {
 
 .pointer {
 	cursor: pointer;
+}
+
+.flex-container: {
+	display: flex;
+}
+
+.fr {
+	float: right;
 }

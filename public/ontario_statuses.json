@@ -18,8 +18,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 0,
+    "active_not_hospitalized": 0
   },
   {
     "reported_date": "2020-01-27T00:00:00",
@@ -40,8 +40,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 0,
+    "active_not_hospitalized": 0
   },
   {
     "reported_date": "2020-01-28T00:00:00",
@@ -62,8 +62,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 1,
+    "active_not_hospitalized": 1
   },
   {
     "reported_date": "2020-01-30T00:00:00",
@@ -84,8 +84,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-01-31T00:00:00",
@@ -106,8 +106,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-03T00:00:00",
@@ -128,8 +128,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 0,
-    "total_patients_tested": 0,
-    "total_samples_tested": 0
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-04T00:00:00",
@@ -150,8 +150,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 93,
-    "total_patients_tested": 93,
-    "total_samples_tested": 93
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-05T00:00:00",
@@ -172,8 +172,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 6,
-    "total_patients_tested": 99,
-    "total_samples_tested": 99
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-06T00:00:00",
@@ -194,8 +194,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 8,
-    "total_patients_tested": 107,
-    "total_samples_tested": 107
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-08T00:00:00",
@@ -216,8 +216,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 26,
-    "total_patients_tested": 133,
-    "total_samples_tested": 133
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-10T00:00:00",
@@ -238,8 +238,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 37,
-    "total_patients_tested": 170,
-    "total_samples_tested": 170
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-11T00:00:00",
@@ -260,8 +260,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 17,
-    "total_patients_tested": 187,
-    "total_samples_tested": 187
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-02-12T00:00:00",
@@ -282,8 +282,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 73,
-    "total_patients_tested": 260,
-    "total_samples_tested": 260
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-13T00:00:00",
@@ -304,8 +304,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 49,
-    "total_patients_tested": 309,
-    "total_samples_tested": 309
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-14T00:00:00",
@@ -326,8 +326,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 47,
-    "total_patients_tested": 356,
-    "total_samples_tested": 356
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-17T00:00:00",
@@ -348,8 +348,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 46,
-    "total_patients_tested": 402,
-    "total_samples_tested": 402
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-18T00:00:00",
@@ -370,8 +370,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 19,
-    "total_patients_tested": 421,
-    "total_samples_tested": 421
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-19T00:00:00",
@@ -392,8 +392,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 18,
-    "total_patients_tested": 439,
-    "total_samples_tested": 439
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-20T00:00:00",
@@ -414,8 +414,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 26,
-    "total_patients_tested": 465,
-    "total_samples_tested": 465
+    "active_cases": 1,
+    "active_not_hospitalized": 1
   },
   {
     "reported_date": "2020-02-21T00:00:00",
@@ -436,8 +436,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 21,
-    "total_patients_tested": 486,
-    "total_samples_tested": 486
+    "active_cases": 0,
+    "active_not_hospitalized": 0
   },
   {
     "reported_date": "2020-02-24T00:00:00",
@@ -458,8 +458,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 58,
-    "total_patients_tested": 544,
-    "total_samples_tested": 544
+    "active_cases": 1,
+    "active_not_hospitalized": 1
   },
   {
     "reported_date": "2020-02-25T00:00:00",
@@ -480,8 +480,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 28,
-    "total_patients_tested": 572,
-    "total_samples_tested": 572
+    "active_cases": 1,
+    "active_not_hospitalized": 1
   },
   {
     "reported_date": "2020-02-26T00:00:00",
@@ -502,8 +502,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 42,
-    "total_patients_tested": 614,
-    "total_samples_tested": 614
+    "active_cases": 1,
+    "active_not_hospitalized": 1
   },
   {
     "reported_date": "2020-02-27T00:00:00",
@@ -524,8 +524,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 63,
-    "total_patients_tested": 677,
-    "total_samples_tested": 677
+    "active_cases": 2,
+    "active_not_hospitalized": 2
   },
   {
     "reported_date": "2020-02-28T00:00:00",
@@ -546,8 +546,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 68,
-    "total_patients_tested": 745,
-    "total_samples_tested": 745
+    "active_cases": 3,
+    "active_not_hospitalized": 3
   },
   {
     "reported_date": "2020-03-02T00:00:00",
@@ -568,8 +568,8 @@
     "new_cases": 12,
     "new_deaths": 0,
     "new_tests": 248,
-    "total_patients_tested": 993,
-    "total_samples_tested": 993
+    "active_cases": 15,
+    "active_not_hospitalized": 15
   },
   {
     "reported_date": "2020-03-03T00:00:00",
@@ -590,8 +590,8 @@
     "new_cases": 2,
     "new_deaths": 0,
     "new_tests": 88,
-    "total_patients_tested": 1081,
-    "total_samples_tested": 1081
+    "active_cases": 17,
+    "active_not_hospitalized": 17
   },
   {
     "reported_date": "2020-03-04T00:00:00",
@@ -612,8 +612,8 @@
     "new_cases": 0,
     "new_deaths": 0,
     "new_tests": 155,
-    "total_patients_tested": 1236,
-    "total_samples_tested": 1236
+    "active_cases": 17,
+    "active_not_hospitalized": 17
   },
   {
     "reported_date": "2020-03-05T00:00:00",
@@ -634,8 +634,8 @@
     "new_cases": 2,
     "new_deaths": 0,
     "new_tests": 252,
-    "total_patients_tested": 1488,
-    "total_samples_tested": 1488
+    "active_cases": 18,
+    "active_not_hospitalized": 18
   },
   {
     "reported_date": "2020-03-06T00:00:00",
@@ -656,8 +656,8 @@
     "new_cases": 4,
     "new_deaths": 0,
     "new_tests": 203,
-    "total_patients_tested": 1691,
-    "total_samples_tested": 1691
+    "active_cases": 22,
+    "active_not_hospitalized": 22
   },
   {
     "reported_date": "2020-03-07T00:00:00",
@@ -678,8 +678,8 @@
     "new_cases": 2,
     "new_deaths": 0,
     "new_tests": 255,
-    "total_patients_tested": 1946,
-    "total_samples_tested": 1946
+    "active_cases": 24,
+    "active_not_hospitalized": 24
   },
   {
     "reported_date": "2020-03-08T00:00:00",
@@ -700,8 +700,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 177,
-    "total_patients_tested": 2123,
-    "total_samples_tested": 2123
+    "active_cases": 25,
+    "active_not_hospitalized": 25
   },
   {
     "reported_date": "2020-03-09T00:00:00",
@@ -722,8 +722,8 @@
     "new_cases": 6,
     "new_deaths": 0,
     "new_tests": 259,
-    "total_patients_tested": 2382,
-    "total_samples_tested": 2382
+    "active_cases": 31,
+    "active_not_hospitalized": 31
   },
   {
     "reported_date": "2020-03-10T00:00:00",
@@ -744,8 +744,8 @@
     "new_cases": 1,
     "new_deaths": 0,
     "new_tests": 253,
-    "total_patients_tested": 2635,
-    "total_samples_tested": 2635
+    "active_cases": 31,
+    "active_not_hospitalized": 31
   },
   {
     "reported_date": "2020-03-11T00:00:00",
@@ -766,8 +766,8 @@
     "new_cases": 6,
     "new_deaths": 0,
     "new_tests": 295,
-    "total_patients_tested": 2930,
-    "total_samples_tested": 2930
+    "active_cases": 37,
+    "active_not_hospitalized": 37
   },
   {
     "reported_date": "2020-03-12T00:00:00",
@@ -788,8 +788,8 @@
     "new_cases": 17,
     "new_deaths": 0,
     "new_tests": 719,
-    "total_patients_tested": 3649,
-    "total_samples_tested": 3649
+    "active_cases": 54,
+    "active_not_hospitalized": 54
   },
   {
     "reported_date": "2020-03-13T00:00:00",
@@ -810,8 +810,8 @@
     "new_cases": 20,
     "new_deaths": 0,
     "new_tests": 900,
-    "total_patients_tested": 4549,
-    "total_samples_tested": 4549
+    "active_cases": 74,
+    "active_not_hospitalized": 74
   },
   {
     "reported_date": "2020-03-14T00:00:00",
@@ -832,8 +832,8 @@
     "new_cases": 24,
     "new_deaths": 0,
     "new_tests": 1160,
-    "total_patients_tested": 5709,
-    "total_samples_tested": 5709
+    "active_cases": 98,
+    "active_not_hospitalized": 98
   },
   {
     "reported_date": "2020-03-15T00:00:00",
@@ -854,8 +854,8 @@
     "new_cases": 42,
     "new_deaths": 0,
     "new_tests": 1440,
-    "total_patients_tested": 7149,
-    "total_samples_tested": 7149
+    "active_cases": 140,
+    "active_not_hospitalized": 140
   },
   {
     "reported_date": "2020-03-16T00:00:00",
@@ -876,8 +876,8 @@
     "new_cases": 32,
     "new_deaths": 0,
     "new_tests": 1492,
-    "total_patients_tested": 8641,
-    "total_samples_tested": 8641
+    "active_cases": 172,
+    "active_not_hospitalized": 172
   },
   {
     "reported_date": "2020-03-17T00:00:00",
@@ -898,8 +898,8 @@
     "new_cases": 12,
     "new_deaths": 1,
     "new_tests": 963,
-    "total_patients_tested": 9604,
-    "total_samples_tested": 9604
+    "active_cases": 183,
+    "active_not_hospitalized": 183
   },
   {
     "reported_date": "2020-03-18T00:00:00",
@@ -920,8 +920,8 @@
     "new_cases": 25,
     "new_deaths": 0,
     "new_tests": 915,
-    "total_patients_tested": 10519,
-    "total_samples_tested": 10519
+    "active_cases": 208,
+    "active_not_hospitalized": 208
   },
   {
     "reported_date": "2020-03-19T00:00:00",
@@ -942,8 +942,8 @@
     "new_cases": 44,
     "new_deaths": 1,
     "new_tests": 2160,
-    "total_patients_tested": 12679,
-    "total_samples_tested": 12679
+    "active_cases": 251,
+    "active_not_hospitalized": 251
   },
   {
     "reported_date": "2020-03-20T00:00:00",
@@ -964,8 +964,8 @@
     "new_cases": 60,
     "new_deaths": 0,
     "new_tests": 1357,
-    "total_patients_tested": 14036,
-    "total_samples_tested": 14036
+    "active_cases": 311,
+    "active_not_hospitalized": 311
   },
   {
     "reported_date": "2020-03-21T00:00:00",
@@ -986,8 +986,8 @@
     "new_cases": 59,
     "new_deaths": 0,
     "new_tests": 2109,
-    "total_patients_tested": 16145,
-    "total_samples_tested": 16145
+    "active_cases": 369,
+    "active_not_hospitalized": 369
   },
   {
     "reported_date": "2020-03-22T00:00:00",
@@ -1008,8 +1008,8 @@
     "new_cases": 48,
     "new_deaths": 3,
     "new_tests": 1914,
-    "total_patients_tested": 18059,
-    "total_samples_tested": 18059
+    "active_cases": 412,
+    "active_not_hospitalized": 412
   },
   {
     "reported_date": "2020-03-23T00:00:00",
@@ -1030,8 +1030,8 @@
     "new_cases": 78,
     "new_deaths": 1,
     "new_tests": 2030,
-    "total_patients_tested": 20089,
-    "total_samples_tested": 20089
+    "active_cases": 489,
+    "active_not_hospitalized": 489
   },
   {
     "reported_date": "2020-03-24T00:00:00",
@@ -1052,8 +1052,8 @@
     "new_cases": 85,
     "new_deaths": 2,
     "new_tests": 2294,
-    "total_patients_tested": 22383,
-    "total_samples_tested": 22383
+    "active_cases": 572,
+    "active_not_hospitalized": 572
   },
   {
     "reported_date": "2020-03-25T00:00:00",
@@ -1074,8 +1074,8 @@
     "new_cases": 100,
     "new_deaths": 5,
     "new_tests": 2763,
-    "total_patients_tested": 25146,
-    "total_samples_tested": 25146
+    "active_cases": 667,
+    "active_not_hospitalized": 667
   },
   {
     "reported_date": "2020-03-26T00:00:00",
@@ -1096,8 +1096,8 @@
     "new_cases": 170,
     "new_deaths": 2,
     "new_tests": 2439,
-    "total_patients_tested": 27585,
-    "total_samples_tested": 27585
+    "active_cases": 835,
+    "active_not_hospitalized": 835
   },
   {
     "reported_date": "2020-03-27T00:00:00",
@@ -1118,8 +1118,8 @@
     "new_cases": 135,
     "new_deaths": 3,
     "new_tests": 3375,
-    "total_patients_tested": 30960,
-    "total_samples_tested": 30960
+    "active_cases": 967,
+    "active_not_hospitalized": 967
   },
   {
     "reported_date": "2020-03-28T00:00:00",
@@ -1140,8 +1140,8 @@
     "new_cases": 151,
     "new_deaths": 1,
     "new_tests": 3424,
-    "total_patients_tested": 34384,
-    "total_samples_tested": 34384
+    "active_cases": 1117,
+    "active_not_hospitalized": 1117
   },
   {
     "reported_date": "2020-03-29T00:00:00",
@@ -1162,8 +1162,8 @@
     "new_cases": 211,
     "new_deaths": 4,
     "new_tests": 7601,
-    "total_patients_tested": 41985,
-    "total_samples_tested": 41985
+    "active_cases": 1324,
+    "active_not_hospitalized": 1324
   },
   {
     "reported_date": "2020-03-30T00:00:00",
@@ -1184,8 +1184,8 @@
     "new_cases": 351,
     "new_deaths": 0,
     "new_tests": 6476,
-    "total_patients_tested": 48461,
-    "total_samples_tested": 48461
+    "active_cases": 1252,
+    "active_not_hospitalized": 1252
   },
   {
     "reported_date": "2020-03-31T00:00:00",
@@ -1206,8 +1206,8 @@
     "new_cases": 260,
     "new_deaths": 10,
     "new_tests": 3168,
-    "total_patients_tested": 51629,
-    "total_samples_tested": 51629
+    "active_cases": 1399,
+    "active_not_hospitalized": 1399
   },
   {
     "reported_date": "2020-04-01T00:00:00",
@@ -1228,8 +1228,8 @@
     "new_cases": 426,
     "new_deaths": 4,
     "new_tests": 6245,
-    "total_patients_tested": 57874,
-    "total_samples_tested": 57874
+    "active_cases": 1681,
+    "active_not_hospitalized": 1681
   },
   {
     "reported_date": "2020-04-02T00:00:00",
@@ -1250,8 +1250,8 @@
     "new_cases": 401,
     "new_deaths": 16,
     "new_tests": 4859,
-    "total_patients_tested": 62733,
-    "total_samples_tested": 62733
+    "active_cases": 1909,
+    "active_not_hospitalized": 1504
   },
   {
     "reported_date": "2020-04-03T00:00:00",
@@ -1272,8 +1272,8 @@
     "new_cases": 462,
     "new_deaths": 14,
     "new_tests": 4020,
-    "total_patients_tested": 66753,
-    "total_samples_tested": 66753
+    "active_cases": 2165,
+    "active_not_hospitalized": 1703
   },
   {
     "reported_date": "2020-04-04T00:00:00",
@@ -1294,8 +1294,8 @@
     "new_cases": 375,
     "new_deaths": 27,
     "new_tests": 4585,
-    "total_patients_tested": 71338,
-    "total_samples_tested": 71338
+    "active_cases": 2317,
+    "active_not_hospitalized": 1811
   },
   {
     "reported_date": "2020-04-05T00:00:00",
@@ -1316,8 +1316,8 @@
     "new_cases": 408,
     "new_deaths": 25,
     "new_tests": 3708,
-    "total_patients_tested": 75046,
-    "total_samples_tested": 75046
+    "active_cases": 2470,
+    "active_not_hospitalized": 1947
   },
   {
     "reported_date": "2020-04-06T00:00:00",
@@ -1338,8 +1338,8 @@
     "new_cases": 309,
     "new_deaths": 13,
     "new_tests": 3750,
-    "total_patients_tested": 78796,
-    "total_samples_tested": 78796
+    "active_cases": 2591,
+    "active_not_hospitalized": 2002
   },
   {
     "reported_date": "2020-04-07T00:00:00",
@@ -1360,8 +1360,8 @@
     "new_cases": 379,
     "new_deaths": 21,
     "new_tests": 2568,
-    "total_patients_tested": 81364,
-    "total_samples_tested": 81364
+    "active_cases": 2771,
+    "active_not_hospitalized": 2157
   },
   {
     "reported_date": "2020-04-08T00:00:00",
@@ -1382,8 +1382,8 @@
     "new_cases": 550,
     "new_deaths": 21,
     "new_tests": 3237,
-    "total_patients_tested": 84601,
-    "total_samples_tested": 84601
+    "active_cases": 3028,
+    "active_not_hospitalized": 2423
   },
   {
     "reported_date": "2020-04-09T00:00:00",
@@ -1404,8 +1404,8 @@
     "new_cases": 483,
     "new_deaths": 26,
     "new_tests": 4097,
-    "total_patients_tested": 88698,
-    "total_samples_tested": 88698
+    "active_cases": 3254,
+    "active_not_hospitalized": 2622
   },
   {
     "reported_date": "2020-04-10T00:00:00",
@@ -1426,8 +1426,8 @@
     "new_cases": 478,
     "new_deaths": 22,
     "new_tests": 3975,
-    "total_patients_tested": 92673,
-    "total_samples_tested": 92673
+    "active_cases": 3441,
+    "active_not_hospitalized": 2768
   },
   {
     "reported_date": "2020-04-11T00:00:00",
@@ -1448,8 +1448,8 @@
     "new_cases": 411,
     "new_deaths": 31,
     "new_tests": 3648,
-    "total_patients_tested": 96321,
-    "total_samples_tested": 96321
+    "active_cases": 3537,
+    "active_not_hospitalized": 2846
   },
   {
     "reported_date": "2020-04-12T00:00:00",
@@ -1470,8 +1470,8 @@
     "new_cases": 401,
     "new_deaths": 21,
     "new_tests": 6844,
-    "total_patients_tested": 103165,
-    "total_samples_tested": 103165
+    "active_cases": 3654,
+    "active_not_hospitalized": 2916
   },
   {
     "reported_date": "2020-04-13T00:00:00",
@@ -1492,8 +1492,8 @@
     "new_cases": 421,
     "new_deaths": 17,
     "new_tests": 5065,
-    "total_patients_tested": 108230,
-    "total_samples_tested": 108230
+    "active_cases": 3822,
+    "active_not_hospitalized": 3062
   },
   {
     "reported_date": "2020-04-14T00:00:00",
@@ -1514,8 +1514,8 @@
     "new_cases": 483,
     "new_deaths": 43,
     "new_tests": 4852,
-    "total_patients_tested": 113082,
-    "total_samples_tested": 113082
+    "active_cases": 4051,
+    "active_not_hospitalized": 3282
   },
   {
     "reported_date": "2020-04-15T00:00:00",
@@ -1536,8 +1536,8 @@
     "new_cases": 494,
     "new_deaths": 51,
     "new_tests": 6010,
-    "total_patients_tested": null,
-    "total_samples_tested": 119092
+    "active_cases": 4160,
+    "active_not_hospitalized": 3365
   },
   {
     "reported_date": "2020-04-16T00:00:00",
@@ -1558,8 +1558,8 @@
     "new_cases": 514,
     "new_deaths": 38,
     "new_tests": 9001,
-    "total_patients_tested": null,
-    "total_samples_tested": 128093
+    "active_cases": 4344,
+    "active_not_hospitalized": 3537
   },
   {
     "reported_date": "2020-04-17T00:00:00",
@@ -1580,8 +1580,8 @@
     "new_cases": 564,
     "new_deaths": 55,
     "new_tests": 8899,
-    "total_patients_tested": null,
-    "total_samples_tested": 136992
+    "active_cases": 4491,
+    "active_not_hospitalized": 3662
   },
   {
     "reported_date": "2020-04-18T00:00:00",
@@ -1602,8 +1602,8 @@
     "new_cases": 485,
     "new_deaths": 36,
     "new_tests": 9462,
-    "total_patients_tested": null,
-    "total_samples_tested": 146454
+    "active_cases": 4621,
+    "active_not_hospitalized": 3793
   },
   {
     "reported_date": "2020-04-19T00:00:00",
@@ -1624,8 +1624,8 @@
     "new_cases": 568,
     "new_deaths": 39,
     "new_tests": 9643,
-    "total_patients_tested": null,
-    "total_samples_tested": 156097
+    "active_cases": 4816,
+    "active_not_hospitalized": 4007
   },
   {
     "reported_date": "2020-04-20T00:00:00",
@@ -1646,8 +1646,8 @@
     "new_cases": 606,
     "new_deaths": 31,
     "new_tests": 8743,
-    "total_patients_tested": null,
-    "total_samples_tested": 164840
+    "active_cases": 5085,
+    "active_not_hospitalized": 4283
   },
   {
     "reported_date": "2020-04-21T00:00:00",
@@ -1668,8 +1668,8 @@
     "new_cases": 551,
     "new_deaths": 38,
     "new_tests": 9330,
-    "total_patients_tested": null,
-    "total_samples_tested": 174170
+    "active_cases": 5307,
+    "active_not_hospitalized": 4448
   },
   {
     "reported_date": "2020-04-22T00:00:00",
@@ -1690,8 +1690,8 @@
     "new_cases": 510,
     "new_deaths": 37,
     "new_tests": 10361,
-    "total_patients_tested": null,
-    "total_samples_tested": 184531
+    "active_cases": 5365,
+    "active_not_hospitalized": 4487
   },
   {
     "reported_date": "2020-04-23T00:00:00",
@@ -1712,8 +1712,8 @@
     "new_cases": 634,
     "new_deaths": 54,
     "new_tests": 10214,
-    "total_patients_tested": null,
-    "total_samples_tested": 194745
+    "active_cases": 5486,
+    "active_not_hospitalized": 4599
   },
   {
     "reported_date": "2020-04-24T00:00:00",
@@ -1734,8 +1734,8 @@
     "new_cases": 640,
     "new_deaths": 50,
     "new_tests": 12295,
-    "total_patients_tested": null,
-    "total_samples_tested": 207040
+    "active_cases": 5669,
+    "active_not_hospitalized": 4759
   },
   {
     "reported_date": "2020-04-25T00:00:00",
@@ -1756,8 +1756,8 @@
     "new_cases": 476,
     "new_deaths": 48,
     "new_tests": 10578,
-    "total_patients_tested": null,
-    "total_samples_tested": 217618
+    "active_cases": 5675,
+    "active_not_hospitalized": 4750
   },
   {
     "reported_date": "2020-04-26T00:00:00",
@@ -1778,8 +1778,8 @@
     "new_cases": 437,
     "new_deaths": 24,
     "new_tests": 12020,
-    "total_patients_tested": null,
-    "total_samples_tested": 229638
+    "active_cases": 5597,
+    "active_not_hospitalized": 4659
   },
   {
     "reported_date": "2020-04-27T00:00:00",
@@ -1800,8 +1800,8 @@
     "new_cases": 424,
     "new_deaths": 57,
     "new_tests": 12550,
-    "total_patients_tested": null,
-    "total_samples_tested": 242188
+    "active_cases": 5439,
+    "active_not_hospitalized": 4494
   },
   {
     "reported_date": "2020-04-28T00:00:00",
@@ -1822,8 +1822,8 @@
     "new_cases": 525,
     "new_deaths": 59,
     "new_tests": 10852,
-    "total_patients_tested": null,
-    "total_samples_tested": 253040
+    "active_cases": 5466,
+    "active_not_hospitalized": 4509
   },
   {
     "reported_date": "2020-04-29T00:00:00",
@@ -1844,8 +1844,8 @@
     "new_cases": 347,
     "new_deaths": 45,
     "new_tests": 11554,
-    "total_patients_tested": null,
-    "total_samples_tested": 264594
+    "active_cases": 5120,
+    "active_not_hospitalized": 4143
   },
   {
     "reported_date": "2020-04-30T00:00:00",
@@ -1866,8 +1866,8 @@
     "new_cases": 459,
     "new_deaths": 86,
     "new_tests": 12928,
-    "total_patients_tested": null,
-    "total_samples_tested": 277522
+    "active_cases": 4900,
+    "active_not_hospitalized": 3901
   },
   {
     "reported_date": "2020-05-01T00:00:00",
@@ -1888,8 +1888,8 @@
     "new_cases": 421,
     "new_deaths": 39,
     "new_tests": 16532,
-    "total_patients_tested": null,
-    "total_samples_tested": 294054
+    "active_cases": 4662,
+    "active_not_hospitalized": 3645
   },
   {
     "reported_date": "2020-05-02T00:00:00",
@@ -1910,8 +1910,8 @@
     "new_cases": 511,
     "new_deaths": 55,
     "new_tests": 16305,
-    "total_patients_tested": null,
-    "total_samples_tested": 310359
+    "active_cases": 4553,
+    "active_not_hospitalized": 3576
   },
   {
     "reported_date": "2020-05-03T00:00:00",
@@ -1932,8 +1932,8 @@
     "new_cases": 434,
     "new_deaths": 40,
     "new_tests": 17146,
-    "total_patients_tested": null,
-    "total_samples_tested": 327505
+    "active_cases": 4332,
+    "active_not_hospitalized": 3322
   },
   {
     "reported_date": "2020-05-04T00:00:00",
@@ -1954,8 +1954,8 @@
     "new_cases": 370,
     "new_deaths": 84,
     "new_tests": 14555,
-    "total_patients_tested": null,
-    "total_samples_tested": 342060
+    "active_cases": 4118,
+    "active_not_hospitalized": 3134
   },
   {
     "reported_date": "2020-05-05T00:00:00",
@@ -1976,8 +1976,8 @@
     "new_cases": 387,
     "new_deaths": 61,
     "new_tests": 10654,
-    "total_patients_tested": null,
-    "total_samples_tested": 352714
+    "active_cases": 4170,
+    "active_not_hospitalized": 3127
   },
   {
     "reported_date": "2020-05-06T00:00:00",
@@ -1998,8 +1998,8 @@
     "new_cases": 412,
     "new_deaths": 68,
     "new_tests": 12961,
-    "total_patients_tested": null,
-    "total_samples_tested": 365675
+    "active_cases": 4071,
+    "active_not_hospitalized": 3039
   },
   {
     "reported_date": "2020-05-07T00:00:00",
@@ -2020,8 +2020,8 @@
     "new_cases": 399,
     "new_deaths": 48,
     "new_tests": 15179,
-    "total_patients_tested": null,
-    "total_samples_tested": 380854
+    "active_cases": 4075,
+    "active_not_hospitalized": 3042
   },
   {
     "reported_date": "2020-05-08T00:00:00",
@@ -2042,8 +2042,8 @@
     "new_cases": 477,
     "new_deaths": 63,
     "new_tests": 16295,
-    "total_patients_tested": null,
-    "total_samples_tested": 397149
+    "active_cases": 4068,
+    "active_not_hospitalized": 3040
   },
   {
     "reported_date": "2020-05-09T00:00:00",
@@ -2064,8 +2064,8 @@
     "new_cases": 346,
     "new_deaths": 59,
     "new_tests": 19227,
-    "total_patients_tested": null,
-    "total_samples_tested": 416376
+    "active_cases": 3962,
+    "active_not_hospitalized": 2946
   },
   {
     "reported_date": "2020-05-10T00:00:00",
@@ -2086,8 +2086,8 @@
     "new_cases": 294,
     "new_deaths": 35,
     "new_tests": 17618,
-    "total_patients_tested": null,
-    "total_samples_tested": 433994
+    "active_cases": 3832,
+    "active_not_hospitalized": 2871
   },
   {
     "reported_date": "2020-05-11T00:00:00",
@@ -2108,8 +2108,8 @@
     "new_cases": 308,
     "new_deaths": 35,
     "new_tests": 13970,
-    "total_patients_tested": null,
-    "total_samples_tested": 447964
+    "active_cases": 3746,
+    "active_not_hospitalized": 2719
   },
   {
     "reported_date": "2020-05-12T00:00:00",
@@ -2130,8 +2130,8 @@
     "new_cases": 361,
     "new_deaths": 56,
     "new_tests": 11957,
-    "total_patients_tested": null,
-    "total_samples_tested": 459921
+    "active_cases": 3791,
+    "active_not_hospitalized": 2766
   },
   {
     "reported_date": "2020-05-13T00:00:00",
@@ -2152,8 +2152,8 @@
     "new_cases": 329,
     "new_deaths": 40,
     "new_tests": 15137,
-    "total_patients_tested": null,
-    "total_samples_tested": 475058
+    "active_cases": 3626,
+    "active_not_hospitalized": 2608
   },
   {
     "reported_date": "2020-05-14T00:00:00",
@@ -2174,8 +2174,8 @@
     "new_cases": 345,
     "new_deaths": 33,
     "new_tests": 17429,
-    "total_patients_tested": null,
-    "total_samples_tested": 492487
+    "active_cases": 3579,
+    "active_not_hospitalized": 2553
   },
   {
     "reported_date": "2020-05-15T00:00:00",
@@ -2196,8 +2196,8 @@
     "new_cases": 341,
     "new_deaths": 27,
     "new_tests": 18354,
-    "total_patients_tested": null,
-    "total_samples_tested": 510841
+    "active_cases": 3456,
+    "active_not_hospitalized": 2470
   },
   {
     "reported_date": "2020-05-16T00:00:00",
@@ -2218,8 +2218,8 @@
     "new_cases": 391,
     "new_deaths": 33,
     "new_tests": 17768,
-    "total_patients_tested": null,
-    "total_samples_tested": 528609
+    "active_cases": 3435,
+    "active_not_hospitalized": 2460
   },
   {
     "reported_date": "2020-05-17T00:00:00",
@@ -2240,8 +2240,8 @@
     "new_cases": 340,
     "new_deaths": 23,
     "new_tests": 16217,
-    "total_patients_tested": null,
-    "total_samples_tested": 544826
+    "active_cases": 3412,
+    "active_not_hospitalized": 2478
   },
   {
     "reported_date": "2020-05-18T00:00:00",
@@ -2262,8 +2262,8 @@
     "new_cases": 304,
     "new_deaths": 23,
     "new_tests": 9155,
-    "total_patients_tested": null,
-    "total_samples_tested": 553981
+    "active_cases": 3415,
+    "active_not_hospitalized": 2443
   },
   {
     "reported_date": "2020-05-19T00:00:00",
@@ -2284,8 +2284,8 @@
     "new_cases": 427,
     "new_deaths": 15,
     "new_tests": 5813,
-    "total_patients_tested": null,
-    "total_samples_tested": 559794
+    "active_cases": 3567,
+    "active_not_hospitalized": 2580
   },
   {
     "reported_date": "2020-05-20T00:00:00",
@@ -2306,8 +2306,8 @@
     "new_cases": 390,
     "new_deaths": 43,
     "new_tests": 7382,
-    "total_patients_tested": null,
-    "total_samples_tested": 567176
+    "active_cases": 3622,
+    "active_not_hospitalized": 2631
   },
   {
     "reported_date": "2020-05-21T00:00:00",
@@ -2328,8 +2328,8 @@
     "new_cases": 413,
     "new_deaths": 31,
     "new_tests": 10506,
-    "total_patients_tested": null,
-    "total_samples_tested": 577682
+    "active_cases": 3685,
+    "active_not_hospitalized": 2701
   },
   {
     "reported_date": "2020-05-22T00:00:00",
@@ -2350,8 +2350,8 @@
     "new_cases": 441,
     "new_deaths": 28,
     "new_tests": 11276,
-    "total_patients_tested": null,
-    "total_samples_tested": 588958
+    "active_cases": 3840,
+    "active_not_hospitalized": 2879
   },
   {
     "reported_date": "2020-05-23T00:00:00",
@@ -2372,8 +2372,8 @@
     "new_cases": 412,
     "new_deaths": 27,
     "new_tests": 11028,
-    "total_patients_tested": null,
-    "total_samples_tested": 599986
+    "active_cases": 3846,
+    "active_not_hospitalized": 2934
   },
   {
     "reported_date": "2020-05-24T00:00:00",
@@ -2394,8 +2394,8 @@
     "new_cases": 460,
     "new_deaths": 25,
     "new_tests": 11383,
-    "total_patients_tested": null,
-    "total_samples_tested": 611369
+    "active_cases": 3950,
+    "active_not_hospitalized": 3072
   },
   {
     "reported_date": "2020-05-25T00:00:00",
@@ -2416,8 +2416,8 @@
     "new_cases": 404,
     "new_deaths": 29,
     "new_tests": 8170,
-    "total_patients_tested": null,
-    "total_samples_tested": 619539
+    "active_cases": 4104,
+    "active_not_hospitalized": 3245
   },
   {
     "reported_date": "2020-05-26T00:00:00",
@@ -2438,8 +2438,8 @@
     "new_cases": 287,
     "new_deaths": 21,
     "new_tests": 9875,
-    "total_patients_tested": null,
-    "total_samples_tested": 629414
+    "active_cases": 4110,
+    "active_not_hospitalized": 3262
   },
   {
     "reported_date": "2020-05-27T00:00:00",
@@ -2460,8 +2460,8 @@
     "new_cases": 292,
     "new_deaths": 32,
     "new_tests": 15133,
-    "total_patients_tested": null,
-    "total_samples_tested": 644547
+    "active_cases": 3956,
+    "active_not_hospitalized": 3109
   },
   {
     "reported_date": "2020-05-28T00:00:00",
@@ -2482,8 +2482,8 @@
     "new_cases": 383,
     "new_deaths": 34,
     "new_tests": 17615,
-    "total_patients_tested": null,
-    "total_samples_tested": 662162
+    "active_cases": 4004,
+    "active_not_hospitalized": 3171
   },
   {
     "reported_date": "2020-05-29T00:00:00",
@@ -2504,8 +2504,8 @@
     "new_cases": 344,
     "new_deaths": 41,
     "new_tests": 18525,
-    "total_patients_tested": null,
-    "total_samples_tested": 680687
+    "active_cases": 3997,
+    "active_not_hospitalized": 3171
   },
   {
     "reported_date": "2020-05-30T00:00:00",
@@ -2526,8 +2526,8 @@
     "new_cases": 323,
     "new_deaths": 17,
     "new_tests": 20640,
-    "total_patients_tested": null,
-    "total_samples_tested": 701327
+    "active_cases": 3933,
+    "active_not_hospitalized": 3132
   },
   {
     "reported_date": "2020-05-31T00:00:00",
@@ -2548,8 +2548,8 @@
     "new_cases": 326,
     "new_deaths": 19,
     "new_tests": 17014,
-    "total_patients_tested": null,
-    "total_samples_tested": 718341
+    "active_cases": 3783,
+    "active_not_hospitalized": 3002
   },
   {
     "reported_date": "2020-06-01T00:00:00",
@@ -2570,8 +2570,8 @@
     "new_cases": 404,
     "new_deaths": 10,
     "new_tests": 14379,
-    "total_patients_tested": null,
-    "total_samples_tested": 732720
+    "active_cases": 3834,
+    "active_not_hospitalized": 3053
   },
   {
     "reported_date": "2020-06-02T00:00:00",
@@ -2592,8 +2592,8 @@
     "new_cases": 446,
     "new_deaths": 17,
     "new_tests": 15244,
-    "total_patients_tested": null,
-    "total_samples_tested": 747964
+    "active_cases": 3932,
+    "active_not_hospitalized": 3131
   },
   {
     "reported_date": "2020-06-03T00:00:00",
@@ -2614,8 +2614,8 @@
     "new_cases": 338,
     "new_deaths": 19,
     "new_tests": 17537,
-    "total_patients_tested": null,
-    "total_samples_tested": 765501
+    "active_cases": 3924,
+    "active_not_hospitalized": 3133
   },
   {
     "reported_date": "2020-06-04T00:00:00",
@@ -2636,8 +2636,8 @@
     "new_cases": 356,
     "new_deaths": 45,
     "new_tests": 20822,
-    "total_patients_tested": null,
-    "total_samples_tested": 786323
+    "active_cases": 3838,
+    "active_not_hospitalized": 3062
   },
   {
     "reported_date": "2020-06-05T00:00:00",
@@ -2658,8 +2658,8 @@
     "new_cases": 344,
     "new_deaths": 15,
     "new_tests": 22730,
-    "total_patients_tested": null,
-    "total_samples_tested": 809053
+    "active_cases": 3792,
+    "active_not_hospitalized": 3043
   },
   {
     "reported_date": "2020-06-06T00:00:00",
@@ -2680,8 +2680,8 @@
     "new_cases": 455,
     "new_deaths": 35,
     "new_tests": 23105,
-    "total_patients_tested": null,
-    "total_samples_tested": 832158
+    "active_cases": 3848,
+    "active_not_hospitalized": 3175
   },
   {
     "reported_date": "2020-06-07T00:00:00",
@@ -2702,8 +2702,8 @@
     "new_cases": 415,
     "new_deaths": 19,
     "new_tests": 19374,
-    "total_patients_tested": null,
-    "total_samples_tested": 851532
+    "active_cases": 3939,
+    "active_not_hospitalized": 3304
   },
   {
     "reported_date": "2020-06-08T00:00:00",
@@ -2724,8 +2724,8 @@
     "new_cases": 243,
     "new_deaths": 24,
     "new_tests": 15357,
-    "total_patients_tested": null,
-    "total_samples_tested": 866889
+    "active_cases": 3918,
+    "active_not_hospitalized": 3315
   },
   {
     "reported_date": "2020-06-09T00:00:00",
@@ -2746,8 +2746,8 @@
     "new_cases": 230,
     "new_deaths": 14,
     "new_tests": 13509,
-    "total_patients_tested": null,
-    "total_samples_tested": 880398
+    "active_cases": 3797,
+    "active_not_hospitalized": 3197
   },
   {
     "reported_date": "2020-06-10T00:00:00",
@@ -2768,8 +2768,8 @@
     "new_cases": 251,
     "new_deaths": 11,
     "new_tests": 19941,
-    "total_patients_tested": null,
-    "total_samples_tested": 900339
+    "active_cases": 3486,
+    "active_not_hospitalized": 2906
   },
   {
     "reported_date": "2020-06-11T00:00:00",
@@ -2790,8 +2790,8 @@
     "new_cases": 203,
     "new_deaths": 12,
     "new_tests": 24341,
-    "total_patients_tested": null,
-    "total_samples_tested": 924680
+    "active_cases": 3172,
+    "active_not_hospitalized": 2634
   },
   {
     "reported_date": "2020-06-12T00:00:00",
@@ -2812,8 +2812,8 @@
     "new_cases": 182,
     "new_deaths": 11,
     "new_tests": 28335,
-    "total_patients_tested": null,
-    "total_samples_tested": 953015
+    "active_cases": 3041,
+    "active_not_hospitalized": 2514
   },
   {
     "reported_date": "2020-06-13T00:00:00",
@@ -2834,8 +2834,8 @@
     "new_cases": 266,
     "new_deaths": 9,
     "new_tests": 27456,
-    "total_patients_tested": null,
-    "total_samples_tested": 980471
+    "active_cases": 2947,
+    "active_not_hospitalized": 2458
   },
   {
     "reported_date": "2020-06-14T00:00:00",
@@ -2856,8 +2856,8 @@
     "new_cases": 197,
     "new_deaths": 12,
     "new_tests": 23278,
-    "total_patients_tested": null,
-    "total_samples_tested": 1003749
+    "active_cases": 2709,
+    "active_not_hospitalized": 2271
   },
   {
     "reported_date": "2020-06-15T00:00:00",
@@ -2878,8 +2878,8 @@
     "new_cases": 181,
     "new_deaths": 8,
     "new_tests": 21751,
-    "total_patients_tested": null,
-    "total_samples_tested": 1025500
+    "active_cases": 2630,
+    "active_not_hospitalized": 2211
   },
   {
     "reported_date": "2020-06-16T00:00:00",
@@ -2900,8 +2900,8 @@
     "new_cases": 184,
     "new_deaths": 11,
     "new_tests": 21724,
-    "total_patients_tested": null,
-    "total_samples_tested": 1047224
+    "active_cases": 2585,
+    "active_not_hospitalized": 2172
   },
   {
     "reported_date": "2020-06-17T00:00:00",
@@ -2922,8 +2922,8 @@
     "new_cases": 190,
     "new_deaths": 12,
     "new_tests": 24205,
-    "total_patients_tested": null,
-    "total_samples_tested": 1071429
+    "active_cases": 2410,
+    "active_not_hospitalized": 2027
   },
   {
     "reported_date": "2020-06-18T00:00:00",
@@ -2944,8 +2944,8 @@
     "new_cases": 173,
     "new_deaths": 3,
     "new_tests": 25278,
-    "total_patients_tested": null,
-    "total_samples_tested": 1096707
+    "active_cases": 2360,
+    "active_not_hospitalized": 2009
   },
   {
     "reported_date": "2020-06-19T00:00:00",
@@ -2966,8 +2966,8 @@
     "new_cases": 178,
     "new_deaths": 11,
     "new_tests": 27225,
-    "total_patients_tested": null,
-    "total_samples_tested": 1123932
+    "active_cases": 2281,
+    "active_not_hospitalized": 1950
   },
   {
     "reported_date": "2020-06-20T00:00:00",
@@ -2988,8 +2988,8 @@
     "new_cases": 206,
     "new_deaths": 31,
     "new_tests": 27387,
-    "total_patients_tested": null,
-    "total_samples_tested": 1151319
+    "active_cases": 2238,
+    "active_not_hospitalized": 1905
   },
   {
     "reported_date": "2020-06-21T00:00:00",
@@ -3010,8 +3010,8 @@
     "new_cases": 175,
     "new_deaths": 11,
     "new_tests": 23408,
-    "total_patients_tested": null,
-    "total_samples_tested": 1174727
+    "active_cases": 2151,
+    "active_not_hospitalized": 1865
   },
   {
     "reported_date": "2020-06-22T00:00:00",
@@ -3032,8 +3032,8 @@
     "new_cases": 161,
     "new_deaths": 3,
     "new_tests": 21900,
-    "total_patients_tested": null,
-    "total_samples_tested": 1196627
+    "active_cases": 2095,
+    "active_not_hospitalized": 1830
   },
   {
     "reported_date": "2020-06-23T00:00:00",
@@ -3054,8 +3054,8 @@
     "new_cases": 216,
     "new_deaths": 10,
     "new_tests": 16189,
-    "total_patients_tested": null,
-    "total_samples_tested": 1212816
+    "active_cases": 2127,
+    "active_not_hospitalized": 1839
   },
   {
     "reported_date": "2020-06-24T00:00:00",
@@ -3076,8 +3076,8 @@
     "new_cases": 163,
     "new_deaths": 12,
     "new_tests": 23207,
-    "total_patients_tested": null,
-    "total_samples_tested": 1236023
+    "active_cases": 2049,
+    "active_not_hospitalized": 1771
   },
   {
     "reported_date": "2020-06-25T00:00:00",
@@ -3098,8 +3098,8 @@
     "new_cases": 189,
     "new_deaths": 10,
     "new_tests": 27511,
-    "total_patients_tested": null,
-    "total_samples_tested": 1263534
+    "active_cases": 2036,
+    "active_not_hospitalized": 1766
   },
   {
     "reported_date": "2020-06-26T00:00:00",
@@ -3120,8 +3120,8 @@
     "new_cases": 111,
     "new_deaths": 3,
     "new_tests": 30780,
-    "total_patients_tested": null,
-    "total_samples_tested": 1294314
+    "active_cases": 1918,
+    "active_not_hospitalized": 1662
   },
   {
     "reported_date": "2020-06-27T00:00:00",
@@ -3142,8 +3142,8 @@
     "new_cases": 160,
     "new_deaths": 8,
     "new_tests": 33492,
-    "total_patients_tested": null,
-    "total_samples_tested": 1327806
+    "active_cases": 1892,
+    "active_not_hospitalized": 1640
   },
   {
     "reported_date": "2020-06-28T00:00:00",
@@ -3164,8 +3164,8 @@
     "new_cases": 178,
     "new_deaths": 6,
     "new_tests": 28633,
-    "total_patients_tested": null,
-    "total_samples_tested": 1356439
+    "active_cases": 1889,
+    "active_not_hospitalized": 1675
   },
   {
     "reported_date": "2020-06-29T00:00:00",
@@ -3186,8 +3186,8 @@
     "new_cases": 257,
     "new_deaths": 7,
     "new_tests": 27127,
-    "total_patients_tested": null,
-    "total_samples_tested": 1383566
+    "active_cases": 2050,
+    "active_not_hospitalized": 1818
   },
   {
     "reported_date": "2020-06-30T00:00:00",
@@ -3208,8 +3208,8 @@
     "new_cases": 157,
     "new_deaths": 7,
     "new_tests": 23759,
-    "total_patients_tested": null,
-    "total_samples_tested": 1407325
+    "active_cases": 2052,
+    "active_not_hospitalized": 1839
   },
   {
     "reported_date": "2020-07-01T00:00:00",
@@ -3230,8 +3230,8 @@
     "new_cases": 149,
     "new_deaths": 4,
     "new_tests": 26056,
-    "total_patients_tested": null,
-    "total_samples_tested": 1433381
+    "active_cases": 2015,
+    "active_not_hospitalized": 1806
   },
   {
     "reported_date": "2020-07-02T00:00:00",
@@ -3252,8 +3252,8 @@
     "new_cases": 153,
     "new_deaths": 4,
     "new_tests": 24322,
-    "total_patients_tested": null,
-    "total_samples_tested": 1457703
+    "active_cases": 1960,
+    "active_not_hospitalized": 1841
   },
   {
     "reported_date": "2020-07-03T00:00:00",
@@ -3274,8 +3274,8 @@
     "new_cases": 165,
     "new_deaths": 2,
     "new_tests": 24194,
-    "total_patients_tested": null,
-    "total_samples_tested": 1481897
+    "active_cases": 1944,
+    "active_not_hospitalized": 1789
   },
   {
     "reported_date": "2020-07-04T00:00:00",
@@ -3296,8 +3296,8 @@
     "new_cases": 121,
     "new_deaths": 5,
     "new_tests": 21425,
-    "total_patients_tested": null,
-    "total_samples_tested": 1503322
+    "active_cases": 1886,
+    "active_not_hospitalized": 1736
   },
   {
     "reported_date": "2020-07-05T00:00:00",
@@ -3318,8 +3318,8 @@
     "new_cases": 138,
     "new_deaths": 2,
     "new_tests": 23792,
-    "total_patients_tested": null,
-    "total_samples_tested": 1527114
+    "active_cases": 1839,
+    "active_not_hospitalized": 1700
   },
   {
     "reported_date": "2020-07-06T00:00:00",
@@ -3340,8 +3340,8 @@
     "new_cases": 154,
     "new_deaths": 0,
     "new_tests": 17303,
-    "total_patients_tested": null,
-    "total_samples_tested": 1544417
+    "active_cases": 1833,
+    "active_not_hospitalized": 1715
   },
   {
     "reported_date": "2020-07-07T00:00:00",
@@ -3362,8 +3362,8 @@
     "new_cases": 112,
     "new_deaths": 2,
     "new_tests": 15112,
-    "total_patients_tested": null,
-    "total_samples_tested": 1559529
+    "active_cases": 1766,
+    "active_not_hospitalized": 1635
   },
   {
     "reported_date": "2020-07-08T00:00:00",
@@ -3384,8 +3384,8 @@
     "new_cases": 118,
     "new_deaths": 9,
     "new_tests": 22832,
-    "total_patients_tested": null,
-    "total_samples_tested": 1582361
+    "active_cases": 1673,
+    "active_not_hospitalized": 1550
   },
   {
     "reported_date": "2020-07-09T00:00:00",
@@ -3406,8 +3406,8 @@
     "new_cases": 170,
     "new_deaths": 3,
     "new_tests": 26326,
-    "total_patients_tested": null,
-    "total_samples_tested": 1608687
+    "active_cases": 1668,
+    "active_not_hospitalized": 1545
   },
   {
     "reported_date": "2020-07-10T00:00:00",
@@ -3428,8 +3428,8 @@
     "new_cases": 116,
     "new_deaths": 7,
     "new_tests": 27484,
-    "total_patients_tested": null,
-    "total_samples_tested": 1636171
+    "active_cases": 1599,
+    "active_not_hospitalized": 1482
   },
   {
     "reported_date": "2020-07-11T00:00:00",
@@ -3450,8 +3450,8 @@
     "new_cases": 130,
     "new_deaths": 6,
     "new_tests": 29522,
-    "total_patients_tested": null,
-    "total_samples_tested": 1665693
+    "active_cases": 1456,
+    "active_not_hospitalized": 1328
   },
   {
     "reported_date": "2020-07-12T00:00:00",
@@ -3472,8 +3472,8 @@
     "new_cases": 129,
     "new_deaths": 3,
     "new_tests": 25726,
-    "total_patients_tested": null,
-    "total_samples_tested": 1691419
+    "active_cases": 1470,
+    "active_not_hospitalized": 1354
   },
   {
     "reported_date": "2020-07-13T00:00:00",
@@ -3494,8 +3494,8 @@
     "new_cases": 116,
     "new_deaths": 3,
     "new_tests": 20896,
-    "total_patients_tested": null,
-    "total_samples_tested": 1712315
+    "active_cases": 1454,
+    "active_not_hospitalized": 1350
   },
   {
     "reported_date": "2020-07-14T00:00:00",
@@ -3516,8 +3516,8 @@
     "new_cases": 111,
     "new_deaths": 1,
     "new_tests": 16744,
-    "total_patients_tested": null,
-    "total_samples_tested": 1729059
+    "active_cases": 1442,
+    "active_not_hospitalized": 1305
   },
   {
     "reported_date": "2020-07-15T00:00:00",
@@ -3538,8 +3538,8 @@
     "new_cases": 102,
     "new_deaths": 9,
     "new_tests": 23769,
-    "total_patients_tested": null,
-    "total_samples_tested": 1752828
+    "active_cases": 1400,
+    "active_not_hospitalized": 1285
   },
   {
     "reported_date": "2020-07-16T00:00:00",
@@ -3560,8 +3560,8 @@
     "new_cases": 111,
     "new_deaths": 5,
     "new_tests": 26492,
-    "total_patients_tested": null,
-    "total_samples_tested": 1779320
+    "active_cases": 1365,
+    "active_not_hospitalized": 1258
   },
   {
     "reported_date": "2020-07-17T00:00:00",
@@ -3582,7 +3582,29 @@
     "new_cases": 111,
     "new_deaths": 9,
     "new_tests": 31163,
-    "total_patients_tested": null,
-    "total_samples_tested": 1810483
+    "active_cases": 1366,
+    "active_not_hospitalized": 1258
+  },
+  {
+    "reported_date": "2020-07-18T00:00:00",
+    "negative": 0,
+    "total_resolved": 33294,
+    "total_deaths": 2748,
+    "total_cases": 37440,
+    "total_tested": 1839332,
+    "total_pending_tests": 24551,
+    "num_hospitalized": 105,
+    "num_icu": 33,
+    "num_ventilator": 22,
+    "total_LTC_resident_cases": 5547,
+    "total_LTC_HCW_cases": 2469,
+    "total_LTC_resident_deaths": 1732,
+    "total_LTC_HCW_deaths": 8,
+    "total_tests_reported": 1839332,
+    "new_cases": 166,
+    "new_deaths": 2,
+    "new_tests": 28849,
+    "active_cases": 1398,
+    "active_not_hospitalized": 1293
   }
 ]

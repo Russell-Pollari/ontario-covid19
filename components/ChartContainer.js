@@ -6,35 +6,42 @@ import {
 } from 'recharts';
 
 
-const BarPlot = ({
-	dataKey = 'new_cases',
-	includeAverage = false,
+const ChartContainer = ({
+	bars = [],
+	lines = [],
+	dataKeyX = "date_string",
 	dataSource = [],
+	title,
+	children,
 }) => {
 	const [data, setData] = useState([])
 	const [scale, setScale] = useState('linear');
 
 	useEffect(() => {
-		const _data = dataSource.map((status, index, array) => {
-			let weekly_rolling_average = null;
+		setData(dataSource);
+	}, [dataSource]);
 
-			if (includeAverage) {
-				const lastWeek = array.slice(index - 7, index);
-				weekly_rolling_average = lastWeek.reduce((acc, b) => (acc + b[dataKey]), 0) / lastWeek.length;
-			}
 
-			return {
-				...status,
-				weekly_rolling_average,
-			};
-		});
-
-		setData(
-			_data.filter(status => (
-				status[dataKey] > 0 && status['weekly_rolling_average'] !== 0
-			))
-		);
-	}, [includeAverage, dataSource]);
+	useEffect(() => {
+		if (scale === 'log') {
+			const filteredData = data.filter(datum => {
+				bars.forEach(bar => {
+					if (datum[bar.dataKey] === 0) {
+						return false;
+					}
+				});
+				lines.forEach(line => {
+					if (datum[line.dataKey] === 0) {
+						return false;
+					}
+				})
+				return true;
+			});
+			setData([...filteredData])
+		} else {
+			setData(dataSource)
+		}
+	}, [scale])
 
 	const legendFormatter = (value) => {
 		return value.replace(/_/g, ' ')
@@ -53,33 +60,40 @@ const BarPlot = ({
 	};
 
 	return (
-		<div className="dib w-50 miw-256">
-			<div>
-				<span onClick={toggleScale} className="pointer">
+		<div className="tl dib chart-container w-100 maw768 miw-256">
+			<div className="tl">
+				<strong>
+					{title}
+				</strong>
+				<span onClick={toggleScale} className="pointer fr">
 					<span className={scale === 'linear' ? 'active-link' : ''}>
 						Linear
 					</span>
 					{'<>'}
 					<span className={scale === 'log' ? 'active-link' : ''}>
-						log
+						Log
 					</span>
 				</span>
 			</div>
-			<ResponsiveContainer width="80%" minWidth={256} height={300}>
+			<ResponsiveContainer width="95%" minWidth={256} height={400}>
+
 				<ComposedChart data={data}>
 					<Legend verticalAlign="top" formatter={legendFormatter} />
 					<CartesianGrid vertical={false} />
-					<XAxis dataKey="date_string" />
+					<XAxis dataKey={dataKeyX} />
 					<YAxis scale={scale} domain={['auto', 'auto']} />
-					<Bar dataKey={dataKey} fill="#ef8c8c" />
-					{includeAverage && (
-						<Line dataKey="weekly_rolling_average" dot={false} stroke="#8884d8" strokeWidth={3} />
-					)}
 					<Tooltip formatter={tooltipFormatter} />
+					{bars.map(bar => (
+							<Bar key={bar.dataKey} {...bar} />
+					))}
+					{lines.map((line) => (
+						<Line key={line.dataKey} {...line} />
+					))}
+					{children}
 				</ComposedChart>
 			</ResponsiveContainer>
 		</div>
 	);
 };
 
-export default BarPlot;
+export default ChartContainer;
