@@ -98,7 +98,7 @@ const charts = [{
 		dataKey: 'total_pending_tests',
 		name: 'Pending tests',
 		dot: false,
-		fill: 'black',
+		stroke: 'black',
 	}]
 }];
 
@@ -125,9 +125,6 @@ function HomePage() {
 
 	return (
 		<Layout charts={charts}>
-			<h2>
-				Covid-19 in Ontario
-			</h2>
 			<OntarioStatusTable dataSource={data} />
 			<div className="tc">
 				<div className="w-100 dib">

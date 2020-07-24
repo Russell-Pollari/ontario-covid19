@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import { useState } from 'react';
 
-
-const NavLink = ({ path, currentPath, label }) => {
+const NavLink = ({ title }) => {
 	return (
-		<Link href={path}>
-			<a className={currentPath === path ? 'active-link mh8' : 'link mh8'}>
-				{label}
-			</a>
-		</Link>
+		<a href={`#${title}`}>
+			<div className="side-nav-link">
+				{title}
+			</div>
+		</a>
 	);
 };
 
@@ -19,12 +19,14 @@ export default function Layout ({
 	currentPath = '/',
 	charts = [],
 }) {
+	const [menuIsOpen, setMenuIsOpen] = useState(true);
+
 	return (
 		<div>
 			<Head>
 				<title>{title}</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="russellpollari" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! Consider buying me a coffee :)" data-color="#FF813F" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+				<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="russellpollari" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! Consider buying me a coffee :)" data-color="#FF813F" data-position="left" data-x_margin="18" data-y_margin="18"></script>
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163333616-1"></script>
 				<script>
 					{`
@@ -35,23 +37,21 @@ export default function Layout ({
 					`}
 				</script>
 			</Head>
-			<header>
-				<nav>
-					<NavLink path="/" currentPath={currentPath} label="Ontario" />
-				</nav>
-			</header>
 			<div>
-				<div style={{ position: 'fixed', width: '200px', height: '100%', backgroundColor: 'white', padding: '16px', boxSizing: 'border-box' }}>
+				<div className="side-nav">
 					{charts.map((chart, index) => (
-						<a href={`#${chart.title}`}>
-							<div className="mv16">
-								{chart.title}
-							</div>
-						</a>
+						<NavLink key={index} {...chart} />
 					))}
 				</div>
-				<div style={{ position: 'absolute', left: '200px', right: '0', top: '0' }}>
-					{children}
+				<div className="ml200" >
+					<div className="header">
+						<h3 className="ma0">
+							Covid-19 in Ontario
+						</h3>
+					</div>
+					<div>
+						{children}
+					</div>
 				</div>
 			</div>
 		</div>
