@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start -p $PORT",
-    "build": "next build && next export -o docs && touch docs/.nojekyll",
+    "build": "next build",
+		"start": "next start -p $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
