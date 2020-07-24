@@ -4,31 +4,104 @@ import Layout from '../components/Layout';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 
-const totalCasesBars = [{
-	dataKey: 'active_not_hospitalized',
-	fill: '#f9d45c',
-	label: 'Sick (not hospitalized)',
-	stackId: 'a',
+const charts = [{
+	title: 'Total cases in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'active_not_hospitalized',
+		fill: '#f9d45c',
+		name: 'Sick (not hospitalized)',
+		stackId: 'a',
+	}, {
+		dataKey: 'num_hospitalized',
+		fill: '#f3b381',
+		name: 'Hospitalized',
+		stackId: 'a',
+	}, {
+		dataKey: 'total_deaths',
+		fill: '#ef8c8c',
+		name: 'Deceased',
+		stackId: 'a',
+	}, {
+		dataKey: 'total_resolved',
+		fill: '#88bf4d',
+		name: 'Resolved',
+		stackId: 'a',
+	}],
 }, {
-	dataKey: 'num_hospitalized',
-	fill: '#f3b381',
-	label: 'Hospitalized',
-	stackId: 'a',
+	title: 'New cases in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'new_cases',
+		name: 'New cases',
+		fill: "#f9d45c",
+	}],
 }, {
-	dataKey: 'total_deaths',
-	fill: '#ef8c8c',
-	label: 'Deceased',
-	stackId: 'a',
+	title: 'Total deaths in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'total_deaths',
+		name: 'Total deaths',
+		fill: '#ef8c8c',
+	}],
 }, {
-	dataKey: 'total_resolved',
-	fill: '#88bf4d',
-	label: 'Resolved',
-	stackId: 'a',
+	title: 'New deaths in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'new_deaths',
+		name: 'New deaths',
+		fill: "#ef8c8c",
+	}]
+}, {
+	title: 'Patients hospitalized',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'num_hospitalized',
+		name: 'Patients hospitalized',
+		fill: '#ef8c8c',
+	}],
+}, {
+	title: 'Patients in ICU',
+	dataKeyX: 'date_string',
+	transform: (data) => (
+		data.map(datum => {
+			datum['icu_no_ventilator'] = datum['num_icu'] - datum['num_ventilator'];
+			return datum;
+		})
+	),
+	bars: [{
+		dataKey: 'num_ventilator',
+		fill: '#509ee3',
+		name: 'ICU (with ventilator)'
+	}, {
+		dataKey: 'icu_no_ventilator',
+		fill: '#7172ad',
+		name: 'ICU (no ventilator)',
+	}],
+}, {
+	title: 'Total tests in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'total_tested',
+		name: 'Total tests',
+		fill: '#509ee3',
+	}]
+}, {
+	title: 'New tests in Ontario',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'new_tests',
+		name: 'New tests',
+		fill: '#509ee3',
+	}],
+	lines: [{
+		dataKey: 'total_pending_tests',
+		name: 'Pending tests',
+		dot: false,
+		fill: 'black',
+	}]
 }];
 
-const newCasesOptions = {
-
-}
 
 function HomePage() {
 	const [data, setData] = useState([]);
@@ -51,56 +124,20 @@ function HomePage() {
 	}, []);
 
 	return (
-		<Layout>
+		<Layout charts={charts}>
 			<h2>
 				Covid-19 in Ontario
 			</h2>
 			<OntarioStatusTable dataSource={data} />
 			<div className="tc">
-				<h3 className="tl">Cases</h3>
 				<div className="w-100 dib">
-					<ChartContainer
-						title="Total cases in Ontario"
-						dataKeyX="date_string"
-						bars={totalCasesBars}
-						dataSource={data}
-					/>
-					<ChartContainer
-						title="New cases in Ontario"
-						dataKeyX="date_string"
-						dataSource={data}
-						bars={[{
-							dataKey: 'new_cases',
-							fill: "#f9d45c",
-						}]}
-					/>
-					<ChartContainer
-						title="Total deaths in Ontario"
-						dataKeyX="date_string"
-						bars={[{
-							dataKey: 'total_deaths',
-							fill: '#ef8c8c',
-						}]}
-						dataSource={data}
-					/>
-					<ChartContainer
-						title="New deaths in Ontario"
-						dataKeyX="date_string"
-						dataSource={data}
-						bars={[{
-							dataKey: 'new_deaths',
-							fill: "#ef8c8c",
-						}]}
-					/>
-					<ChartContainer
-						title="Patients hospitalized"
-						dataKeyX="date_string"
-						bars={[{
-							dataKey: 'num_hospitalized',
-							fill: '#ef8c8c',
-						}]}
-						dataSource={data}
-					/>
+					{charts.map((chart, index) => (
+						<ChartContainer
+							key={index}
+							dataSource={data}
+							{...chart}
+						/>
+					))}
 				</div>
 			</div>
 		</Layout>

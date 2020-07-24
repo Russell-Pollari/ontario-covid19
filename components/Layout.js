@@ -17,7 +17,8 @@ const NavLink = ({ path, currentPath, label }) => {
 export default function Layout ({
 	children,
 	title = 'Covid-19 in Ontario',
-	currentPath = '/'
+	currentPath = '/',
+	charts = [],
 }) {
 	return (
 		<div>
@@ -38,13 +39,22 @@ export default function Layout ({
 			<header>
 				<nav>
 					<NavLink path="/" currentPath={currentPath} label="Ontario" />
-					<NavLink path="/phu" currentPath={currentPath} label="PHUs" />
-					<NavLink path="/canada" currentPath={currentPath} label="Canada" />
-					<NavLink path="/logs" currentPath={currentPath} label="Logs" />
-					<NavLink path="/about" currentPath={currentPath} label="About" />
 				</nav>
 			</header>
-			{children}
+			<div>
+				<div style={{ position: 'fixed', width: '200px', height: '100%', backgroundColor: 'white', padding: '16px', boxSizing: 'border-box' }}>
+					{charts.map((chart, index) => (
+						<a href={`#${chart.title}`}>
+							<div className="mv16">
+								{chart.title}
+							</div>
+						</a>
+					))}
+				</div>
+				<div style={{ position: 'absolute', left: '200px', right: '0', top: '0' }}>
+					{children}
+				</div>
+			</div>
 		</div>
 	);
 };

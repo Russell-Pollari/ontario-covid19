@@ -1,6 +1,8 @@
 body {
 	background-color: #f7f7f7;
 	font-family: arial;
+	padding: 0;
+	margin: 0;
 	padding-bottom: 128px;
 }
 
@@ -72,6 +74,10 @@ li {
 
 .maw768 {
 	max-width: 768px;
+}
+
+.maw1152 {
+	max-width: 1152px;
 }
 
 .tc {

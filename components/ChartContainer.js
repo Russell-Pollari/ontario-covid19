@@ -13,43 +13,41 @@ const ChartContainer = ({
 	dataSource = [],
 	title,
 	children,
+	transform = null,
 }) => {
 	const [data, setData] = useState([])
 	const [scale, setScale] = useState('linear');
+	const [legendIsVisible, setLegendIsVisible] = useState(true);
 
 	useEffect(() => {
-		setData(dataSource);
+		let _data = dataSource;
+		if (transform) {
+			_data = transform(_data);
+		}
+		setData(_data);
 	}, [dataSource]);
 
 
-	useEffect(() => {
-		if (scale === 'log') {
-			const filteredData = data.filter(datum => {
-				bars.forEach(bar => {
-					if (datum[bar.dataKey] === 0) {
-						return false;
-					}
-				});
-				lines.forEach(line => {
-					if (datum[line.dataKey] === 0) {
-						return false;
-					}
-				})
-				return true;
-			});
-			setData([...filteredData])
-		} else {
-			setData(dataSource)
-		}
-	}, [scale])
-
-	const legendFormatter = (value) => {
-		return value.replace(/_/g, ' ')
-	}
-
-	const tooltipFormatter = (value, name) => {
-		return [value.toFixed(0), name.replace(/_/g, ' ')]
-	};
+	// useEffect(() => {
+	// 	if (scale === 'log') {
+	// 		const filteredData = data.filter(datum => {
+	// 			bars.forEach(bar => {
+	// 				if (datum[bar.dataKey] === 0) {
+	// 					return false;
+	// 				}
+	// 			});
+	// 			lines.forEach(line => {
+	// 				if (datum[line.dataKey] === 0) {
+	// 					return false;
+	// 				}
+	// 			})
+	// 			return true;
+	// 		});
+	// 		setData([...filteredData])
+	// 	} else {
+	// 		setData(dataSource)
+	// 	}
+	// }, [scale])
 
 	const toggleScale = () => {
 		if (scale === 'linear') {
@@ -60,8 +58,8 @@ const ChartContainer = ({
 	};
 
 	return (
-		<div className="tl dib chart-container w-100 maw768 miw-256">
-			<div className="tl">
+		<div className="tl dib chart-container w-100 maw768" id={title}>
+			<div className="tl pv8">
 				<strong>
 					{title}
 				</strong>
@@ -75,14 +73,19 @@ const ChartContainer = ({
 					</span>
 				</span>
 			</div>
-			<ResponsiveContainer width="95%" minWidth={256} height={400}>
-
+			<ResponsiveContainer width="95%" height={400}>
 				<ComposedChart data={data}>
-					<Legend verticalAlign="top" formatter={legendFormatter} />
+					{(bars.length + lines.length) > 1 && (
+						<Legend
+							layout="horizontal"
+							align="center"
+							verticalAlign="bottom"
+						/>
+					)}
 					<CartesianGrid vertical={false} />
 					<XAxis dataKey={dataKeyX} />
 					<YAxis scale={scale} domain={['auto', 'auto']} />
-					<Tooltip formatter={tooltipFormatter} />
+					<Tooltip />
 					{bars.map(bar => (
 							<Bar key={bar.dataKey} {...bar} />
 					))}
