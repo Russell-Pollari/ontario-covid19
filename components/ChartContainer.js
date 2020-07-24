@@ -17,7 +17,6 @@ const ChartContainer = ({
 }) => {
 	const [data, setData] = useState([])
 	const [scale, setScale] = useState('linear');
-	const [legendIsVisible, setLegendIsVisible] = useState(true);
 
 	useEffect(() => {
 		let _data = dataSource;
@@ -28,26 +27,21 @@ const ChartContainer = ({
 	}, [dataSource]);
 
 
-	// useEffect(() => {
-	// 	if (scale === 'log') {
-	// 		const filteredData = data.filter(datum => {
-	// 			bars.forEach(bar => {
-	// 				if (datum[bar.dataKey] === 0) {
-	// 					return false;
-	// 				}
-	// 			});
-	// 			lines.forEach(line => {
-	// 				if (datum[line.dataKey] === 0) {
-	// 					return false;
-	// 				}
-	// 			})
-	// 			return true;
-	// 		});
-	// 		setData([...filteredData])
-	// 	} else {
-	// 		setData(dataSource)
-	// 	}
-	// }, [scale])
+	useEffect(() => {
+		if (scale === 'log') {
+			const filteredData = data.map(datum => {
+				Object.keys(datum).forEach(key => {
+					if (datum[key] <= 0) {
+						datum[key] = null;
+					};
+				});
+				return datum;
+			});
+			setData([...filteredData])
+		} else {
+			setData(dataSource)
+		}
+	}, [scale])
 
 	const toggleScale = () => {
 		if (scale === 'linear') {
@@ -56,6 +50,9 @@ const ChartContainer = ({
 			setScale('linear')
 		}
 	};
+	if (title ="Total cases in Ontario") {
+		console.log(data);
+	}
 
 	return (
 		<div className="tl dib chart-container w-100 maw768" id={title}>
@@ -84,7 +81,7 @@ const ChartContainer = ({
 					)}
 					<CartesianGrid vertical={false} />
 					<XAxis dataKey={dataKeyX} />
-					<YAxis scale={scale} domain={['auto', 'auto']} />
+					<YAxis type="number" scale={scale} domain={['auto', 'auto']} />
 					<Tooltip />
 					{bars.map(bar => (
 							<Bar key={bar.dataKey} {...bar} />
