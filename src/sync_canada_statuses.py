@@ -21,7 +21,7 @@ def get_field_name_from_column_name(column_name):
         return 'total_cases'
     if 'numprob' in column_name:
         return 'probable_cases'
-    if 'numdeaths' in column_name:
+    if 'numdeaths' == column_name:
         return 'total_deaths'
     if 'numtested' in column_name:
         return 'total_tested'
