@@ -17,17 +17,15 @@ COLLECTION_NAME = 'canada_statuses'
 def get_field_name_from_column_name(column_name):
     if 'prname' == column_name:
         return 'province'
-    if 'numconf' in column_name:
+    if 'numtotal' == column_name:
         return 'total_cases'
-    if 'numprob' in column_name:
-        return 'probable_cases'
     if 'numdeaths' == column_name:
         return 'total_deaths'
-    if 'numtested' in column_name:
+    if 'numtested' == column_name:
         return 'total_tested'
-    if 'numrecover' in column_name:
+    if 'numrecover' == column_name:
         return 'total_recovered'
-    if 'numtoday' in column_name:
+    if 'numtoday' == column_name:
         return 'new_cases'
 
     return None
