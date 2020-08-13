@@ -11,7 +11,20 @@ li {
 	margin-bottom: 8px;
 }
 
+.header {
+	padding: 16px;
+	width: 100%;
+	background-color: white;
+	z-index: 999;
+	top: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	position: fixed;
+	height: 64px;
+	box-sizing: border-box;
+}
+
 .side-nav {
+	top: 64px;
 	position: fixed;
 	width: 200px;
 	height: 100%;
@@ -21,7 +34,7 @@ li {
 }
 
 .side-nav > a {
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .side-nav-link {
@@ -35,16 +48,13 @@ li {
 	background-color: #cfcabc;
 }
 
-.header {
-	left: 200px;
+.main-content {
 	padding: 16px;
-	width: 100%;
-	background-color: white;
-	z-index: 999;
-	top: 0;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	top: 64px;
+	position: absolute;
+	margin-left: 200px;
+	box-sizing: border-box;
 }
-
 
 .chart-container {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, .13);

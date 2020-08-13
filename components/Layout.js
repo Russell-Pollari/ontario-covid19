@@ -13,6 +13,27 @@ const NavLink = ({ title }) => {
 };
 
 
+const SideNav = ({ charts = [] }) => {
+	return (
+		<div className="side-nav">
+			{charts.map((chart, index) => (
+				<NavLink key={index} {...chart} />
+			))}
+		</div>
+	)
+}
+
+const Header = () => {
+	return (
+		<div className="header">
+			<h3 className="ma0">
+				Covid-19 in Ontario
+			</h3>
+		</div>
+	);
+};
+
+
 export default function Layout ({
 	children,
 	title = 'Covid-19 in Ontario',
@@ -38,20 +59,10 @@ export default function Layout ({
 				</script>
 			</Head>
 			<div>
-				<div className="side-nav">
-					{charts.map((chart, index) => (
-						<NavLink key={index} {...chart} />
-					))}
-				</div>
-				<div className="ml200" >
-					<div className="header">
-						<h3 className="ma0">
-							Covid-19 in Ontario
-						</h3>
-					</div>
-					<div>
-						{children}
-					</div>
+				<Header />
+				<SideNav charts={charts} />
+				<div className="main-content">
+					{children}
 				</div>
 			</div>
 		</div>

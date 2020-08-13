@@ -5,9 +5,11 @@ import {
 	Tooltip, ResponsiveContainer, Legend
 } from 'recharts';
 
+import ScaleToggle from './ScaleToggle';
+
 
 const ChartContainer = ({
-	bars = [],
+	barConfig = [],
 	lines = [],
 	dataKeyX = "date_string",
 	dataSource = [],
@@ -15,7 +17,8 @@ const ChartContainer = ({
 	children,
 	transform = null,
 }) => {
-	const [data, setData] = useState([])
+	const [data, setData] = useState([]);
+	const [bars, setBars] = useState([]);
 	const [scale, setScale] = useState('linear');
 
 	useEffect(() => {
@@ -26,6 +29,15 @@ const ChartContainer = ({
 		setData(_data);
 	}, [dataSource]);
 
+	useEffect(() => {
+		if (scale === 'log') {
+			// TODO: cannot stack in log plot
+			const _bars = barConfig.map(bar => { delete bar.stackId; return bar; });
+			setBars([..._bars])
+		} else {
+			setBars([...barConfig]);
+		}
+	}, [scale, barConfig])
 
 	useEffect(() => {
 		if (scale === 'log') {
@@ -37,40 +49,30 @@ const ChartContainer = ({
 				});
 				return datum;
 			});
-			setData([...filteredData])
+			setData([...filteredData]);
 		} else {
-			setData(dataSource)
+			setData(dataSource);
 		}
-	}, [scale])
+	}, [scale]);
+
 
 	const toggleScale = () => {
 		if (scale === 'linear') {
-			setScale('log')
+			setScale('log');
 		} else {
-			setScale('linear')
+			setScale('linear');
 		}
 	};
-	if (title ="Total cases in Ontario") {
-		console.log(data);
-	}
 
 	return (
-		<div className="tl dib chart-container w-100 maw768" id={title}>
+		<div className="tl dib chart-container w-100" id={title}>
 			<div className="tl pv8">
 				<strong>
 					{title}
 				</strong>
-				<span onClick={toggleScale} className="pointer fr">
-					<span className={scale === 'linear' ? 'active-link' : ''}>
-						Linear
-					</span>
-					{'<>'}
-					<span className={scale === 'log' ? 'active-link' : ''}>
-						Log
-					</span>
-				</span>
+				<ScaleToggle toggleScale={toggleScale} scale={scale} />
 			</div>
-			<ResponsiveContainer width="95%" height={400}>
+			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={data}>
 					{(bars.length + lines.length) > 1 && (
 						<Legend
@@ -81,10 +83,14 @@ const ChartContainer = ({
 					)}
 					<CartesianGrid vertical={false} />
 					<XAxis dataKey={dataKeyX} />
-					<YAxis type="number" scale={scale} domain={['auto', 'auto']} />
+					<YAxis
+						type="number"
+						scale={scale}
+						domain={[scale === 'log' ? 1 : 0, 'auto']}
+					/>
 					<Tooltip />
 					{bars.map(bar => (
-							<Bar key={bar.dataKey} {...bar} />
+						<Bar key={bar.dataKey} {...bar} />
 					))}
 					{lines.map((line) => (
 						<Line key={line.dataKey} {...line} />
