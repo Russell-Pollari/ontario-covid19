@@ -1,8 +1,8 @@
 const totalDeaths = {
-	title: 'Total deaths in Ontario',
+	title: 'Total deaths',
 	dataKeyX: 'date_string',
-	barConfig: [{
-		dataKey: 'total_deaths',
+	bars: [{
+		dataKey: 'Deaths',
 		name: 'Total deaths',
 		fill: '#ef8c8c',
 	}],

@@ -5,41 +5,42 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 
 import newCases from '../components/charts/ontario/newCases';
+import activeCases from '../components/charts/ontario/activeCases';
 import totalCases from '../components/charts/ontario/totalCases';
-import newDeaths from '../components/charts/ontario/hospitalized';
+import newDeaths from '../components/charts/ontario/newDeaths';
 import totalDeaths from '../components/charts/ontario/totalDeaths';
 import hospitalized from '../components/charts/ontario/hospitalized';
 import icu from '../components/charts/ontario/icu';
+import tests from '../components/charts/ontario/tests';
 
+import getOntarioStatuses from '../lib/getOntarioStatuses';
 
-const charts = [
-	newCases,
-	totalCases,
-	newDeaths,
-	totalDeaths,
-	hospitalized,
-	icu,
-];
 
 function HomePage() {
 	const [data, setData] = useState([]);
+	const [loading, setLoading] = useState(true);
+
+	const charts = [
+		activeCases,
+		totalCases,
+		newCases,
+		totalDeaths,
+		newDeaths,
+		tests,
+		hospitalized,
+		icu,
+	];
 
 	useEffect(() => {
-		fetch('ontario_statuses.json')
-			.then(response => response.json())
-			.then(data => {
-				const dataWithDateString = data.map((status) => {
-					return {
-						...status,
-						date_string: new Date(status.reported_date).toLocaleString('en-us', {
-							month: 'short',
-							day: 'numeric'
-						}),
-					};
-				});
-				setData(dataWithDateString);
-			});
+		getOntarioStatuses((data) => {
+			setData(data);
+			setLoading(false);
+		});
 	}, []);
+
+	if (loading) {
+		return 'Loading...'
+	}
 
 	return (
 		<Layout charts={charts}>

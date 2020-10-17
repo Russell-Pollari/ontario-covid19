@@ -1,23 +1,18 @@
-// }, {
-// 	title: 'Total tests in Ontario',
-// 	dataKeyX: 'date_string',
-// 	barConfig: [{
-// 		dataKey: 'total_tested',
-// 		name: 'Total tests',
-// 		fill: '#509ee3',
-// 	}]
-// }, {
-// 	title: 'New tests in Ontario',
-// 	dataKeyX: 'date_string',
-// 	barConfig: [{
-// 		dataKey: 'new_tests',
-// 		name: 'New tests',
-// 		fill: '#509ee3',
-// 	}],
-// 	lines: [{
-// 		dataKey: 'total_pending_tests',
-// 		name: 'Pending tests',
-// 		dot: false,
-// 		stroke: 'black',
-// 	}]
-// }];
+const tests = {
+	title: 'New tests',
+	dataKeyX: 'date_string',
+	bars: [{
+		dataKey: 'Total tests completed in the last day',
+		name: 'New tests',
+		fill: '#509ee3',
+	}],
+	lines: [{
+		dataKey: 'Under Investigation',
+		name: 'Pending tests',
+		dot: false,
+		strokeWidth: 2,
+		stroke: 'black',
+	}]
+};
+
+export default tests;

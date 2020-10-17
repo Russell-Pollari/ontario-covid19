@@ -11,22 +11,10 @@ li {
 	margin-bottom: 8px;
 }
 
-.header {
-	padding: 16px;
-	width: 100%;
-	background-color: white;
-	z-index: 999;
-	top: 0;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-	position: fixed;
-	height: 64px;
-	box-sizing: border-box;
-}
-
 .side-nav {
-	top: 64px;
 	position: fixed;
 	width: 200px;
+	top: 40px;
 	height: 100%;
 	background-color: white;
 	box-sizing: border-box;
@@ -35,6 +23,14 @@ li {
 
 .side-nav > a {
 	text-decoration: none;
+}
+
+.header {
+	background-color: white;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	z-index: 10;
+	height: 40px;
+	line-height: 40px;
 }
 
 .side-nav-link {
@@ -50,10 +46,9 @@ li {
 
 .main-content {
 	padding: 16px;
-	top: 64px;
 	position: absolute;
-	margin-left: 200px;
 	box-sizing: border-box;
+	top: 40px;
 }
 
 .chart-container {
@@ -101,8 +96,16 @@ li {
 	padding-right: 16px;
 }
 
+.pa8 {
+	padding: 8px;
+}
+
 .pa16 {
 	padding: 16px;
+}
+
+.pr8 {
+	padding-right: 8px;
 }
 
 .dib {
@@ -115,6 +118,14 @@ li {
 
 .maw-512 {
 	max-width: 512px;
+}
+
+.w24 {
+	width: 24px;
+}
+
+.w32 {
+	width: 32px;
 }
 
 .w-100 {
@@ -151,6 +162,18 @@ li {
 
 .pointer {
 	cursor: pointer;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.relative {
+	position: relative;
+}
+
+.top--64 {
+	top: -64px;
 }
 
 .flex-container: {

@@ -1,10 +1,10 @@
 const totalCases = {
-	title: 'Total cases',
+	title: 'Active cases',
 	dataKeyX: 'date_string',
 	bars: [{
-		dataKey: 'Total Cases',
+		dataKey: 'active_cases',
 		fill: '#f9d45c',
-		name: 'Total cases',
+		name: 'Active cases',
 		stackId: 'a',
 	}]
 };

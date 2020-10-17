@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import { useState } from 'react';
+
 
 const NavLink = ({ title }) => {
 	return (
@@ -13,25 +13,32 @@ const NavLink = ({ title }) => {
 };
 
 
-const SideNav = ({ charts = [] }) => {
+const SideNav = ({ charts = [], toggleMenu, menuIsOpen }) => {
 	return (
-		<div className="side-nav">
-			{charts.map((chart, index) => (
-				<NavLink key={index} {...chart} />
-			))}
-		</div>
-	)
-}
-
-const Header = () => {
-	return (
-		<div className="header">
-			<h3 className="ma0">
-				Covid-19 in Ontario
-			</h3>
-		</div>
+		<span>
+			<div className="fixed header w-100">
+				<img src="burger.png" className="w24 pa8 pointer" onClick={toggleMenu} />
+				<span className="pa8">
+					<strong>
+						Covid-19 in Ontario
+					</strong>
+				</span>
+			</div>
+			{menuIsOpen && (
+				<div className="side-nav">
+					<a href="#">
+						<div className="side-nav-link">
+							Summary
+						</div>
+					</a>
+					{charts.map((chart, index) => (
+						<NavLink key={index} {...chart} />
+					))}
+				</div>
+			)}
+		</span>
 	);
-};
+}
 
 
 export default function Layout ({
@@ -41,6 +48,10 @@ export default function Layout ({
 	charts = [],
 }) {
 	const [menuIsOpen, setMenuIsOpen] = useState(true);
+
+	const toggleMenu = () => {
+		setMenuIsOpen(!menuIsOpen);
+	};
 
 	return (
 		<div>
@@ -59,9 +70,12 @@ export default function Layout ({
 				</script>
 			</Head>
 			<div>
-				<Header />
-				<SideNav charts={charts} />
-				<div className="main-content">
+				<SideNav
+					charts={charts}
+					toggleMenu={toggleMenu}
+					menuIsOpen={menuIsOpen}
+				/>
+				<div className={`main-content ${menuIsOpen ? 'ml200' : ''}`}>
 					{children}
 				</div>
 			</div>

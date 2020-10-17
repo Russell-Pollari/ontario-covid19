@@ -1,14 +1,8 @@
 const icu = {
 	title: 'Patients in ICU',
 	dataKeyX: 'date_string',
-	transform: (data) => (
-		data.map(datum => {
-			datum['icu_no_ventilator'] = datum['num_icu'] - datum['num_ventilator'];
-			return datum;
-		})
-	),
-	barConfig: [{
-		dataKey: 'num_ventilator',
+	bars: [{
+		dataKey: 'Number of patients in ICU on a ventilator with COVID-19',
 		fill: '#509ee3',
 		name: 'ICU (with ventilator)',
 		stackId: 'a'
