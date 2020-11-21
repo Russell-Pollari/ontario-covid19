@@ -1,30 +1,44 @@
-import Link from 'next/link';
 import Head from 'next/head';
+import { useState } from 'react';
 
-import getConfig from 'next/config';
 
-const NavLink = ({ path, currentPath, label }) => {
-	const { publicRuntimeConfig } = getConfig();
+const NavLink = ({ title }) => {
 	return (
-		<Link href={publicRuntimeConfig.basePath + path}>
-			<a className={currentPath === path ? 'active-link mh8' : 'link mh8'}>
-			{label}
-			</a>
-		</Link>
+		<a href={`#${title}`}>
+			<div className="side-nav-link">
+				{title}
+			</div>
+		</a>
 	);
 };
+
+
+const SideNav = ({ charts = [], toggleMenu, menuIsOpen }) => {
+	return (
+		<span>
+		</span>
+	);
+}
+
 
 export default function Layout ({
 	children,
 	title = 'Covid-19 in Ontario',
-	currentPath = '/'
+	currentPath = '/',
+	charts = [],
 }) {
+	const [menuIsOpen, setMenuIsOpen] = useState(true);
+
+	const toggleMenu = () => {
+		setMenuIsOpen(!menuIsOpen);
+	};
+
 	return (
 		<div>
 			<Head>
 				<title>{title}</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="russellpollari" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! Consider buying me a coffee :)" data-color="#FF813F" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+				<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="russellpollari" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! Consider buying me a coffee :)" data-color="#FF813F" data-position="left" data-x_margin="18" data-y_margin="18"></script>
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163333616-1"></script>
 				<script>
 					{`
@@ -35,16 +49,16 @@ export default function Layout ({
 					`}
 				</script>
 			</Head>
-				<header>
-					<nav>
-						<NavLink path="/" currentPath={currentPath} label="Ontario" />
-						<NavLink path="/phu" currentPath={currentPath} label="PHUs" />
-						<NavLink path="/canada" currentPath={currentPath} label="Canada" />
-						<NavLink path="/logs" currentPath={currentPath} label="Logs" />
-						<NavLink path="/about" currentPath={currentPath} label="About" />
-					</nav>
-				</header>
+			<div className="fixed header w-100">
+				<span className="pa8">
+					<strong>
+						Covid-19 in Ontario
+					</strong>
+				</span>
+			</div>
+			<div className="main-content">
 				{children}
+			</div>
 		</div>
 	);
 };
