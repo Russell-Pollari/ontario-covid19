@@ -45,14 +45,14 @@ function HomePage() {
 	return (
 		<Layout charts={charts}>
 			<p>
-				Note to the regulars. I had to shut down the older version of the dashboard.
-				Metabase is a great dashboarding product, but the hosting it was costing too much money.
-				This latest version, which uses a React charting library, is much more lightweight.
-				But it's a work in progress. I am planning on prettifying and adding back all the features I had (and more)
+				Hi Folks, I had to shut down the older version of the dashboard.
+				Metabase is a great dashboarding product, but hosting it was costing too much money.
+				This version, which uses a React charting library, is much more lightweight.
+				But it's a work in progress. I am planning on prettifying and adding plots and features
 				in the next week or so. Stay stafe out there!
 			</p>
 			<p>
-				- Russell
+				- Russell (<a href="mailto:russell@sharpestminds.com">russell@sharpestminds.com</a>)
 			</p>
 			<OntarioStatusTable dataSource={data} />
 			{charts.map((chart, index) => (
