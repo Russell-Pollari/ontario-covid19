@@ -44,6 +44,15 @@ function HomePage() {
 
 	return (
 		<Layout charts={charts}>
+			<p>
+				Note to the regulars. I had to shut down the older version of the dashboard.
+				The servers were costing too much money. This latest update is much more lightwieght
+				but it's a work in progress. Planning on adding back all the features I had (and more),
+				in the next week or so. Stay stafe out there!
+			</p>
+			<p>
+				- Russell
+			</p>
 			<OntarioStatusTable dataSource={data} />
 			{charts.map((chart, index) => (
 				<ChartContainer

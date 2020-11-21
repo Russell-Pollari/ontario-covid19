@@ -16,26 +16,6 @@ const NavLink = ({ title }) => {
 const SideNav = ({ charts = [], toggleMenu, menuIsOpen }) => {
 	return (
 		<span>
-			<div className="fixed header w-100">
-				<img src="burger.png" className="w24 pa8 pointer" onClick={toggleMenu} />
-				<span className="pa8">
-					<strong>
-						Covid-19 in Ontario
-					</strong>
-				</span>
-			</div>
-			{menuIsOpen && (
-				<div className="side-nav">
-					<a href="#">
-						<div className="side-nav-link">
-							Summary
-						</div>
-					</a>
-					{charts.map((chart, index) => (
-						<NavLink key={index} {...chart} />
-					))}
-				</div>
-			)}
 		</span>
 	);
 }
@@ -69,15 +49,15 @@ export default function Layout ({
 					`}
 				</script>
 			</Head>
-			<div>
-				<SideNav
-					charts={charts}
-					toggleMenu={toggleMenu}
-					menuIsOpen={menuIsOpen}
-				/>
-				<div className={`main-content ${menuIsOpen ? 'ml200' : ''}`}>
-					{children}
-				</div>
+			<div className="fixed header w-100">
+				<span className="pa8">
+					<strong>
+						Covid-19 in Ontario
+					</strong>
+				</span>
+			</div>
+			<div className="main-content">
+				{children}
 			</div>
 		</div>
 	);
