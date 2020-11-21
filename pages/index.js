@@ -46,8 +46,8 @@ function HomePage() {
 		<Layout charts={charts}>
 			<p>
 				Note to the regulars. I had to shut down the older version of the dashboard.
-				Metabase is a great dashboarding software, but the servers hosting it were costing too much money.
-				This latest update, which uses a React charting library is much more lightwieght.
+				Metabase is a great dashboarding product, but the hosting it was costing too much money.
+				This latest version, which uses a React charting library, is much more lightwieght.
 				But it's a work in progress. I amm planning on adding back all the features I had (and more)
 				in the next week or so. Stay stafe out there!
 			</p>
