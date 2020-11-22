@@ -1,30 +1,14 @@
-# Ontario Covid-19 tracker
+# Ontario Covid-19 Dashboard
 
-Scripts to fetch Covid-19 data for Ontario and Canada and store in a MongoDB database,
-and source code for the website hosting the dashboard visualizing the data.
+Dashboard built with [Next.js](https://nextjs.org/) and [Recharts](https://github.com/recharts/recharts)
 
-[See live demo](https://russell-pollari.github.io/ontario-covid19/)
-
-Demo built with Next.js and hosted with GituHub pages. Plots created with Metabase.
-
-## Syncing data
-
-#### 1. Install requirements
-`$ pip install -r requirements.text`
-
-#### 2. Setup environment
-Create a text file named `.env` and
-add `MONGO_URI=<mongo_uri>`  
-
-#### 3. Sync data
-`$ python src/sync_all`  
-Fetch data from all sources and sync in MongoDB
+[See live website](https://russell-pollari.github.io/ontario-covid19/)
 
 
 ## Building static site
-`$ npm install`
+1. `$ npm install`
 
-`$ npm run build`
+2. `$ npm run build`  
 Outputs static html files to `/docs` for GitHub pages
 
 #### Running locally
