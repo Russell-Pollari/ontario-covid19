@@ -40,9 +40,9 @@ li {
 	text-decoration: none;
 }
 
-.side-nav-link:hover {
+/* .side-nav-link:hover {
 	background-color: #cfcabc;
-}
+} */
 
 .main-content {
 	padding: 16px;
@@ -176,7 +176,7 @@ li {
 	top: -64px;
 }
 
-.flex-container: {
+.flex-container {
 	display: flex;
 }
 
