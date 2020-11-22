@@ -1,35 +1,15 @@
 import { useState, useEffect } from 'react';
 
-import Layout from '../components/Layout';
+import App from '../components/App';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
-
-import newCases from '../components/charts/ontario/newCases';
-import activeCases from '../components/charts/ontario/activeCases';
-import totalCases from '../components/charts/ontario/totalCases';
-import newDeaths from '../components/charts/ontario/newDeaths';
-import totalDeaths from '../components/charts/ontario/totalDeaths';
-import hospitalized from '../components/charts/ontario/hospitalized';
-import icu from '../components/charts/ontario/icu';
-import tests from '../components/charts/ontario/tests';
-
 import getOntarioStatuses from '../lib/getOntarioStatuses';
+import charts from '../components/charts/chartConfig';
 
 
 function HomePage() {
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
-
-	const charts = [
-		activeCases,
-		totalCases,
-		newCases,
-		totalDeaths,
-		newDeaths,
-		tests,
-		hospitalized,
-		icu,
-	];
 
 	useEffect(() => {
 		getOntarioStatuses((data) => {
@@ -43,7 +23,7 @@ function HomePage() {
 	}
 
 	return (
-		<Layout charts={charts}>
+		<App>
 			<p>
 				Hi Folks, I had to shut down the older version of the dashboard.
 				Metabase is a great dashboarding product, but hosting it was costing too much money.
@@ -62,7 +42,7 @@ function HomePage() {
 					{...chart}
 				/>
 			))}
-		</Layout>
+		</App>
 	);
 };
 
