@@ -6,6 +6,7 @@ import totalDeaths from './ontario/totalDeaths';
 import hospitalized from './ontario/hospitalized';
 import icu from './ontario/icu';
 import tests from './ontario/tests';
+import positiveRate from './ontario/positiveRate';
 
 export default [
 	activeCases,
@@ -14,6 +15,7 @@ export default [
 	totalDeaths,
 	newDeaths,
 	tests,
+	positiveRate,
 	hospitalized,
 	icu,
 ];

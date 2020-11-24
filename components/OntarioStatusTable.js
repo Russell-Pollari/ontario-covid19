@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const hospitalField = 'Number of patients hospitalized with COVID-19';
-const icuField = 'Number of patients in ICU on a ventilator with COVID-19';
+const icuField = 'Number of patients in ICU with COVID-19';
 
 const OntarioStatusTable = ({	dataSource = [] }) => {
 	const [data, setData] = useState([]);
@@ -35,7 +35,7 @@ const OntarioStatusTable = ({	dataSource = [] }) => {
 								{status.active_cases.toLocaleString()}
 							</td>
 							<td>
-								{status.new_active_cases >=0 && '+'}{status.new_active_cases.toLocaleString()}
+								({status.new_active_cases >=0 && '+'}{status.new_active_cases.toLocaleString()})
 							</td>
 							<td>
 								{status['Total Cases'].toLocaleString()}
