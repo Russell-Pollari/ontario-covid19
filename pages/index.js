@@ -4,14 +4,17 @@ import App from '../components/App';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import getOntarioStatuses from '../lib/getOntarioStatuses';
+import getVaccineData from '../lib/getVaccineData';
 import charts from '../components/charts/chartConfig';
 
 
 function HomePage() {
 	const [data, setData] = useState([]);
+	const [vaccineData, setVaccineData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
+		getVaccineData().then(setVaccineData);
 		getOntarioStatuses((data) => {
 			setData(data);
 			setLoading(false);
@@ -35,6 +38,16 @@ function HomePage() {
 				- Russell (<a href="mailto:russell@sharpestminds.com">russell@sharpestminds.com</a>)
 			</p>
 			<OntarioStatusTable dataSource={data} />
+			<ChartContainer
+				dataSource={vaccineData}
+				dataKeyX="date_string"
+				title="Vaccinations"
+				bars={[{
+					dataKey: 'total_doses_administered',
+					name: 'Total doses administered',
+					fill: '#509ee3',
+				}]}
+				/>
 			{charts.map((chart, index) => (
 				<ChartContainer
 					key={index}

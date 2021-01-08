@@ -72,6 +72,11 @@ const Menu = (props) => {
 				<ListItem button component="a" href="#">
 					<ListItemText primary="Summary" />
 				</ListItem>
+
+				<ListItem button component="a" href="#Vaccinations">
+					<ListItemText primary="Vaccinations" />
+				</ListItem>
+
 				{charts.map((chart, index) => (
 					<ListItem button component="a" key={index} href={`#${chart.title}`}>
 						<ListItemText primary={chart.title} />
