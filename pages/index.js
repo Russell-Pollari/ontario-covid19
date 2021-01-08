@@ -22,20 +22,28 @@ function HomePage() {
 	}, []);
 
 	if (loading) {
-		return 'Loading...'
+		return (
+			<div classes="tc">
+				<h2>
+					Simple dashboard visualizing Ontario's Covid-19 data.
+				</h2>
+			</div>
+		);
 	}
 
 	return (
 		<App>
+			<h2>
+				Simple dashboard visualizing Ontario's Covid-19 data.
+			</h2>
 			<p>
-				Hi Folks, I had to shut down the older version of the dashboard.
-				Metabase is a great dashboarding product, but hosting it was costing too much money.
-				This version, which uses a React charting library, is much more lightweight.
-				But it's a work in progress. I am planning on prettifying and adding plots and features
-				in the next week or so. Stay stafe out there!
+				<strong>Update (2021/01/07):</strong> Added a plot to track vaccinations.
 			</p>
 			<p>
-				- Russell (<a href="mailto:russell@sharpestminds.com">russell@sharpestminds.com</a>)
+				Want to contribute to this dashboard? Fork it on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
+			</p>
+			<p>
+				<a href="/about">About this dashboard</a>
 			</p>
 			<OntarioStatusTable dataSource={data} />
 			<ChartContainer
