@@ -43,7 +43,7 @@ function HomePage() {
 				Want to contribute to this dashboard? Fork it on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
 			</p>
 			<p>
-				<a href="/about">About this dashboard</a>
+				<a href="/ontario-covid19/about">About this dashboard</a>
 			</p>
 			<OntarioStatusTable dataSource={data} />
 			<ChartContainer
