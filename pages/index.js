@@ -66,7 +66,7 @@ function HomePage() {
 				<ChartContainer
 					key={index}
 					dataSource={data}
-					syncId="syncCharts"
+					syncId="syncCharts" // This shows tooltips for all the OntarioStatuses charts
 					{...chart}
 				/>
 			))}

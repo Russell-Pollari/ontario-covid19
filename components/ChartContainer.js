@@ -15,6 +15,7 @@ const ChartContainer = ({
 	dataSource = [],
 	title,
 	syncId,
+	xAxisScale,
 }) => {
 	return (
 		<div className="tl dib chart-container w-100">
