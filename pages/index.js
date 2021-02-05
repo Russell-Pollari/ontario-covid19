@@ -60,6 +60,7 @@ function HomePage() {
 				<ChartContainer
 					key={index}
 					dataSource={data}
+					syncId="syncCharts"
 					{...chart}
 				/>
 			))}

@@ -14,6 +14,7 @@ const ChartContainer = ({
 	dataKeyX = "date_string",
 	dataSource = [],
 	title,
+	syncId,
 }) => {
 	return (
 		<div className="tl dib chart-container w-100">
@@ -24,7 +25,7 @@ const ChartContainer = ({
 				</strong>
 			</div>
 			<ResponsiveContainer width="95%" height={400} className="mt16">
-				<ComposedChart data={dataSource}>
+				<ComposedChart data={dataSource} syncId={syncId} >
 					{(bars.length + lines.length) > 1 && (
 						<Legend
 							layout="horizontal"
