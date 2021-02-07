@@ -7,7 +7,6 @@ import {
 
 import ScaleToggle from './ScaleToggle';
 
-
 const ChartContainer = ({
 	bars = [],
 	lines = [],
@@ -37,7 +36,7 @@ const ChartContainer = ({
 					<CartesianGrid vertical={false} />
 					<XAxis dataKey={dataKeyX} scale={xAxisScale} />
 					<YAxis type="number" domain={[0, 'auto']} />
-					<Tooltip />
+					<Tooltip formatter={(value) => value.toLocaleString()} />
 					{bars.map(bar => (
 						<Bar key={bar.dataKey} {...bar} />
 					))}
