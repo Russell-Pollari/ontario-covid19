@@ -50,6 +50,7 @@ function HomePage() {
 				dataSource={vaccineData}
 				dataKeyX="date_string"
 				title="Vaccinations"
+				xAxisScale="band" // This forces the bars of the vaccine graph to stay within the bounds of the axis
 				bars={[{
 					dataKey: 'total_doses_administered',
 					name: 'Total doses administered',
@@ -60,6 +61,7 @@ function HomePage() {
 				<ChartContainer
 					key={index}
 					dataSource={data}
+					syncId="syncCharts" // This shows tooltips for all the OntarioStatuses charts
 					{...chart}
 				/>
 			))}
