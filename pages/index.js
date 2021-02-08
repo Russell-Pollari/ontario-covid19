@@ -36,9 +36,14 @@ function HomePage() {
 			<h2>
 				Simple dashboard visualizing Ontario's Covid-19 data.
 			</h2>
-			<p>
-				<strong>Update (2021/01/07):</strong> Added a plot to track vaccinations.
-			</p>
+			<ul>
+				<li>
+					<strong>Update (2021/02/07):</strong> Some minor prettifications. Thanks <a href="https://github.com/TikiTDO" target="_blank">TikiTDO</a> for the pull requests!
+				</li>
+				<li>
+					<strong>Update (2021/01/07):</strong> Added a plot to track vaccinations.
+				</li>
+			</ul>
 			<p>
 				Want to contribute to this dashboard? Fork it on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
 			</p>
