@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import {
-	ComposedChart, Bar, Line,
+	Area, ComposedChart, Bar, Line,
 	XAxis, YAxis, CartesianGrid,
 	Tooltip, ResponsiveContainer, Legend
 } from 'recharts';
@@ -8,6 +8,7 @@ import {
 import ScaleToggle from './ScaleToggle';
 
 const ChartContainer = ({
+	areas = [],
 	bars = [],
 	lines = [],
 	dataKeyX = "date_string",
@@ -42,6 +43,9 @@ const ChartContainer = ({
 					))}
 					{lines.map((line) => (
 						<Line key={line.dataKey} {...line} />
+					))}
+					{areas.map((area) => (
+						<Area key={area.dataKey} {...area} />
 					))}
 				</ComposedChart>
 			</ResponsiveContainer>

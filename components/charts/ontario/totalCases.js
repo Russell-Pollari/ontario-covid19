@@ -1,7 +1,7 @@
 const totalCases = {
 	title: 'Total cases',
 	dataKeyX: 'date_string',
-	bars: [{
+	areas: [{
 		dataKey: 'Total Cases',
 		fill: '#f9d45c',
 		name: 'Total cases',
