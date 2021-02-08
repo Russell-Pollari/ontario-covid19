@@ -13,5 +13,6 @@ jobs:
         run: |
           npm install
           npm run build
-          git commit -a -m "Build static site"
-          git push origin master
+      - uses: EndBug/add-and-commit@v7.0.0
+        with:
+          message: "Build static site"
