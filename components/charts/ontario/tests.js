@@ -11,7 +11,13 @@ const tests = {
 		name: 'Pending tests',
 		dot: false,
 		strokeWidth: 2,
-		stroke: 'black',
+		stroke: 'teal',
+	}, {
+		dataKey: 'tests_rolling_average',
+		name: '7 day rolling average',
+		stroke: "black",
+		strokeWidth: 2,
+		dot: false,
 	}]
 };
 
