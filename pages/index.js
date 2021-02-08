@@ -55,8 +55,7 @@ function HomePage() {
 				dataSource={vaccineData}
 				dataKeyX="date_string"
 				title="Vaccinations"
-				xAxisScale="band" // This forces the bars of the vaccine graph to stay within the bounds of the axis
-				bars={[{
+				areas={[{
 					dataKey: 'total_doses_administered',
 					name: 'Total doses administered',
 					fill: '#509ee3',
