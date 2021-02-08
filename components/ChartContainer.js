@@ -15,7 +15,6 @@ const ChartContainer = ({
 	dataSource = [],
 	title,
 	syncId,
-	xAxisScale,
 }) => {
 	return (
 		<div className="tl dib chart-container w-100">
@@ -35,7 +34,7 @@ const ChartContainer = ({
 						/>
 					)}
 					<CartesianGrid vertical={false} />
-					<XAxis dataKey={dataKeyX} scale={xAxisScale} />
+					<XAxis dataKey={dataKeyX} />
 					<YAxis type="number" domain={[0, 'auto']} />
 					<Tooltip formatter={(value) => value.toLocaleString()} />
 					{bars.map(bar => (
