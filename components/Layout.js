@@ -18,7 +18,11 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 import CoffeeButton from './BuyMeACoffeeButton';
-import charts from './charts/chartConfig';
+import {
+	ontarioStatusCharts,
+	vaccineCharts,
+} from './charts/chartConfig';
+
 
 const drawerWidth = 240;
 
@@ -74,11 +78,13 @@ const Menu = (props) => {
 					<ListItemText primary="Summary" />
 				</ListItem>
 
-				<ListItem button component="a" href="#Vaccinations">
-					<ListItemText primary="Vaccinations" />
-				</ListItem>
+				{vaccineCharts.map((chart, index) => (
+					<ListItem button component="a" key={index} href={`#${chart.title}`}>
+						<ListItemText primary={chart.title} />
+					</ListItem>
+				))}
 
-				{charts.map((chart, index) => (
+				{ontarioStatusCharts.map((chart, index) => (
 					<ListItem button component="a" key={index} href={`#${chart.title}`}>
 						<ListItemText primary={chart.title} />
 					</ListItem>

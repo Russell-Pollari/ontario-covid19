@@ -5,7 +5,10 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
-import charts from '../components/charts/chartConfig';
+import {
+	ontarioStatusCharts,
+	vaccineCharts,
+} from '../components/charts/chartConfig';
 
 
 function HomePage() {
@@ -23,10 +26,13 @@ function HomePage() {
 
 	if (loading) {
 		return (
-			<div classes="tc">
+			<div classes="tc pa16">
 				<h2>
 					Simple dashboard visualizing Ontario's Covid-19 data.
 				</h2>
+				<p>
+					Hold tight.. just fetching the latest data
+				</p>
 			</div>
 		);
 	}
@@ -37,6 +43,9 @@ function HomePage() {
 				Simple dashboard visualizing Ontario's Covid-19 data.
 			</h2>
 			<ul>
+				<li>
+					<strong>Update (2021/02/20):</strong> Added a plot showing daily vaccinations.
+				</li>
 				<li>
 					<strong>Update (2021/02/07):</strong> Some minor prettifications. Thanks <a href="https://github.com/TikiTDO" target="_blank">TikiTDO</a> for the pull requests!
 				</li>
@@ -51,17 +60,15 @@ function HomePage() {
 				<a href="/ontario-covid19/about">About this dashboard</a>
 			</p>
 			<OntarioStatusTable dataSource={data} />
-			<ChartContainer
-				dataSource={vaccineData}
-				dataKeyX="date_string"
-				title="Vaccinations"
-				areas={[{
-					dataKey: 'total_doses_administered',
-					name: 'Total doses administered',
-					fill: '#509ee3',
-				}]}
+			{vaccineCharts.map((chart, index) => (
+				<ChartContainer
+					key={index}
+					dataSource={vaccineData}
+					syncId="vaccineCharts"
+					{...chart}
 				/>
-			{charts.map((chart, index) => (
+			))}
+			{ontarioStatusCharts.map((chart, index) => (
 				<ChartContainer
 					key={index}
 					dataSource={data}

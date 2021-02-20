@@ -8,7 +8,10 @@ import icu from './ontario/icu';
 import tests from './ontario/tests';
 import positiveRate from './ontario/positiveRate';
 
-export default [
+import totalDoses from './vaccinations/totalDoses';
+import dailyDoses from './vaccinations/dailyDoses';
+
+export const ontarioStatusCharts = [
 	activeCases,
 	totalCases,
 	newCases,
@@ -19,3 +22,8 @@ export default [
 	hospitalized,
 	icu,
 ];
+
+export const vaccineCharts = [
+	dailyDoses,
+	totalDoses,
+]
