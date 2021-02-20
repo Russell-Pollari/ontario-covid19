@@ -5,7 +5,10 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
-import charts from '../components/charts/chartConfig';
+import {
+	ontarioStatusCharts,
+	vaccineCharts,
+} from '../components/charts/chartConfig';
 
 
 function HomePage() {
@@ -51,17 +54,14 @@ function HomePage() {
 				<a href="/ontario-covid19/about">About this dashboard</a>
 			</p>
 			<OntarioStatusTable dataSource={data} />
-			<ChartContainer
-				dataSource={vaccineData}
-				dataKeyX="date_string"
-				title="Vaccinations"
-				areas={[{
-					dataKey: 'total_doses_administered',
-					name: 'Total doses administered',
-					fill: '#509ee3',
-				}]}
+			{vaccineCharts.map((chart, index) => (
+				<ChartContainer
+					key={index}
+					dataSource={vaccineData}
+					{...chart}
 				/>
-			{charts.map((chart, index) => (
+			))}
+			{ontarioStatusCharts.map((chart, index) => (
 				<ChartContainer
 					key={index}
 					dataSource={data}
