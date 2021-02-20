@@ -26,10 +26,13 @@ function HomePage() {
 
 	if (loading) {
 		return (
-			<div classes="tc">
+			<div classes="tc pa16">
 				<h2>
 					Simple dashboard visualizing Ontario's Covid-19 data.
 				</h2>
+				<p>
+					Hold tight.. just fetching the latest data
+				</p>
 			</div>
 		);
 	}
@@ -58,6 +61,7 @@ function HomePage() {
 				<ChartContainer
 					key={index}
 					dataSource={vaccineData}
+					syncId="vaccineCharts"
 					{...chart}
 				/>
 			))}
