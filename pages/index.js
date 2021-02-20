@@ -44,6 +44,9 @@ function HomePage() {
 			</h2>
 			<ul>
 				<li>
+					<strong>Update (2021/02/20):</strong> Added a plot showing daily vaccinations.
+				</li>
+				<li>
 					<strong>Update (2021/02/07):</strong> Some minor prettifications. Thanks <a href="https://github.com/TikiTDO" target="_blank">TikiTDO</a> for the pull requests!
 				</li>
 				<li>
