@@ -69,16 +69,16 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
       <button
         type="button"
         onClick={showMore}
-        style={{ backgroundColor: "white", color: "black", border: "2px solid #008CBA" }}
+        style={{ backgroundColor: "white", color: "black", border: "2px solid #008CBA", marginRight: "5px" }}
       >
-        Show more
+        +
       </button>
       <button
         type="button"
         onClick={showLess}
         style={{ backgroundColor: "white", color: "black", border: "2px solid #008CBA" }}
       >
-        Show less
+        -
       </button>
     </div>
   );
