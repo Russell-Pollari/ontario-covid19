@@ -26,11 +26,21 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
         <thead>
           <tr>
             <th>Date</th>
-            <th colSpan="2">Active cases</th>
-            <th colSpan="2">Cases</th>
-            <th colSpan="2">Deaths</th>
-            <th colSpan="2">Hospitalizations</th>
-            <th colSpan="2">Patients in ICU</th>
+            <th colSpan="2">
+              <a href="#Active cases">Active cases</a>
+            </th>
+            <th colSpan="2">
+              <a href="#Total cases">Cases</a>
+            </th>
+            <th colSpan="2">
+              <a href="#Total deaths">Deaths</a>
+            </th>
+            <th colSpan="2">
+              <a href="#Patients hospitalized">Hospitalizations</a>
+            </th>
+            <th colSpan="2">
+              <a href="#Patients in ICU">Patients in ICU</a>
+            </th>
             <th colSpan="2">Resolved</th>
           </tr>
         </thead>
