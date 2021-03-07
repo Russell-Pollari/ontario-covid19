@@ -1,15 +1,24 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const hospitalField = "Number of patients hospitalized with COVID-19";
 const icuField = "Number of patients in ICU with COVID-19";
 
 const OntarioStatusTable = ({ dataSource = [] }) => {
   const [data, setData] = useState([]);
+  const [entryAmount, setEntryAmount] = useState(4);
 
   useEffect(() => {
-    const data = dataSource.slice(-4).reverse();
+    const data = dataSource.slice(-entryAmount).reverse();
     setData(data);
-  }, [dataSource]);
+  }, [dataSource, entryAmount]);
+
+  const showMore = useCallback(() => {
+    setEntryAmount((prev) => prev + 4);
+  }, [setEntryAmount]);
+
+  const showLess = useCallback(() => {
+    setEntryAmount((prev) => (prev > 4 ? prev - 4 : prev));
+  }, [setEntryAmount]);
 
   return (
     <div className="tl chart-container">
@@ -67,6 +76,20 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
           ))}
         </tbody>
       </table>
+      <button
+        type="button"
+        onClick={showMore}
+        style={{ backgroundColor: "white", color: "black", border: "2px solid #008CBA", marginRight: "5px" }}
+      >
+        +
+      </button>
+      <button
+        type="button"
+        onClick={showLess}
+        style={{ backgroundColor: "white", color: "black", border: "2px solid #008CBA" }}
+      >
+        -
+      </button>
     </div>
   );
 };
