@@ -44,6 +44,9 @@ function HomePage() {
 			</h2>
 			<ul>
 				<li>
+					<strong>Update (2021/03/07):</strong> Added some features to the Summary table and added a 7 day moving average for daily vaccines. Thanks <a href="https://github.com/IsaacBerman" target="_blank">IsaacBerman</a> for the pull requests!
+				</li>
+				<li>
 					<strong>Update (2021/02/20):</strong> Added a plot showing daily vaccinations.
 				</li>
 				<li>
