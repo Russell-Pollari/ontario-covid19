@@ -34,6 +34,9 @@ const Resource = ({ label, href, description }) => (
 export default function About() {
 	return (
 		<div className="tc pa32">
+			<div>
+				<a href="/ontario-covid19">{'<-'} Back</a>
+			</div>
 			<div className="dib tl w-100 maw768">
 				<p>
 					Hi there,
