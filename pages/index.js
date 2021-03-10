@@ -5,6 +5,7 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
+import getPHUData from '../lib/getPHUData';
 import {
 	ontarioStatusCharts,
 	vaccineCharts,
@@ -22,6 +23,7 @@ function HomePage() {
 			setData(data);
 			setLoading(false);
 		});
+		getPHUData();
 	}, []);
 
 	if (loading) {
@@ -42,7 +44,13 @@ function HomePage() {
 			<h2>
 				Simple dashboard visualizing Ontario's Covid-19 data.
 			</h2>
+			<p>
+				<a href="/ontario-covid19/phus">View data for each PHU -></a>
+			</p>
 			<ul>
+				<li>
+					<strong>Update (2021/03/10):</strong> Added <a href="/ontario-covid19/phus">a page</a> to filter stats by public health unit (work in progress)
+				</li>
 				<li>
 					<strong>Update (2021/03/07):</strong> Added some features to the Summary table and added a 7 day moving average for daily vaccines. Thanks <a href="https://github.com/IsaacBerman" target="_blank">IsaacBerman</a> for the pull requests!
 				</li>
