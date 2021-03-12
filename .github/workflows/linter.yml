@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install packages
-        run: npm install
-      # Runs a set of commands using the runners shell
-      - name: Lint
+      - name: Install modules
+        run: yearn
+      - name: run ESLint
         run: eslint .
