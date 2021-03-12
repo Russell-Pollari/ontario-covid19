@@ -1,6 +1,3 @@
-import App from '../components/App';
-import Layout from '../components/Layout';
-
 import { resources, contactDetails } from '../constants.js';
 
 
@@ -20,7 +17,7 @@ const Resource = ({ label, href, description }) => (
 			{label}
 		</h4>
 		<div className="ph16">
-			<a href={href} target="_blank">
+			<a href={href} target="_blank" rel="noreferrer">
 				{href}
 			</a>
 			<p className="mt16">
@@ -66,4 +63,4 @@ export default function About() {
 			</div>
 		</div>
 	);
-};
+}

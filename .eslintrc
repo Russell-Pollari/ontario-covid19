@@ -35,7 +35,9 @@
     "react/display-name": "off",
     "react/prop-types": "off",
     "react/jsx-first-prop-new-line": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}],
+
   },
   "globals": {
     "Promise": false,

@@ -1,6 +1,6 @@
 const totalDoses = {
-	dataKeyX: "date_string",
-	title: "Total vaccines administered",
+	dataKeyX: 'date_string',
+	title: 'Total vaccines administered',
 	areas: [{
 		dataKey: 'total_doses_administered',
 		name: 'Total doses administered',

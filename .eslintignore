@@ -1,0 +1,6 @@
+.git
+.github
+.next
+docs
+node_modules
+*.json
