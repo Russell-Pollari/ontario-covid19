@@ -2,7 +2,7 @@ import { useState, useEffect, Fragment } from 'react';
 
 import getPHUData from '../lib/getPHUData';
 import phuNames from '../lib/phuNames';
-import ChartContainer from '../components/ChartContainer'
+import ChartContainer from '../components/ChartContainer';
 
 
 const PHUContainer = () => {
@@ -14,7 +14,7 @@ const PHUContainer = () => {
 		setLoading(true);
 		await getPHUData(name).then(setData);
 		setLoading(false);
-	}
+	};
 
 	useEffect(() => {
 		fetchData(name);
@@ -22,7 +22,7 @@ const PHUContainer = () => {
 
 	const handlePHUChange = event => {
 		setName(event.target.value);
-	}
+	};
 
 	return (
 		<div className="pa16">
@@ -34,7 +34,7 @@ const PHUContainer = () => {
 			</label>
 			<select id="phuSelect" onChange={handlePHUChange} value={name}>
 				{phuNames.map(phu => (
-					<option value={phu} index={phu}>
+					<option key={phu} value={phu}>
 						{phu}
 					</option>
 				))}
@@ -48,7 +48,7 @@ const PHUContainer = () => {
 				<Fragment>
 					<ChartContainer
 						dataSource={data}
-						title={"Active cases - " + name}
+						title={'Active cases - ' + name}
 						dataKeyX="date_string"
 						syncId="phu"
 						bars={[{
@@ -60,7 +60,7 @@ const PHUContainer = () => {
 					/>
 					<ChartContainer
 						dataSource={data}
-						title={"Total cases - " + name}
+						title={'Total cases - ' + name}
 						dataKeyX="date_string"
 						syncId="phu"
 						areas={[{
@@ -72,7 +72,7 @@ const PHUContainer = () => {
 					/>
 					<ChartContainer
 						dataSource={data}
-						title={"Deaths - " + name}
+						title={'Deaths - ' + name}
 						dataKeyX="date_string"
 						syncId="phu"
 						areas={[{

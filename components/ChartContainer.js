@@ -1,17 +1,15 @@
-import { useState, useEffect } from 'react';
 import {
 	Area, ComposedChart, Bar, Line,
 	XAxis, YAxis, CartesianGrid,
 	Tooltip, ResponsiveContainer, Legend
 } from 'recharts';
 
-import ScaleToggle from './ScaleToggle';
 
 const ChartContainer = ({
 	areas = [],
 	bars = [],
 	lines = [],
-	dataKeyX = "date_string",
+	dataKeyX = 'date_string',
 	dataSource = [],
 	title,
 	syncId,

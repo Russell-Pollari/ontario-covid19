@@ -9,7 +9,7 @@ const positiveRate = {
 	lines: [ {
 		dataKey: 'tests_positive_rolling_average',
 		name: '7 day rolling average',
-		stroke: "black",
+		stroke: 'black',
 		strokeWidth: 2,
 		dot: false,
 	}]
