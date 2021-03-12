@@ -1,0 +1,16 @@
+name: Linter
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: npm install
+      # Runs a set of commands using the runners shell
+      - name: Lint
+        run: eslint .
