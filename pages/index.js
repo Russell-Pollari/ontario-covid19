@@ -28,7 +28,7 @@ function HomePage() {
 
 	if (loading) {
 		return (
-			<div classes="tc pa16">
+			<div classes="tc pa16 w-100">
 				<h2>
 					Simple dashboard visualizing Ontario's Covid-19 data.
 				</h2>
