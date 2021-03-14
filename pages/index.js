@@ -7,7 +7,6 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
-import getPHUData from '../lib/getPHUData';
 import {
 	ontarioStatusCharts,
 	vaccineCharts,
@@ -19,13 +18,14 @@ function HomePage() {
 	const [vaccineData, setVaccineData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
+	const fetchData = async () => {
+		await getVaccineData().then(setVaccineData);
+		await getOntarioStatuses().then(setData);
+		setLoading(false);
+	};
+
 	useEffect(() => {
-		getVaccineData().then(setVaccineData);
-		getOntarioStatuses((data) => {
-			setData(data);
-			setLoading(false);
-		});
-		getPHUData();
+		fetchData();
 	}, []);
 
 	return (
