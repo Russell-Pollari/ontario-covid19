@@ -3,6 +3,7 @@ import { useState, useEffect, Fragment } from 'react';
 import getPHUData from '../lib/getPHUData';
 import phuNames from '../lib/phuNames';
 import ChartContainer from '../components/ChartContainer';
+import LayoutSimple from '../components/LayoutSimple';
 
 
 const PHUContainer = () => {
@@ -25,12 +26,9 @@ const PHUContainer = () => {
 	};
 
 	return (
-		<div className="pa16">
-			<div>
-				<a href="/ontario-covid19">{'<-'} Back</a>
-			</div>
+		<LayoutSimple title="Public health units">
 			<label htmlFor="phuSelect">
-				Filter by Public Health Unit:
+				Select a public health unit to view its data
 			</label>
 			<select id="phuSelect" onChange={handlePHUChange} value={name}>
 				{phuNames.map(phu => (
@@ -84,7 +82,7 @@ const PHUContainer = () => {
 					/>
 				</Fragment>
 			)}
-		</div>
+		</LayoutSimple>
 	);
 };
 
