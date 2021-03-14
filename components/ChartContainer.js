@@ -33,7 +33,11 @@ const ChartContainer = ({
 					)}
 					<CartesianGrid vertical={false} />
 					<XAxis dataKey={dataKeyX} />
-					<YAxis type="number" domain={[0, 'auto']} />
+					<YAxis
+						type="number"
+						domain={[0, 'auto']}
+						tickFormatter={tick => tick.toLocaleString()}
+					/>
 					<Tooltip formatter={(value) => value.toLocaleString()} />
 					{bars.map(bar => (
 						<Bar key={bar.dataKey} {...bar} />
