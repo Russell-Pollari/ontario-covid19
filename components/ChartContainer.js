@@ -1,5 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+
 
 import {
 	Area, ComposedChart, Bar, Line,
@@ -27,11 +29,10 @@ const ChartContainer = ({
 	return (
 		<Paper className={classes.paper}>
 			<span className="relative top--64" id={title} />
-			<div className="tl pv8">
-				<strong>
-					{title}
-				</strong>
-			</div>
+			<Typography variant="h6">
+				{title}
+			</Typography>
+
 			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={dataSource} syncId={syncId} >
 					{(bars.length + lines.length) > 1 && (

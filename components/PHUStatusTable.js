@@ -3,7 +3,7 @@ import DataTable from './DataTable';
 const formatNumber = val => val.toLocaleString();
 
 
-const PHUStatusTable = ({ dataSource = [] }) => {
+const PHUStatusTable = ({ dataSource = [], phuName }) => {
 	const columns = [{
 		label: 'Date',
 		key: 'date_string',
@@ -22,7 +22,11 @@ const PHUStatusTable = ({ dataSource = [] }) => {
 	}];
 
 	return (
-		<DataTable data={dataSource} columns={columns} />
+		<DataTable
+			title={`Status of cases in ${phuName}`}
+			data={dataSource}
+			columns={columns}
+		/>
 	);
 };
 

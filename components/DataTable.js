@@ -9,10 +9,12 @@ import TablePagination from '@material-ui/core/TablePagination';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
 	table: {
 		minWidth: 340,
+		marginTop: 8,
 	},
 	paper: {
 		margin: 16,
@@ -30,10 +32,10 @@ const Cell = ({ column, row, rows }) => {
 	let color;
 
 	if (value > 0) {
-		color = `rgba(235, 0, 0, ${opacity})`;
+		color = `rgba(235, 0, 0, ${Math.min(opacity, 0.8)})`;
 	}
 	if (value < 0) {
-		color = `rgba(0, 235, 0, ${1 - opacity})`;
+		color = `rgba(0, 235, 0, ${1 - Math.min(opacity, 0.8)})`;
 	}
 	return (
 		<TableCell
@@ -65,6 +67,7 @@ const Row = ({
 const BasicTable = ({
 	columns = [],
 	data = [],
+	title,
 }) => {
 	const classes = useStyles();
 	const [rows, setRows] = useState([]);
@@ -82,6 +85,11 @@ const BasicTable = ({
 
 	return (
 		<Paper className={classes.paper}>
+			{title && (
+				<Typography variant="h6">
+					{title}
+				</Typography>
+			)}
 			<TableContainer>
 				<Table className={classes.table} size="small" aria-label="simple table">
 					<TableHead>

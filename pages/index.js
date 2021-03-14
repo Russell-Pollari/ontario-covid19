@@ -1,10 +1,12 @@
 import { useState, useEffect, Fragment } from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Typography from '@material-ui/core/Typography';
 
 import Layout from '../components/Layout';
 import Updates from '../components/Updates';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
+import VaccinationStatus from '../components/VaccinationStatus';
 
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
@@ -31,9 +33,10 @@ function HomePage() {
 
 	return (
 		<Layout>
-			<h2>
+			<Typography variant="h4">
 				Simple dashboard visualizing Ontario's Covid-19 data.
-			</h2>
+			</Typography>
+			<VaccinationStatus data={vaccineData} />
 			<p>
 				I've meen maintaining this dashboard for over a year now!. If you've gotten value from it, consider{' '}
 				<a href="https://www.buymeacoffee.com/russellpollari">buying me a coffee</a>.

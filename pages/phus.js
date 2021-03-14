@@ -56,10 +56,10 @@ const PHUContainer = () => {
 					</div>
 				) : (
 					<Fragment>
-						<PHUStatusTable dataSource={data} />
+						<PHUStatusTable dataSource={data} phuName={name} />
 						<ChartContainer
 							dataSource={data}
-							title={'Active cases - ' + name}
+							title={'Active cases in ' + name}
 							dataKeyX="date_string"
 							syncId="phu"
 							bars={[{
@@ -71,7 +71,7 @@ const PHUContainer = () => {
 							/>
 						<ChartContainer
 							dataSource={data}
-							title={'Total cases - ' + name}
+							title={'Total cases in ' + name}
 							dataKeyX="date_string"
 							syncId="phu"
 							areas={[{
@@ -83,7 +83,7 @@ const PHUContainer = () => {
 							/>
 						<ChartContainer
 							dataSource={data}
-							title={'Deaths - ' + name}
+							title={'Total deaths in ' + name}
 							dataKeyX="date_string"
 							syncId="phu"
 							areas={[{
