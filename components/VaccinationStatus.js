@@ -4,7 +4,9 @@ const VaccinationStatus = ({ data = [] }) => {
 	if (!data.length) {
 		return null;
 	}
+
 	const population = 14733119;
+
 	const lastUpdate = data[data.length - 1].total_individuals_fully_vaccinated;
 	return (
 		<div className="mv16">
