@@ -3,7 +3,7 @@
 							function gtag(){dataLayer.push(arguments);}
 							gtag(&#x27;js&#x27;, new Date());
 							gtag(&#x27;config&#x27;, &#x27;UA-163333616-1&#x27;);
-						</script><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Covid-19 in Ontario</title><meta name="next-head-count" content="3"/><link rel="preload" href="/ontario-covid19/_next/static/css/427e8a56b2e0ed86df4d.css" as="style"/><link rel="stylesheet" href="/ontario-covid19/_next/static/css/427e8a56b2e0ed86df4d.css" data-n-g=""/><noscript data-n-css=""></noscript><link rel="preload" href="/ontario-covid19/_next/static/chunks/main-4ffd9bb613945546fd98.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/framework.1d36bc031662b4dc4c28.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/commons.baa55b37d031d32bbf37.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/pages/_app-cfb7ed1c1614c80e0520.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/b4628de89bb7297e2bb5b126baca51a7f908123f.9324de27051dfb1769b1.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/43d797e5d7b73fc2534ac5023cc64c94899ce67e.499053551b0111cbc9e3.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/pages/index-392cc20c8ba7b588d223.js" as="script"/><style id="jss-server-side">.MuiPaper-root {
+						</script><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Covid-19 in Ontario</title><meta name="next-head-count" content="3"/><link rel="preload" href="/ontario-covid19/_next/static/css/427e8a56b2e0ed86df4d.css" as="style"/><link rel="stylesheet" href="/ontario-covid19/_next/static/css/427e8a56b2e0ed86df4d.css" data-n-g=""/><noscript data-n-css=""></noscript><link rel="preload" href="/ontario-covid19/_next/static/chunks/main-4ffd9bb613945546fd98.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/framework.1d36bc031662b4dc4c28.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/commons.baa55b37d031d32bbf37.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/pages/_app-cfb7ed1c1614c80e0520.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/b4628de89bb7297e2bb5b126baca51a7f908123f.bcdd276545bb618bc710.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/43d797e5d7b73fc2534ac5023cc64c94899ce67e.c97bb276fb649d1aa8e8.js" as="script"/><link rel="preload" href="/ontario-covid19/_next/static/chunks/pages/index-5d5ff989ba6b528a56d6.js" as="script"/><style id="jss-server-side">.MuiPaper-root {
   color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-color: #fff;
@@ -489,6 +489,60 @@ body::backdrop {
   .MuiSvgIcon-fontSizeLarge {
     font-size: 2.1875rem;
   }
+  .MuiCircularProgress-root {
+    display: inline-block;
+  }
+  .MuiCircularProgress-static {
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiCircularProgress-indeterminate {
+    animation: MuiCircularProgress-keyframes-circular-rotate 1.4s linear infinite;
+  }
+  .MuiCircularProgress-colorPrimary {
+    color: #3f51b5;
+  }
+  .MuiCircularProgress-colorSecondary {
+    color: #f50057;
+  }
+  .MuiCircularProgress-svg {
+    display: block;
+  }
+  .MuiCircularProgress-circle {
+    stroke: currentColor;
+  }
+  .MuiCircularProgress-circleStatic {
+    transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiCircularProgress-circleIndeterminate {
+    animation: MuiCircularProgress-keyframes-circular-dash 1.4s ease-in-out infinite;
+    stroke-dasharray: 80px, 200px;
+    stroke-dashoffset: 0px;
+  }
+@keyframes MuiCircularProgress-keyframes-circular-rotate {
+  0% {
+    transform-origin: 50% 50%;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes MuiCircularProgress-keyframes-circular-dash {
+  0% {
+    stroke-dasharray: 1px, 200px;
+    stroke-dashoffset: 0px;
+  }
+  50% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -15px;
+  }
+  100% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -125px;
+  }
+}
+  .MuiCircularProgress-circleDisableShrink {
+    animation: none;
+  }
   .MuiDrawer-docked {
     flex: 0 0 auto;
   }
@@ -540,6 +594,226 @@ body::backdrop {
   .MuiDrawer-paperAnchorDockedBottom {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
   }
+  .MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+  }
+  .MuiButton-root:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .MuiButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-root:hover.Mui-disabled {
+    background-color: transparent;
+  }
+  .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+  }
+  .MuiButton-text {
+    padding: 6px 8px;
+  }
+  .MuiButton-textPrimary {
+    color: #3f51b5;
+  }
+  .MuiButton-textPrimary:hover {
+    background-color: rgba(63, 81, 181, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-textSecondary {
+    color: #f50057;
+  }
+  .MuiButton-textSecondary:hover {
+    background-color: rgba(245, 0, 87, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlined {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px 15px;
+  }
+  .MuiButton-outlined.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-outlinedPrimary {
+    color: #3f51b5;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+  }
+  .MuiButton-outlinedPrimary:hover {
+    border: 1px solid #3f51b5;
+    background-color: rgba(63, 81, 181, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlinedSecondary {
+    color: #f50057;
+    border: 1px solid rgba(245, 0, 87, 0.5);
+  }
+  .MuiButton-outlinedSecondary:hover {
+    border: 1px solid #f50057;
+    background-color: rgba(245, 0, 87, 0.04);
+  }
+  .MuiButton-outlinedSecondary.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+  .MuiButton-contained:hover {
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    background-color: #d5d5d5;
+  }
+  .MuiButton-contained.Mui-focusVisible {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained:active {
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+  .MuiButton-contained:hover.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #3f51b5;
+  }
+  .MuiButton-containedPrimary:hover {
+    background-color: #303f9f;
+  }
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+  .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #f50057;
+  }
+  .MuiButton-containedSecondary:hover {
+    background-color: #c51162;
+  }
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+  .MuiButton-disableElevation {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:hover {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-focusVisible {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:active {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-disabled {
+    box-shadow: none;
+  }
+  .MuiButton-colorInherit {
+    color: inherit;
+    border-color: currentColor;
+  }
+  .MuiButton-textSizeSmall {
+    padding: 4px 5px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-textSizeLarge {
+    padding: 8px 11px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-outlinedSizeSmall {
+    padding: 3px 9px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-outlinedSizeLarge {
+    padding: 7px 21px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-containedSizeSmall {
+    padding: 4px 10px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-containedSizeLarge {
+    padding: 8px 22px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-fullWidth {
+    width: 100%;
+  }
+  .MuiButton-startIcon {
+    display: inherit;
+    margin-left: -4px;
+    margin-right: 8px;
+  }
+  .MuiButton-startIcon.MuiButton-iconSizeSmall {
+    margin-left: -2px;
+  }
+  .MuiButton-endIcon {
+    display: inherit;
+    margin-left: 8px;
+    margin-right: -4px;
+  }
+  .MuiButton-endIcon.MuiButton-iconSizeSmall {
+    margin-right: -2px;
+  }
+  .MuiButton-iconSizeSmall > *:first-child {
+    font-size: 18px;
+  }
+  .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 20px;
+  }
+  .MuiButton-iconSizeLarge > *:first-child {
+    font-size: 22px;
+  }
   .jss1 {
     width: 240px;
   }
@@ -564,8 +838,18 @@ body::backdrop {
   }
 }
   .jss5 {
-    width: 240px;
+    flex-grow: 1;
   }
   .jss6 {
+    flex-grow: 1;
+  }
+  .jss7 {
+    width: 240px;
+  }
+  .jss8 {
     padding: 24px;
-  }</style></head><body><div id="__next"><div><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><button class="MuiButtonBase-root MuiIconButton-root jss2 MuiIconButton-colorInherit MuiIconButton-edgeStart" tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span></button><h6 class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap">Covid-19 in Ontario</h6></div></header><nav class="jss1"></nav><main class="jss6"><div class="jss4"></div><h2>Simple dashboard visualizing Ontario&#x27;s Covid-19 data.</h2><p><a href="/phus">View data for each PHU</a></p><ul><li><strong>Update (2021/03/10):</strong> Added <a href="/ontario-covid19/phus">a page</a> to filter stats by public health unit (work in progress)</li><li><strong>Update (2021/03/07):</strong> Added some features to the Summary table and added a 7 day moving average for daily vaccines. Thanks <a href="https://github.com/IsaacBerman" target="_blank" rel="noopener noreferrer">IsaacBerman</a> for the pull requests!</li><li><strong>Update (2021/02/20):</strong> Added a plot showing daily vaccinations.</li><li><strong>Update (2021/02/07):</strong> Some minor prettifications. Thanks <a href="https://github.com/TikiTDO" target="_blank" rel="noopener noreferrer">TikiTDO</a> for the pull requests!</li><li><strong>Update (2021/01/07):</strong> Added a plot to track vaccinations.</li></ul><p>Want to contribute to this dashboard? Fork it on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.</p><p><a href="/about">About this dashboard</a></p><p class="tc"><strong>Hold tight.. just fetching the latest data</strong></p></main></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"qnvXld9DttI7KqawhB3w_","assetPrefix":"/ontario-covid19","runtimeConfig":{"basePath":"/ontario-covid19"},"nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="/ontario-covid19/_next/static/chunks/polyfills-fa276ba060a4a8ac7eef.js"></script><script src="/ontario-covid19/_next/static/chunks/main-4ffd9bb613945546fd98.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/framework.1d36bc031662b4dc4c28.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/commons.baa55b37d031d32bbf37.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/pages/_app-cfb7ed1c1614c80e0520.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/b4628de89bb7297e2bb5b126baca51a7f908123f.9324de27051dfb1769b1.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/43d797e5d7b73fc2534ac5023cc64c94899ce67e.499053551b0111cbc9e3.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/pages/index-392cc20c8ba7b588d223.js" async=""></script><script src="/ontario-covid19/_next/static/qnvXld9DttI7KqawhB3w_/_buildManifest.js" async=""></script><script src="/ontario-covid19/_next/static/qnvXld9DttI7KqawhB3w_/_ssgManifest.js" async=""></script></body></html>
+  }
+  .jss9 {
+    margin: 16px;
+    padding: 16px;
+  }</style></head><body><div id="__next"><div><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary jss5 mui-fixed MuiPaper-elevation4"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><button class="MuiButtonBase-root MuiIconButton-root jss2 MuiIconButton-colorInherit MuiIconButton-edgeStart" tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span></button><h6 class="MuiTypography-root jss6 MuiTypography-h6 MuiTypography-noWrap">Covid-19 in Ontario</h6><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0" type="button"><span class="MuiButton-label">PHUs</span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0" type="button"><span class="MuiButton-label">About</span></button></div></header><nav class="jss1"></nav><main class="jss8"><div class="jss4"></div><h2>Simple dashboard visualizing Ontario&#x27;s Covid-19 data.</h2><p>I&#x27;ve meen maintaining this dashboard for over a year now!. If you&#x27;ve gotten value from it, consider<!-- --> <a href="https://www.buymeacoffee.com/russellpollari">buying me a coffee</a>.</p><p>Want to contribute and make it better? Fork this dashboard on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.</p><div class="MuiPaper-root jss9 MuiPaper-elevation1 MuiPaper-rounded"><h6 class="MuiTypography-root MuiTypography-h6">Recent updates</h6><ul><li><strong>(2021/03/14)</strong> Making things a little prettier</li><li><strong>(2021/03/10)</strong> Added <a href="/ontario-covid19/phus">a page</a> to filter stats by public health unit (work in progress)</li><li><strong>(2021/03/07)</strong> Added some features to the Summary table and added a 7 day moving average for daily vaccines. Thanks <a href="https://github.com/IsaacBerman" target="_blank" rel="noopener noreferrer">IsaacBerman</a> for the pull requests!</li><li><strong>(2021/02/20)</strong> Added a plot showing daily vaccinations.</li><li><strong>(2021/02/07)</strong> Some minor prettifications. Thanks <a href="https://github.com/TikiTDO" target="_blank" rel="noopener noreferrer">TikiTDO</a> for the pull requests!</li></ul></div><p class="tc"><strong>Hold tight.. just fetching the latest data</strong><div><div class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate" style="width:40px;height:40px" role="progressbar"><svg class="MuiCircularProgress-svg" viewBox="22 22 44 44"><circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate" cx="44" cy="44" r="20.2" fill="none" stroke-width="3.6"></circle></svg></div></div></p></main></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"FrWBY3msEg7S7ApOY5lhR","assetPrefix":"/ontario-covid19","runtimeConfig":{"basePath":"/ontario-covid19"},"nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="/ontario-covid19/_next/static/chunks/polyfills-fa276ba060a4a8ac7eef.js"></script><script src="/ontario-covid19/_next/static/chunks/main-4ffd9bb613945546fd98.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/framework.1d36bc031662b4dc4c28.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/commons.baa55b37d031d32bbf37.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/pages/_app-cfb7ed1c1614c80e0520.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/b4628de89bb7297e2bb5b126baca51a7f908123f.bcdd276545bb618bc710.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/43d797e5d7b73fc2534ac5023cc64c94899ce67e.c97bb276fb649d1aa8e8.js" async=""></script><script src="/ontario-covid19/_next/static/chunks/pages/index-5d5ff989ba6b528a56d6.js" async=""></script><script src="/ontario-covid19/_next/static/FrWBY3msEg7S7ApOY5lhR/_buildManifest.js" async=""></script><script src="/ontario-covid19/_next/static/FrWBY3msEg7S7ApOY5lhR/_ssgManifest.js" async=""></script></body></html>
