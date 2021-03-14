@@ -10,6 +10,7 @@ import positiveRate from './ontario/positiveRate';
 
 import totalDoses from './vaccinations/totalDoses';
 import dailyDoses from './vaccinations/dailyDoses';
+import totalVaccinated from './vaccinations/totalVaccinated';
 
 export const ontarioStatusCharts = [
 	activeCases,
@@ -24,6 +25,7 @@ export const ontarioStatusCharts = [
 ];
 
 export const vaccineCharts = [
+	totalVaccinated,
 	dailyDoses,
 	totalDoses,
 ];

@@ -19,7 +19,10 @@ const Updates = () => {
 			</Typography>
 			<ul>
 				<li>
-					<strong>(2021/03/14)</strong> Making things a little prettier
+					<strong>(2021/03/14)</strong> Added plot showing total people fully vaccinated.
+				</li>
+				<li>
+					<strong>(2021/03/14)</strong> Making things a little prettier.
 				</li>
 				<li>
 					<strong>(2021/03/10)</strong> Added <a href="/ontario-covid19/phus">a page</a> to filter stats by public health unit (work in progress)

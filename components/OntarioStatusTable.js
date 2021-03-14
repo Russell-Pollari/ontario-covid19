@@ -66,7 +66,11 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 	}];
 
 	return (
-		<DataTable data={dataSource} columns={columns} />
+		<DataTable
+			title="Status of cases in Ontario"
+			data={dataSource}
+			columns={columns}
+		/>
 	);
 };
 
