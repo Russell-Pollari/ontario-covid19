@@ -17,6 +17,7 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 		label: 'Active cases',
 		key: 'active_cases',
 		formatValue: formatNumber,
+		align: 'right',
 	}, {
 		label: '',
 		key: 'new_active_cases',
@@ -26,6 +27,7 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 		label: 'Total cases',
 		key: 'Total Cases',
 		formatValue: formatNumber,
+		align: 'right',
 	}, {
 		label: '',
 		key: 'new_cases',
@@ -35,6 +37,7 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 		label: 'Deaths',
 		key: 'Deaths',
 		formatValue: formatNumber,
+		align: 'right',
 	}, {
 		label: '',
 		key: 'new_deaths',
@@ -44,6 +47,7 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 		label: 'Patients hospitalized',
 		key: hospitalField,
 		formatValue: formatNumber,
+		align: 'right',
 	}, {
 		label: '',
 		key: 'new_hospital',
@@ -53,6 +57,7 @@ const OntarioStatusTable = ({ dataSource = [] }) => {
 		label: 'Patients in ICU',
 		key: icuField,
 		formatValue: formatNumber,
+		align: 'right',
 	}, {
 		label: '',
 		key: 'new_icu',
