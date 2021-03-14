@@ -1,10 +1,13 @@
 import { useState, useEffect, Fragment } from 'react';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
 
 import getPHUData from '../lib/getPHUData';
 import phuNames from '../lib/phuNames';
 import ChartContainer from '../components/ChartContainer';
+import PHUStatusTable from '../components/PHUStatusTable';
 import LayoutSimple from '../components/LayoutSimple';
-
 
 const PHUContainer = () => {
 	const [name, setName] = useState('TORONTO');
@@ -18,69 +21,80 @@ const PHUContainer = () => {
 	};
 
 	useEffect(() => {
-		fetchData(name);
+		if (name) {
+			fetchData(name);
+		} else {
+			setData([]);
+		}
 	}, [name]);
 
-	const handlePHUChange = event => {
-		setName(event.target.value);
+	const handlePHUChange = (event, newValue) => {
+		setName(newValue);
 	};
 
 	return (
 		<LayoutSimple title="Public health units">
-			<label htmlFor="phuSelect">
-				Select a public health unit to view its data
-			</label>
-			<select id="phuSelect" onChange={handlePHUChange} value={name}>
-				{phuNames.map(phu => (
-					<option key={phu} value={phu}>
-						{phu}
-					</option>
-				))}
-			</select>
-			<h4>
-				{name}
-			</h4>
+			<Autocomplete
+				options={phuNames}
+				value={name}
+				getOptionLabel={(option) => option}
+				onChange={handlePHUChange}
+				renderInput={(params) => (
+					<TextField
+						{...params}
+						label="Public Health Unit"
+						variant="outlined"
+					/>
+				)}
+			/>
 			{loading ? (
-				<p>loading</p>
+				<CircularProgress />
 			) : (
-				<Fragment>
-					<ChartContainer
-						dataSource={data}
-						title={'Active cases - ' + name}
-						dataKeyX="date_string"
-						syncId="phu"
-						bars={[{
-							dataKey: 'ACTIVE_CASES',
-							fill: '#f9d45c',
-							name: 'Active cases',
-							stackId: 'a',
-						}]}
-					/>
-					<ChartContainer
-						dataSource={data}
-						title={'Total cases - ' + name}
-						dataKeyX="date_string"
-						syncId="phu"
-						areas={[{
-							dataKey: 'total_cases',
-							fill: '#f9d45c',
-							name: 'Total cases',
-							stackId: 'a',
-						}]}
-					/>
-					<ChartContainer
-						dataSource={data}
-						title={'Deaths - ' + name}
-						dataKeyX="date_string"
-						syncId="phu"
-						areas={[{
-							dataKey: 'DEATHS',
-							fill: '#ef8c8c',
-							name: 'Deaths',
-							stackId: 'a',
-						}]}
-					/>
-				</Fragment>
+				!name ? (
+					<div className="tc mv32">
+						<em>Select a PHU to view its data</em>
+					</div>
+				) : (
+					<Fragment>
+						<PHUStatusTable dataSource={data} />
+						<ChartContainer
+							dataSource={data}
+							title={'Active cases - ' + name}
+							dataKeyX="date_string"
+							syncId="phu"
+							bars={[{
+								dataKey: 'ACTIVE_CASES',
+								fill: '#f9d45c',
+								name: 'Active cases',
+								stackId: 'a',
+							}]}
+							/>
+						<ChartContainer
+							dataSource={data}
+							title={'Total cases - ' + name}
+							dataKeyX="date_string"
+							syncId="phu"
+							areas={[{
+								dataKey: 'total_cases',
+								fill: '#f9d45c',
+								name: 'Total cases',
+								stackId: 'a',
+							}]}
+							/>
+						<ChartContainer
+							dataSource={data}
+							title={'Deaths - ' + name}
+							dataKeyX="date_string"
+							syncId="phu"
+							areas={[{
+								dataKey: 'DEATHS',
+								fill: '#ef8c8c',
+								name: 'Deaths',
+								stackId: 'a',
+							}]}
+						/>
+					</Fragment>
+				)
 			)}
 		</LayoutSimple>
 	);

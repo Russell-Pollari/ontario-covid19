@@ -1,9 +1,18 @@
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+
 import {
 	Area, ComposedChart, Bar, Line,
 	XAxis, YAxis, CartesianGrid,
 	Tooltip, ResponsiveContainer, Legend
 } from 'recharts';
 
+const useStyles = makeStyles({
+	paper: {
+		margin: 16,
+		padding: 16,
+	},
+});
 
 const ChartContainer = ({
 	areas = [],
@@ -14,8 +23,9 @@ const ChartContainer = ({
 	title,
 	syncId,
 }) => {
+	const classes = useStyles();
 	return (
-		<div className="tl dib chart-container w-100">
+		<Paper className={classes.paper}>
 			<span className="relative top--64" id={title} />
 			<div className="tl pv8">
 				<strong>
@@ -50,7 +60,7 @@ const ChartContainer = ({
 					))}
 				</ComposedChart>
 			</ResponsiveContainer>
-		</div>
+		</Paper>
 	);
 };
 

@@ -1,10 +1,11 @@
-import Link from 'next/link';
 import { useState, useEffect, Fragment } from 'react';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 import Layout from '../components/Layout';
 import Updates from '../components/Updates';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
+
 import getOntarioStatuses from '../lib/getOntarioStatuses';
 import getVaccineData from '../lib/getVaccineData';
 import {
@@ -34,20 +35,21 @@ function HomePage() {
 				Simple dashboard visualizing Ontario's Covid-19 data.
 			</h2>
 			<p>
-				<Link href="/phus">View data for each PHU</Link>
+				I've meen maintaining this dashboard for over a year now!. If you've gotten value from it, consider{' '}
+				<a href="https://www.buymeacoffee.com/russellpollari">buying me a coffee</a>.
+			</p>
+			<p>
+				Want to contribute and make it better? Fork this dashboard on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
 			</p>
 			<Updates />
-			<p>
-				Want to contribute to this dashboard? Fork it on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
-			</p>
-			<p>
-				<Link href="/about">About this dashboard</Link>
-			</p>
 			{loading ? (
 				<p className="tc">
 					<strong>
 						Hold tight.. just fetching the latest data
 					</strong>
+					<div>
+						<CircularProgress />
+					</div>
 				</p>
 			) : (
 				<Fragment>

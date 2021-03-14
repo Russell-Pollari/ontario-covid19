@@ -1,6 +1,6 @@
 import { resources, contactDetails } from '../constants.js';
 import LayoutSimple from '../components/LayoutSimple';
-
+import CoffeeButton from '../components/BuyMeACoffeeButton';
 
 const ContactDetail = ({ title, label, href }) => (
 	<li>
@@ -46,6 +46,7 @@ export default function About() {
 					<p>
 						Feel free to get in touch:
 					</p>
+					<CoffeeButton />
 					<ul>
 						{contactDetails.map((detail) => (
 							<ContactDetail key={detail.title} {...detail} />
