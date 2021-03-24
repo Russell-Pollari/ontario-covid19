@@ -38,7 +38,7 @@ function HomePage() {
 			</Typography>
 			<VaccinationStatus data={vaccineData} />
 			<p>
-				I've meen maintaining this dashboard for over a year now!. If you've gotten value from it, consider{' '}
+				I've been maintaining this dashboard for over a year now! If you've gotten value from it, consider{' '}
 				<a href="https://www.buymeacoffee.com/russellpollari">buying me a coffee</a>.
 			</p>
 			<p>
