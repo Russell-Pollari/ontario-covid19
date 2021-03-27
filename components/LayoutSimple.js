@@ -8,10 +8,18 @@ import Typography from '@material-ui/core/Typography';
 import ArrowBackOutlinedIcon from '@material-ui/icons/ArrowBackOutlined';
 import { makeStyles } from '@material-ui/core/styles';
 
+import MenuTopRight from './MenuTopRight';
+
 const useStyles = makeStyles((theme) => ({
 	toolbar: theme.mixins.toolbar,
 	main: {
 		padding: 16,
+	},
+	appBar: {
+		flexGrow: 1,
+	},
+	title: {
+		flexGrow:1,
 	}
 }));
 
@@ -23,7 +31,7 @@ const LayoutSimple = ({
 	return (
 		<div>
 			<CssBaseline />
-			<AppBar position="fixed">
+			<AppBar position="fixed" className={classes.appBar}>
 				<Toolbar>
 					<IconButton
 						color="inherit"
@@ -32,9 +40,10 @@ const LayoutSimple = ({
 							<ArrowBackOutlinedIcon />
 						</Link>
 					</IconButton>
-					<Typography variant="h6" noWrap>
+					<Typography variant="h6" noWrap className={classes.title}>
 						{title}
 					</Typography>
+					<MenuTopRight />
 				</Toolbar>
 			</AppBar>
 			<main className={classes.main}>

@@ -24,6 +24,7 @@ const ChartContainer = ({
 	dataSource = [],
 	title,
 	syncId,
+	xAxisScale,
 }) => {
 	const classes = useStyles();
 	return (
@@ -43,7 +44,7 @@ const ChartContainer = ({
 						/>
 					)}
 					<CartesianGrid vertical={false} />
-					<XAxis dataKey={dataKeyX} />
+					<XAxis dataKey={dataKeyX} scale={xAxisScale} />
 					<YAxis
 						type="number"
 						domain={[0, 'auto']}
