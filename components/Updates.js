@@ -1,16 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { makeStyles } from '@material-ui/core/styles';
 
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles({
-	paper: {
-		margin: 16,
-		padding: 16,
-	}
-});
+import ContentContainer from './ContentContainer';
 
 const updates = [{
 	date: '2021-03/27',
@@ -68,7 +59,6 @@ const updates = [{
 const Updates = () => {
 	const [visibleUpdates, setVisibleUpdates] = useState([]);
 	const [showAll, setShowAll] = useState(false);
-	const classes = useStyles();
 
 	useEffect(() => {
 		setVisibleUpdates(showAll ? updates : updates.slice(0, 2));
@@ -77,10 +67,7 @@ const Updates = () => {
 	const toggleShowAll = () => setShowAll(!showAll);
 
 	return (
-		<Paper className={classes.paper}>
-			<Typography variant="h6">
-				Recent updates
-			</Typography>
+		<ContentContainer title="Recent updates">
 			<ul>
 				{visibleUpdates.map(({ date, update }, index) => (
 					<li key={index}>
@@ -91,7 +78,7 @@ const Updates = () => {
 			<div className="blue hover-dark-blue pointer" onClick={toggleShowAll}>
 				{showAll ? 'Show less' : 'Show all'}
 			</div>
-		</Paper>
+		</ContentContainer>
 	);
 };
 
