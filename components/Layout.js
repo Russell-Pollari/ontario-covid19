@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
 import IconButton from '@material-ui/core/IconButton';
-import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -15,6 +13,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
+import MenuTopRight from './MenuTopRight';
 import {
 	ontarioStatusCharts,
 	vaccineCharts,
@@ -113,12 +112,7 @@ const Layout = (props) => {
 					<Typography variant="h6" noWrap className={classes.title}>
 						Covid-19 in Ontario
 					</Typography>
-					<Link href="/phus">
-						<Button color="inherit">PHUs</Button>
-					</Link>
-					<Link href="/about">
-						<Button color="inherit">About</Button>
-					</Link>
+					<MenuTopRight />
 				</Toolbar>
 			</AppBar>
 			<nav className={classes.drawer}>

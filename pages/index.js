@@ -18,8 +18,8 @@ import {
 
 function HomePage() {
 	const [data, setData] = useState([]);
-	const [vaccineData, setVaccineData] = useState([]);
 	const [loading, setLoading] = useState(true);
+	const [vaccineData, setVaccineData] = useState([]);
 
 	const fetchData = async () => {
 		await getVaccineData().then(setVaccineData);
