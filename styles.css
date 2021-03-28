@@ -98,3 +98,11 @@ li {
 .f12 {
 	font-size: 12px;
 }
+
+.blue {
+	color: #44a1f8;
+}
+
+.hover-dark-blue:hover {
+	color: #186bf0;
+}
