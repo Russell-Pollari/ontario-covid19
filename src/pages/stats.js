@@ -3,10 +3,10 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 
 
-import getCases from '../lib/getCaseData';
+import getCases from '../data/getCaseData';
 import ChartContainer from '../components/ChartContainer';
 import LayoutSimple from '../components/LayoutSimple';
-import { ageStats } from '../components/charts/chartConfig';
+import { ageStats } from '../chartConfig';
 
 
 const StatsContainer = () => {

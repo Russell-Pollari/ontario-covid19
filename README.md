@@ -12,6 +12,4 @@ Dashboard built with [Next.js](https://nextjs.org/) and [Recharts](https://githu
 Outputs static html files to `/docs` for GitHub pages
 
 #### Running locally
-`$ echo "NODE_ENV=development" >> .env`  
-
 `$ npm run dev`

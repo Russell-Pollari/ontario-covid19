@@ -38,7 +38,7 @@ const VaccinationStatus = ({ data = [] }) => {
 				</li>
 			</ul>
 			<div className="mt16 f12">
-				*These numbers all back-of-the-envolope estimates. Don't take them as fact.
+				*These numbers are all back-of-the-envolope estimates. Don't take them as fact.
 			</div>
 		</ContentContainer>
 	);

@@ -6,8 +6,8 @@ import Layout from '../components/Layout';
 import ChartContainer from '../components/ChartContainer';
 import VaccinationStatus from '../components/VaccinationStatus';
 
-import getVaccineData from '../lib/getVaccineData';
-import { vaccineCharts } from '../components/charts/chartConfig';
+import getVaccineData from '../data/getVaccineData';
+import { vaccineCharts } from '../chartConfig';
 
 
 const VaccinationsContainer = () => {
