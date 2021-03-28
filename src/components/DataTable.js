@@ -10,7 +10,6 @@ import TableRow from '@material-ui/core/TableRow';
 
 import ContentContainer from './ContentContainer';
 
-
 const useStyles = makeStyles({
 	table: {
 		minWidth: 340,
@@ -22,17 +21,33 @@ const useStyles = makeStyles({
 const Cell = ({ column, row, rows }) => {
 	const { key, formatValue, highlight, align } = column;
 	const value = row[key];
-	const max = Math.max(...rows.map(row => row[key]));
-	const min = Math.min(...rows.map(row => row[key]));
-	let opacity = Math.max((value - min) / (max - min), 0.25);
-	let color;
 
-	if (value > 0) {
-		color = `rgba(235, 0, 0, ${Math.min(opacity, 0.8)})`;
+	let color;
+	if (highlight === 'positive') {
+		const max = Math.max(...rows.map(row => row[key]));
+		const min = Math.min(...rows.map(row => row[key]));
+		let opacity = Math.max((value - min) / (max - min), 0.25);
+
+		if (value < 0) {
+			color = `rgba(235, 0, 0, ${1 - Math.min(opacity, 0.9)})`;
+		}
+		if (value > 0) {
+			color = `rgba(0, 235, 0, ${Math.min(opacity, 0.9)})`;
+		}
+	} else {
+		const max = Math.max(...rows.map(row => row[key]));
+		const min = Math.min(...rows.map(row => row[key]));
+		let opacity = Math.max((value - min) / (max - min), 0.25);
+
+		if (value > 0) {
+			color = `rgba(235, 0, 0, ${Math.min(opacity, 0.9)})`;
+		}
+		if (value < 0) {
+			color = `rgba(0, 235, 0, ${1 - Math.min(opacity, 0.9)})`;
+		}
 	}
-	if (value < 0) {
-		color = `rgba(0, 235, 0, ${1 - Math.min(opacity, 0.8)})`;
-	}
+
+
 	return (
 		<TableCell
 			style={highlight ? {
