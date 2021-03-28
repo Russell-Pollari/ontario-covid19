@@ -6,12 +6,18 @@ const useStyles = makeStyles({
 	paper: {
 		margin: 16,
 		padding: 16,
-		maxWidth: 1312
+		display: 'inline-block',
+		maxWidth: 640,
+		width: '100%',
+		verticalAlign: 'top',
 	},
 });
 
 
-const ContentContainer = ({ title, children }) => {
+const SmallContentContainer = ({
+	title,
+	children,
+}) => {
 	const classes = useStyles();
 
 	return (
@@ -26,4 +32,4 @@ const ContentContainer = ({ title, children }) => {
 	);
 };
 
-export default ContentContainer;
+export default SmallContentContainer;

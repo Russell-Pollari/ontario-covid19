@@ -19,7 +19,7 @@ const ChartContainer = ({
 }) => {
 	return (
 		<ContentContainer title={title}>
-			<span className="relative top--64" id={title} />
+			<span className="relative top--72" id={title} />
 			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={dataSource} syncId={syncId} >
 					{(bars.length + lines.length) > 1 && (

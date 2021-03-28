@@ -1,10 +1,17 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-import ContentContainer from './ContentContainer';
+import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
-	date: '2021-03/27',
+	date: '2021/03/28',
+	update: (
+		<span>
+			Moved <Link href="/vaccinations">vaccination charts</Link> to a new page.
+		</span>
+	),
+}, {
+	date: '2021/03/27',
 	update: (
 		<span>
 			Added <Link href="/stats">a page</Link> to show case statistics.
@@ -15,7 +22,7 @@ const updates = [{
 	update: 'Added plot showing total people fully vaccinated.',
 }, {
 	date: '2021/03/14',
-	update: 'Making thins a little prettier.'
+	update: 'Making things a little prettier.'
 }, {
 	date: '2021/03/10',
 	update: (
@@ -61,13 +68,13 @@ const Updates = () => {
 	const [showAll, setShowAll] = useState(false);
 
 	useEffect(() => {
-		setVisibleUpdates(showAll ? updates : updates.slice(0, 2));
+		setVisibleUpdates(showAll ? updates : updates.slice(0, 3));
 	}, [showAll]);
 
 	const toggleShowAll = () => setShowAll(!showAll);
 
 	return (
-		<ContentContainer title="Recent updates">
+		<SmallContentContainer title="Recent updates">
 			<ul>
 				{visibleUpdates.map(({ date, update }, index) => (
 					<li key={index}>
@@ -78,7 +85,7 @@ const Updates = () => {
 			<div className="blue hover-dark-blue pointer" onClick={toggleShowAll}>
 				{showAll ? 'Show less' : 'Show all'}
 			</div>
-		</ContentContainer>
+		</SmallContentContainer>
 	);
 };
 
