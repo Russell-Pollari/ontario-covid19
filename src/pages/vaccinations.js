@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Layout from '../components/Layout';
 import ChartContainer from '../components/ChartContainer';
 import VaccinationStatus from '../components/VaccinationStatus';
+import VaccineStatusTable from '../components/VaccineStatusTable';
 
 import getVaccineData from '../data/getVaccineData';
 import { vaccineCharts } from '../chartConfig';
@@ -52,6 +53,7 @@ const VaccinationsContainer = () => {
 				) : (
 					<Fragment>
 						<VaccinationStatus data={data} />
+						<VaccineStatusTable dataSource={data} />
 						{vaccineCharts.map((chart, index) => (
 							<ChartContainer
 								key={index}
