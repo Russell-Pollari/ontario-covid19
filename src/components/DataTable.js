@@ -19,15 +19,14 @@ const useStyles = makeStyles({
 
 
 const Cell = ({ column, row, rows }) => {
+	let color;
 	const { key, formatValue, highlight, align } = column;
 	const value = row[key];
+	const max = Math.max(...rows.map(row => row[key]));
+	const min = Math.min(...rows.map(row => row[key]));
+	let opacity = Math.max((value - min) / (max - min), 0.25);
 
-	let color;
 	if (highlight === 'positive') {
-		const max = Math.max(...rows.map(row => row[key]));
-		const min = Math.min(...rows.map(row => row[key]));
-		let opacity = Math.max((value - min) / (max - min), 0.25);
-
 		if (value < 0) {
 			color = `rgba(235, 0, 0, ${1 - Math.min(opacity, 0.9)})`;
 		}
@@ -35,10 +34,6 @@ const Cell = ({ column, row, rows }) => {
 			color = `rgba(0, 235, 0, ${Math.min(opacity, 0.9)})`;
 		}
 	} else {
-		const max = Math.max(...rows.map(row => row[key]));
-		const min = Math.min(...rows.map(row => row[key]));
-		let opacity = Math.max((value - min) / (max - min), 0.25);
-
 		if (value > 0) {
 			color = `rgba(235, 0, 0, ${Math.min(opacity, 0.9)})`;
 		}
@@ -46,7 +41,6 @@ const Cell = ({ column, row, rows }) => {
 			color = `rgba(0, 235, 0, ${1 - Math.min(opacity, 0.9)})`;
 		}
 	}
-
 
 	return (
 		<TableCell
