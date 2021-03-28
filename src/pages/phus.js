@@ -3,11 +3,12 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
-import getPHUData from '../lib/getPHUData';
-import phuNames from '../lib/phuNames';
+import getPHUData from '../data/getPHUData';
+import { phuNames } from '../constants';
 import ChartContainer from '../components/ChartContainer';
 import PHUStatusTable from '../components/PHUStatusTable';
 import LayoutSimple from '../components/LayoutSimple';
+
 
 const PHUContainer = () => {
 	const [name, setName] = useState('TORONTO');

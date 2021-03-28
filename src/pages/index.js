@@ -8,8 +8,8 @@ import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
 import AboutBlurb from '../components/AboutBlurb';
 
-import getOntarioStatuses from '../lib/getOntarioStatuses';
-import { ontarioStatusCharts } from '../components/charts/chartConfig';
+import getOntarioStatuses from '../data/getOntarioStatuses';
+import { ontarioStatusCharts } from '../chartConfig';
 
 
 function HomePage() {
