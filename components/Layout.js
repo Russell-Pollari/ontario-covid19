@@ -95,6 +95,7 @@ const Layout = ({ window, menuItems = [], children }) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" noWrap className={classes.title}>
+						Covid-19 in Ontario
 					</Typography>
 					<MenuTopRight />
 				</Toolbar>
