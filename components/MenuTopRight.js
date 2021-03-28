@@ -6,6 +6,12 @@ import Button from '@material-ui/core/Button';
 const MenuTopRight = () => {
 	return (
 		<Fragment>
+			<Link href="/">
+				<Button color="inherit">Cases</Button>
+			</Link>
+			<Link href="/vaccinations">
+				<Button color="inherit">Vaccines</Button>
+			</Link>
 			<Link href="/stats">
 				<Button color="inherit">Stats</Button>
 			</Link>

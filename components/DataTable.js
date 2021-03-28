@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -8,17 +7,14 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TablePagination from '@material-ui/core/TablePagination';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+
+import ContentContainer from './ContentContainer';
+
 
 const useStyles = makeStyles({
 	table: {
 		minWidth: 340,
 		marginTop: 8,
-	},
-	paper: {
-		margin: 16,
-    padding: 16,
 	}
 });
 
@@ -84,12 +80,7 @@ const BasicTable = ({
 	};
 
 	return (
-		<Paper className={classes.paper}>
-			{title && (
-				<Typography variant="h6">
-					{title}
-				</Typography>
-			)}
+		<ContentContainer title={title}>
 			<TableContainer>
 				<Table className={classes.table} size="small" aria-label="simple table">
 					<TableHead>
@@ -116,8 +107,8 @@ const BasicTable = ({
 				rowsPerPageOptions={[4]}
 				labelDisplayedRows={() => ''}
 				onChangePage={handlePageChange}
-				/>
-		</Paper>
+			/>
+		</ContentContainer>
 	);
 };
 

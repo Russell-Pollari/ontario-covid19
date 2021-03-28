@@ -1,20 +1,11 @@
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-
-
 import {
 	Area, ComposedChart, Bar, Line,
 	XAxis, YAxis, CartesianGrid,
 	Tooltip, ResponsiveContainer, Legend
 } from 'recharts';
 
-const useStyles = makeStyles({
-	paper: {
-		margin: 16,
-		padding: 16,
-	},
-});
+import ContentContainer from './ContentContainer';
+
 
 const ChartContainer = ({
 	areas = [],
@@ -26,14 +17,9 @@ const ChartContainer = ({
 	syncId,
 	xAxisScale,
 }) => {
-	const classes = useStyles();
 	return (
-		<Paper className={classes.paper}>
-			<span className="relative top--64" id={title} />
-			<Typography variant="h6">
-				{title}
-			</Typography>
-
+		<ContentContainer title={title}>
+			<span className="relative top--72" id={title} />
 			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={dataSource} syncId={syncId} >
 					{(bars.length + lines.length) > 1 && (
@@ -62,7 +48,7 @@ const ChartContainer = ({
 					))}
 				</ComposedChart>
 			</ResponsiveContainer>
-		</Paper>
+		</ContentContainer>
 	);
 };
 

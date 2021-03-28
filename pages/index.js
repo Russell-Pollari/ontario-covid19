@@ -6,23 +6,17 @@ import Layout from '../components/Layout';
 import Updates from '../components/Updates';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
-import VaccinationStatus from '../components/VaccinationStatus';
+import AboutBlurb from '../components/AboutBlurb';
 
 import getOntarioStatuses from '../lib/getOntarioStatuses';
-import getVaccineData from '../lib/getVaccineData';
-import {
-	ontarioStatusCharts,
-	vaccineCharts,
-} from '../components/charts/chartConfig';
+import { ontarioStatusCharts } from '../components/charts/chartConfig';
 
 
 function HomePage() {
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
-	const [vaccineData, setVaccineData] = useState([]);
 
 	const fetchData = async () => {
-		await getVaccineData().then(setVaccineData);
 		await getOntarioStatuses().then(setData);
 		setLoading(false);
 	};
@@ -31,19 +25,21 @@ function HomePage() {
 		fetchData();
 	}, []);
 
+	const menuItems = [{
+		title: 'Summary',
+		href: '#',
+	},
+	...ontarioStatusCharts.map(chart => ({
+		title: chart.title,
+		href: `#${chart.title}`
+	}))];
+
 	return (
-		<Layout>
+		<Layout menuItems={menuItems}>
 			<Typography variant="h4">
-				Simple dashboard visualizing Ontario's Covid-19 data.
+				Covid-19 in Ontario
 			</Typography>
-			<VaccinationStatus data={vaccineData} />
-			<p>
-				I've been maintaining this dashboard for over a year now! If you've gotten value from it, consider{' '}
-				<a href="https://www.buymeacoffee.com/russellpollari">buying me a coffee</a>.
-			</p>
-			<p>
-				Want to contribute and make it better? Fork this dashboard on <a href="https://github.com/Russell-Pollari/ontario-covid19">GitHub</a>.
-			</p>
+			<AboutBlurb />
 			<Updates />
 			{loading ? (
 				<p className="tc">
@@ -57,14 +53,6 @@ function HomePage() {
 			) : (
 				<Fragment>
 					<OntarioStatusTable dataSource={data} />
-					{vaccineCharts.map((chart, index) => (
-						<ChartContainer
-							key={index}
-							dataSource={vaccineData}
-							syncId="vaccineCharts"
-							{...chart}
-						/>
-					))}
 					{ontarioStatusCharts.map((chart, index) => (
 						<ChartContainer
 							key={index}

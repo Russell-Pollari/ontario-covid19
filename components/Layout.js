@@ -14,10 +14,6 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 import MenuTopRight from './MenuTopRight';
-import {
-	ontarioStatusCharts,
-	vaccineCharts,
-} from './charts/chartConfig';
 
 
 const drawerWidth = 240;
@@ -52,8 +48,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const Layout = (props) => {
-	const { window, children } = props;
+const Layout = ({ window, menuItems = [], children }) => {
 	const classes = useStyles();
 	const [menuOpen, setMenuOpen] = useState(false);
 
@@ -75,19 +70,9 @@ const Layout = (props) => {
 			</div>
 			<Divider />
 			<List>
-				<ListItem button component="a" href="#">
-					<ListItemText primary="Summary" />
-				</ListItem>
-
-				{vaccineCharts.map((chart, index) => (
-					<ListItem button component="a" key={index} href={`#${chart.title}`}>
-						<ListItemText primary={chart.title} />
-					</ListItem>
-				))}
-
-				{ontarioStatusCharts.map((chart, index) => (
-					<ListItem button component="a" key={index} href={`#${chart.title}`}>
-						<ListItemText primary={chart.title} />
+				{menuItems.map(({ title, href }, index) => (
+					<ListItem button component="a" key={index} href={href}>
+						<ListItemText primary={title} />
 					</ListItem>
 				))}
 			</List>

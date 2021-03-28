@@ -27,9 +27,9 @@ export const ontarioStatusCharts = [
 ];
 
 export const vaccineCharts = [
-	totalVaccinated,
 	dailyDoses,
 	totalDoses,
+	totalVaccinated,
 ];
 
 export const ageStats = ageBreakdown;
