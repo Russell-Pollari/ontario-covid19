@@ -1,9 +1,13 @@
 const hospitalField = 'Number of patients hospitalized with COVID-19';
-const icuField = 'Number of patients in ICU with COVID-19';
+const icuField = 'Number of patients in ICU due to COVID-19';
 
 import DataTable from './DataTable';
 
-const formatNumber = val => val.toLocaleString();
+const formatNumber = val => {
+	if (val) {
+		return val.toLocaleString();
+	} else return '';
+};
 
 const formatDelta = val => (
 	`${val >= 0 ? '+' : ''}${formatNumber(val)}`
