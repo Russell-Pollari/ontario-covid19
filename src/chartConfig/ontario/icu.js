@@ -2,7 +2,7 @@ const icu = {
 	title: 'Patients in ICU',
 	dataKeyX: 'date_string',
 	bars: [{
-		dataKey: 'Number of patients in ICU on a ventilator with COVID-19',
+		dataKey: 'Number of patients in ICU on a ventilator due to COVID-19',
 		fill: '#509ee3',
 		name: 'ICU (with ventilator)',
 		stackId: 'a'

@@ -2,7 +2,7 @@ import jsonpFetch from './jsonpFetch';
 
 const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=ed270bb8-340b-41f9-a7c6-e8ef587e6d11&limit=1000';
 const hospitalField = 'Number of patients hospitalized with COVID-19';
-const icuField = 'Number of patients in ICU with COVID-19';
+const icuField = 'Number of patients in ICU due to COVID-19';
 
 const getOntarioStatuses = () => {
 	return new Promise((resolve) => {
@@ -24,7 +24,7 @@ const getOntarioStatuses = () => {
 			records.map(record => {
 				record.new_cases = record['Total Cases'] - yesterdayCases;
 				record.new_deaths = Math.max(record['Deaths'] - yesterdayDeaths, 0);
-				record.icu_no_ventilator = record[icuField] - record['Number of patients in ICU on a ventilator with COVID-19'];
+				record.icu_no_ventilator = record[icuField] - record['Number of patients in ICU on a ventilator due to COVID-19'];
 				record.date_string = new Date(record['Reported Date']).toLocaleString('en-us', {
 					month: 'short',
 					day: 'numeric',
