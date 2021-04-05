@@ -53,8 +53,8 @@ const getVaccineData = () =>
           day: 'numeric',
         });
         record.total_doses_administered = Number(total_doses_administered.replace(/,/g, ''));
-        record.previous_day_doses_administered = Number(previous_day_doses_administered.replace(/,/g, ''));
-        record.total_individuals_fully_vaccinated = Number(total_individuals_fully_vaccinated.replace(/,/g, ''));
+        record.previous_day_doses_administered = Number((previous_day_doses_administered || '0').replace(/,/g, ''));
+        record.total_individuals_fully_vaccinated = Number((total_individuals_fully_vaccinated || '0').replace(/,/g, ''));
 
 
         vaccines_last7days.shift();
