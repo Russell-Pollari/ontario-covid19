@@ -21,6 +21,7 @@ const columns = [{
 	key: 'active_cases',
 	formatValue: formatNumber,
 	align: 'right',
+	headerColSpan: 2,
 }, {
 	label: '',
 	key: 'new_active_cases',
@@ -31,6 +32,7 @@ const columns = [{
 	key: 'Total Cases',
 	formatValue: formatNumber,
 	align: 'right',
+	headerColSpan: 2,
 }, {
 	label: '',
 	key: 'new_cases',
@@ -41,6 +43,7 @@ const columns = [{
 	key: 'Deaths',
 	formatValue: formatNumber,
 	align: 'right',
+	headerColSpan: 2,
 }, {
 	label: '',
 	key: 'new_deaths',
@@ -51,6 +54,7 @@ const columns = [{
 	key: hospitalField,
 	formatValue: formatNumber,
 	align: 'right',
+	headerColSpan: 2,
 }, {
 	label: '',
 	key: 'new_hospital',
@@ -61,11 +65,16 @@ const columns = [{
 	key: icuField,
 	formatValue: formatNumber,
 	align: 'right',
+	headerColSpan: 2,
 }, {
 	label: '',
 	key: 'new_icu',
 	formatValue: formatDelta,
 	highlight: 'negative',
+}, {
+	label: 'Variants of concern cases',
+	key: 'vocsTotal',
+	formatValue: formatNumber,
 }];
 
 

@@ -4,6 +4,20 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/04/09',
+	update: (
+		<span>
+			Using adult population for vaccine percentages <Link href="/vaccinations">here</Link>.
+		</span>
+	)
+}, {
+	date: '2021/04/09',
+	update: (
+		<span>
+			Added "Variants of concern" cases to table and Total cases plot. This data seems to be lagging, so I cannot calculate the daily change.
+		</span>
+	)
+}, {
 	date: '2021/03/28',
 	update: (
 		<span>
