@@ -65,6 +65,9 @@ const getOntarioStatuses = () => {
 				yesterdayDeaths = record['Deaths'];
 				yesterdayResolvedCases = record['Resolved'];
 				yesterdayActiveCases = record['active_cases'];
+
+				record.vocsTotal = record['Total_Lineage_B.1.1.7'] + record['Total_Lineage_B.1.351'] + record['Total_Lineage_P.1'];
+				record.totalNonVOC = record['Total Cases'] - record.vocsTotal;
 				return record;
 			});
 			resolve(records);
