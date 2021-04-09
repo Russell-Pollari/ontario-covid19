@@ -6,7 +6,7 @@ const VaccinationStatus = ({ data = [] }) => {
 		return null;
 	}
 
-	const population = 14733119;
+	const population = 11602097;
 
 	const lastUpdate = data[data.length - 1];
 	const totalFullyVaccinated = lastUpdate.total_individuals_fully_vaccinated;
@@ -22,18 +22,18 @@ const VaccinationStatus = ({ data = [] }) => {
 						{Math.round(((totalsWithOneDose + totalFullyVaccinated) / population) * 100 * 100) / 100}%
 					</strong>
 					{' '}
-					of the population of Ontario has had at least one shot.*
+					of the <em>adult</em> population of Ontario has had at least one shot.*
 					</li>
 				<li>
 					<strong>
 						{Math.round((totalFullyVaccinated / population) * 100 * 100) / 100}%
 					</strong>
 					{' '}
-					of the population of Ontario is fully vaccinated.*
+					of the <em>adult</em> population of Ontario is fully vaccinated.*
 				</li>
 				<li>
 					At the current average pace of <strong>{lastUpdate.new_vaccines_rolling_average.toLocaleString()}</strong> shots per day.
-					We can deliver a single dose to everyone in <strong>{Math.round(timeToOneDose)} days.</strong> And
+					We can deliver a single dose to every adult in <strong>{Math.round(timeToOneDose)} days.</strong> And
 					reach full vaccination in <strong>{Math.round(timeToFullVaccination)} days.*</strong>
 				</li>
 			</ul>

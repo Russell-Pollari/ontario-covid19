@@ -94,11 +94,14 @@ const BasicTable = ({
 				<Table className={classes.table} size="small" aria-label="simple table">
 					<TableHead>
 						<TableRow>
-							{columns.map(({ label }, index) => (
-								<TableCell align="left" key={index}>
-									{label}
-								</TableCell>
-							))}
+							{columns.map(({ label, headerColSpan }, index) => {
+								if (!label) return null;
+								return (
+									<TableCell align="left" key={index} colSpan={headerColSpan}>
+										{label}
+									</TableCell>
+								);
+							})}
 						</TableRow>
 					</TableHead>
 					<TableBody>
