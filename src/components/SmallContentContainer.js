@@ -7,7 +7,7 @@ const useStyles = makeStyles({
 		margin: 16,
 		padding: 16,
 		display: 'inline-block',
-		maxWidth: 640,
+		maxWidth: 584,
 		width: '100%',
 		verticalAlign: 'top',
 	},
