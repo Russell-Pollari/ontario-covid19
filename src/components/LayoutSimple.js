@@ -6,6 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import ArrowBackOutlinedIcon from '@material-ui/icons/ArrowBackOutlined';
+import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 
 import MenuTopRight from './MenuTopRight';
@@ -48,7 +49,9 @@ const LayoutSimple = ({
 			</AppBar>
 			<main className={classes.main}>
 				<div className={classes.toolbar} />
-				{children}
+				<Container>
+					{children}
+				</Container>
 			</main>
 		</div>
 	);

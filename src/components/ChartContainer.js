@@ -22,7 +22,7 @@ const ChartContainer = ({
 			<span className="relative top--72" id={title} />
 			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={dataSource} syncId={syncId} >
-					{(bars.length + lines.length) > 1 && (
+					{(bars.length + lines.length + areas.length) > 1 && (
 						<Legend
 							layout="horizontal"
 							align="center"
