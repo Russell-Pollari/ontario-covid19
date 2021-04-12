@@ -12,7 +12,11 @@ import totalDoses from './vaccinations/totalDoses';
 import dailyDoses from './vaccinations/dailyDoses';
 import totalVaccinated from './vaccinations/totalVaccinated';
 
-import ageBreakdown, { youngerMonthlyBreakdown, olderMonthlyBreakdown } from './cases/ageBreakdown';
+import ageBreakdown, {
+  youngerMonthlyDeathBreakdown,
+  olderMonthlyDeathBreakdown,
+  monthlyRecoveryBreakdown,
+} from './cases/ageBreakdown';
 
 export const ontarioStatusCharts = [
 	activeCases,
@@ -35,6 +39,7 @@ export const vaccineCharts = [
 export const ageStats = ageBreakdown;
 
 export const monthlyAgeBreakdowns = [
-  youngerMonthlyBreakdown,
-  olderMonthlyBreakdown
+  youngerMonthlyDeathBreakdown,
+  olderMonthlyDeathBreakdown,
+  monthlyRecoveryBreakdown,
 ];

@@ -6,7 +6,7 @@ import jsonpFetch from './jsonpFetch';
  * @see getCaseDataTypes.ts
  * @see https://docs.ckan.org/en/2.8/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search
  */
-const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=455fd63b-603d-4608-8216-7d8647f43350&fields=Outcome1,Accurate_Episode_Date,Age_Group&limit=1000000';
+ const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=455fd63b-603d-4608-8216-7d8647f43350&fields=Outcome1,Accurate_Episode_Date,Age_Group&limit=1000000';
 
 /**
  * Sort ofder for age grouped data
@@ -81,10 +81,10 @@ const compileAgeStats = (records) => {
 
 	const monthyByAge = Object.entries(monthyByAgeParsed).sort(([monthA], [monthB]) => new Date(monthA) - new Date(monthB)).map(([month, monthlyByAgeGroup]) => {
 		const monthData = { month };
-		Object.values(monthlyByAgeGroup).forEach(({ ageGroup, total, deceased, resoled, active }) => {
+		Object.values(monthlyByAgeGroup).forEach(({ ageGroup, total, deceased, resolved, active }) => {
 			monthData[`${ageGroup}-total`] = total;
 			monthData[`${ageGroup}-deceased`] = deceased;
-			monthData[`${ageGroup}-resoled`] = resoled;
+			monthData[`${ageGroup}-resolved`] = resolved;
 			monthData[`${ageGroup}-active`] = active;
 		});
 
@@ -97,6 +97,8 @@ const compileAgeStats = (records) => {
 
 // Should we use localStorage to cache the results
 const useLocalStorage = typeof(Storage) !== 'undefined';
+
+const localStorageVersion = 'v3';
 
 // The key to use to store the results
 const localStorageKey = 'CACHED_getCaseDataResult';
@@ -116,7 +118,7 @@ const getCases = (fetcher = jsonpFetch) => {
 			const cachedCaseDataRaw = localStorage.getItem(localStorageKey);
 			if (cachedCaseDataRaw) {
 				const cachedCaseDataResult = JSON.parse(cachedCaseDataRaw);
-				if (currentDate.getTime() <= cachedCaseDataResult.expiry && cachedCaseDataResult.ageData) {
+				if (currentDate.getTime() <= cachedCaseDataResult.expiry && cachedCaseDataResult.ageData && cachedCaseDataResult[localStorageVersion]) {
 					// Found cached result. Use that instead of fetching new data.
 					console.log(`Using cached result data localStorage. Clear storage key ${localStorageKey} to reset.`);
 					resolve(cachedCaseDataResult.ageData);
@@ -133,6 +135,7 @@ const getCases = (fetcher = jsonpFetch) => {
 				expiryDate.setHours(currentDate.getHours() + cacheExpiryHours);
 
 				localStorage.setItem(localStorageKey, JSON.stringify({
+          [localStorageVersion]: true,
 					expiry: expiryDate.getTime(),
 					ageData,
 				}));
