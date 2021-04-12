@@ -4,6 +4,32 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/04/12',
+	update: (
+		<span>
+			Added new cases and the 7 day average for each <Link href="/phus">PHU</Link>.
+			Thanks{' '}
+			<a href="https://github.com/albertjvmO" target="_blank" rel="noopener noreferrer">
+				Albert
+			</a>
+			{' '}
+			for the pull request!
+		</span>
+	)
+}, {
+	date: '2021/04/12',
+	update: (
+		<span>
+			Optimized the query and added more plots to the <Link href="/stats">stats page</Link>.
+			Thanks{' '}
+			<a href="https://github.com/TikiTDO" target="_blank" rel="noopener noreferrer">
+				TikiTDO
+			</a>
+			{' '}
+			for the pull requests!
+		</span>
+	),
+}, {
 	date: '2021/04/09',
 	update: (
 		<span>
