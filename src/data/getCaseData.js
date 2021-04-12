@@ -98,6 +98,7 @@ const compileAgeStats = (records) => {
 // Should we use localStorage to cache the results
 const useLocalStorage = typeof(Storage) !== 'undefined';
 
+// Update this version to force a reload, regardless of exiry timeout
 const localStorageVersion = 'v3';
 
 // The key to use to store the results
