@@ -72,6 +72,25 @@ const PHUContainer = () => {
 							/>
 						<ChartContainer
 							dataSource={data}
+							title={'New cases in ' + name}
+							dataKeyX="date_string"
+							syncId="phu"
+							bars={[{
+								dataKey: 'new_cases',
+								fill: '#f9d45c',
+								name: 'New cases',
+								stackId: 'a',
+							}]}
+							lines={[{
+								dataKey: 'new_cases_rolling_average',
+								name: '7 day rolling average',
+								stroke: 'black',
+								strokeWidth: 2,
+								dot: false,
+							}]}
+							/>
+						<ChartContainer
+							dataSource={data}
 							title={'Total cases in ' + name}
 							dataKeyX="date_string"
 							syncId="phu"

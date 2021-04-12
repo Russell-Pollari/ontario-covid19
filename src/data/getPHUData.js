@@ -12,12 +12,22 @@ const getPHUdata = (phuName = '')=> {
 			const rawRecords = result.records;
 			rawRecords.sort((a, b) => new Date(a.FILE_DATE) - new Date(b.FILE_DATE));
 
+			let yesterdayTotalCases = 0;
+			let cases_last7days = [0, 0, 0, 0, 0, 0, 0];
 			const records = rawRecords.map(record => {
 				record.total_cases = record.ACTIVE_CASES + record.DEATHS + record.RESOLVED_CASES;
+				record.new_cases = Math.max(0, record.total_cases - yesterdayTotalCases);
 				record.date_string = new Date(record.FILE_DATE).toLocaleString('en-us', {
 					month: 'short',
 					day: 'numeric',
 				});
+
+				cases_last7days.shift();
+				cases_last7days.push(record.new_cases);
+				const total_cases_last7days = cases_last7days.reduce((total, cases) => cases + total, 0);
+				record.new_cases_rolling_average = Math.round(total_cases_last7days / 7);
+
+				yesterdayTotalCases = record['total_cases'];
 				return record;
 			});
 

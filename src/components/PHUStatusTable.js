@@ -2,6 +2,9 @@ import DataTable from './DataTable';
 
 const formatNumber = val => val.toLocaleString();
 
+const formatDelta = val => (
+	`${val >= 0 ? '+' : ''}${formatNumber(val)}`
+);
 
 const PHUStatusTable = ({ dataSource = [], phuName }) => {
 	const columns = [{
@@ -11,6 +14,11 @@ const PHUStatusTable = ({ dataSource = [], phuName }) => {
 		label: 'Active cases',
 		key: 'ACTIVE_CASES',
 		formatValue: formatNumber,
+	}, {
+		label: 'New Cases',
+		key: 'new_cases',
+		formatValue: formatDelta,
+		highlight: 'negative',
 	}, {
 		label: 'Total cases',
 		key: 'total_cases',
