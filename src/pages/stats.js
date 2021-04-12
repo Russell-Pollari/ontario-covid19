@@ -6,15 +6,20 @@ import Typography from '@material-ui/core/Typography';
 import getCases from '../data/getCaseData';
 import ChartContainer from '../components/ChartContainer';
 import LayoutSimple from '../components/LayoutSimple';
-import { ageStats } from '../chartConfig';
+import { ageStats, monthlyAgeBreakdowns } from '../chartConfig';
 
 
 const StatsContainer = () => {
-	const [data, setData] = useState([]);
+	const [totalByAge, setTotalByAgeData] = useState([]);
+	const [monthlyByAge, setMonthlyByAgeData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
 	const fetchData = async () => {
-		await getCases().then(setData);
+		await getCases().then((caseData) => {
+			setTotalByAgeData(caseData.totalByAge);
+			setMonthlyByAgeData(caseData.monthyByAge);
+		});
+
 		setLoading(false);
 	};
 
@@ -35,12 +40,23 @@ const StatsContainer = () => {
 					</p>
 				</div>
 			) : (
-				<ChartContainer
-					dataSource={data}
-					xAxisScale="band"
-					{...ageStats}
-				/>
+				<>
+					<ChartContainer
+						dataSource={totalByAge}
+						xAxisScale="band"
+						{...ageStats}
+					/>
+					{monthlyAgeBreakdowns.map((chart, index) =>
+						<ChartContainer
+						key={index}
+						dataSource={monthlyByAge}
+						{...chart}
+					/>
+					)}
+				</>
 			)}
+
+
 		</LayoutSimple>
 	);
 };
