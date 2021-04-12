@@ -7,7 +7,6 @@ import getCases from '../data/getCaseData';
 import ChartContainer from '../components/ChartContainer';
 import LayoutSimple from '../components/LayoutSimple';
 import { ageStats, monthlyAgeBreakdowns } from '../chartConfig';
-import { ContactSupportOutlined } from '@material-ui/icons';
 
 
 const StatsContainer = () => {
@@ -19,7 +18,7 @@ const StatsContainer = () => {
 		await getCases().then((caseData) => {
 			setTotalByAgeData(caseData.totalByAge);
 			setMonthlyByAgeData(caseData.monthyByAge);
-		})
+		});
 
 		setLoading(false);
 	};

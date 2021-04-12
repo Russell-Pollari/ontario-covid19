@@ -1,5 +1,9 @@
 /**
- * The fields returned by the API
+ * This file is purely informational. It describes the result payload for the Ontario COVID-19 outcome API.
+ */
+
+/**
+ * The various field types returned by the API
  */
 enum TimestampFields {
   Accurate_Episode_Date = "Accurate_Episode_Date",
@@ -34,15 +38,15 @@ enum EnumStringFields {
  * Enums used by EnumStringFields
  */
 enum AgeGroups {
-  under20 = "<20",
-  over20 = "20s",
-  over30 = "30s",
-  over40 = "40s",
-  over50 = "50s",
-  over60 = "60s",
-  over70 = "70s",
-  over80 = "80s",
-  over90 = "90+",
+  Under20 = "<20",
+  Over20 = "20s",
+  Over30 = "30s",
+  Over40 = "40s",
+  Over50 = "50s",
+  Over60 = "60s",
+  Over70 = "70s",
+  Over80 = "80s",
+  Over90 = "90+",
 }
 
 enum OutbreakRelated {

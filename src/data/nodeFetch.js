@@ -1,4 +1,4 @@
-import https from "https"
+import https from 'https';
 
 const nodeFetch = (url, callback) => {
   https.get(url, (result) => {
@@ -9,10 +9,10 @@ const nodeFetch = (url, callback) => {
     });
 
     result.on('end', () => {
-      callback(JSON.parse(Buffer.concat(data).toString()))
+      callback(JSON.parse(Buffer.concat(data).toString()));
     });
   }).on('error', err => {
     console.error('Error: ', err.message);
   });
-}
-export default nodeFetch
+};
+export default nodeFetch;

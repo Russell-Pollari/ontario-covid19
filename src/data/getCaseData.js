@@ -4,6 +4,7 @@ import jsonpFetch from './jsonpFetch';
  * API Fields
  *
  * @see getCaseDataTypes.ts
+ * @see https://docs.ckan.org/en/2.8/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search
  */
 const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=455fd63b-603d-4608-8216-7d8647f43350&fields=Outcome1,Accurate_Episode_Date,Age_Group&limit=1000000';
 
@@ -26,12 +27,12 @@ const ageGroups = [
  * Initialize an object with age groups in the above order
  */
 const initAgeGroupedRecord = () => {
-	const ageGroupedRecord = {}
+	const ageGroupedRecord = {};
 	ageGroups.forEach((ageGroup) => {
 		ageGroupedRecord[ageGroup] = { ageGroup, total: 0, deceased: 0, resolved: 0, active: 0 };
-	})
-	return ageGroupedRecord
-}
+	});
+	return ageGroupedRecord;
+};
 
 /**
  * Take an API response, and build a stats object
@@ -47,7 +48,7 @@ const compileAgeStats = (records) => {
 		const ageGroup = record.Age_Group;
 
 		// Only care about known age groups
-		if (ageGroup === "UNKNOWN") return;
+		if (ageGroup === 'UNKNOWN') return;
 
 		// Accurate_Episode_Date is a ISO 8601 date/time string
 		const yearMonth = record.Accurate_Episode_Date.substring(0, 7);
@@ -76,18 +77,18 @@ const compileAgeStats = (records) => {
 	});
 
 	// Convert data to arrays for recharts
-	const totalByAge = ageGroups.map((ageGroup) => totalByAgeParsed[ageGroup])
+	const totalByAge = ageGroups.map((ageGroup) => totalByAgeParsed[ageGroup]);
 
 	const monthyByAge = Object.entries(monthyByAgeParsed).sort(([monthA], [monthB]) => new Date(monthA) - new Date(monthB)).map(([month, monthlyByAgeGroup]) => {
-		const monthData = { month }
+		const monthData = { month };
 		Object.values(monthlyByAgeGroup).forEach(({ ageGroup, total, deceased, resoled, active }) => {
-			monthData[`${ageGroup}-total`] = total
-			monthData[`${ageGroup}-deceased`] = deceased
-			monthData[`${ageGroup}-resoled`] = resoled
-			monthData[`${ageGroup}-active`] = active
+			monthData[`${ageGroup}-total`] = total;
+			monthData[`${ageGroup}-deceased`] = deceased;
+			monthData[`${ageGroup}-resoled`] = resoled;
+			monthData[`${ageGroup}-active`] = active;
 		});
 
-		return monthData
+		return monthData;
 	});
 
 	return { totalByAge, monthyByAge };
@@ -95,10 +96,10 @@ const compileAgeStats = (records) => {
 
 
 // Should we use localStorage to cache the results
-const useLocalStorage = typeof(Storage) !== "undefined";
+const useLocalStorage = typeof(Storage) !== 'undefined';
 
 // The key to use to store the results
-const localStorageKey = "CACHED_getCaseDataResult";
+const localStorageKey = 'CACHED_getCaseDataResult';
 
 // How long should the cache last
 const cacheExpiryHours = 8;
@@ -117,7 +118,7 @@ const getCases = (fetcher = jsonpFetch) => {
 				const cachedCaseDataResult = JSON.parse(cachedCaseDataRaw);
 				if (currentDate.getTime() <= cachedCaseDataResult.expiry && cachedCaseDataResult.ageData) {
 					// Found cached result. Use that instead of fetching new data.
-					console.log(`Using cached result data localStorage. Clear storage key ${localStorageKey} to reset.`)
+					console.log(`Using cached result data localStorage. Clear storage key ${localStorageKey} to reset.`);
 					resolve(cachedCaseDataResult.ageData);
 					return;
 				}
