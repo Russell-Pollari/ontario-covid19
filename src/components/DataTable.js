@@ -77,12 +77,13 @@ const BasicTable = ({
 	const classes = useStyles();
 	const [rows, setRows] = useState([]);
 	const [page, setPage] = useState(0);
+	const [rowsPerPage, setRowsPerPage] = useState(4);
 
 	useEffect(() => {
-		const start = page > 0 ? page + 3 : 0;
-		const r = data.slice().reverse().slice(start, start + 4);
+		const start = page > 0 ? page + (rowsPerPage - 1) : 0;
+		const r = data.slice().reverse().slice(start, start + rowsPerPage);
 		setRows(r);
-	}, [page]);
+	}, [page, rowsPerPage]);
 
 	const handlePageChange = (event, page) => {
 		setPage(page);
@@ -113,12 +114,13 @@ const BasicTable = ({
 			</TableContainer>
 			<TablePagination
 				component="div"
-				rowsPerPage={4}
+				rowsPerPage={rowsPerPage}
 				page={page}
 				count={-1}
-				rowsPerPageOptions={[4]}
+				rowsPerPageOptions={[4, 10, 100]}
 				labelDisplayedRows={() => ''}
 				onChangePage={handlePageChange}
+				onChangeRowsPerPage={e => setRowsPerPage(e.target.value)}
 			/>
 		</ContentContainer>
 	);
