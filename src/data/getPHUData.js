@@ -11,10 +11,13 @@ const getPHUdata = (phuName = '')=> {
 		jsonpFetch(url, ({ result }) => {
 			const rawRecords = result.records;
 			rawRecords.sort((a, b) => new Date(a.FILE_DATE) - new Date(b.FILE_DATE));
+			const deDupedRecords = rawRecords.filter((record, index, array) => (
+				index === array.findIndex(other => record.FILE_DATE === other.FILE_DATE)
+			));
 
 			let yesterdayTotalCases = 0;
 			let cases_last7days = [0, 0, 0, 0, 0, 0, 0];
-			const records = rawRecords.map(record => {
+			const records = deDupedRecords.map(record => {
 				record.total_cases = record.ACTIVE_CASES + record.DEATHS + record.RESOLVED_CASES;
 				record.new_cases = Math.max(0, record.total_cases - yesterdayTotalCases);
 				record.date_string = new Date(record.FILE_DATE).toLocaleString('en-us', {
