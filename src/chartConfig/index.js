@@ -30,6 +30,14 @@ export const ontarioStatusCharts = [
 	icu,
 ];
 
+export const phuStatusCharts = [
+	activeCases,
+	totalCases,
+	newCases,
+	totalDeaths,
+	newDeaths,
+];
+
 export const vaccineCharts = [
 	dailyDoses,
 	totalDoses,

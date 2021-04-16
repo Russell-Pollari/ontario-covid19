@@ -1,6 +1,3 @@
-const hospitalField = 'Number of patients hospitalized with COVID-19';
-const icuField = 'Number of patients in ICU due to COVID-19';
-
 import DataTable from './DataTable';
 
 const formatNumber = val => {
@@ -29,7 +26,7 @@ const columns = [{
 	highlight: 'negative',
 }, {
 	label: 'Total cases',
-	key: 'Total Cases',
+	key: 'total_cases',
 	formatValue: formatNumber,
 	align: 'right',
 	headerColSpan: 2,
@@ -40,7 +37,7 @@ const columns = [{
 	highlight: 'negative',
 }, {
 	label: 'Deaths',
-	key: 'Deaths',
+	key: 'total_deaths',
 	formatValue: formatNumber,
 	align: 'right',
 	headerColSpan: 2,
@@ -51,7 +48,7 @@ const columns = [{
 	highlight: 'negative',
 }, {
 	label: 'Patients hospitalized',
-	key: hospitalField,
+	key: 'total_hospital',
 	formatValue: formatNumber,
 	align: 'right',
 	headerColSpan: 2,
@@ -62,7 +59,7 @@ const columns = [{
 	highlight: true,
 }, {
 	label: 'Patients in ICU',
-	key: icuField,
+	key: 'total_icu',
 	formatValue: formatNumber,
 	align: 'right',
 	headerColSpan: 2,
@@ -73,7 +70,7 @@ const columns = [{
 	highlight: 'negative',
 }, {
 	label: 'Variants of concern cases',
-	key: 'vocsTotal',
+	key: 'total_voc',
 	formatValue: formatNumber,
 }];
 

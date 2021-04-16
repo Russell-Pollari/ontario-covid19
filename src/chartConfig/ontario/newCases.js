@@ -7,7 +7,7 @@ const newCases = {
 		fill: '#f9d45c',
 	}],
 	lines: [{
-		dataKey: 'new_cases_rolling_average',
+		dataKey: 'avg_new_cases',
 		name: '7 day rolling average',
 		stroke: 'black',
 		strokeWidth: 2,

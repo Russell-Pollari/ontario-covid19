@@ -9,6 +9,8 @@ import ChartContainer from '../components/ChartContainer';
 import PHUStatusTable from '../components/PHUStatusTable';
 import LayoutSimple from '../components/LayoutSimple';
 
+import { phuStatusCharts } from '../chartConfig';
+
 
 const PHUContainer = () => {
 	const [name, setName] = useState('TORONTO');
@@ -58,61 +60,14 @@ const PHUContainer = () => {
 				) : (
 					<Fragment>
 						<PHUStatusTable dataSource={data} phuName={name} />
-						<ChartContainer
-							dataSource={data}
-							title={'Active cases in ' + name}
-							dataKeyX="date_string"
-							syncId="phu"
-							bars={[{
-								dataKey: 'ACTIVE_CASES',
-								fill: '#f9d45c',
-								name: 'Active cases',
-								stackId: 'a',
-							}]}
+						{phuStatusCharts.map((chart, index) => (
+							<ChartContainer
+								key={index}
+								dataSource={data}
+								syncId="phu" // This shows tooltips for all the OntarioStatuses charts
+								{...chart}
 							/>
-						<ChartContainer
-							dataSource={data}
-							title={'New cases in ' + name}
-							dataKeyX="date_string"
-							syncId="phu"
-							bars={[{
-								dataKey: 'new_cases',
-								fill: '#f9d45c',
-								name: 'New cases',
-								stackId: 'a',
-							}]}
-							lines={[{
-								dataKey: 'new_cases_rolling_average',
-								name: '7 day rolling average',
-								stroke: 'black',
-								strokeWidth: 2,
-								dot: false,
-							}]}
-							/>
-						<ChartContainer
-							dataSource={data}
-							title={'Total cases in ' + name}
-							dataKeyX="date_string"
-							syncId="phu"
-							areas={[{
-								dataKey: 'total_cases',
-								fill: '#f9d45c',
-								name: 'Total cases',
-								stackId: 'a',
-							}]}
-							/>
-						<ChartContainer
-							dataSource={data}
-							title={'Total deaths in ' + name}
-							dataKeyX="date_string"
-							syncId="phu"
-							areas={[{
-								dataKey: 'DEATHS',
-								fill: '#ef8c8c',
-								name: 'Deaths',
-								stackId: 'a',
-							}]}
-						/>
+						))}
 					</Fragment>
 				)
 			)}
