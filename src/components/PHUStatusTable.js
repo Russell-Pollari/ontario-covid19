@@ -12,21 +12,37 @@ const PHUStatusTable = ({ dataSource = [], phuName }) => {
 		key: 'date_string',
 	}, {
 		label: 'Active cases',
-		key: 'ACTIVE_CASES',
+		key: 'active_cases',
 		formatValue: formatNumber,
+		align: 'right',
+		headerColSpan: 2,
 	}, {
-		label: 'New Cases',
-		key: 'new_cases',
+		label: '',
+		key: 'new_active_cases',
 		formatValue: formatDelta,
 		highlight: 'negative',
 	}, {
 		label: 'Total cases',
 		key: 'total_cases',
 		formatValue: formatNumber,
+		align: 'right',
+		headerColSpan: 2,
+	}, {
+		label: '',
+		key: 'new_cases',
+		formatValue: formatDelta,
+		highlight: 'negative',
 	}, {
 		label: 'Deaths',
-		key: 'DEATHS',
+		key: 'total_deaths',
 		formatValue: formatNumber,
+		align: 'right',
+		headerColSpan: 2,
+	}, {
+		label: '',
+		key: 'new_deaths',
+		formatValue: formatDelta,
+		highlight: 'negative',
 	}];
 
 	return (

@@ -9,7 +9,7 @@ const updates = [{
 		<span>
 			Added new cases and the 7 day average for each <Link href="/phus">PHU</Link>.
 			Thanks{' '}
-			<a href="https://github.com/albertjvmO" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/albertjvm" target="_blank" rel="noopener noreferrer">
 				Albert
 			</a>
 			{' '}
