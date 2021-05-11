@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }) {
 		<Fragment>
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" type={publicRuntimeConfig.basePath + '/favicon.ico'} />
+				<link rel="icon" href={publicRuntimeConfig.basePath + '/favicon.ico'} />
 				<title>Covid-19 in Ontario</title>
 			</Head>
 			<Component {...pageProps} />
