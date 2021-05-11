@@ -46,6 +46,11 @@ const useStyles = makeStyles((theme) => ({
 	content: {
 		padding: theme.spacing(3),
 	},
+	logo: {
+		marginRight: 8,
+		verticalAlign: 'top',
+		display: 'inline-block',
+	}
 }));
 
 
@@ -96,6 +101,7 @@ const Layout = ({ window, menuItems = [], children }) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" noWrap className={classes.title}>
+						<img src="/favicon-32x32.png" alt="" className={classes.logo} />
 						Covid-19 in Ontario
 					</Typography>
 					<MenuTopRight />

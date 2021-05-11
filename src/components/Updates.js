@@ -4,12 +4,19 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/05/11',
+	update: (
+		<span>
+			Added a logo and favicon. Thanks to <a href="https://twitter.com/mikedrach" tagert="_blank">Mike Drach</a> for designing it!
+		</span>
+	),
+}, {
 	date: '2021/04/12',
 	update: (
 		<span>
 			Added new cases and the 7 day average for each <Link href="/phus">PHU</Link>.
 			Thanks{' '}
-			<a href="https://github.com/albertjvmO" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/albertjvm" target="_blank" rel="noopener noreferrer">
 				Albert
 			</a>
 			{' '}
