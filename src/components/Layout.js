@@ -101,7 +101,7 @@ const Layout = ({ window, menuItems = [], children }) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" noWrap className={classes.title}>
-						<img src="/favicon-32x32.png" alt="" className={classes.logo} />
+						<img src="/ontario-covid19/favicon-32x32.png" alt="" className={classes.logo} />
 						Covid-19 in Ontario
 					</Typography>
 					<MenuTopRight />
