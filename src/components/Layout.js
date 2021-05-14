@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import getConfig from 'next/config';
+
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
@@ -46,12 +48,18 @@ const useStyles = makeStyles((theme) => ({
 	content: {
 		padding: theme.spacing(3),
 	},
+	logo: {
+		marginRight: 8,
+		verticalAlign: 'top',
+		display: 'inline-block',
+	}
 }));
 
 
 const Layout = ({ window, menuItems = [], children }) => {
 	const classes = useStyles();
 	const [menuOpen, setMenuOpen] = useState(false);
+	const { publicRuntimeConfig } = getConfig();
 
 	const handleDrawerToggle = () => {
 		setMenuOpen(!menuOpen);
@@ -96,6 +104,7 @@ const Layout = ({ window, menuItems = [], children }) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" noWrap className={classes.title}>
+						<img src={publicRuntimeConfig.basePath + '/favicon-32x32.png'} alt="" className={classes.logo} />
 						Covid-19 in Ontario
 					</Typography>
 					<MenuTopRight />

@@ -4,6 +4,13 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/05/11',
+	update: (
+		<span>
+			Added a logo and favicon. Thanks to <a href="https://twitter.com/mikedrach" tagert="_blank">Mike Drach</a> for designing it!
+		</span>
+	),
+}, {
 	date: '2021/04/12',
 	update: (
 		<span>

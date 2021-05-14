@@ -10,7 +10,11 @@ const getPHUdata = (phuName = '')=> {
 
 	return new Promise((resolve) => {
 		jsonpFetch(url, ({ result }) => {
-			resolve(processPHURecords(result.records));
+			resolve(processPHURecords(result.records.filter(
+        (record, index, array) => (
+				  index === array.findIndex(other => record.FILE_DATE === other.FILE_DATE)
+			  )
+      )));
 		});
 	});
 };

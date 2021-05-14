@@ -3,6 +3,13 @@ import jsonpFetch from './jsonpFetch';
 const dataUrl =
   'https://data.ontario.ca/api/3/action/datastore_search?resource_id=8a89caa9-511c-4568-af89-7f2174b4378c&limit=100000';
 
+const ensureNumber = (value) => {
+    if (typeof value === 'number') {
+        return value;
+    }
+    return Number((value || '0').replace(/,/g, ''));
+};
+
 const getVaccineData = () =>
   new Promise((resolve) => {
     jsonpFetch(dataUrl, ({ result }) => {
@@ -52,10 +59,9 @@ const getVaccineData = () =>
           month: 'short',
           day: 'numeric',
         });
-        record.total_doses_administered = Number(total_doses_administered.replace(/,/g, ''));
-        record.previous_day_doses_administered = Number((previous_day_doses_administered || '0').replace(/,/g, ''));
-        record.total_individuals_fully_vaccinated = Number((total_individuals_fully_vaccinated || '0').replace(/,/g, ''));
-
+        record.total_doses_administered = ensureNumber(total_doses_administered);
+        record.previous_day_doses_administered = ensureNumber(previous_day_doses_administered);
+        record.total_individuals_fully_vaccinated = ensureNumber(total_individuals_fully_vaccinated);
 
         vaccines_last7days.shift();
         vaccines_last7days.push(record.previous_day_doses_administered);
