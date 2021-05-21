@@ -6,8 +6,8 @@ const VaccinationStatus = ({ data = [] }) => {
 		return null;
 	}
 	// Population estimates on July 1st 2020 according to Statistics Canada
-	const populationBetween12and18 = 961342
-	const adultPopulation = 11971129
+	const populationBetween12and18 = 961342;
+	const adultPopulation = 11971129;
 	const eligiblePopulation = populationBetween12and18 + adultPopulation;
 
 	const lastUpdate = data[data.length - 1];
