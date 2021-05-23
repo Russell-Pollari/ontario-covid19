@@ -70,7 +70,7 @@ const getVaccineData = () =>
         const total_doses_in_fully_vax = ensureNumber(total_doses_in_fully_vaccinated_individuals);
         
         // Calculate one-shot doses given (JnJ vaccine)
-        let total_one_shot_doses_administered = (record.total_individuals_fully_vaccinated - (total_doses_in_fully_vax/2)) * 2;
+        let total_one_shot_doses_administered = (record.total_individuals_fully_vaccinated - (total_doses_in_fully_vax / 2)) * 2;
         total_one_shot_doses_administered = total_one_shot_doses_administered > 1 ? total_one_shot_doses_administered : 0;
         
         let daily_one_shot_doses_administered = total_one_shot_doses_administered - previous_total_one_shot_doses_administered;
