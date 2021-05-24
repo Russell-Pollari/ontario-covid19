@@ -38,7 +38,7 @@ const ChartContainer = ({
 					/>
 					<Tooltip formatter={(value) => value.toLocaleString()} />
 					{bars.map(bar => (
-						<Bar key={bar.dataKey} {...bar} />
+						<Bar key={bar.dataKey} stackId='a' {...bar} />
 					))}
 					{lines.map((line) => (
 						<Line key={line.dataKey} {...line} />
