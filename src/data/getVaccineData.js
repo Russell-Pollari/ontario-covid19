@@ -66,24 +66,21 @@ const getVaccineData = () =>
         record.total_doses_administered = ensureNumber(total_doses_administered);
         record.previous_day_doses_administered = ensureNumber(previous_day_doses_administered);
         record.total_individuals_fully_vaccinated = ensureNumber(total_individuals_fully_vaccinated);
-        
+
         const total_doses_in_fully_vax = ensureNumber(total_doses_in_fully_vaccinated_individuals);
-        
+
         // Calculate one-shot doses given (JnJ vaccine)
-        let total_one_shot_doses_administered = (record.total_individuals_fully_vaccinated - (total_doses_in_fully_vax / 2)) * 2;
-        total_one_shot_doses_administered = total_one_shot_doses_administered > 1 ? total_one_shot_doses_administered : 0;
-        
-        let daily_one_shot_doses_administered = total_one_shot_doses_administered - previous_total_one_shot_doses_administered;
-        daily_one_shot_doses_administered = daily_one_shot_doses_administered > 0 ? daily_one_shot_doses_administered : 0;
+        const total_one_shot_doses_administered = ensureNumber((record.total_individuals_fully_vaccinated - (total_doses_in_fully_vax / 2)) * 2);
+        const daily_one_shot_doses_administered = ensureNumber(total_one_shot_doses_administered - previous_total_one_shot_doses_administered);
         previous_total_one_shot_doses_administered = total_one_shot_doses_administered;
 
         // Calculate second doses given
-        let total_second_doses_administered = Math.floor((total_doses_in_fully_vax - total_one_shot_doses_administered) / 2);
+        const total_second_doses_administered = Math.floor((total_doses_in_fully_vax - total_one_shot_doses_administered) / 2);
         const daily_second_doses_administered = total_second_doses_administered - previous_total_second_doses_administered;
         previous_total_second_doses_administered = total_second_doses_administered;
 
-        // Calculate first doses given 
-        const daily_first_doses_administered = record.previous_day_doses_administered - (daily_second_doses_administered + daily_one_shot_doses_administered); 
+        // Calculate first doses given
+        const daily_first_doses_administered = record.previous_day_doses_administered - (daily_second_doses_administered + daily_one_shot_doses_administered);
 
         record.previous_day_one_shot_doses_administered = daily_one_shot_doses_administered;
         record.previous_day_second_doses_administered = daily_second_doses_administered;
