@@ -4,7 +4,7 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
-	date: '2021/05-24',
+	date: '2021/05/24',
 	update: (
 		<span>
 			Breaking down <Link href="/vaccinations#Daily%20vaccines%20administered">daily vaccines</Link> by type of dose. Thanks{' '}
