@@ -4,6 +4,9 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/05/28',
+	update: 'Added a plot showing the estimated reproduction number—how many new people each confirmed case will infect (above 1 = bad, below 1 = good).'
+}, {
 	date: '2021/05/24',
 	update: (
 		<span>

@@ -12,6 +12,8 @@ import totalDoses from './vaccinations/totalDoses';
 import dailyDoses from './vaccinations/dailyDoses';
 import totalVaccinated from './vaccinations/totalVaccinated';
 
+import reChart from './re/re';
+
 import ageBreakdown, {
   youngerMonthlyDeathBreakdown,
   olderMonthlyDeathBreakdown,
@@ -43,3 +45,5 @@ export const monthlyAgeBreakdowns = [
   olderMonthlyDeathBreakdown,
   monthlyRecoveryBreakdown,
 ];
+
+export const re = reChart;
