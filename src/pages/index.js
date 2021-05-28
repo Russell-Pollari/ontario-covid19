@@ -9,15 +9,19 @@ import ChartContainer from '../components/ChartContainer';
 import AboutBlurb from '../components/AboutBlurb';
 
 import getOntarioStatuses from '../data/getOntarioStatuses';
-import { ontarioStatusCharts } from '../chartConfig';
+import getReData from '../data/getReData';
+import { ontarioStatusCharts, re } from '../chartConfig';
 
 
 function HomePage() {
+	const [reData, setReData] = useState();
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
 	const fetchData = async () => {
+		getReData().then(setReData);
 		await getOntarioStatuses().then(setData);
+
 		setLoading(false);
 	};
 
@@ -28,6 +32,9 @@ function HomePage() {
 	const menuItems = [{
 		title: 'Summary',
 		href: '#',
+	}, {
+		title: re.title,
+		href: `#${re.title}`,
 	},
 	...ontarioStatusCharts.map(chart => ({
 		title: chart.title,
@@ -53,6 +60,7 @@ function HomePage() {
 			) : (
 				<Fragment>
 					<OntarioStatusTable dataSource={data} />
+					<ChartContainer {...re} dataSource={reData} />
 					{ontarioStatusCharts.map((chart, index) => (
 						<ChartContainer
 							key={index}

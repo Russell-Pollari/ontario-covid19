@@ -1,7 +1,7 @@
 import {
 	Area, ComposedChart, Bar, Line,
 	XAxis, YAxis, CartesianGrid,
-	Tooltip, ResponsiveContainer, Legend
+	Tooltip, ResponsiveContainer, Legend, ErrorBar, Label,
 } from 'recharts';
 
 import ContentContainer from './ContentContainer';
@@ -16,6 +16,7 @@ const ChartContainer = ({
 	title,
 	syncId,
 	xAxisScale,
+	xLabel,
 }) => {
 	return (
 		<ContentContainer title={title}>
@@ -30,18 +31,26 @@ const ChartContainer = ({
 						/>
 					)}
 					<CartesianGrid vertical={false} />
-					<XAxis dataKey={dataKeyX} scale={xAxisScale} />
+					<XAxis dataKey={dataKeyX} scale={xAxisScale}>
+						{xLabel && (
+							<Label value={xLabel} position="insideBottom" />
+						)}
+					</XAxis>
 					<YAxis
 						type="number"
 						domain={[0, 'auto']}
 						tickFormatter={tick => tick.toLocaleString()}
 					/>
-					<Tooltip formatter={(value) => value.toLocaleString()} />
+					<Tooltip formatter={(value) => value.toLocaleString()} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
 					{bars.map(bar => (
 						<Bar key={bar.dataKey} stackId='a' {...bar} />
 					))}
 					{lines.map((line) => (
-						<Line key={line.dataKey} {...line} />
+						<Line key={line.dataKey} {...line}>
+							{line.errorBarKey && (
+								<ErrorBar dataKey="error_bars" direction="y" width={2} />
+							)}
+						</Line>
 					))}
 					{areas.map((area) => (
 						<Area key={area.dataKey} {...area} />
