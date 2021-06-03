@@ -55,7 +55,7 @@ const getVaccineData = () =>
         const {
           report_date,
           total_doses_administered,
-          previous_day_doses_administered,
+          previous_day_total_doses_administered,
           total_doses_in_fully_vaccinated_individuals,
           total_individuals_fully_vaccinated,
         } = record;
@@ -64,7 +64,7 @@ const getVaccineData = () =>
           day: 'numeric',
         });
         record.total_doses_administered = ensureNumber(total_doses_administered);
-        record.previous_day_doses_administered = ensureNumber(previous_day_doses_administered);
+        record.previous_day_total_doses_administered = ensureNumber(previous_day_total_doses_administered);
         record.total_individuals_fully_vaccinated = ensureNumber(total_individuals_fully_vaccinated);
 
         const total_doses_in_fully_vax = ensureNumber(total_doses_in_fully_vaccinated_individuals);
@@ -80,14 +80,14 @@ const getVaccineData = () =>
         previous_total_second_doses_administered = total_second_doses_administered;
 
         // Calculate first doses given
-        const daily_first_doses_administered = record.previous_day_doses_administered - (daily_second_doses_administered + daily_one_shot_doses_administered);
+        const daily_first_doses_administered = record.previous_day_total_doses_administered - (daily_second_doses_administered + daily_one_shot_doses_administered);
 
         record.previous_day_one_shot_doses_administered = daily_one_shot_doses_administered;
         record.previous_day_second_doses_administered = daily_second_doses_administered;
         record.previous_day_first_doses_administered =  daily_first_doses_administered;
 
         vaccines_last7days.shift();
-        vaccines_last7days.push(record.previous_day_doses_administered);
+        vaccines_last7days.push(record.previous_day_total_doses_administered);
         const total_vaccines_last7days = vaccines_last7days.reduce((total, cases) => cases + total, 0);
         record.new_vaccines_rolling_average = Math.round(total_vaccines_last7days / 7);
 
