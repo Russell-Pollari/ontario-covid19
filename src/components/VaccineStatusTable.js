@@ -15,7 +15,7 @@ const columns = [{
 	formatValue: formatNumber,
 }, {
 	label: 'Daily vaccines',
-	key: 'previous_day_doses_administered',
+	key: 'previous_day_total_doses_administered',
 	formatValue: formatDelta,
 	highlight: 'positive',
 }, {
