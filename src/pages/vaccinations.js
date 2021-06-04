@@ -58,7 +58,7 @@ const VaccinationsContainer = () => {
 						<VaccinationStatus data={data} />
 						<VaccineStatusTable dataSource={data} />
 						{vaccineCharts.map((chart, index) => {
-							if (chart.dataKeyX == "Agegroup") {
+							if (chart.dataKeyX == 'Agegroup') {
 								return <ChartContainer
 													key={index}
 													dataSource={ageData}
@@ -66,14 +66,14 @@ const VaccinationsContainer = () => {
 													xAxisScale="band"
 													valueSuffix="%"
 													{...chart}
-												/>
+												/>;
 							} else {
 								return <ChartContainer
 													key={index}
 													dataSource={data}
 													syncId="vaccineCharts"
 													{...chart}
-												/>
+												/>;
 							}
 						})}
 					</Fragment>

@@ -12,22 +12,22 @@ const ensureNumber = (value) => {
 
 const beautifyAge = (age) => {
   switch (age) {
-    case "12-17yrs":
-      return "12-17";
-    case "18-29yrs":
-      return "18-29";
-    case "30-39yrs":
-      return "30s";
-    case "40-49yrs":
-      return "40s";
-    case "50-59yrs":
-      return "50s";
-    case "60-69yrs":
-      return "60s"
-    case "70-79yrs":
-      return "70s";
-    case "Adults_18plus":
-      return "18+";
+    case '12-17yrs':
+      return '12-17';
+    case '18-29yrs':
+      return '18-29';
+    case '30-39yrs':
+      return '30s';
+    case '40-49yrs':
+      return '40s';
+    case '50-59yrs':
+      return '50s';
+    case '60-69yrs':
+      return '60s';
+    case '70-79yrs':
+      return '70s';
+    case 'Adults_18plus':
+      return '18+';
     default: 
       return age;
   }
@@ -36,7 +36,7 @@ const beautifyAge = (age) => {
 const getVaccineAgeData = () =>
   new Promise((resolve) => {
     jsonpFetch(dataUrl, ({ result }) => {
-      const records = result.records.filter(a => a.Agegroup != "Undisclosed_or_missing");
+      const records = result.records.filter(a => a.Agegroup != 'Undisclosed_or_missing');
       records.sort((a, b) => a._id - b._id);
 
       records.map((record) => {
@@ -46,13 +46,13 @@ const getVaccineAgeData = () =>
           Percent_fully_vaccinated
         } = record;
         
-        record.Agegroup = beautifyAge(Agegroup)
+        record.Agegroup = beautifyAge(Agegroup);
         
         record.Percent_at_least_one_dose = ensureNumber(Percent_at_least_one_dose) * 100;
         record.Percent_fully_vaccinated = ensureNumber(Percent_fully_vaccinated) * 100;
 
-        record.percent_partially_vaccinated = record.Percent_at_least_one_dose - record.Percent_fully_vaccinated
-        record.percent_not_vaccinated = 100 - (record.Percent_at_least_one_dose)
+        record.percent_partially_vaccinated = record.Percent_at_least_one_dose - record.Percent_fully_vaccinated;
+        record.percent_not_vaccinated = 100 - (record.Percent_at_least_one_dose);
 
         return record;
       });
