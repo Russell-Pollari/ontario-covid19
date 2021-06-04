@@ -17,6 +17,7 @@ const ChartContainer = ({
 	syncId,
 	xAxisScale,
 	xLabel,
+	valueSuffix = '',
 }) => {
 	return (
 		<ContentContainer title={title}>
@@ -39,9 +40,9 @@ const ChartContainer = ({
 					<YAxis
 						type="number"
 						domain={[0, 'auto']}
-						tickFormatter={tick => tick.toLocaleString()}
+						tickFormatter={tick => tick.toLocaleString() + valueSuffix}
 					/>
-					<Tooltip formatter={(value) => value.toLocaleString()} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
+					<Tooltip formatter={(value) => value.toLocaleString() + valueSuffix} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
 					{bars.map(bar => (
 						<Bar key={bar.dataKey} stackId='a' {...bar} />
 					))}
