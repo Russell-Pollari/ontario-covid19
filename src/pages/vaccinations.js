@@ -8,17 +8,20 @@ import VaccinationStatus from '../components/VaccinationStatus';
 import VaccineStatusTable from '../components/VaccineStatusTable';
 
 import getVaccineData from '../data/getVaccineData';
+import getVaccineAgeData from '../data/getVaccineAgeData';
 import { vaccineCharts } from '../chartConfig';
 
 
 const VaccinationsContainer = () => {
 	const [data, setData] = useState([]);
+	const [ageData, setAgeData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
-	const fetchData = () => {
-		getVaccineData()
-			.then(setData)
-			.then(() => setLoading(false));
+	const fetchData = async () => {
+		getVaccineAgeData().then(setAgeData);
+		await getVaccineData().then(setData);
+
+		setLoading(false);
 	};
 
 	useEffect(() => {
@@ -54,14 +57,25 @@ const VaccinationsContainer = () => {
 					<Fragment>
 						<VaccinationStatus data={data} />
 						<VaccineStatusTable dataSource={data} />
-						{vaccineCharts.map((chart, index) => (
-							<ChartContainer
-								key={index}
-								dataSource={data}
-								syncId="vaccineCharts"
-								{...chart}
-							/>
-						))}
+						{vaccineCharts.map((chart, index) => {
+							if (chart.dataKeyX == 'Agegroup') {
+								return <ChartContainer
+													key={index}
+													dataSource={ageData}
+													syncId="vaccineAgeCharts"
+													xAxisScale="band"
+													valueSuffix="%"
+													{...chart}
+												/>;
+							} else {
+								return <ChartContainer
+													key={index}
+													dataSource={data}
+													syncId="vaccineCharts"
+													{...chart}
+												/>;
+							}
+						})}
 					</Fragment>
 				)}
 			</div>
