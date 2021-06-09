@@ -2,7 +2,7 @@ const hospitalized = {
 	title: 'Patients hospitalized',
 	dataKeyX: 'date_string',
 	bars: [{
-		dataKey: 'Number of patients hospitalized with COVID-19',
+		dataKey: 'total_hospital',
 		name: 'Patients hospitalized',
 		fill: '#ef8c8c',
 	}],

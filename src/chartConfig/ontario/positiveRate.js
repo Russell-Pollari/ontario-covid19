@@ -2,12 +2,12 @@ const positiveRate = {
 	title: 'Percent positive',
 	dataKeyX: 'date_string',
 	bars: [{
-		dataKey: 'percent_positive',
+		dataKey: 'new_percent_pos',
 		name: 'Percent positive',
 		fill: '#509ee3',
 	}],
 	lines: [ {
-		dataKey: 'tests_positive_rolling_average',
+		dataKey: 'avg_percent_pos',
 		name: '7 day rolling average',
 		stroke: 'black',
 		strokeWidth: 2,
