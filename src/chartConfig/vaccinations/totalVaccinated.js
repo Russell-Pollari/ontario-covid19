@@ -3,7 +3,7 @@ const totalVaccinated = {
 	title: 'Total people fully vaccinated',
 	areas: [{
 		dataKey: 'total_individuals_fully_vaccinated',
-		name: 'Total people fully vacincated',
+		name: 'Total people fully vaccinated',
 		fill: '#509ee3',
 	}]
 };
