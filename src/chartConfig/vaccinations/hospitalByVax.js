@@ -3,7 +3,7 @@ import vaccineCharts from './vaccineChartIDs';
 const hospitalByVax = {
   id: vaccineCharts.hospitalByVax,
   dataKeyX: 'date',
-  title: 'Hospital Occupancy by Vaccine Status (per million)',
+  title: 'Hospital occupancy by vaccination status (per million)',
   areas: [
     {
       dataKey: 'hosp_full_vax_per_mil',

@@ -79,7 +79,10 @@ const getVaxRateData = () => {
         } = record;
 
         const date = new Date(report_date);
-        date.setDate(date.getDate()+vaxEffectDelay);
+
+        // Adjust date to reflect the 14 day delay the vaccine need to take effect
+        date.setDate(date.getDate() + vaxEffectDelay);
+
         let modifiedRecord = {
           date: dateFormatter(date),
           full_vax_individuals: ensureNumber(total_individuals_fully_vaccinated),

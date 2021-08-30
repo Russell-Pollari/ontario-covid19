@@ -3,7 +3,7 @@ import vaccineCharts from './vaccineChartIDs';
 const icuByVax = {
   id: vaccineCharts.icuByVax,
   dataKeyX: 'date',
-  title: 'ICU Occupancy by Vaccine Status (per million)',
+  title: 'ICU occupancy by vaccination status (per million)',
   areas: [
     {
       dataKey: 'icu_full_vax_per_mil',

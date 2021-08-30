@@ -3,7 +3,7 @@ import vaccineCharts from './vaccineChartIDs';
 const casesByVax = {
   id: vaccineCharts.casesByVax,
   dataKeyX: 'date',
-  title: 'Cases By Vaccine Status (per million)',
+  title: 'Cases by vaccination status (per million)',
   areas: [
     {
       dataKey: 'cases_full_vax_per_mil',
