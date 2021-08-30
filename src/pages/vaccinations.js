@@ -6,20 +6,24 @@ import Layout from '../components/Layout';
 import ChartContainer from '../components/ChartContainer';
 import VaccinationStatus from '../components/VaccinationStatus';
 import VaccineStatusTable from '../components/VaccineStatusTable';
+import VaccineEffectTable from '../components/VaccineEffectTable';
 
 import getVaccineData from '../data/getVaccineData';
 import getVaccineAgeData from '../data/getVaccineAgeData';
+import getVaccineEffectData from '../data/getVaccineEffectData';
 import { vaccineCharts } from '../chartConfig';
-
+import chartIDs from '../chartConfig/vaccinations/vaccineChartIDs';
 
 const VaccinationsContainer = () => {
 	const [data, setData] = useState([]);
 	const [ageData, setAgeData] = useState([]);
+	const [vaxEffectData, setVaxEffectData] = useState({});
 	const [loading, setLoading] = useState(true);
-
+	
 	const fetchData = async () => {
-		getVaccineAgeData().then(setAgeData);
+		await getVaccineAgeData().then(setAgeData);
 		await getVaccineData().then(setData);
+		await getVaccineEffectData().then(setVaxEffectData);
 
 		setLoading(false);
 	};
@@ -37,6 +41,8 @@ const VaccinationsContainer = () => {
 			href: `#${title}`,
 		}))
 	];
+
+	const vaxEffectFootnote = <Fragment>* This data is population adjusted. <br/>* Population denominators are calculated based on daily dose history.<br/>* <b>Fully vaccinated</b> = 14 days after 2nd dose<br/>* <b>Partially vaccinated</b> = 14 days after 1st dose and &lt;14 days after 2nd dose.</Fragment>;
 
 	return (
 		<Layout menuItems={menuItems}>
@@ -57,24 +63,37 @@ const VaccinationsContainer = () => {
 					<Fragment>
 						<VaccinationStatus data={data} />
 						<VaccineStatusTable dataSource={data} />
+						<VaccineEffectTable dataSource={vaxEffectData.avg} />
 						{vaccineCharts.map((chart, index) => {
-							if (chart.dataKeyX == 'Agegroup') {
-								return <ChartContainer
-													key={index}
-													dataSource={ageData}
-													syncId="vaccineAgeCharts"
-													xAxisScale="band"
-													valueSuffix="%"
-													{...chart}
-												/>;
+							let dataSource, syncId, xAxisScale, valueSuffix, footnote, roundUpYAxisMax;
+							if (chart.id == chartIDs.vaccinatedByAge) {
+								dataSource = ageData;
+								syncId = 'vaccineAgeCharts';
+								xAxisScale = 'band';
+								valueSuffix = '%';
+							} else if ([chartIDs.casesByVax, chartIDs.hospitalByVax, chartIDs.icuByVax].includes(chart.id)) {
+								dataSource = vaxEffectData.all;
+								if ([chartIDs.hospitalByVax, chartIDs.icuByVax].includes(chart.id)) {
+									dataSource = dataSource.filter(item => item.hosp_unvax_per_mil != null);
+								}
+								xAxisScale = 'band';
+								roundUpYAxisMax = true;
+								footnote = vaxEffectFootnote;
 							} else {
-								return <ChartContainer
-													key={index}
-													dataSource={data}
-													syncId="vaccineCharts"
-													{...chart}
-												/>;
+								dataSource = data;
+								syncId = 'vaccineCharts';
 							}
+
+							return <ChartContainer
+												key={index}
+												dataSource={dataSource}
+												syncId={syncId}
+												xAxisScale={xAxisScale}
+												footnote={footnote}
+												roundUpYAxisMax={roundUpYAxisMax}
+												valueSuffix={valueSuffix}
+												{...chart}
+											/>;
 						})}
 					</Fragment>
 				)}

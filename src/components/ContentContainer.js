@@ -11,7 +11,7 @@ const useStyles = makeStyles({
 });
 
 
-const ContentContainer = ({ title, children }) => {
+const ContentContainer = ({ title, children, footnote }) => {
 	const classes = useStyles();
 
 	return (
@@ -22,6 +22,10 @@ const ContentContainer = ({ title, children }) => {
 				</Typography>
 			)}
 			{children}
+			<br/>
+			<Typography variant="subtitle1">
+				{footnote}
+			</Typography>
 		</Paper>
 	);
 };

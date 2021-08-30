@@ -12,6 +12,9 @@ import totalDoses from './vaccinations/totalDoses';
 import dailyDoses from './vaccinations/dailyDoses';
 import totalVaccinated from './vaccinations/totalVaccinated';
 import vaccinatedByAge from './vaccinations/vaccinatedByAge';
+import casesByVax from './vaccinations/casesByVax';
+import hospitalByVax from './vaccinations/hospitalByVax';
+import icuByVax from './vaccinations/icuByVax';
 
 import reChart from './re/re';
 
@@ -34,6 +37,9 @@ export const ontarioStatusCharts = [
 ];
 
 export const vaccineCharts = [
+	casesByVax,
+	hospitalByVax,
+	icuByVax,
 	dailyDoses,
 	vaccinatedByAge,
 	totalDoses,

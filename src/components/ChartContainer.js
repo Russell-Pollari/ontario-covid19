@@ -18,9 +18,17 @@ const ChartContainer = ({
 	xAxisScale,
 	xLabel,
 	valueSuffix = '',
+	roundUpYAxisMax = false,
+	footnote = ''
 }) => {
+
+	let domain = [0, 'auto'];
+	if (roundUpYAxisMax) {
+		domain = [0, dataMax => Math.ceil(dataMax / 2) * 2];
+	}
+
 	return (
-		<ContentContainer title={title}>
+		<ContentContainer title={title} footnote={footnote}>
 			<span className="relative top--72" id={title} />
 			<ResponsiveContainer width="95%" height={400} className="mt16">
 				<ComposedChart data={dataSource} syncId={syncId} >
@@ -39,7 +47,7 @@ const ChartContainer = ({
 					</XAxis>
 					<YAxis
 						type="number"
-						domain={[0, 'auto']}
+						domain={domain}
 						tickFormatter={tick => tick.toLocaleString() + valueSuffix}
 					/>
 					<Tooltip formatter={(value) => value.toLocaleString() + valueSuffix} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
