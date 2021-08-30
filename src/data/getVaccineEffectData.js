@@ -1,8 +1,8 @@
 import jsonpFetch from './jsonpFetch';
 
-const hospitalsVaxResourceID = "274b819c-5d69-4539-a4db-f2950794138c";
-const casesVaxResourceID = "eed63cf2-83dd-4598-b337-b288c0a89a16";
-const vaxRatesResourceID = "8a89caa9-511c-4568-af89-7f2174b4378c";
+const hospitalsVaxResourceID = '274b819c-5d69-4539-a4db-f2950794138c';
+const casesVaxResourceID = 'eed63cf2-83dd-4598-b337-b288c0a89a16';
+const vaxRatesResourceID = '8a89caa9-511c-4568-af89-7f2174b4378c';
 
 // https://www.ontario.ca/page/ontario-demographic-quarterly-highlights-first-quarter
 const ontarioPopulation = 14789778;
@@ -12,7 +12,7 @@ const vaxEffectDelay = 14;
 
 
 const dataURL = (resourceID) => {
-  return `https://data.ontario.ca/api/3/action/datastore_search?resource_id=${resourceID}&limit=100000`
+  return `https://data.ontario.ca/api/3/action/datastore_search?resource_id=${resourceID}&limit=100000`;
 };
 
 const ensureNumber = (value) => {
@@ -24,11 +24,11 @@ const ensureNumber = (value) => {
 
 const dateFormatter = (date) => {
   if(typeof date === 'string') {
-    return new Date(date).toLocaleDateString("en-US")
+    return new Date(date).toLocaleDateString('en-US');
   } else if (date instanceof Date){
-    return date.toLocaleDateString("en-US")
+    return date.toLocaleDateString('en-US');
   } else {
-    return ""
+    return '';
   }
 };
 
@@ -162,17 +162,17 @@ const getHospitalData = () => {
   });
 };
 
-const getVaccineEffectData = () => {
-  return new Promise(async (resolve) => {
-    let vaxRates = [];
-    let hospitalData = [];
-    let casesData = [];
+const getVaccineEffectData = async () => {
+  let vaxRates = [];
+  let hospitalData = [];
+  let casesData = [];
 
-    // Fetch all 3 data sets from the different sources 
-    await getVaxRateData().then(result => vaxRates = result);
-    await getHospitalData().then(result => hospitalData = result);
-		await getCasesData().then(result => casesData = result);
-    
+  // Fetch all 3 data sets from the different sources 
+  await getVaxRateData().then(result => vaxRates = result);
+  await getHospitalData().then(result => hospitalData = result);
+  await getCasesData().then(result => casesData = result);
+
+  return new Promise((resolve) => {
     let finalData = [];
 
     // Do some calculations on the data + combine them all into one array
@@ -182,28 +182,28 @@ const getVaccineEffectData = () => {
       const vaxRateItem = vaxRates.find(item => item.date == currentDate);
       const million = 1000000;
 
-      const cases_unvax_per_mil = (casesItem.cases_unvax/vaxRateItem.unvax_individuals) * million;
-      const cases_partial_vax_per_mil = (casesItem.cases_partial_vax/vaxRateItem.partial_vax_individuals) * million;
-      const cases_full_vax_per_mil = (casesItem.cases_full_vax/vaxRateItem.full_vax_individuals) * million;
-      const cases_partial_effect = (1-(cases_partial_vax_per_mil/cases_unvax_per_mil)) * 100;
-      const cases_full_effect = (1-(cases_full_vax_per_mil/cases_unvax_per_mil)) * 100;
+      const cases_unvax_per_mil = (casesItem.cases_unvax / vaxRateItem.unvax_individuals) * million;
+      const cases_partial_vax_per_mil = (casesItem.cases_partial_vax / vaxRateItem.partial_vax_individuals) * million;
+      const cases_full_vax_per_mil = (casesItem.cases_full_vax / vaxRateItem.full_vax_individuals) * million;
+      const cases_partial_effect = (1-(cases_partial_vax_per_mil / cases_unvax_per_mil)) * 100;
+      const cases_full_effect = (1-(cases_full_vax_per_mil / cases_unvax_per_mil)) * 100;
 
       let hosp_unvax_per_mil, hosp_partial_vax_per_mil, hosp_full_vax_per_mil, hosp_partial_effect, hosp_full_effect;
       let icu_unvax_per_mil, icu_partial_vax_per_mil, icu_full_vax_per_mil, icu_partial_effect, icu_full_effect;
 
       // Hospital and ICU data is not reported on weekends
       if (hospitalItem != null) {
-        hosp_unvax_per_mil = (hospitalItem.hosp_unvax/vaxRateItem.unvax_individuals) * million;
-        hosp_partial_vax_per_mil = (hospitalItem.hosp_partial_vax/vaxRateItem.partial_vax_individuals) * million;
-        hosp_full_vax_per_mil = (hospitalItem.hosp_full_vax/vaxRateItem.full_vax_individuals) * million;
-        hosp_partial_effect = (1-(hosp_partial_vax_per_mil/hosp_unvax_per_mil)) * 100;
-        hosp_full_effect = (1-(hosp_full_vax_per_mil/hosp_unvax_per_mil)) * 100;
+        hosp_unvax_per_mil = (hospitalItem.hosp_unvax / vaxRateItem.unvax_individuals) * million;
+        hosp_partial_vax_per_mil = (hospitalItem.hosp_partial_vax / vaxRateItem.partial_vax_individuals) * million;
+        hosp_full_vax_per_mil = (hospitalItem.hosp_full_vax / vaxRateItem.full_vax_individuals) * million;
+        hosp_partial_effect = (1-(hosp_partial_vax_per_mil / hosp_unvax_per_mil)) * 100;
+        hosp_full_effect = (1-(hosp_full_vax_per_mil / hosp_unvax_per_mil)) * 100;
 
-        icu_unvax_per_mil = (hospitalItem.icu_unvax/vaxRateItem.unvax_individuals) * million;
-        icu_partial_vax_per_mil = (hospitalItem.icu_partial_vax/vaxRateItem.partial_vax_individuals) * million;
-        icu_full_vax_per_mil = (hospitalItem.icu_full_vax/vaxRateItem.full_vax_individuals) * million;
-        icu_partial_effect = (1-(icu_partial_vax_per_mil/icu_unvax_per_mil)) * 100;
-        icu_full_effect = (1-(icu_full_vax_per_mil/icu_unvax_per_mil)) * 100;
+        icu_unvax_per_mil = (hospitalItem.icu_unvax / vaxRateItem.unvax_individuals) * million;
+        icu_partial_vax_per_mil = (hospitalItem.icu_partial_vax / vaxRateItem.partial_vax_individuals) * million;
+        icu_full_vax_per_mil = (hospitalItem.icu_full_vax / vaxRateItem.full_vax_individuals) * million;
+        icu_partial_effect = (1-(icu_partial_vax_per_mil / icu_unvax_per_mil)) * 100;
+        icu_full_effect = (1-(icu_full_vax_per_mil / icu_unvax_per_mil)) * 100;
       }
 
       const shortDate = new Date(currentDate).toLocaleString('en-us', {
@@ -247,15 +247,15 @@ const getVaccineEffectData = () => {
     const last_7_days_cases = finalData.slice(-7);
 
     last_7_days_cases.forEach((item) => {
-      cases_partial_effect_total += item.cases_partial_effect
-      cases_full_effect_total += item.cases_full_effect
+      cases_partial_effect_total += item.cases_partial_effect;
+      cases_full_effect_total += item.cases_full_effect;
     })
 
     last_7_days_hosp.forEach((item) => {
-      icu_partial_effect_total += item.icu_partial_effect
-      icu_full_effect_total += item.icu_full_effect
-      hosp_partial_effect_total += item.hosp_partial_effect
-      hosp_full_effect_total += item.hosp_full_effect
+      icu_partial_effect_total += item.icu_partial_effect;
+      icu_full_effect_total += item.icu_full_effect;
+      hosp_partial_effect_total += item.hosp_partial_effect;
+      hosp_full_effect_total += item.hosp_full_effect;
     })
 
     const icu_partial_effect_average = Math.round(icu_partial_effect_total / 7);
@@ -267,23 +267,23 @@ const getVaccineEffectData = () => {
 
     let avg_effect_data = [
       {
-        type: "ICU", 
+        type: 'ICU', 
         partial: icu_partial_effect_average,
         full: icu_full_effect_average
       },
       {
-        type: "Hospitalization", 
+        type: 'Hospitalization', 
         partial: hosp_partial_effect_average,
         full: hosp_full_effect_average
       },
       {
-        type: "Cases", 
+        type: 'Cases', 
         partial: cases_partial_effect_average,
         full: cases_full_effect_average
       },
-    ]
+    ];
  
-    resolve({all: finalData, avg: avg_effect_data})
+    resolve({ all: finalData, avg: avg_effect_data });
   });
 };
 

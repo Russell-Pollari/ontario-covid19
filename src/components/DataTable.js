@@ -81,7 +81,7 @@ const BasicTable = ({
 	data = [],
 	title,
 	paginationEnabled = true,
-	footnote=''
+	footnote = ''
 }) => {
 	const classes = useStyles();
 	const [rows, setRows] = useState([]);

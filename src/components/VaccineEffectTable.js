@@ -1,5 +1,5 @@
 import DataTable from './DataTable';
-import {Fragment} from 'react'
+import { Fragment } from 'react';
 
 const formatNumber = val => `${val}%`;
 
@@ -21,7 +21,7 @@ const columns = [{
 
 
 const VaccineEffectTable = ({ dataSource = [] }) => {
-	let footnote = <Fragment>* Effectiveness was calculated using the method detailed by the <a href='https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section6.html'>CDC here</a>. <br/>* This Data is not age adjusted, which means the effectiveness is underestimated.</Fragment>
+	let footnote = <Fragment>* Effectiveness was calculated using the method detailed by the <a href='https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section6.html'>CDC here</a>. <br/>* This Data is not age adjusted, which means the effectiveness is underestimated.</Fragment>;
 	return (
 		<DataTable
 			title="Vaccine Effectiveness (last 7 days)"

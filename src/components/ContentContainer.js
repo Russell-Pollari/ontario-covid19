@@ -11,7 +11,7 @@ const useStyles = makeStyles({
 });
 
 
-const ContentContainer = ({ title, children, footnote}) => {
+const ContentContainer = ({ title, children, footnote }) => {
 	const classes = useStyles();
 
 	return (

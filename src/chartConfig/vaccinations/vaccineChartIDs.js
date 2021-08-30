@@ -6,6 +6,6 @@ const vaccineChartIDs = {
   totalVaccinated: 5, 
   vaccinatedByAge: 6,
   dailyDoses: 7
-}
+};
 
 export default vaccineChartIDs;

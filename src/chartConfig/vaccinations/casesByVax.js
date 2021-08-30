@@ -12,7 +12,7 @@ const casesByVax = {
       fill: '#82ca9d',
       strokeWidth: 2,
       stackId: 1,
-      type:"monotone"
+      type:'monotone'
     },
     {
       dataKey: 'cases_partial_vax_per_mil',
@@ -21,7 +21,7 @@ const casesByVax = {
       fill: '#f5b042',
       strokeWidth: 2,
       stackId: 1,
-      type:"monotone"
+      type:'monotone'
     },
     {
       dataKey: 'cases_unvax_per_mil',
@@ -30,7 +30,7 @@ const casesByVax = {
       fill: '#eb4034',
       strokeWidth: 2,
       stackId: 1,
-      type:"monotone"
+      type:'monotone'
     },
   ],
 };

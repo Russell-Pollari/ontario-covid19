@@ -22,9 +22,9 @@ const ChartContainer = ({
 	footnote = ''
 }) => {
 
-	let domain = [0, 'auto']
+	let domain = [0, 'auto'];
 	if (roundUpYAxisMax) {
-		domain = [0, dataMax => Math.ceil(dataMax / 2) * 2]
+		domain = [0, dataMax => Math.ceil(dataMax / 2) * 2];
 	}
 
 	return (
