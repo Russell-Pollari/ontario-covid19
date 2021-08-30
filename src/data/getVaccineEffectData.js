@@ -185,8 +185,8 @@ const getVaccineEffectData = async () => {
       const cases_unvax_per_mil = (casesItem.cases_unvax / vaxRateItem.unvax_individuals) * million;
       const cases_partial_vax_per_mil = (casesItem.cases_partial_vax / vaxRateItem.partial_vax_individuals) * million;
       const cases_full_vax_per_mil = (casesItem.cases_full_vax / vaxRateItem.full_vax_individuals) * million;
-      const cases_partial_effect = (1-(cases_partial_vax_per_mil / cases_unvax_per_mil)) * 100;
-      const cases_full_effect = (1-(cases_full_vax_per_mil / cases_unvax_per_mil)) * 100;
+      const cases_partial_effect = (1 - (cases_partial_vax_per_mil / cases_unvax_per_mil)) * 100;
+      const cases_full_effect = (1 - (cases_full_vax_per_mil / cases_unvax_per_mil)) * 100;
 
       let hosp_unvax_per_mil, hosp_partial_vax_per_mil, hosp_full_vax_per_mil, hosp_partial_effect, hosp_full_effect;
       let icu_unvax_per_mil, icu_partial_vax_per_mil, icu_full_vax_per_mil, icu_partial_effect, icu_full_effect;
@@ -196,14 +196,14 @@ const getVaccineEffectData = async () => {
         hosp_unvax_per_mil = (hospitalItem.hosp_unvax / vaxRateItem.unvax_individuals) * million;
         hosp_partial_vax_per_mil = (hospitalItem.hosp_partial_vax / vaxRateItem.partial_vax_individuals) * million;
         hosp_full_vax_per_mil = (hospitalItem.hosp_full_vax / vaxRateItem.full_vax_individuals) * million;
-        hosp_partial_effect = (1-(hosp_partial_vax_per_mil / hosp_unvax_per_mil)) * 100;
-        hosp_full_effect = (1-(hosp_full_vax_per_mil / hosp_unvax_per_mil)) * 100;
+        hosp_partial_effect = (1 - (hosp_partial_vax_per_mil / hosp_unvax_per_mil)) * 100;
+        hosp_full_effect = (1 - (hosp_full_vax_per_mil / hosp_unvax_per_mil)) * 100;
 
         icu_unvax_per_mil = (hospitalItem.icu_unvax / vaxRateItem.unvax_individuals) * million;
         icu_partial_vax_per_mil = (hospitalItem.icu_partial_vax / vaxRateItem.partial_vax_individuals) * million;
         icu_full_vax_per_mil = (hospitalItem.icu_full_vax / vaxRateItem.full_vax_individuals) * million;
-        icu_partial_effect = (1-(icu_partial_vax_per_mil / icu_unvax_per_mil)) * 100;
-        icu_full_effect = (1-(icu_full_vax_per_mil / icu_unvax_per_mil)) * 100;
+        icu_partial_effect = (1 - (icu_partial_vax_per_mil / icu_unvax_per_mil)) * 100;
+        icu_full_effect = (1 - (icu_full_vax_per_mil / icu_unvax_per_mil)) * 100;
       }
 
       const shortDate = new Date(currentDate).toLocaleString('en-us', {
@@ -249,14 +249,14 @@ const getVaccineEffectData = async () => {
     last_7_days_cases.forEach((item) => {
       cases_partial_effect_total += item.cases_partial_effect;
       cases_full_effect_total += item.cases_full_effect;
-    })
+    });
 
     last_7_days_hosp.forEach((item) => {
       icu_partial_effect_total += item.icu_partial_effect;
       icu_full_effect_total += item.icu_full_effect;
       hosp_partial_effect_total += item.hosp_partial_effect;
       hosp_full_effect_total += item.hosp_full_effect;
-    })
+    });
 
     const icu_partial_effect_average = Math.round(icu_partial_effect_total / 7);
     const icu_full_effect_average = Math.round(icu_full_effect_total / 7);
