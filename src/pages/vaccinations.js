@@ -85,15 +85,15 @@ const VaccinationsContainer = () => {
 							}
 
 							return <ChartContainer
-													key={index}
-													dataSource={dataSource}
-													syncId={syncId}
-													xAxisScale={xAxisScale}
-													footnote={footnote}
-													roundUpYAxisMax={roundUpYAxisMax}
-													valueSuffix={valueSuffix}
-													{...chart}
-												/>;
+												key={index}
+												dataSource={dataSource}
+												syncId={syncId}
+												xAxisScale={xAxisScale}
+												footnote={footnote}
+												roundUpYAxisMax={roundUpYAxisMax}
+												valueSuffix={valueSuffix}
+												{...chart}
+											/>;
 						})}
 					</Fragment>
 				)}

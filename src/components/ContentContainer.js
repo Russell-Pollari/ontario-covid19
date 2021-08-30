@@ -24,7 +24,7 @@ const ContentContainer = ({ title, children, footnote}) => {
 			{children}
 			<br/>
 			<Typography variant="subtitle1">
-					{footnote}
+				{footnote}
 			</Typography>
 		</Paper>
 	);
