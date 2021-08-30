@@ -1,7 +1,7 @@
 import jsonpFetch from './jsonpFetch';
 
 const dataUrl =
-  'https://data.ontario.ca/api/3/action/datastore_search?resource_id=775ca815-5028-4e9b-9dd4-6975ff1be021&limit=10&sort=_id desc';
+  'https://data.ontario.ca/api/3/action/datastore_search?resource_id=775ca815-5028-4e9b-9dd4-6975ff1be021&limit=11&sort=_id desc';
 
 const ensureNumber = (value) => {
     if (typeof value === 'number') {
@@ -28,6 +28,8 @@ const beautifyAge = (age) => {
       return '70s';
     case 'Adults_18plus':
       return '18+';
+    case 'Ontario_12plus':
+      return '12+';
     default: 
       return age;
   }

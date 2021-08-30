@@ -19,7 +19,8 @@ const ChartContainer = ({
 	xLabel,
 	valueSuffix = '',
 	roundUpYAxisMax = false,
-	footnote = ''
+	footnote = '',
+	yAxisTicks
 }) => {
 
 	let domain = [0, 'auto'];
@@ -48,6 +49,7 @@ const ChartContainer = ({
 					<YAxis
 						type="number"
 						domain={domain}
+						ticks={yAxisTicks}
 						tickFormatter={tick => tick.toLocaleString() + valueSuffix}
 					/>
 					<Tooltip formatter={(value) => value.toLocaleString() + valueSuffix} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>

@@ -65,12 +65,13 @@ const VaccinationsContainer = () => {
 						<VaccineStatusTable dataSource={data} />
 						<VaccineEffectTable dataSource={vaxEffectData.avg} />
 						{vaccineCharts.map((chart, index) => {
-							let dataSource, syncId, xAxisScale, valueSuffix, footnote, roundUpYAxisMax;
+							let dataSource, syncId, xAxisScale, valueSuffix, footnote, roundUpYAxisMax, yAxisTicks;
 							if (chart.id == chartIDs.vaccinatedByAge) {
 								dataSource = ageData;
 								syncId = 'vaccineAgeCharts';
 								xAxisScale = 'band';
 								valueSuffix = '%';
+								yAxisTicks = [0, 25, 50, 80, 90, 100];
 							} else if ([chartIDs.casesByVax, chartIDs.hospitalByVax, chartIDs.icuByVax].includes(chart.id)) {
 								dataSource = vaxEffectData.all;
 								if ([chartIDs.hospitalByVax, chartIDs.icuByVax].includes(chart.id)) {
@@ -92,6 +93,7 @@ const VaccinationsContainer = () => {
 												footnote={footnote}
 												roundUpYAxisMax={roundUpYAxisMax}
 												valueSuffix={valueSuffix}
+												yAxisTicks={yAxisTicks}
 												{...chart}
 											/>;
 						})}
