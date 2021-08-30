@@ -1,4 +1,7 @@
+import vaccineCharts from './vaccineChartIDs';
+
 const totalVaccinated = {
+	id: vaccineCharts.totalVaccinated,
 	dataKeyX: 'date_string',
 	title: 'Total people fully vaccinated',
 	areas: [{

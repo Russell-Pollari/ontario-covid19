@@ -1,4 +1,7 @@
+import vaccineCharts from './vaccineChartIDs';
+
 const dailyDoses = {
+  id: vaccineCharts.dailyDoses,
   dataKeyX: 'date_string',
   title: 'Daily vaccines administered',
   bars: [

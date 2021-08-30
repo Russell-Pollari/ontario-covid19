@@ -14,17 +14,22 @@ const useStyles = makeStyles({
 	table: {
 		minWidth: 340,
 		marginTop: 8,
+	},
+	boldCell: {
+		'font-weight': 500
 	}
 });
 
 
 const Cell = ({ column, row, rows }) => {
 	let color;
-	const { key, formatValue, highlight, align } = column;
+	const { key, formatValue, highlight, align, isBold } = column;
 	const value = row[key];
 	const max = Math.max(...rows.map(row => row[key]));
 	const min = Math.min(...rows.map(row => row[key]));
 	let opacity = Math.max((value - min) / (max - min), 0.25);
+
+	const classes = useStyles();
 
 	if (highlight === 'positive') {
 		if (value < 0) {
@@ -42,8 +47,10 @@ const Cell = ({ column, row, rows }) => {
 		}
 	}
 
+
 	return (
 		<TableCell
+			className={isBold ? classes.boldCell : null}
 			style={highlight ? {
 				backgroundColor: color,
 			} : {}}
@@ -73,6 +80,8 @@ const BasicTable = ({
 	columns = [],
 	data = [],
 	title,
+	paginationEnabled = true,
+	footnote=''
 }) => {
 	const classes = useStyles();
 	const [rows, setRows] = useState([]);
@@ -90,15 +99,15 @@ const BasicTable = ({
 	};
 
 	return (
-		<ContentContainer title={title}>
+		<ContentContainer title={title} footnote={footnote}>
 			<TableContainer>
 				<Table className={classes.table} size="small" aria-label="simple table">
 					<TableHead>
 						<TableRow>
-							{columns.map(({ label, headerColSpan }, index) => {
+							{columns.map(({ label, headerColSpan, align }, index) => {
 								if (!label) return null;
 								return (
-									<TableCell align="left" key={index} colSpan={headerColSpan}>
+									<TableCell align={align || 'left'} key={index} colSpan={headerColSpan}>
 										{label}
 									</TableCell>
 								);
@@ -112,7 +121,7 @@ const BasicTable = ({
 					</TableBody>
 				</Table>
 			</TableContainer>
-			<TablePagination
+			{paginationEnabled && <TablePagination
 				component="div"
 				rowsPerPage={rowsPerPage}
 				page={page}
@@ -121,7 +130,7 @@ const BasicTable = ({
 				labelDisplayedRows={() => ''}
 				onChangePage={handlePageChange}
 				onChangeRowsPerPage={e => setRowsPerPage(e.target.value)}
-			/>
+			/>}
 		</ContentContainer>
 	);
 };

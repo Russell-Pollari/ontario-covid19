@@ -1,4 +1,7 @@
+import vaccineCharts from './vaccineChartIDs';
+
 const vaccinatedByAge = {
+  id: vaccineCharts.vaccinatedByAge,
   dataKeyX: 'Agegroup',
   title: 'Vaccination rate by age group',
   bars: [
