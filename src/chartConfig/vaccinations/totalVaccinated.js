@@ -4,6 +4,7 @@ const totalVaccinated = {
 	id: vaccineCharts.totalVaccinated,
 	dataKeyX: 'date_string',
 	title: 'Total people fully vaccinated',
+	syncId: 'vaccineCharts',
 	areas: [{
 		dataKey: 'total_individuals_fully_vaccinated',
 		name: 'Total people fully vaccinated',

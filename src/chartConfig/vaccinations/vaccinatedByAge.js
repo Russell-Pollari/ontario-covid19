@@ -4,6 +4,9 @@ const vaccinatedByAge = {
   id: vaccineCharts.vaccinatedByAge,
   dataKeyX: 'Agegroup',
   title: 'Vaccination rate by age group',
+  xAxisScale: 'band',
+  leftValueSuffix: '%',
+	yAxisTicks: [0, 25, 50, 80, 90, 100],
   bars: [
     {
       dataKey: 'Percent_fully_vaccinated',
