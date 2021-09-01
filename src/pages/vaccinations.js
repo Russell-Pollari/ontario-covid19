@@ -58,11 +58,9 @@ const VaccinationsContainer = () => {
 			case chartIDs.dailyDoses:
 				return data;
 			default: 
-				return null;
+				return [];
 		}
 	}
-
-	// const vaxEffectFootnote = <Fragment>* This data is population adjusted. <br/>* Population denominators are calculated based on daily dose history.<br/>* <b>Fully vaccinated</b> = 14 days after 2nd dose<br/>* <b>Partially vaccinated</b> = 14 days after 1st dose and &lt;14 days after 2nd dose.</Fragment>;
 
 	return (
 		<Layout menuItems={menuItems}>

@@ -13,7 +13,7 @@ const hospitalByVax = {
   dataKeyX: 'date',
   title: 'Hospital occupancy by vaccination status (per million)',
   leftYAxisLabel: 'Hospital occupancy per million',
-	rightYAxisLabel: '2 dose effectiveness',
+  rightYAxisLabel: '2 dose effectiveness',
   xAxisScale: 'band',
   roundUpYAxisMax: true,
   footnote: footnote,

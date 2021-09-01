@@ -13,7 +13,7 @@ const casesByVax = {
   dataKeyX: 'date',
   title: 'Cases by vaccination status (per million)',
   leftYAxisLabel: 'New cases per million',
-	rightYAxisLabel: '2 dose effectiveness',
+  rightYAxisLabel: '2 dose effectiveness',
   xAxisScale: 'band',
   roundUpYAxisMax: true,
   footnote: footnote,

@@ -13,7 +13,7 @@ const icuByVax = {
   dataKeyX: 'date',
   title: 'ICU occupancy by vaccination status (per million)',
   leftYAxisLabel: 'ICU occupancy per million',
-	rightYAxisLabel: '2 dose effectiveness',
+  rightYAxisLabel: '2 dose effectiveness',
   xAxisScale: 'band',
   roundUpYAxisMax: true,
   footnote: footnote,
