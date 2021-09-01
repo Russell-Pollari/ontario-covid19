@@ -70,7 +70,7 @@ const ChartContainer = ({
 						yAxisId="right" 
 						orientation="right" 
 						tickFormatter={tick => tick.toLocaleString() + rightValueSuffix}
-						label={{ value: rightYAxisLabel, angle: -90, position: 'insideRight' , style: { textAnchor: 'middle' }}}
+						label={{ value: rightYAxisLabel, angle: -90, position: 'insideRight' , style: { textAnchor: 'middle' } }}
 						/>
 					}
 					<Tooltip formatter={ (value, name) => value.toLocaleString() + getSuffix(name)} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>

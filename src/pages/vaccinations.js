@@ -59,7 +59,7 @@ const VaccinationsContainer = () => {
 				return data;
 			default: 
 				return [];
-		}
+		};
 	}
 
 	return (
