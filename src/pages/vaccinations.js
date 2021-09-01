@@ -59,8 +59,8 @@ const VaccinationsContainer = () => {
 				return data;
 			default: 
 				return [];
-		};
-	}
+		}
+	};
 
 	return (
 		<Layout menuItems={menuItems}>
