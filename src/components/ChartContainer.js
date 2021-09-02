@@ -17,15 +17,27 @@ const ChartContainer = ({
 	syncId,
 	xAxisScale,
 	xLabel,
-	valueSuffix = '',
+	leftValueSuffix = '',
+	rightValueSuffix = '',
 	roundUpYAxisMax = false,
-	footnote = ''
+	footnote = '',
+	yAxisTicks,
+	leftYAxisLabel,
+	rightYAxisLabel
 }) => {
 
 	let domain = [0, 'auto'];
 	if (roundUpYAxisMax) {
 		domain = [0, dataMax => Math.ceil(dataMax / 2) * 2];
 	}
+
+	const getSuffix = (name) => {
+		const foundElement = areas.find(a => a.name == name) || bars.find(a => a.name == name) || lines.find(a => a.name == name);
+		if (foundElement?.yAxisId == 'right') {
+			return rightValueSuffix;
+		}
+		return leftValueSuffix;
+	};
 
 	return (
 		<ContentContainer title={title} footnote={footnote}>
@@ -46,23 +58,34 @@ const ChartContainer = ({
 						)}
 					</XAxis>
 					<YAxis
+						yAxisId='left'
 						type="number"
 						domain={domain}
-						tickFormatter={tick => tick.toLocaleString() + valueSuffix}
+						ticks={yAxisTicks}
+						tickFormatter={tick => tick.toLocaleString() + leftValueSuffix}
+						label={leftYAxisLabel ? { value: leftYAxisLabel, angle: -90, position: 'insideLeft', style: { textAnchor: 'middle' } } : null}
 					/>
-					<Tooltip formatter={(value) => value.toLocaleString() + valueSuffix} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
+					{rightYAxisLabel && 
+					<YAxis 
+						yAxisId="right" 
+						orientation="right" 
+						tickFormatter={tick => tick.toLocaleString() + rightValueSuffix}
+						label={{ value: rightYAxisLabel, angle: -90, position: 'insideRight' , style: { textAnchor: 'middle' } }}
+						/>
+					}
+					<Tooltip formatter={ (value, name) => value.toLocaleString() + getSuffix(name)} labelFormatter={(value) => (xLabel ? `${xLabel}: ` : '') + value}/>
 					{bars.map(bar => (
-						<Bar key={bar.dataKey} stackId='a' {...bar} />
+						<Bar key={bar.dataKey} stackId='a' yAxisId='left' {...bar} />
 					))}
 					{lines.map((line) => (
-						<Line key={line.dataKey} {...line}>
+						<Line key={line.dataKey} yAxisId='left' {...line}>
 							{line.errorBarKey && (
 								<ErrorBar dataKey="error_bars" direction="y" width={2} />
 							)}
 						</Line>
 					))}
 					{areas.map((area) => (
-						<Area key={area.dataKey} {...area} />
+						<Area key={area.dataKey} yAxisId='left' {...area} />
 					))}
 				</ComposedChart>
 			</ResponsiveContainer>

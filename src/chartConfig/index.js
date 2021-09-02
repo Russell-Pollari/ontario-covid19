@@ -40,8 +40,8 @@ export const vaccineCharts = [
 	casesByVax,
 	hospitalByVax,
 	icuByVax,
-	dailyDoses,
 	vaccinatedByAge,
+	dailyDoses,
 	totalDoses,
 	totalVaccinated,
 ];

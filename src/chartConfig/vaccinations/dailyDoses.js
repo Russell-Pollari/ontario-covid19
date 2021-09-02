@@ -4,6 +4,7 @@ const dailyDoses = {
   id: vaccineCharts.dailyDoses,
   dataKeyX: 'date_string',
   title: 'Daily vaccines administered',
+  syncId: 'vaccineCharts',
   bars: [
     {
       dataKey: 'previous_day_first_doses_administered',
