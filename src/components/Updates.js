@@ -4,6 +4,17 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/08/01',
+	update: (
+		<span>
+			Added some more <Link href="/vaccinations">vaccine stats</Link>. Thanks{' '}
+			<a href="https://github.com/aboodmufti" target="_blank" rel="noopener noreferrer">
+				Abood Mufti
+			</a>
+			{' '} for the pull request!
+		</span>
+	),
+}, {
 	date: '2021/06/06',
 	update: (
 		<span>
