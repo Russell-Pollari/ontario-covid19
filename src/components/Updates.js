@@ -4,6 +4,9 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/12/03',
+	update: 'Fixed some things. Ontario is no longer pubishing VOC cases with this dataset. And they are now publishing numbers for 3rd doses of vaccines and vaccinations for 5-11 age group'
+}, {
 	date: '2021/08/01',
 	update: (
 		<span>

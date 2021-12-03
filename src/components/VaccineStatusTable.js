@@ -1,10 +1,11 @@
 import DataTable from './DataTable';
 
-const formatNumber = val => val.toLocaleString();
+const formatNumber = val => val ? Number(val).toLocaleString() : null;
 
-const formatDelta = val => (
-	`${val >= 0 ? '+' : ''}${formatNumber(val)}`
-);
+const formatDelta = val => {
+	if (!val ){ return null; }
+	return `${val >= 0 ? '+' : ''}${formatNumber(val)}`;
+};
 
 const columns = [{
 	label: 'Date',
@@ -26,6 +27,16 @@ const columns = [{
 }, {
 	label: 'Total people fully vaccinated',
 	key: 'total_individuals_fully_vaccinated',
+	formatValue: formatNumber,
+	headerColSpan: '2'
+}, {
+	label: '',
+	key: 'previous_day_fully_vaccinated',
+	formatValue: formatDelta,
+	highlight: 'positive',
+}, {
+	label: 'Total people with 3 doses',
+	key: 'total_individuals_3doses',
 	formatValue: formatNumber,
 }];
 

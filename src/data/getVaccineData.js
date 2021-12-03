@@ -47,16 +47,12 @@ const getVaccineData = () =>
       // Add the last record, which wasn't added by the above loop
       records.push(rawRecords[rawRecords.length - 1]);
 
-      let previous_total_second_doses_administered = 0;
-      let previous_total_one_shot_doses_administered = 0;
-
       // Back to your regularly scheduled code
       records.map((record) => {
         const {
           report_date,
           total_doses_administered,
           previous_day_total_doses_administered,
-          total_doses_in_fully_vaccinated_individuals,
           total_individuals_fully_vaccinated,
         } = record;
         record.date_string = new Date(report_date).toLocaleString('en-us', {
@@ -67,24 +63,7 @@ const getVaccineData = () =>
         record.previous_day_total_doses_administered = ensureNumber(previous_day_total_doses_administered);
         record.total_individuals_fully_vaccinated = ensureNumber(total_individuals_fully_vaccinated);
 
-        const total_doses_in_fully_vax = ensureNumber(total_doses_in_fully_vaccinated_individuals);
-
-        // Calculate one-shot doses given (JnJ vaccine)
-        const total_one_shot_doses_administered = ensureNumber((record.total_individuals_fully_vaccinated - (total_doses_in_fully_vax / 2)) * 2);
-        const daily_one_shot_doses_administered = ensureNumber(total_one_shot_doses_administered - previous_total_one_shot_doses_administered);
-        previous_total_one_shot_doses_administered = total_one_shot_doses_administered;
-
-        // Calculate second doses given
-        const total_second_doses_administered = Math.floor((total_doses_in_fully_vax - total_one_shot_doses_administered) / 2);
-        const daily_second_doses_administered = total_second_doses_administered - previous_total_second_doses_administered;
-        previous_total_second_doses_administered = total_second_doses_administered;
-
-        // Calculate first doses given
-        const daily_first_doses_administered = record.previous_day_total_doses_administered - (daily_second_doses_administered + daily_one_shot_doses_administered);
-
-        record.previous_day_one_shot_doses_administered = daily_one_shot_doses_administered;
-        record.previous_day_second_doses_administered = daily_second_doses_administered;
-        record.previous_day_first_doses_administered =  daily_first_doses_administered;
+        record.previous_day_third_doses = previous_day_total_doses_administered - ensureNumber(record.previous_day_at_least_one) - ensureNumber(record.previous_day_fully_vaccinated);
 
         vaccines_last7days.shift();
         vaccines_last7days.push(record.previous_day_total_doses_administered);

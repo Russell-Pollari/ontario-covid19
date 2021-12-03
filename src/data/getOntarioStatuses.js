@@ -3,13 +3,6 @@ import jsonpFetch from './jsonpFetch';
 const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=ed270bb8-340b-41f9-a7c6-e8ef587e6d11&limit=1000';
 const hospitalField = 'Number of patients hospitalized with COVID-19';
 const icuField = 'Number of patients in ICU due to COVID-19';
-const vocFields = [
-	'Total_Lineage_B.1.1.7_Alpha',
-	'Total_Lineage_B.1.351_Beta',
-	'Total_Lineage_P.1_Gamma',
-	'Total_Lineage_B.1.617.2_Delta',
-];
-
 
 const getOntarioStatuses = () => {
 	return new Promise((resolve) => {
@@ -73,9 +66,6 @@ const getOntarioStatuses = () => {
 				yesterdayResolvedCases = record['Resolved'];
 				yesterdayActiveCases = record['active_cases'];
 
-
-				record.vocsTotal = vocFields.reduce((sum, field) => sum + record[field], 0);
-				record.totalNonVOC = record['Total Cases'] - record.vocsTotal;
 				return record;
 			});
 			resolve(records);

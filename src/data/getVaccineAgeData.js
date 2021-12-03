@@ -1,7 +1,7 @@
 import jsonpFetch from './jsonpFetch';
 
 const dataUrl =
-  'https://data.ontario.ca/api/3/action/datastore_search?resource_id=775ca815-5028-4e9b-9dd4-6975ff1be021&limit=11&sort=_id desc';
+  'https://data.ontario.ca/api/3/action/datastore_search?resource_id=775ca815-5028-4e9b-9dd4-6975ff1be021&limit=13&sort=_id desc';
 
 const ensureNumber = (value) => {
     if (typeof value === 'number') {
@@ -30,7 +30,11 @@ const beautifyAge = (age) => {
       return '18+';
     case 'Ontario_12plus':
       return '12+';
-    default: 
+		case 'Ontario_5plus':
+			return '5+';
+		case '05-11yrs':
+			return '5-11yrs';
+    default:
       return age;
   }
 };
@@ -39,17 +43,17 @@ const getVaccineAgeData = () =>
   new Promise((resolve) => {
     jsonpFetch(dataUrl, ({ result }) => {
       const records = result.records.filter(a => a.Agegroup != 'Undisclosed_or_missing');
-      records.sort((a, b) => a._id - b._id);
+      result.records.sort((a, b) => a._id - b._id);
 
-      records.map((record) => {
+      result.records.map((record) => {
         const {
           Agegroup,
           Percent_at_least_one_dose,
           Percent_fully_vaccinated
         } = record;
-        
+
         record.Agegroup = beautifyAge(Agegroup);
-        
+
         record.Percent_at_least_one_dose = ensureNumber(Percent_at_least_one_dose) * 100;
         record.Percent_fully_vaccinated = ensureNumber(Percent_fully_vaccinated) * 100;
 
@@ -58,7 +62,7 @@ const getVaccineAgeData = () =>
 
         return record;
       });
-      resolve(records);
+			resolve(records);
     });
   });
 
