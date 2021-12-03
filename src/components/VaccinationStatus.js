@@ -5,10 +5,7 @@ const VaccinationStatus = ({ data = [] }) => {
 	if (!data.length) {
 		return null;
 	}
-	// Population estimates on July 1st 2020 according to Statistics Canada
-	const populationBetween12and18 = 961342;
-	const adultPopulation = 11971129;
-	const eligiblePopulation = populationBetween12and18 + adultPopulation;
+	const eligiblePopulation = 14010998; // 5+ population
 
 	const lastUpdate = data[data.length - 1];
 	const totalFullyVaccinated = lastUpdate.total_individuals_fully_vaccinated;
@@ -40,12 +37,12 @@ const VaccinationStatus = ({ data = [] }) => {
 				</li>
 			</ul>
 			<div className="mt16 f12">
-				*Eligible population: Everyone 12 and older based on estimates from Statistics Canada on July 1st 2020.
+				*Eligible population: Everyone 5 and older based on estimates from Statistics Canada on July 1st 2020.
 				<br/>
 				*These numbers are all back-of-the-envolope estimates. Don't take them as fact.
 			</div>
-			
-			
+
+
 		</ContentContainer>
 	);
 };
