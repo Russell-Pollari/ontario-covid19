@@ -28,6 +28,12 @@ const columns = [{
 	label: 'Total people fully vaccinated',
 	key: 'total_individuals_fully_vaccinated',
 	formatValue: formatNumber,
+	headerColSpan: '2'
+}, {
+	label: '',
+	key: 'previous_day_fully_vaccinated',
+	formatValue: formatDelta,
+	highlight: 'positive',
 }, {
 	label: 'Total people with 3 doses',
 	key: 'total_individuals_3doses',

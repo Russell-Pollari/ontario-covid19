@@ -7,20 +7,22 @@ const dailyDoses = {
   syncId: 'vaccineCharts',
   bars: [
     {
-      dataKey: 'previous_day_first_doses_administered',
+      dataKey: 'previous_day_at_least_one',
       name: 'Daily first doses administered',
       fill: '#509ee3',
     },
     {
-      dataKey: 'previous_day_second_doses_administered',
+      dataKey: 'previous_day_fully_vaccinated',
       name: 'Daily second doses administered',
       fill: '#82ca9d',
     },
-    {
-      dataKey: 'previous_day_one_shot_doses_administered',
-      name: 'Daily one-shot doses administered',
-      fill: '#ca82c8',
-    },
+		{
+			dataKey: 'previous_day_third_doses',
+			name: 'Daily third doses administered',
+			fill: '#82aa9d',
+		},
+
+
   ],
   lines: [
     {
