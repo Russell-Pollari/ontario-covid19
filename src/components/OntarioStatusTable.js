@@ -71,10 +71,6 @@ const columns = [{
 	key: 'new_icu',
 	formatValue: formatDelta,
 	highlight: 'negative',
-}, {
-	label: 'Variants of concern cases',
-	key: 'vocsTotal',
-	formatValue: formatNumber,
 }];
 
 
