@@ -4,6 +4,20 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/12/21',
+	update: (
+		<span>
+			The Omicron strain <em>seems</em> to be effective at infecting folks with 2 doses.{' '}
+			<strong>But</strong> 2 vaccine doses still offer good protection from severe symptoms (see the charts on the Vaccine page).
+			<br />
+			<br />
+			Be careful, folks! Get your booster and play it safe! I for one, am not traveling home for the holidays to protect my older family members.
+		</span>
+	)
+}, {
+	date: '2021/12/21',
+	update: 'Fixed some math errors with my Vaccine stats.'
+}, {
 	date: '2021/12/03',
 	update: 'Fixed some things. Ontario is no longer pubishing VOC cases with this dataset. And they are now publishing numbers for 3rd doses of vaccines and vaccinations for 5-11 age group'
 }, {

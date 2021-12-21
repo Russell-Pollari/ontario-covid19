@@ -9,40 +9,38 @@ const VaccinationStatus = ({ data = [] }) => {
 
 	const lastUpdate = data[data.length - 1];
 	const totalFullyVaccinated = lastUpdate.total_individuals_fully_vaccinated;
-	const totalsWithOneDose = lastUpdate.total_doses_administered - (2 * totalFullyVaccinated);
-	const timeToFullVaccination = ((eligiblePopulation - totalFullyVaccinated) * 2 - totalsWithOneDose) / lastUpdate.new_vaccines_rolling_average;
-	const timeToOneDose = ((eligiblePopulation - totalFullyVaccinated) - totalsWithOneDose) / lastUpdate.new_vaccines_rolling_average;
+	const totalWithOneDose = lastUpdate.previous_day_at_least_one;
+	const totalWithThreeDoses = lastUpdate.total_individuals_3doses;
+
 
 	return (
 		<ContentContainer title="Vaccinations at a glance">
 			<ul>
 				<li>
 					<strong>
-						{Math.round(((totalsWithOneDose + totalFullyVaccinated) / eligiblePopulation) * 100 * 100) / 100}%
+						{Math.round( (totalWithOneDose + totalFullyVaccinated) / eligiblePopulation * 100 * 100) / 100}%
 					</strong>
 					{' '}
-					of the <em>eligible</em> population of Ontario has had at least one shot.*
+					of the <em>eligible</em> population of Ontario has had at least one shot.
 					</li>
 				<li>
 					<strong>
 						{Math.round((totalFullyVaccinated / eligiblePopulation) * 100 * 100) / 100}%
 					</strong>
 					{' '}
-					of the <em>eligible</em> population of Ontario is fully vaccinated.*
+					of the <em>eligible</em> population of Ontario has had at least two shots.
 				</li>
 				<li>
-					At the current average pace of <strong>{lastUpdate.new_vaccines_rolling_average.toLocaleString()}</strong> shots per day.
-					We can deliver a single dose to every eligible person in <strong>{Math.round(timeToOneDose)} days.</strong> And
-					reach full vaccination in <strong>{Math.round(timeToFullVaccination)} days.*</strong>
+					<strong>
+						{Math.round((totalWithThreeDoses / eligiblePopulation) * 100 * 100) / 100}%
+					</strong>
+					{' '}
+					of the <em>eligible</em> population of Ontario has had three shots.
 				</li>
 			</ul>
 			<div className="mt16 f12">
-				*Eligible population: Everyone 5 and older based on estimates from Statistics Canada on July 1st 2020.
-				<br/>
-				*These numbers are all back-of-the-envolope estimates. Don't take them as fact.
+				<em>Eligible population</em>: Everyone 5 and older based on estimates from Statistics Canada on July 1st 2020.
 			</div>
-
-
 		</ContentContainer>
 	);
 };
