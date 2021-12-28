@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 
@@ -6,18 +6,16 @@ import Typography from '@material-ui/core/Typography';
 import getCases from '../data/getCaseData';
 import ChartContainer from '../components/ChartContainer';
 import LayoutSimple from '../components/LayoutSimple';
-import { ageStats, monthlyAgeBreakdowns } from '../chartConfig';
+import { ageStats } from '../chartConfig';
 
 
 const StatsContainer = () => {
 	const [totalByAge, setTotalByAgeData] = useState([]);
-	const [monthlyByAge, setMonthlyByAgeData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
 	const fetchData = async () => {
 		await getCases().then((caseData) => {
 			setTotalByAgeData(caseData.totalByAge);
-			setMonthlyByAgeData(caseData.monthyByAge);
 		});
 
 		setLoading(false);
@@ -40,20 +38,13 @@ const StatsContainer = () => {
 					</p>
 				</div>
 			) : (
-				<>
+				<Fragment>
 					<ChartContainer
 						dataSource={totalByAge}
 						xAxisScale="band"
 						{...ageStats}
 					/>
-					{monthlyAgeBreakdowns.map((chart, index) =>
-						<ChartContainer
-						key={index}
-						dataSource={monthlyByAge}
-						{...chart}
-					/>
-					)}
-				</>
+				</Fragment>
 			)}
 
 

@@ -10,53 +10,28 @@ const footnote = <Fragment>
 
 const hospitalByVax = {
   id: vaccineCharts.hospitalByVax,
-  dataKeyX: 'date',
-  title: 'Hospital occupancy by vaccination status (per million)',
-  leftYAxisLabel: 'Hospital occupancy per million',
-  rightYAxisLabel: '2 dose effectiveness',
-  xAxisScale: 'band',
-  roundUpYAxisMax: true,
-  footnote: footnote,
-  rightValueSuffix: '%',
-  areas: [
-    {
-      dataKey: 'hosp_full_vax_per_mil',
-      name: 'Fully Vaccinated',
-      stroke: '#82ca9d',
-      fill: '#82ca9d',
-      strokeWidth: 2,
-      stackId: 1,
-      type:'monotone'
-    },
-    {
-      dataKey: 'hosp_partial_vax_per_mil',
-      name: 'Partially Vaccinated',
-      stroke: '#f5b042',
-      fill: '#f5b042',
-      strokeWidth: 2,
-      stackId: 1,
-      type:'monotone'
-    },
-    {
-      dataKey: 'hosp_unvax_per_mil',
-      name: 'Not Vaccinated',
-      stroke: '#eb4034',
-      fill: '#eb4034',
-      strokeWidth: 2,
-      stackId: 1,
-      type:'monotone'
-    },
-  ],
-  lines: [
-    {
-      dataKey: 'hosp_full_effect',
-      name: '2 Dose Effectiveness',
-      stroke: '#000000',
-      strokeWidth: 2,
-      type: 'monotone',
-      yAxisId: 'right',
-    }
-  ]
+	footnote,
+	title: 'Hospitalization by vaccination status',
+	dataKeyX: 'date_string',
+	areas: [{
+		dataKey: 'hospital_unvac',
+		name: 'Unvaccinated',
+		stroke: '#eb4034',
+		fill: '#eb4034',
+		stackId: 1
+	}, {
+		dataKey: 'hospital_partial_vac',
+		name: 'Partially vaccinated',
+		stroke: '#f5b042',
+		fill: '#f5b042',
+		stackId: 1
+	}, {
+		dataKey: 'hospital_full_vac',
+		name: 'Fully vaccinated',
+		stroke: '#82ca9d',
+		fill: '#82ca9d',
+		stackId: 1
+	}],
 };
 
 export default hospitalByVax;
