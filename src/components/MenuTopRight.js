@@ -12,9 +12,6 @@ const MenuTopRight = () => {
 			<Link href="/vaccinations">
 				<Button color="inherit">Vaccines</Button>
 			</Link>
-			<Link href="/stats">
-				<Button color="inherit">Stats</Button>
-			</Link>
 			<Link href="/phus">
 				<Button color="inherit">PHUs</Button>
 			</Link>

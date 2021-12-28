@@ -3,7 +3,7 @@ import ensureNumber from '../ensureNumber';
 
 const dataUrl = 'https://data.ontario.ca/api/3/action/datastore_search?resource_id=eed63cf2-83dd-4598-b337-b288c0a89a16&limit=1000000';
 
-const getVaccineData = () =>
+const getCasesByVaccineStatus = () =>
 	new Promise((resolve) => {
 		jsonpFetch(dataUrl, ({ result }) => {
 			const rawRecords = result.records;
@@ -32,4 +32,4 @@ const getVaccineData = () =>
 		});
 	});
 
-export default getVaccineData;
+export default getCasesByVaccineStatus;

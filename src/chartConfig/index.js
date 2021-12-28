@@ -18,12 +18,6 @@ import icuByVax from './vaccinations/icuByVax';
 
 import reChart from './re/re';
 
-import ageBreakdown, {
-  youngerMonthlyDeathBreakdown,
-  olderMonthlyDeathBreakdown,
-  monthlyRecoveryBreakdown,
-} from './cases/ageBreakdown';
-
 export const ontarioStatusCharts = [
 	activeCases,
 	totalCases,
@@ -44,14 +38,6 @@ export const vaccineCharts = [
 	dailyDoses,
 	totalDoses,
 	totalVaccinated,
-];
-
-export const ageStats = ageBreakdown;
-
-export const monthlyAgeBreakdowns = [
-  youngerMonthlyDeathBreakdown,
-  olderMonthlyDeathBreakdown,
-  monthlyRecoveryBreakdown,
 ];
 
 export const re = reChart;

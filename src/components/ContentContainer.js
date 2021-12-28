@@ -4,7 +4,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
 	paper: {
-		margin: 16,
+		marginTop: 16,
+		marginBottom: 16,
 		padding: 16,
 		maxWidth: 1312
 	},

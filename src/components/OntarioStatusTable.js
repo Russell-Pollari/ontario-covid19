@@ -20,7 +20,6 @@ const columns = [{
 	label: 'Active cases',
 	key: 'active_cases',
 	formatValue: formatNumber,
-	align: 'right',
 	headerColSpan: 2,
 }, {
 	label: '',
@@ -31,7 +30,6 @@ const columns = [{
 	label: 'Total cases',
 	key: 'Total Cases',
 	formatValue: formatNumber,
-	align: 'right',
 	headerColSpan: 2,
 }, {
 	label: '',
@@ -42,7 +40,6 @@ const columns = [{
 	label: 'Deaths',
 	key: 'Deaths',
 	formatValue: formatNumber,
-	align: 'right',
 	headerColSpan: 2,
 }, {
 	label: '',
@@ -53,7 +50,6 @@ const columns = [{
 	label: 'Patients hospitalized',
 	key: hospitalField,
 	formatValue: formatNumber,
-	align: 'right',
 	headerColSpan: 2,
 }, {
 	label: '',
@@ -64,7 +60,6 @@ const columns = [{
 	label: 'Patients in ICU',
 	key: icuField,
 	formatValue: formatNumber,
-	align: 'right',
 	headerColSpan: 2,
 }, {
 	label: '',

@@ -25,7 +25,7 @@ const columns = [{
 	formatValue: formatDelta,
 	highlight: 'positive',
 }, {
-	label: 'Total people fully vaccinated',
+	label: 'Total people with 2 doses',
 	key: 'total_individuals_fully_vaccinated',
 	formatValue: formatNumber,
 	headerColSpan: '2'

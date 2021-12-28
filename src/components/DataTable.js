@@ -14,6 +14,7 @@ const useStyles = makeStyles({
 	table: {
 		minWidth: 340,
 		marginTop: 8,
+		textAlign: 'left',
 	},
 	boldCell: {
 		'font-weight': 500

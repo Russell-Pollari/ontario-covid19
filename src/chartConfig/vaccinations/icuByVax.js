@@ -2,8 +2,6 @@ import vaccineCharts from './vaccineChartIDs';
 import { Fragment } from 'react';
 
 const footnote = <Fragment>
-* This data is population adjusted.<br/>
-* Population denominators are calculated based on daily dose history.<br/>
 * <b>Fully vaccinated</b> = 14 days after 2nd dose<br/>
 * <b>Partially vaccinated</b> = 14 days after 1st dose and &lt;14 days after 2nd dose.
 </Fragment>;

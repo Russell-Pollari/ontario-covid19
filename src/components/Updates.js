@@ -4,6 +4,16 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/12/28',
+	update: (
+		<span>
+			Removed some charts and stats that were out of date, and maybe wrong.
+			<br />
+			<br />
+			Ontario has not been publishing data the last few days. Expect a holiday data dump tomorrow.
+		</span>
+	),
+}, {
 	date: '2021/12/21',
 	update: (
 		<span>

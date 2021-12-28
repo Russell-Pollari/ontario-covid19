@@ -1,14 +1,8 @@
 import jsonpFetch from './jsonpFetch';
+import ensureNumber from '../ensureNumber';
 
 const dataUrl =
   'https://data.ontario.ca/api/3/action/datastore_search?resource_id=775ca815-5028-4e9b-9dd4-6975ff1be021&limit=13&sort=_id desc';
-
-const ensureNumber = (value) => {
-    if (typeof value === 'number') {
-        return value;
-    }
-    return Number((value || '0').replace(/,/g, ''));
-};
 
 const beautifyAge = (age) => {
   switch (age) {
