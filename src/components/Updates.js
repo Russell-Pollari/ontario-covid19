@@ -4,13 +4,25 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2022/01/10',
+	update: (
+		<span>
+			Welp. My wife and I have Covid—despite two vaccines each. FYI I had three false negatives with
+			at home rapid tests, despite showing symptoms. Finally, with a throat swap and nasal swap, I got a positive result.
+		</span>
+	),
+}, {
+	date: '2022/01/10',
+	update: (
+		<span>
+			Fixed the vaccine percentage for at folks with at least one dose.
+		</span>
+	),
+}, {
 	date: '2021/12/28',
 	update: (
 		<span>
 			Removed some charts and stats that were out of date, and maybe wrong.
-			<br />
-			<br />
-			Ontario has not been publishing data the last few days. Expect a holiday data dump tomorrow.
 		</span>
 	),
 }, {

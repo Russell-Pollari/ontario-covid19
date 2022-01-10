@@ -9,7 +9,7 @@ const VaccinationStatus = ({ data = [] }) => {
 
 	const lastUpdate = data[data.length - 1];
 	const totalFullyVaccinated = lastUpdate.total_individuals_fully_vaccinated;
-	const totalWithOneDose = lastUpdate.previous_day_at_least_one;
+	const totalWithOneDose = lastUpdate.total_individuals_at_least_one;
 	const totalWithThreeDoses = lastUpdate.total_individuals_3doses;
 
 
@@ -18,7 +18,7 @@ const VaccinationStatus = ({ data = [] }) => {
 			<ul>
 				<li>
 					<strong>
-						{Math.round( (totalWithOneDose + totalFullyVaccinated) / eligiblePopulation * 100 * 100) / 100}%
+						{Math.round( (totalWithOneDose) / eligiblePopulation * 100 * 100) / 100}%
 					</strong>
 					{' '}
 					of the <em>eligible</em> population of Ontario has had at least one shot.
