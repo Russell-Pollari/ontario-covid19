@@ -4,6 +4,9 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2022/01/28',
+	update: 'All recovered. Thanks to everyone who reached out and wished us well!',
+}, {
 	date: '2022/01/10',
 	update: (
 		<span>
