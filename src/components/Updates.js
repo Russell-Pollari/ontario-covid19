@@ -4,6 +4,9 @@ import Link from 'next/link';
 import SmallContentContainer from './SmallContentContainer';
 
 const updates = [{
+	date: '2021/03/15',
+	update: 'Ontario changed how they count deaths due to covid. I guess we were overcounting before. This involved an update to the data format which broke some things on this dashboard. All fixed now. Thanks to the folks who got in touch to flag it!',
+}, {
 	date: '2022/01/28',
 	update: 'All recovered. Thanks to everyone who reached out and wished us well!',
 }, {

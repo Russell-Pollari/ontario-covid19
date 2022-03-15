@@ -22,6 +22,7 @@ const getOntarioStatuses = () => {
 			let yesterdayIcu = 0;
 
 			records.map(record => {
+				record['Deaths'] = Number(record['Deaths_New_Methodology'] || record['Deaths'] || 0);
 				record.new_cases = record['Total Cases'] - yesterdayCases;
 				record.new_deaths = Math.max(record['Deaths'] - yesterdayDeaths, 0);
 				record.icu_no_ventilator = record[icuField] - record['Number of patients in ICU on a ventilator due to COVID-19'];

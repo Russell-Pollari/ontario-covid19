@@ -9,9 +9,10 @@ const formatNumber = val => {
 	} else return '';
 };
 
-const formatDelta = val => (
-	`${val >= 0 ? '+' : ''}${formatNumber(val)}`
-);
+const formatDelta = val => {
+	if (!val) { return ''; }
+	return `${val >= 0 ? '+' : ''}${formatNumber(val)}`;
+};
 
 const columns = [{
 	label: 'Date',
