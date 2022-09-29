@@ -26,7 +26,7 @@
     "next": "^11",
     "react": "^17.0.2",
     "react-dom": "16",
-    "recharts": "2.0.0-beta.8"
+    "recharts": "2.1.14"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
