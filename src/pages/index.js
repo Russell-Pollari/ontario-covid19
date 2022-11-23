@@ -6,7 +6,6 @@ import Layout from '../components/Layout';
 import Updates from '../components/Updates';
 import OntarioStatusTable from '../components/OntarioStatusTable';
 import ChartContainer from '../components/ChartContainer';
-import AboutBlurb from '../components/AboutBlurb';
 
 import getOntarioStatuses from '../data/getOntarioStatuses';
 import getReData from '../data/getReData';
@@ -46,7 +45,6 @@ function HomePage() {
 			<Typography variant="h4">
 				Covid-19 in Ontario
 			</Typography>
-			<AboutBlurb />
 			<Updates />
 			{loading ? (
 				<p className="tc">
