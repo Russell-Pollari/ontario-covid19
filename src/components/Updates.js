@@ -1,9 +1,36 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-import SmallContentContainer from './SmallContentContainer';
+import ContentContainer from './ContentContainer';
 
 const updates = [{
+	date: '2022/11/23',
+	update: (
+		<span>
+			<p>
+				<strong>This dashboard is no longer maintaned.</strong> See <Link href="/about">here</Link> for some suggested links.
+			</p>
+			<p>
+				Thanks to everyone who supported this page over the past 2.5 years—with contributions and donations.
+			</p>
+			<p>
+				For a short time, this was a go-to site for reliable, up-to-date information about the covid 19 pandemic. Keeping it that way however, will require active maintenance—to deal with changing information and data sources. And I don't have the bandwidth.
+			</p>
+			<p>
+				Instead, my focus will put towards being a good father and husband, and running and growing <a href="https://www.sharpestminds.com">SharpestMinds</a>.
+			</p>
+			<p>
+				Thanks,
+			</p>
+			<p>
+				Russell
+			</p>
+			<p>
+				P.S Feel free to fork the <a href="https://github.com/Russell-Pollari/ontario-covid19">repo</a> and fix it, or <a href="mailto:russell@sharpestminds">get in touch</a>
+			</p>
+		</span>
+	),
+}, {
 	date: '2021/03/15',
 	update: 'Ontario changed how they count deaths due to covid. I guess we were overcounting before. This involved an update to the data format which broke some things on this dashboard. All fixed now. Thanks to the folks who got in touch to flag it!',
 }, {
@@ -196,13 +223,13 @@ const Updates = () => {
 	const [showAll, setShowAll] = useState(false);
 
 	useEffect(() => {
-		setVisibleUpdates(showAll ? updates : updates.slice(0, 3));
+		setVisibleUpdates(showAll ? updates : updates.slice(0, 1));
 	}, [showAll]);
 
 	const toggleShowAll = () => setShowAll(!showAll);
 
 	return (
-		<SmallContentContainer title="Recent updates">
+		<ContentContainer title="Recent updates">
 			<ul>
 				{visibleUpdates.map(({ date, update }, index) => (
 					<li key={index}>
@@ -213,7 +240,7 @@ const Updates = () => {
 			<div className="blue hover-dark-blue pointer" onClick={toggleShowAll}>
 				{showAll ? 'Show less' : 'Show all'}
 			</div>
-		</SmallContentContainer>
+		</ContentContainer>
 	);
 };
 
