@@ -8,7 +8,7 @@ const updates = [{
 	update: (
 		<span>
 			<p>
-				<strong>This dashboard is no longer maintaned.</strong> See <Link href="/about">here</Link> for some suggested links.
+				<strong>This dashboard is no longer maintaned.</strong> but you can check out an updated version <a href="https://asoap.github.io/ontario-covid19/">here</a>. Thanks Derek D!
 			</p>
 			<p>
 				Thanks to everyone who supported this page over the past 2.5 years—with contributions and donations.
